@@ -10,6 +10,7 @@ from .base import BaseModel
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy import orm
 from config.setting import config
+from werkzeug.security import generate_password_hash, check_password_hash
 import datetime
 
 avatarConfig = config.avatar
@@ -34,6 +35,12 @@ class AppUsersModel(BaseModel):
 
     def __str__(self):
         return "app_users(id='%s')" % self.id
+
+    def set_password(self, password):
+        return generate_password_hash(password)
+
+    def check_password(self, hash, password):
+        return check_password_hash(hash, password)
 
     def paginate(self, page, per_page):
         return self.query.paginate(page=page, per_page=per_page, error_out=False)

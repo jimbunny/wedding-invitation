@@ -5,7 +5,8 @@
         <div class="header-search">
             <!--<span class="app-name">JP</span>
             <i class="iconfont icon-search"></i> -->
-            <router-link tag="span" class="search-title" to="./product-list?from=home">please input keyword</router-link>
+            <router-link tag="span" class="search-title" to="./product-list?from=home">  please input keyword
+    </router-link>
         </div>
     
         <router-link class="login" tag="span" to="./login" v-if="!isLogin">login</router-link>
@@ -17,11 +18,7 @@
     
     <swiper :list="swiperList"></swiper>
 
-    <van-button color="#EABA6B" class="backTop" @click="backTop" v-show="scrollType">
-      <van-icon class="icon-backTop" name="arrow-up" size="25" />
-    </van-button> 
-    
-    <div class="good">
+    <div class="good"  :style="{ paddingBottom: '50px'}">
       <header class="good-header">template</header>
       <div class="good-box">
         <div class="good-item" v-for="item in templates" :key="item.id" @click="goToTemplateShow(item)">
@@ -36,6 +33,13 @@
         </div>
       </div>
     </div>
+  
+    <div class="contact"  @click="backTop" v-show="headerScroll">
+      <div class="btn" >
+        <van-icon class="icon-backTop" name="arrow-up" size="25" />
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -86,7 +90,6 @@ export default {
       this.isLogin = true
     }
     window.addEventListener('scroll', this.pageScroll)
-    window.addEventListener('scroll', this.handleScroll, true)//这里的true一定要写
     Toast.loading({
       message: 'กำลังเข้าสู่ระบบ...',
       forbidClick: true
@@ -130,18 +133,11 @@ export default {
     });
     },
     backTop(){
-      	document.getElementsByClassName('fund-track')[0].scrollTop = 0
+      	document.documentElement.scrollTop = 0
+        window.pageYOffset = 0
+        document.body.scrollTop = 0
       	/*注意：是给滚动的父元素设置，也就是设置了overflow：auto的元素*/
    	},
-   	/*如果不想让按钮在一开始的时候存在，而是在滚动了一定的距离的时候再出现，那设置 一个滚动条的监听*/
-	  handleScroll(env){
-      let scrollTop = document.getElementsByClassName('fund-track')[0].scrollTop
-      if(scrollTop > 10){
-        this.scrollType = true
-      }else {
-        this.scrollType = false
-      }
-    },
     pageScroll() {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
       scrollTop > 100 ? this.headerScroll = true : this.headerScroll = false
@@ -156,7 +152,33 @@ export default {
   }
 }
 </script>
+<style scoped lang="less" >
+  .app{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    
+    flex-direction: column;
+  }
 
+  .contact{
+    position:fixed;
+    right: 0px;
+    bottom: 60px;
+    height: 56px;
+    
+    overflow:hidden;
+    transition: width .6s;
+
+    .btn{
+      font-size: 14px;
+      text-align: center;
+      border-radius: 10px 0px 0px 10px;
+      padding: 6px 5px;
+      background-color: #3c93ef35;
+    }
+  }
+</style>
 <style lang="less" scoped >
   @import '../common/style/mixin';
   .home-header {
@@ -213,6 +235,7 @@ export default {
               font-size: 12px;
               color: #666;
               line-height: 21px;
+              margin-left:10px;
           }
       }
       .icon-iconyonghu{

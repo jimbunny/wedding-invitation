@@ -22,7 +22,7 @@ from config import setting
 import uuid, base64
 
 
-class MallRegisterResource(Resource):
+class RegisterResource(Resource):
     """
     Mall用户注册
     """
@@ -39,63 +39,25 @@ class MallRegisterResource(Resource):
                                  help='email format is incorrect')
         self.parser.add_argument("username", type=str, required=True, location="json",
                                  help='username is required or format is incorrect')
-        self.parser.add_argument("inviterId", type=str, location="json",
-                                 help='inviterId is required or format is incorrect')
-
-        # self.parser.add_argument("phone", type=inputs.regex(r'((\+66|0)(\d{1,2}\-?\d{3}\-?\d{3,4}))|((\+๖๖|๐)([๐-๙]{1,2}\-?[๐-๙]{3}\-?[๐-๙]{3,4}))'), required=True, location="json",
-        #                          help='phone is required or format is incorrect')
-        # self.parser.add_argument("gender", type=str, required=True, location="json",
-        #                          help='gender is required or format is incorrect')
-        # self.parser.add_argument("birth", type=str, required=True, location="json",
-        #                          help='birth is required or format is incorrect')
         self.parser.add_argument("password", type=password_len, required=True, location="json", trim=True, help='password is required or format is incorrect')
         args = self.parser.parse_args()
-        MallUserEmailInfo = AppUsersModel.query.filter_by(email=args.email).all()
-        for item in MallUserEmailInfo:
+        AppUserEmailInfo = AppUsersModel.query.filter_by(email=args.email).all()
+        for item in AppUserEmailInfo:
             if item.id != args.id:
                 return pretty_result(code.ERROR, msg='The email is exit！')
-        # mallUser = AppUsersModel(email=args.email, username=args.username, password=AppUsersModel.set_password(AppUsersModel,  getRSAtext(args.password)),
-        #                           registered_on=int(time.time()),phone=args.phone.replace('-', ''), gender=args.gender,birthday=args.birth)
-        mallUser = AppUsersModel(email=args.email, username=args.username,
-                                  password=AppUsersModel.set_password(AppUsersModel, getRSAtext(args.password)),
-                                  registered_on=int(time.time()))
-        AppUsersModel.add(AppUsersModel, mallUser)
-        token = generate_confirmation_token(args.email)
-        confirm_url = setting.domain + "/api/v1/mall/confirm?token=" + token
-        html = '''
-        <p>Welcome! Thanks for signing up. Please follow this link to activate your account:</p>
-        <p><a href=''' + confirm_url + '''>''' + confirm_url + '''</a></p>
-        <br>
-        <p>Cheers!</p>'''
-        subject = "Please confirm your email"
-        send_email(args.email, subject, html)
-        if args.inviterId != 'undefined':
-            try:
-                inviteEmail = base64.b64decode(args.inviterId)
-                inviter = InvitersModel(invite=inviteEmail, invited=args.email)
-                InvitersModel.add(InvitersModel, inviter)
-                userInfo = InvitersModel.query.filter_by(email=inviteEmail).first()
-                userInfo.point = setting.Inviter_Point
-                InvitersModel.update(userInfo)
-            except Exception as e:
-                return pretty_result(code.OK,  msg='inviterId is not correct')
-        if mallUser.id:
-            returnUser = {
-                'id': mallUser.id,
-                'username': mallUser.username,
-                'email': mallUser.email,
-                'phone': mallUser.phone,
-                'gender': mallUser.gender,
-                'birth': mallUser.birthday,
-                'confirmed': mallUser.confirmed,
-                'login_time': mallUser.login_time
-            }
-            return pretty_result(code.OK, data=returnUser, msg='User register successful')
+        appUser = AppUsersModel()
+        appUser.username = args.username
+        appUser.email = args.email
+        appUser.password = AppUsersModel.set_password(AppUsersModel, getRSAtext(args.password))
+        AppUsersModel.add(AppUsersModel, appUser)
+
+        if appUser.id:
+            return pretty_result(code.OK, data=appUser, msg='User register successful')
         else:
             return pretty_result(code.ERROR, msg='User register failed')
 
 
-class MallLoginResource(Resource):
+class LoginResource(Resource):
     """
     用户登陆
     """
@@ -115,7 +77,7 @@ class MallLoginResource(Resource):
         return AuthorizationResource.post(AuthorizationResource, args.username, getRSAtext(args.password), type="user")
 
 
-class MallLogoutResource(Resource):
+class LogoutResource(Resource):
     """
     用户退出
     """
@@ -204,64 +166,6 @@ class CheckPhoneResource(Resource):
             return pretty_result(code.OK, msg='Phone check successful！')
 
 
-class ConfirmEmailResource(Resource):
-    """
-    电子邮件确认检查
-    """
-
-    def __init__(self):
-        self.parser = RequestParser()
-
-    def get(self):
-        '''
-        电子邮件确认
-        '''
-
-        self.parser.add_argument("token", type=str, location="args", required=True)
-        args = self.parser.parse_args()
-        try:
-            email = confirm_token(args.token)
-        except:
-            # flash('The confirmation link is invalid or has expired.', 'danger')
-            return pretty_result(code.ERROR, msg='The confirmation link is invalid or has expired.')
-        mallUser = AppUsersModel.query.filter_by(email=email).first_or_404()
-        if mallUser.confirmed:
-            # flash('Account already confirmed. Please login.', 'success')
-            return pretty_result(code.OK, msg='Account already confirmed. Please login.')
-        else:
-            mallUser.confirmed = True
-        mallUser.confirmed_on = int(time.time())
-        AppUsersModel.update(mallUser)
-        # flash('You have confirmed your account. Thanks!', 'success')
-        return pretty_result(code.ERROR, msg='You have confirmed your account. Thanks!. Please login.')
-        # return redirect(url_for('main.home'))
-
-
-class ResendResource(Resource):
-    """
-    发送确认邮件
-    """
-
-    def __init__(self):
-        self.parser = RequestParser()
-
-    def get(self):
-        self.parser.add_argument("email", type=inputs.regex(r'(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)'),
-                                 required=True, location="json",
-                                 help='email format is incorrect')
-        args = self.parser.parse_args()
-        token = generate_confirmation_token(args.email)
-        confirm_url = setting.domain + "/api/v1/mall/confirm?token=" + token
-        html = '''
-                <p>Welcome! Thanks for signing up. Please follow this link to activate your account:</p>
-                <p><a href=''' + confirm_url + '''>''' + confirm_url + '''</a></p>
-                <br>
-                <p>Cheers!</p>'''
-        subject = "Please confirm your email"
-        send_email(args.email, subject, html)
-        return pretty_result(code.OK, msg='Account already confirmed. Please login.')
-
-
 class ValidFBResource(Resource):
     """
     验证FB登陆
@@ -341,7 +245,6 @@ class IsLoginResource(Resource):
         self.parser = RequestParser()
 
     def get(self):
-        return pretty_result(code.OK, data={"email": 'test@qq.com'}, msg='Login successful.')
         if g.user_id:
             appUserInfo = AppUsersModel.query.filter_by(id=g.user_id).first()
             return pretty_result(code.OK, data={"email": appUserInfo.email}, msg='Login successful.')

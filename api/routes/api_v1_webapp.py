@@ -11,6 +11,7 @@ from resources.webapp import testAPI
 from resources.webapp import login
 from resources.webapp import swipes
 from resources.webapp import templates
+from resources.webapp import users
 
 api_v1_webapp = Blueprint('api_v1_webapp', __name__)
 
@@ -26,16 +27,16 @@ api.add_resource(swipes.SwipesResource, '/swipes/doEdit', endpoint='editSwipe')
 api.add_resource(templates.TemplatesResource, '/templates/getList', endpoint='getTemplates')
 
 # # login
-# api.add_resource(MallLogin.MallRegisterResource, '/mall/register')
-# api.add_resource(MallLogin.MallLoginResource, '/mall/login')
-# api.add_resource(MallLogin.MallLogoutResource, '/mall/logout')
-# api.add_resource(MallLogin.CheckUsernameResource, '/mall/checkUsername')
-# api.add_resource(MallLogin.CheckPhoneResource, '/mall/checkPhone')
-# api.add_resource(MallLogin.CheckEmailResource, '/mall/checkEmail')
+api.add_resource(login.RegisterResource, '/register')
+api.add_resource(login.LoginResource, '/login')
+api.add_resource(login.LogoutResource, '/logout')
+api.add_resource(login.CheckUsernameResource, '/checkUsername')
+api.add_resource(login.CheckPhoneResource, '/checkPhone')
+api.add_resource(login.CheckEmailResource, '/checkEmail')
 # api.add_resource(MallLogin.ConfirmEmailResource, '/mall/confirm')
 # api.add_resource(MallLogin.ResendResource, '/mall/resend')
 # api.add_resource(MallLogin.ForgetPasswordResource, '/mall/forgetPassword')
-# api.add_resource(MallLogin.ValidFBResource, '/mall/validFB')
+api.add_resource(login.ValidFBResource, '/validFB')
 api.add_resource(login.IsLoginResource, '/validLogin')
 #
 # # balance
@@ -55,7 +56,7 @@ api.add_resource(login.IsLoginResource, '/validLogin')
 # api.add_resource(address.AddressOrderResource, '/mall/address/default', endpoint='getDefaultAddress')
 # api.add_resource(address.AddressOrderResource, '/mall/address/detail', endpoint='getAddressDetail')
 # # user
-# api.add_resource(mallUsers.MallUserResource, '/mall/userInfo')
+api.add_resource(users.AppUserResource, '/userInfo')
 # api.add_resource(mallUsers.InvitersResource, '/mall/inviteList')
 #
 # # advice

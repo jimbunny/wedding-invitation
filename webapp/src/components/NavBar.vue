@@ -5,7 +5,7 @@
         <i class="nbicon nblvsefenkaicankaoxianban-1"></i>
         <span>Home</span>
       </router-link>
-      <router-link tag="li" class="nav-list-item" to="boxes">
+      <router-link tag="li" class="nav-list-item" to="works">
         <i class="nbicon nbfenlei"></i>
         <span>Work</span>
       </router-link>

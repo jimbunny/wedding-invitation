@@ -12,66 +12,11 @@
       </div>
     </div>
 
-    <van-row style="background:#fff;">
-      <van-col span="8" class="money" @click="goTo('balance')">
-        <div class="count"> {{ user.balance }} </div>
-        <div class="text"> Balance </div>
-      </van-col>
-      <van-col span="8" class="money" @click="goTo('coupon')">
-        <div style="border-left: solid 1px rgb(178 189 199);border-right: solid 1px rgb(178 189 199);">
-        <div class="count"> {{ user.coupon }} </div>
-        <div class="text"> Coupon </div>
-        </div>
-      </van-col>
-      <van-col span="8" class="money" @click="goTo('point')">
-        <div class="count"> {{ user.point }} </div>
-        <div class="text"> Point </div>
-      </van-col>
-      <van-col span="24" style="height: 10px; background:#f9f9f9;"></van-col>
-    </van-row>
-
     <ul class="user-list">
-      <li @click="goTo('order')">
-        <van-icon name="cart-o" size="25" style="margin: auto 5px;"/>
-        <span style="width:100%;">
-        我的订单
-        </span>
-        <van-icon name="arrow" />
-      </li>
-      <li @click="goTo('balance')">
-        <van-icon name="cashier-o" size="25" style="margin: auto 5px;"/>
-        <span style="width:100%;">
-          充值管理</span>
-        <van-icon name="arrow" />
-      </li>
-       <li @click="goTo('coupon')">
-        <van-icon name="gold-coin-o" size="25" style="margin: auto 5px;"/>
-        <span style="width:100%;">
-          优惠券兑换</span>
-        <van-icon name="arrow" />
-      </li>
-      <li @click="goTo('point')">
-        <van-icon name="gold-coin-o" size="25" style="margin: auto 5px;"/>
-        <span style="width:100%;">
-          积分兑换</span>
-        <van-icon name="arrow" />
-      </li>
       <li @click="goTo('setting')">
         <van-icon name="friends-o" size="25" style="margin: auto 5px;"/>
         <span style="width:100%;">
           账号管理</span>
-        <van-icon name="arrow" />
-      </li>
-      <li @click="goTo('address?from=mine')">
-         <van-icon name="location-o" size="25" style="margin: auto 5px;"/>
-        <span style="width:100%;">
-          地址管理</span>
-        <van-icon name="arrow" />
-      </li>
-      <li @click="goTo('share')">
-         <van-icon name="share-o" size="25" style="margin: auto 5px;"/>
-        <span style="width:100%;">
-          扫码分享</span>
         <van-icon name="arrow" />
       </li>
       <li @click="goTo('contact')">
