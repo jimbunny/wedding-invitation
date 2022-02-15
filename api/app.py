@@ -85,9 +85,10 @@ def _access_control(response):
 
 def register_blueprints(app):
     # 注册蓝图
-    from routes import api_v1_admin, api_v1_webapp
+    from routes import api_v1_admin, api_v1_webapp, api_v1_h5
     app.register_blueprint(api_v1_admin, url_prefix='/api/v1/admin')
     app.register_blueprint(api_v1_webapp, url_prefix='/api/v1/webapp')
+    app.register_blueprint(api_v1_h5, url_prefix='/api/v1/h5')
 
 
 def create_app(config):

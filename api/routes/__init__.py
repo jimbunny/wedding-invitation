@@ -6,5 +6,6 @@
 
 from .api_v1_admin import api_v1_admin
 from .api_v1_webapp import api_v1_webapp
+from .api_v1_h5 import api_v1_h5
 
 

@@ -118,7 +118,7 @@ import { Toast } from 'vant'
 import navBar from '@/components/NavBar'
 import sHeader from '@/components/SimpleHeader'
 import { VueCropper }  from 'vue-cropper' 
-// import { getCart, deleteCartItem, modifyCart } from '../service/cart'
+import { getWork, deleteWork, modifyWork } from '../service/work'
 import { okCode } from '../config/settings'
 
 export default {
@@ -245,7 +245,7 @@ export default {
     },
     async init() {
       Toast.loading({ message: '加载中...', forbidClick: true });
-      const { code, data } = await getCart({ email: this.email })
+      const { code, data } = await getWork()
       if (code === okCode) {
         this.list = data
         this.result = data.map(item => item.id)
@@ -270,7 +270,7 @@ export default {
         cartItemId: detail.name,
         goodsCount: value
       }
-      const { data } = await modifyCart(params)
+      const { data } = await modifyWork(params)
       this.list.forEach(item => {
         if (item.cartItemId == detail.name) {
           item.goodsCount = value
@@ -290,8 +290,8 @@ export default {
       this.$router.push({ path: `create-order?cartItemIds=${params}` })
     },
     async deleteGood(no) {
-      const { data } = await deleteCartItem({no: no})
-      this.$store.dispatch('user/updateCart',{"email": this.email})
+      const { data } = await deleteWork({no: no})
+      this.$store.dispatch('user/updateWork',{"email": this.email})
       this.init()
     },
     groupChange(result) {
