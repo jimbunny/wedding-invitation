@@ -8,6 +8,8 @@ from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
 from flask import make_response, render_template, abort, jsonify
 import json
+import os
+root = os.path.abspath(os.path.join(os.getcwd()))
 headers = {'Content-Type': 'text/html'}
 
 
@@ -25,11 +27,25 @@ class TestResource(Resource):
         :return: json
         """
         # return pretty_result(code.OK)
-        messages = ['Message Zero', 'Message One', 'Message Two']
+        data = {}
         try:
-            with open("./data/template/1/admin.json", 'r', encoding="utf8") as load_f:
+            with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
-            return make_response(render_template('index3.html', data=load_dict), 200, headers)
+            for item in load_dict.get("data"):
+                for key in item:
+                    if key == 'key' and item[key] == 'H5t8so51148n':
+                        data = item
+                        break
+            greetings = []
+            path = os.path.join(root, "data", "template", "greetings", "1.txt")
+            f = open(path)  # 返回一个文件对象
+            line = f.readline()  # 调用文件的 readline()方法
+            while line:
+                line = f.readline()
+                greetings.append(line)
+            f.close()
+            data['greetings']=greetings
+            return make_response(render_template('index.html', data=data), 200, headers)
         except IndexError:
             abort(404)
 

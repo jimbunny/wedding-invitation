@@ -2994,3 +2994,327 @@
 2022-02-15 15:17:47,007 - _internal.py[line:225] - INFO: 127.0.0.1 - - [15/Feb/2022 15:17:47] "GET /static/h5-preview/scripts/main.c1798f811b2a0c53b038.js HTTP/1.1" 200 -
 2022-02-15 15:17:47,198 - h5API.py[line:56] - ERROR: error info: test error
 2022-02-15 15:17:47,266 - _internal.py[line:225] - INFO: 127.0.0.1 - - [15/Feb/2022 15:17:47] "POST /api/v1/h5/getbycode?code=H5WU3ukUak4Q HTTP/1.1" 200 -
+2022-03-04 16:25:21,285 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 16:25:22,472 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 16:25:22,478 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 16:25:22,544 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 16:39:05,795 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:05] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 16:39:05,865 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:05] "[33mGET /static/h5-preview/styles/main.57f23eda7f8087d509f0.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:05,873 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:05] "[33mGET /static/h5-preview/styles/vendors.74a695fa4913cedebef8.async.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:05,878 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:05] "[33mGET /static/h5-preview/scripts/vendors.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:05,882 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:05] "[33mGET /static/h5-preview/scripts/2.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:07,008 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:07] "[33mGET /static/h5-preview/scripts/main.c1798f811b2a0c53b038.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:07,730 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:07] "[33mGET /static/h5-preview/styles/vendors.74a695fa4913cedebef8.async.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:07,732 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:07] "[33mGET /static/h5-preview/scripts/vendors.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:07,737 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:07] "[33mGET /static/h5-preview/scripts/2.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:07,803 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:07] "[33mGET /static/h5-preview/scripts/main.c1798f811b2a0c53b038.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:13,653 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:13] "[33mGET /static/h5-preview/styles/main.57f23eda7f8087d509f0.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:13,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:13] "[33mGET /static/h5-preview/styles/vendors.74a695fa4913cedebef8.async.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,286 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 16:39:20,331 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/styles/main.57f23eda7f8087d509f0.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,339 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/styles/vendors.74a695fa4913cedebef8.async.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,345 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/scripts/vendors.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,348 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/scripts/2.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,400 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/styles/vendors.74a695fa4913cedebef8.async.css HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,403 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/scripts/vendors.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,406 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/scripts/main.c1798f811b2a0c53b038.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,408 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/scripts/2.c1798f811b2a0c53b038.async.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:20,442 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:20] "[33mGET /static/h5-preview/scripts/main.c1798f811b2a0c53b038.js HTTP/1.1[0m" 404 -
+2022-03-04 16:39:40,170 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 16:39:40,422 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 16:39:41,951 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 16:39:41,954 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 16:39:42,014 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 16:39:42,060 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:42] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 16:39:48,651 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 16:39:48,652 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:39:48] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 16:52:14,166 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 16:52:14,347 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 16:52:15,690 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 16:52:15,693 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 16:52:15,751 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 16:57:11,627 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 16:57:11,774 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 16:59:31,565 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 16:59:32,729 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 16:59:32,732 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 16:59:32,791 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 16:59:35,377 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:59:35] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 16:59:38,578 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 16:59:38,585 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 16:59:38] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:00:05,883 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:05] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:00:06,031 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:00:06,032 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:06] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:00:41,960 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:41] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:00:42,078 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:00:42,079 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:00:46,452 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:46] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:00:46,572 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:00:46,573 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:46] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:00:47,556 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:47] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:00:47,657 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:00:47,658 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:00:47] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:01:25,767 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:25] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:01:29,289 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:01:29,290 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:29] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:01:44,947 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:44] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:01:45,064 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:01:45,065 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:45] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:01:51,658 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:51] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:01:51,771 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:01:51,772 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:51] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:01:57,430 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:57] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:01:57,769 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:01:57,771 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:01:57] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:03:52,779 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:03:52] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:03:52,919 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:03:52,919 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:03:52] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:04:01,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:01] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:04:01,657 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:04:01,657 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:01] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:04:37,092 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:04:37,214 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:04:38,613 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:04:38,618 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:04:38,681 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:04:39,221 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:04:39,223 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:04:39,226 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:04:39,269 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:39] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:04:39,292 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:39] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:04:39,293 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:39] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:04:39,306 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:39] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:04:39,362 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:39] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:04:39,399 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:04:39] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:05:18,820 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:05:18,947 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:05:20,142 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:05:20,145 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:05:20,202 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:05:41,023 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:05:41,024 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:05:41,024 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:05:41,036 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:41] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:05:41,065 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:41] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:05:41,066 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:41] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:05:41,082 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:41] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:05:41,090 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:41] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:05:41,160 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:41] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:05:42,557 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:05:42,558 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:05:42,558 - app.py[line:29] - ERROR: Got exception during processing: unhashable type: 'dict'
+2022-03-04 17:05:42,571 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:42] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:05:42,594 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:42] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:05:42,594 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:42] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:05:42,610 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:42] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:05:42,620 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:42] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:05:42,667 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:05:42] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:06:28,975 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:06:29,086 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:06:30,264 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:06:30,267 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:06:30,324 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:06:40,937 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:06:41,068 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:06:42,242 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:06:42,245 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:06:42,300 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:06:44,751 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:06:44] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:07:12,846 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:07:12,847 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:07:12] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:07:17,148 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:07:17] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:07:45,877 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:07:45,878 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:07:45] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:10:00,210 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:10:00] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:10:02,962 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:10:02,962 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:10:02] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:10:34,772 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:10:34] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:10:37,397 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:10:37,398 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:10:37] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:11:05,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:11:05] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:11:13,814 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:11:13,814 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:11:13] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:11:44,653 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:11:44] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:11:52,363 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:11:52,364 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:11:52] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:15:42,852 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:15:43,171 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:15:44,785 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:15:44,790 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:15:44,848 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:15:50,828 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:15:50] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:15:54,698 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:15:54,701 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:15:54] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:16:46,360 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:16:46,496 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:16:47,930 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:16:47,933 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:16:47,993 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:23:16,367 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:23:16,624 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:23:18,474 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:23:18,477 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:23:18,533 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:25:43,247 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:25:43,349 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:25:44,629 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:25:44,633 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:25:44,691 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:27:31,545 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:27:31,661 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:27:32,895 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:27:32,898 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:27:32,955 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:27:56,362 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:27:56,363 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:27:56,363 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:27:56,378 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:27:56] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:27:56,407 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:27:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:27:56,408 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:27:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:27:56,425 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:27:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:27:56,430 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:27:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:27:56,502 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:27:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:28:16,340 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:28:16,460 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:28:17,711 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:28:17,715 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:28:17,775 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:28:18,900 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: './data/template/greatings/1.txt'
+2022-03-04 17:28:18,901 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: './data/template/greatings/1.txt'
+2022-03-04 17:28:18,902 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: './data/template/greatings/1.txt'
+2022-03-04 17:28:18,914 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:18] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:28:18,936 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:18] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:28:18,937 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:18] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:28:18,954 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:18] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:28:18,961 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:18] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:28:19,015 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:19] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:28:21,883 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: './data/template/greatings/1.txt'
+2022-03-04 17:28:21,883 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: './data/template/greatings/1.txt'
+2022-03-04 17:28:21,884 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: './data/template/greatings/1.txt'
+2022-03-04 17:28:21,896 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:21] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:28:21,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:28:21,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:28:21,941 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:28:21,946 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:28:21,992 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:28:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:17,472 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:31:17,601 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:31:18,983 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:31:18,986 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:31:19,045 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:31:22,683 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:31:22,684 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:31:22,685 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:31:22,702 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:22] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:31:22,743 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:22] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:31:22,747 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:22] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:31:22,764 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:22] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:31:22,773 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:22] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:22,826 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:22] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:23,547 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:31:23,547 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:31:23,547 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/data/template/greatings/1.txt'
+2022-03-04 17:31:23,560 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:23] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:31:23,579 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:23] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:31:23,580 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:23] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:31:23,589 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:23] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:31:23,593 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:23] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:23,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:23] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:52,887 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:31:53,009 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:31:54,228 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:31:54,231 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:31:54,291 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:31:55,427 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:31:55,428 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:31:55,429 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:31:55,440 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:55] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:31:55,459 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:55] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:31:55,461 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:55] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:31:55,472 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:55] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:31:55,485 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:55] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:55,525 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:55] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:56,909 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:31:56,910 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:31:56,910 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:31:56,922 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:56] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:31:56,947 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:31:56,948 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:31:56,960 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:31:56,965 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:56] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:31:57,023 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:31:57] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:32:17,531 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:32:17,688 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:32:18,870 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:32:18,873 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:32:18,930 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:32:21,164 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:32:21,165 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:32:21,165 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:/data/template/greatings/1.txt'
+2022-03-04 17:32:21,178 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:21] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:32:21,212 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:32:21,213 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:32:21,225 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:32:21,230 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:32:21,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:21] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:32:53,886 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:32:53,993 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:32:55,201 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:32:55,204 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:32:55,259 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:32:58,022 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\data\\template\\greatings\\1.txt'
+2022-03-04 17:32:58,023 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\data\\template\\greatings\\1.txt'
+2022-03-04 17:32:58,023 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\data\\template\\greatings\\1.txt'
+2022-03-04 17:32:58,034 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:58] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:32:58,059 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:58] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:32:58,060 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:58] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:32:58,071 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:58] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:32:58,075 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:58] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:32:58,120 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:32:58] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:33:12,170 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:33:12,282 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:33:13,448 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:33:13,451 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:33:13,509 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:33:13,641 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greatings\\1.txt'
+2022-03-04 17:33:13,642 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greatings\\1.txt'
+2022-03-04 17:33:13,642 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greatings\\1.txt'
+2022-03-04 17:33:13,655 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:33:13] "[35m[1mGET /api/v1/webapp/test HTTP/1.1[0m" 500 -
+2022-03-04 17:33:13,676 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:33:13] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-04 17:33:13,676 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:33:13] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-04 17:33:13,685 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:33:13] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-04 17:33:13,688 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:33:13] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:33:13,741 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:33:13] "GET /api/v1/webapp/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-04 17:36:44,738 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:36:45,908 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:36:45,911 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:36:45,976 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:36:50,195 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:36:50] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:36:53,927 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:36:53,928 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:36:53] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:36:58,711 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:36:58,845 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:37:00,285 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:37:00,288 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:37:00,347 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:37:00,471 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:37:00] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:37:02,997 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:37:02,998 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:37:02] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-04 17:38:40,853 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:38:40,987 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:38:42,211 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:38:42,214 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:38:42,275 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:39:06,695 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:39:06,820 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:39:08,033 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:39:08,037 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:39:08,095 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:39:12,382 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\testAPI.py', reloading
+2022-03-04 17:39:12,565 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-04 17:39:13,957 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-04 17:39:13,961 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-04 17:39:14,035 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-04 17:39:14,242 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:39:14] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-04 17:39:17,027 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-04 17:39:17,028 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:39:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
