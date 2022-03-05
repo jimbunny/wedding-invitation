@@ -3318,3 +3318,396 @@
 2022-03-04 17:39:14,242 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:39:14] "GET /api/v1/webapp/test HTTP/1.1" 200 -
 2022-03-04 17:39:17,027 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 2022-03-04 17:39:17,028 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:39:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 09:37:25,527 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-05 09:37:25,529 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 09:37:26,223 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 09:37:26,242 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 09:37:31,401 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 09:37:31,405 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:37:31] "[31m[1mGET / HTTP/1.1[0m" 411 -
+2022-03-05 09:37:31,641 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 09:37:31,641 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:37:31] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 09:38:53,578 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:38:53] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 09:39:29,604 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:39:29] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 09:39:42,722 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 09:39:42,723 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:39:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 09:39:47,532 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:39:47] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 09:40:21,262 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 09:40:21,263 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:40:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 09:42:49,341 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/webapp/testAPI.py', reloading
+2022-03-05 09:42:49,458 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 09:42:50,632 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 09:42:50,641 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 09:49:59,705 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:49:59] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 09:51:00,962 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 09:51:00,963 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:51:00] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 09:51:27,692 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:51:27] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 09:51:27,898 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 09:51:27,899 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:51:27] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 09:52:14,010 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:52:14] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 09:52:37,615 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 09:52:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:07:44,158 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/webapp/testAPI.py', reloading
+2022-03-05 10:07:44,273 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:07:45,558 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:07:45,567 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:07:55,615 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:07:55] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:07:55,652 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:07:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:07:55,661 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:07:55] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:07:55,666 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:07:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:07:55,668 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:07:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:07:55,669 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:07:55] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:21,290 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:21] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:08:34,624 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:34] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:08:34,663 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:08:34,671 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:34,672 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:34] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:08:34,672 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:34,674 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:34] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:39,445 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:39] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:08:55,255 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:55] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:08:55,289 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:08:55,295 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:55] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:08:55,297 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:55,298 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:55] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:55,299 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:08:59,508 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:08:59] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:11:31,179 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:31] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:11:31,218 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:11:31,224 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:31] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:11:31,231 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:31] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:11:31,232 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:31] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:11:31,235 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:11:42,136 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:42] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:11:55,196 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:55] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:11:55,227 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:11:55,235 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:11:55,236 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:55] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:11:55,237 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:11:55,238 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:11:55] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:12:05,895 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:12:05] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:13:20,558 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/webapp/testAPI.py', reloading
+2022-03-05 10:13:20,681 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:13:21,968 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:13:21,977 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:13:25,610 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:25] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:13:25,650 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:13:25,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:25] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:13:25,655 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:13:25,667 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:25] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:13:25,670 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:25] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:13:31,944 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:13:31] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:15:05,613 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:15:05] "[33mGET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1[0m" 404 -
+2022-03-05 10:15:05,625 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:15:05] "[33mGET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1[0m" 404 -
+2022-03-05 10:15:10,044 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 10:15:10,045 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:15:10] "[31m[1mPOST /api/v1/webapp/greetings?id=1 HTTP/1.1[0m" 411 -
+2022-03-05 10:19:40,481 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:40] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:19:40,519 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:19:40,525 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:19:40,526 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:40] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:19:40,527 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:40] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:19:40,528 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:40] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:19:57,396 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:19:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:22:38,118 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:22:38] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:22:38,156 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:22:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:22:38,165 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:22:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:22:38,165 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:22:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:22:38,167 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:22:38] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:22:38,167 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:22:38] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:24:07,315 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:24:07] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:24:07,347 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:24:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:24:07,355 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:24:07] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:24:07,357 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:24:07] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:24:07,360 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:24:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:24:07,363 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:24:07] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:34:01,503 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:34:01,717 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:34:03,189 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:34:03,199 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:35:24,512 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:35:24,628 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:35:25,379 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:35:25,385 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:35:45,998 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/routes/api_v1_h5.py', reloading
+2022-03-05 10:35:46,134 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:35:46,851 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:35:46,857 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:38:14,839 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/routes/api_v1_h5.py', reloading
+2022-03-05 10:38:14,979 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:38:15,710 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:38:15,720 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:38:56,878 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/routes/api_v1_h5.py', reloading
+2022-03-05 10:38:56,989 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:40:56,682 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-05 10:40:56,683 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:40:57,334 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:40:57,339 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:45:57,173 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:45:57,348 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:45:58,217 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:45:58,224 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:50:18,116 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:50:18,243 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:50:18,950 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:50:18,959 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:51:11,555 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:51:11] "GET /api/v1/webapp/test HTTP/1.1" 200 -
+2022-03-05 10:51:11,594 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:51:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:51:11,603 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:51:11] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:51:11,604 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:51:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:51:11,605 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:51:11] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:51:11,606 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:51:11] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:52:06,796 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 10:52:06,797 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:06] "[31m[1mGET /api/v1/h5/H5t8so51148n HTTP/1.1[0m" 411 -
+2022-03-05 10:52:06,887 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-05 10:52:06,888 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:06] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-05 10:52:32,117 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:32,118 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:32,118 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:32,139 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:32] "[35m[1mGET /api/v1/h5/work/H5t8so51148n HTTP/1.1[0m" 500 -
+2022-03-05 10:52:32,178 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:32] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 10:52:32,183 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:32] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 10:52:32,330 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:32] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 10:52:32,336 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:32] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:52:32,389 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:32] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:52:56,964 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:52:57,085 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:52:58,315 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:52:58,322 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:52:58,682 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:58,683 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:58,683 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:58,699 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:58] "[35m[1mGET /api/v1/h5/work/H5t8so51148n HTTP/1.1[0m" 500 -
+2022-03-05 10:52:58,731 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:58] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 10:52:58,732 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:58] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 10:52:58,756 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:58] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 10:52:58,766 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:58] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:52:58,850 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:58] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:52:59,642 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:59,642 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:59,643 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:52:59,657 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:59] "[35m[1mGET /api/v1/h5/work/H5t8so51148n HTTP/1.1[0m" 500 -
+2022-03-05 10:52:59,685 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:59] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 10:52:59,688 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:59] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 10:52:59,705 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:59] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 10:52:59,715 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:59] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:52:59,789 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:52:59] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:53:02,475 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:53:02,475 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:53:02,476 - app.py[line:29] - ERROR: Got exception during processing: I/O operation on closed file.
+2022-03-05 10:53:02,487 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:02] "[35m[1mGET /api/v1/h5/work/H5t8so51148n HTTP/1.1[0m" 500 -
+2022-03-05 10:53:02,514 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:02] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 10:53:02,516 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:02] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 10:53:02,535 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:02] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 10:53:02,549 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:02] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:53:02,622 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:02] "GET /api/v1/h5/work/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 10:53:53,801 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:53:53,927 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:53:54,679 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:53:54,683 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 10:53:56,872 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:56] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 10:53:56,911 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 10:53:56,920 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:56] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 10:53:56,923 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:56] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 10:53:56,923 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 10:53:56,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:53:56] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 10:54:02,027 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:54:02] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 10:54:15,282 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:54:15] "[33mGET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1[0m" 404 -
+2022-03-05 10:54:15,292 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:54:15] "[33mGET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1[0m" 404 -
+2022-03-05 10:55:10,418 - app.py[line:29] - ERROR: Got exception during processing: module 'requests' has no attribute 'form'
+2022-03-05 10:55:10,418 - app.py[line:29] - ERROR: Got exception during processing: module 'requests' has no attribute 'form'
+2022-03-05 10:55:10,419 - app.py[line:29] - ERROR: Got exception during processing: module 'requests' has no attribute 'form'
+2022-03-05 10:55:10,437 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 10:55:10] "[35m[1mPOST /api/v1/h5/greetings/1 HTTP/1.1[0m" 500 -
+2022-03-05 10:59:28,183 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 10:59:28,324 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 10:59:29,523 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 10:59:29,530 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:00:19,928 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:00:20,045 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:00:20,786 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:00:20,792 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:00:32,801 - app.py[line:29] - ERROR: Got exception during processing: module 'requests' has no attribute 'form'
+2022-03-05 11:00:32,801 - app.py[line:29] - ERROR: Got exception during processing: module 'requests' has no attribute 'form'
+2022-03-05 11:00:32,802 - app.py[line:29] - ERROR: Got exception during processing: module 'requests' has no attribute 'form'
+2022-03-05 11:00:32,823 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:00:32] "[35m[1mPOST /api/v1/h5/greetings/1 HTTP/1.1[0m" 500 -
+2022-03-05 11:01:00,875 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:01:01,025 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:01:01,830 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:01:01,835 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:01:06,335 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:01:06] "POST /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-05 11:03:08,980 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:08] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:03:09,012 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:03:09,017 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:09] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:03:09,020 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:03:09,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:03:09,027 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:09] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:03:20,734 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:20] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:03:24,810 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:24] "[33mGET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1[0m" 404 -
+2022-03-05 11:03:24,815 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:24] "[33mGET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1[0m" 404 -
+2022-03-05 11:03:36,847 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:03:36] "POST /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-05 11:04:11,799 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:11] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:04:11,837 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:04:11,843 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:11] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:04:11,846 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:11] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:04:11,846 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:04:11,848 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:11] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:04:16,174 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:04:16] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:14:07,673 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:14:07,788 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:14:09,007 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:14:09,014 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:23:00,893 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:00] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:23:00,932 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:23:00,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:00] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:23:00,939 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:00] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:23:00,942 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:00] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:23:00,944 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:00] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:23:10,833 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:10] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:23:15,873 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:15] "[33mGET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1[0m" 404 -
+2022-03-05 11:23:15,878 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:15] "[33mGET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1[0m" 404 -
+2022-03-05 11:23:19,016 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:23:19] "POST /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-05 11:25:27,669 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:25:27,812 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:25:29,092 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:25:29,098 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:27:34,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:34] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:27:34,792 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:27:34,803 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:27:34,804 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:34] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:27:34,805 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:27:34,806 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:34] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:27:48,482 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:48] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:27:50,849 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:50] "[33mGET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1[0m" 404 -
+2022-03-05 11:27:50,858 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:50] "[33mGET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1[0m" 404 -
+2022-03-05 11:27:53,341 - app.py[line:29] - ERROR: Got exception during processing: unsupported operand type(s) for +: 'int' and 'str'
+2022-03-05 11:27:53,341 - app.py[line:29] - ERROR: Got exception during processing: unsupported operand type(s) for +: 'int' and 'str'
+2022-03-05 11:27:53,342 - app.py[line:29] - ERROR: Got exception during processing: unsupported operand type(s) for +: 'int' and 'str'
+2022-03-05 11:27:53,361 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:27:53] "[35m[1mPOST /api/v1/h5/greetings/1 HTTP/1.1[0m" 500 -
+2022-03-05 11:28:50,581 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:28:50,718 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:28:51,969 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:28:51,981 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:28:59,533 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:28:59] "POST /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-05 11:29:25,461 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:25] "POST /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-05 11:29:49,282 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:49] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:29:49,319 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:29:49,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:49] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:29:49,328 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:49] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:29:49,328 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:29:49,329 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:49] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:29:59,312 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:29:59] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:40:35,202 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:35] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:40:35,245 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:40:35,252 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:35] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:40:35,253 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:40:35,255 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:35] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:40:35,255 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:40:47,401 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:40:47] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:43:29,563 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:29] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 11:43:29,598 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:43:29,607 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:43:29,608 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:29] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:43:29,608 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:29] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:43:29,609 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:29] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:43:56,865 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:43:56] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:46:46,903 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/Users/jingtongyu/Downloads/code/wedding-invitation/api/data/template/greetings/2.txt'
+2022-03-05 11:46:46,904 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/Users/jingtongyu/Downloads/code/wedding-invitation/api/data/template/greetings/2.txt'
+2022-03-05 11:46:46,905 - app.py[line:29] - ERROR: Got exception during processing: [Errno 2] No such file or directory: '/Users/jingtongyu/Downloads/code/wedding-invitation/api/data/template/greetings/2.txt'
+2022-03-05 11:46:46,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:46:46] "[35m[1mGET /api/v1/h5/work/4182616 HTTP/1.1[0m" 500 -
+2022-03-05 11:46:46,974 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:46:46] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 11:46:46,978 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:46:46] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 11:46:47,012 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:46:47] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 11:46:47,141 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:46:47] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 11:46:47,220 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:46:47] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 11:48:43,525 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:48:43,670 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:48:44,945 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:48:44,953 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:49:36,330 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:49:36,454 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:49:37,523 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:49:37,530 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:52:14,621 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:52:14,766 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:52:15,578 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:52:15,583 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:53:12,236 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:53:12,369 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:53:13,552 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:53:13,558 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:53:27,215 - app.py[line:29] - ERROR: Got exception during processing: [Errno 1] Operation not permitted
+2022-03-05 11:53:27,216 - app.py[line:29] - ERROR: Got exception during processing: [Errno 1] Operation not permitted
+2022-03-05 11:53:27,216 - app.py[line:29] - ERROR: Got exception during processing: [Errno 1] Operation not permitted
+2022-03-05 11:53:27,239 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:27] "[35m[1mGET /api/v1/h5/work/4182616 HTTP/1.1[0m" 500 -
+2022-03-05 11:53:27,326 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:27] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 11:53:27,328 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:27] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 11:53:27,349 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:27] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 11:53:27,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:27] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 11:53:27,446 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:27] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 11:53:28,932 - app.py[line:29] - ERROR: Got exception during processing: [Errno 1] Operation not permitted
+2022-03-05 11:53:28,932 - app.py[line:29] - ERROR: Got exception during processing: [Errno 1] Operation not permitted
+2022-03-05 11:53:28,933 - app.py[line:29] - ERROR: Got exception during processing: [Errno 1] Operation not permitted
+2022-03-05 11:53:28,951 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:28] "[35m[1mGET /api/v1/h5/work/4182616 HTTP/1.1[0m" 500 -
+2022-03-05 11:53:28,981 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:28] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-05 11:53:28,987 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:28] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-05 11:53:29,010 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:29] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-05 11:53:29,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:29] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 11:53:29,110 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:53:29] "GET /api/v1/h5/work/4182616?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-05 11:54:28,566 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/resources/h5/h5API.py', reloading
+2022-03-05 11:54:28,691 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-05 11:54:29,887 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-05 11:54:29,894 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-05 11:54:34,075 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:34] "GET /api/v1/h5/work/4182616 HTTP/1.1" 200 -
+2022-03-05 11:54:34,144 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:54:34,151 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:34] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:54:34,151 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:54:34,152 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:54:34,153 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:34] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:54:41,851 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:41] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:54:45,181 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:54:45] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 11:59:13,034 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:13] "GET /api/v1/h5/work/4182616 HTTP/1.1" 200 -
+2022-03-05 11:59:13,076 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 11:59:13,082 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:13] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 11:59:13,088 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 11:59:13,089 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:13] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 11:59:13,091 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:13] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 11:59:21,448 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 11:59:21] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 12:05:20,646 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:20] "GET /api/v1/h5/work/4182616 HTTP/1.1" 200 -
+2022-03-05 12:05:20,681 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 12:05:20,689 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:20] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 12:05:20,691 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 12:05:20,692 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 12:05:20,692 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:20] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 12:05:24,405 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:24] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 12:05:24,476 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 12:05:24,488 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:24] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 12:05:24,492 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 12:05:24,493 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:24] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 12:05:24,494 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:24] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 12:05:37,295 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 12:05:46,306 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:05:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 12:06:40,820 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:40] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 12:06:40,866 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 12:06:40,873 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:40] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 12:06:40,874 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:40] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 12:06:40,876 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 12:06:40,877 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:40] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 12:06:45,493 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:06:45] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 12:07:24,955 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:24] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 12:07:25,015 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 12:07:25,025 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:25] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 12:07:25,026 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:25] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 12:07:25,027 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:25] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 12:07:25,028 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 12:07:29,525 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:07:29] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 12:10:51,888 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:10:51] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 12:10:51,927 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:10:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 12:10:51,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:10:51] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 12:10:51,939 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:10:51] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 12:10:51,940 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:10:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 12:10:51,942 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:10:51] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 12:11:04,028 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:11:04] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-05 12:13:54,219 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:13:54] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-05 12:13:54,260 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:13:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-05 12:13:54,271 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:13:54] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-05 12:13:54,273 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:13:54] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-05 12:13:54,275 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:13:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-05 12:13:54,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:13:54] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-05 12:14:04,651 - _internal.py[line:225] - INFO: 127.0.0.1 - - [05/Mar/2022 12:14:04] "GET /static/favicon.ico HTTP/1.1" 200 -

@@ -6,14 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ data.title }}</title>
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <!-- 表单验证 -->
-    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <link href="/static/favicon.ico" rel="shortcut icon">
     <style type="text/css">
         html, body {
             margin: 0 0;
@@ -26,40 +19,6 @@
             width: 100%;
             height: 100%;
         }
-        .modal-dialog {
-            position: relative;
-            width: auto;
-            margin: 0px;
-        }
-        .wishBtn {
-            display:none;
-            z-index:999;
-            position: absolute;
-            bottom: 30px;
-            left: 15px;
-            -webkit-box-flex: 1;
-            -webkit-flex: 1;
-            -ms-flex: 1;
-            flex: 1;
-            border: 0;
-            color: #fff;
-            -ms-flex-align: center;
-            border-radius: 0.96rem;
-            background: rgba(0,0,0,.35);
-            padding-left: 20px;
-            height: 30px;
-            width: 90%;
-            line-height: 0.5;
-        }
-        .tanmu {
-            padding:2px;
-            margin-left:10px;
-            color:white;
-            background-color:#ae48bb;
-            border-radius:5px;
-            padding-left:5px;
-            padding-right:5px;
-        }
     </style>
     <script type="text/javascript">
         function iframeHeight() {
@@ -71,116 +30,5 @@
     <div style="text-align:center; height: 100%">
         <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
     </div>
-    <div style="z-index:99;height: 150px;position: absolute;bottom: 10px;left: 10px; visibility:hidden;" id="tanmu">
- 	<marquee behavior="scroll" direction="up" scrollamount="2">
-       {% for k in greetings %}
-            <font size="2px" class = "tanmu">{{ k }}</font>
-           </br>
-        {% endfor %}
-    </marquee>
-    </div>
-	<button class="btn btn-primary btn-lg wishBtn" data-toggle="modal" data-target="#myModal" id="wish"><p >留下你的祝福.....</p></button>
-
-    <!-- 模态框（Modal） -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">祝福</h4>
-                </div>
-                <div class="modal-body">
-                    <form action="" class="form-horizontal">
-                      <div class="form-group">
-                        <div class="col-md-24">
-                          <input type="text" class="form-control" name="name"  placeholder="name" />
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="col-md-24">
-                          <input type="text" class="form-control" name="greetings" placeholder="greetings" />
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="col-md-24 col-md-offset-2">
-                          <button id="subBtn" type="submit" class="btn btn-primary">send</button>
-                        </div>
-                      </div>
-                    </form>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
 </body>
-<script type="text/javascript">
-    {% if data.isTanmu == 1 %}
-        const myTimeout = setTimeout(myGreeting, 10000);
-    {% endif %}
-function myGreeting() {
-  var tanmuDiv= document.getElementById('tanmu');	//找到文档中id为test的
-  tanmuDiv.style.visibility='visible';
-  var testDiv2= document.getElementById('wish');	//找到文档中id为test的
-  testDiv2.style.display = 'block';
-}
-
- $(function () {
-    $('form').bootstrapValidator({
-      //默认提示
-      message: 'This value is not valid',
-      // 表单框里右侧的icon
-      feedbackIcons: {
-        valid: 'glyphicon glyphicon-ok',
-        invalid: 'glyphicon glyphicon-remove',
-        validating: 'glyphicon glyphicon-refresh'
-      },
-      submitHandler: function (validator, form, submitButton) {
-        // 表单提交成功时会调用此方法
-        // validator: 表单验证实例对象
-        // form jq对象 指定表单对象
-        // submitButton jq对象 指定提交按钮的对象
-      },
-      fields: {
-        name: {
-          message: 'please input name',
-          validators: {
-            notEmpty: {   //不能为空
-              message: 'please input name'
-            }
-          }
-        },
-        greetings: {
-          message: 'please input greetings',
-          validators: {
-            notEmpty: {
-              message: 'please input greetings'
-            }
-          }
-        },
-      }
-    });
-
-    $("#subBtn").click(function () {  //非submit按钮点击后进行验证，如果是submit则无需此句直接验证
-      $("form").bootstrapValidator('validate');  //提交验证
-      if ($("form").data('bootstrapValidator').isValid()) {  //获取验证结果，如果成功，执行下面代码
-         $.ajax({
-            //几个参数需要注意一下
-            type: "POST",//方法类型
-            dataType: "json",//预期服务器返回的数据类型
-            url: "/api/v1/webapp/greetings?id=" + {{ data.id }},//url
-            data: $('#form').serialize(),
-            success: function (result) {
-                console.log(result);//打印服务端返回的数据(调试用)
-                if (result.code == 200) {
-                    alert("SUCCESS");
-                };
-            },
-            error : function() {
-                alert("Error！");
-            }
-        });
-      }
-    });
-  })
-</script>
 </html>

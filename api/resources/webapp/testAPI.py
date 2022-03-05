@@ -37,15 +37,19 @@ class TestResource(Resource):
                         data = item
                         break
             greetings = []
-            path = os.path.join(root, "data", "template", "greetings", "1.txt")
+            path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".txt")
             f = open(path)  # 返回一个文件对象
             line = f.readline()  # 调用文件的 readline()方法
             while line:
                 line = f.readline()
-                greetings.append(line)
+                if line:
+                    greetings.append(line)
             f.close()
             data['greetings']=greetings
-            return make_response(render_template('index.html', data=data), 200, headers)
+            if data.get("isTanmu") == 1:
+                return make_response(render_template('index2.html', data=data), 200, headers)
+            else:
+                return make_response(render_template('index.html', data=data), 200, headers)
         except IndexError:
             abort(404)
 
