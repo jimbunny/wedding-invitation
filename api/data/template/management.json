@@ -6,29 +6,48 @@
     "id": "1",
     "key": "H5t8so51148n",
     "iframeUrl": "https://www.huanqing365.com/h5/publish/H5t8so51148n",
+<<<<<<< HEAD
     "isTanmu": 0,
+=======
+    "isTanmu": 1,
+>>>>>>> 49f32990ad79801f1ac28d54f1492efb1dc66944
     "tanmuColor": "#ae48bb",
     "greetings": "1",
     "color": "red",
     "type": "wedding",
+<<<<<<< HEAD
     "source": "hunqing365",
     "pageViews": 503,
     "coverUrl": "http://127.0.0.1:5678/api/v1/admin/image?_type=template&id=1"
+=======
+    "source": "hunqing365"
+>>>>>>> 49f32990ad79801f1ac28d54f1492efb1dc66944
   },
     {
     "title": "橙色现代简约时尚婚礼邀请函请柬请帖",
     "description": "橙色现代简约时尚婚礼邀请函请柬请帖，微信电子邀请函、请柬、请帖模板",
+<<<<<<< HEAD
     "name": "时尚婚礼邀请函2",
     "id": "2",
     "key": "4182616",
     "iframeUrl": "https://h5.hunbei.com/view/4182616",
     "isTanmu": 0,
+=======
+    "id": "2",
+    "key": "4182616",
+    "iframeUrl": "https://h5.hunbei.com/view/4182616",
+    "isTanmu": 1,
+>>>>>>> 49f32990ad79801f1ac28d54f1492efb1dc66944
     "tanmuColor": "#ae48bb",
     "greetings": "2",
     "color": "red",
     "type": "wedding",
+<<<<<<< HEAD
     "source": "hunbei",
     "pageViews": 513,
     "coverUrl": "http://127.0.0.1:5678/api/v1/admin/image?_type=template&id=2"
+=======
+    "source": "hunbei"
+>>>>>>> 49f32990ad79801f1ac28d54f1492efb1dc66944
   }]
 }

@@ -3939,3 +3939,5 @@
 2022-03-08 18:18:44,368 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 18:18:44] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
 2022-03-08 18:22:19,465 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 18:22:19] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
 2022-03-08 18:22:29,855 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 18:22:29] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-08 18:36:30,694 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-08 18:36:31,197 - _internal.py[line:225] - INFO:  * Restarting with stat
