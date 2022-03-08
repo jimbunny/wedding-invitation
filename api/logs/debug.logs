@@ -3318,3 +3318,234 @@
 2022-03-04 17:39:14,242 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:39:14] "GET /api/v1/webapp/test HTTP/1.1" 200 -
 2022-03-04 17:39:17,027 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 2022-03-04 17:39:17,028 - _internal.py[line:225] - INFO: 127.0.0.1 - - [04/Mar/2022 17:39:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-07 10:48:29,208 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\setting.py', reloading
+2022-03-07 10:48:29,588 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-07 10:48:31,258 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-07 10:48:31,261 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-07 10:48:31,316 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+2022-03-07 12:52:48,392 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-07 12:52:48,414 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Mar/2022 12:52:48] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-08 09:14:18,127 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\routes\\api_v1_h5.py', reloading
+2022-03-08 09:14:18,481 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 09:14:20,145 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 09:14:20,149 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 09:14:20,210 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 09:24:09,514 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:24:09,523 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:24:09,547 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:24:09,683 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 09:24:09,706 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 09:24:09,707 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 09:24:09,708 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:09] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 09:24:10,015 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:24:10,032 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 09:24:10,037 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 09:24:10,038 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 09:24:10,038 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 09:24:10,043 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 09:24:10,055 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 09:24:10,061 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 09:24:10,067 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:24:10] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 09:26:07,858 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:26:07] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:27:39,973 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:39] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:27:39,980 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:39] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:27:39,992 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:39] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:27:39,996 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:39] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 09:27:39,999 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:39] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 09:27:40,003 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 09:27:40,005 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 09:27:40,016 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 09:27:40,017 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 09:27:40,022 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 09:27:40,027 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 09:27:40,034 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 09:27:40,039 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 09:27:40,043 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 09:27:40,045 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:27:40] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 09:38:50,017 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:38:50,018 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:38:50,026 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:38:50,059 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 09:38:50,065 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 09:38:50,066 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 09:38:50,068 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 09:38:50,081 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 09:38:50,086 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 09:38:50,091 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 09:38:50,096 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 09:38:50,099 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 09:38:50,101 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 09:38:50,105 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 09:38:50,105 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:38:50] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 09:45:56,690 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:45:56] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:45:56,691 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:45:56] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:49:10,959 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:10] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:49:10,962 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:10] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:49:10,984 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:10] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:49:29,546 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:49:29,549 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:49:29,557 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:49:29,602 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 09:49:29,602 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 09:49:29,609 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 09:49:29,609 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 09:49:29,612 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 09:49:29,624 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 09:49:29,632 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 09:49:29,633 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 09:49:29,638 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 09:49:29,646 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 09:49:29,646 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 09:49:29,647 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:49:29] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 09:51:29,014 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:51:29] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:51:29,015 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:51:29] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:51:31,058 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:51:31] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:51:31,061 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:51:31] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:52:30,521 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:30] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:52:36,370 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:36] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:52:37,272 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:37] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:52:38,907 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:38] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:52:40,381 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:40] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:52:42,348 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:42] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:52:42,981 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:42] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:52:43,190 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:43] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:52:47,191 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:52:47,193 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:52:47,203 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:52:47,231 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 09:52:47,233 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 09:52:47,240 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 09:52:47,260 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 09:52:47,262 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 09:52:47,269 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 09:52:47,269 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 09:52:47,274 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 09:52:47,283 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 09:52:47,287 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 09:52:47,296 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 09:52:47,297 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:47] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 09:52:48,670 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:52:48] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:53:53,191 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:53:53] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:53:54,948 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:53:54] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:53:55,804 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:53:55] "POST /api/v1/webapp/userInfo HTTP/1.1" 200 -
+2022-03-08 09:55:00,446 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 09:55:00,460 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 09:55:00,481 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 09:55:00,482 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 09:55:00,490 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 09:55:00,492 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 09:55:00,492 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 09:55:00,505 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 09:55:00,509 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 09:55:00,514 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 09:55:00,517 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 09:55:00,521 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 09:55:00,529 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 09:55:00,532 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 09:55:00,534 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:00] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 09:55:02,098 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 09:55:02] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:01:35,540 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:01:35] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:02:57,173 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:02:57] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:04:39,100 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:04:39,104 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:04:39,117 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:04:39,129 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 10:04:39,132 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 10:04:39,133 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 10:04:39,135 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 10:04:39,147 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 10:04:39,153 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 10:04:39,155 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 10:04:39,156 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 10:04:39,159 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 10:04:39,161 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 10:04:39,162 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 10:04:39,166 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:04:39] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 10:06:20,421 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:06:20] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:06:20,421 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:06:20] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:06:20,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:06:20] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:08:57,834 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:08:57] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:11:15,542 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:11:15] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:11:15,543 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:11:15] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:11:15,549 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:11:15] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:15:20,637 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:15:20,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:15:20,645 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:15:20,673 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 10:15:20,673 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 10:15:20,676 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 10:15:20,687 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 10:15:20,694 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 10:15:20,696 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 10:15:20,701 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 10:15:20,708 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 10:15:20,711 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 10:15:20,715 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 10:15:20,720 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 10:15:20,723 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:15:20] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 10:35:15,431 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:35:15,450 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:35:15,546 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 10:35:15,551 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 10:35:15,570 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:35:15,571 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 10:35:15,573 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 10:35:15,593 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 10:35:15,594 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 10:35:15,594 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 10:35:15,596 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 10:35:15,600 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 10:35:15,603 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 10:35:15,605 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 10:35:15,609 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:35:15] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 10:36:04,555 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:36:04] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:36:04,562 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:36:04] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:36:04,574 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:36:04] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:43:10,782 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:43:10,783 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:43:10,786 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-08 10:43:10,801 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-08 10:43:10,801 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-08 10:43:10,804 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-08 10:43:10,807 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-08 10:43:10,813 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test1 HTTP/1.1" 200 -
+2022-03-08 10:43:10,819 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test2 HTTP/1.1" 200 -
+2022-03-08 10:43:10,824 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test3 HTTP/1.1" 200 -
+2022-03-08 10:43:10,826 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test4 HTTP/1.1" 200 -
+2022-03-08 10:43:10,831 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test6 HTTP/1.1" 200 -
+2022-03-08 10:43:10,834 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test8 HTTP/1.1" 200 -
+2022-03-08 10:43:10,838 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test5 HTTP/1.1" 200 -
+2022-03-08 10:43:10,840 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:43:10] "GET /api/v1/admin/image?_type=template&id=test7 HTTP/1.1" 200 -
+2022-03-08 10:49:18,961 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-08 10:49:19,383 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 10:49:21,070 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 10:49:21,073 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 10:49:21,135 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 10:50:06,987 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-08 10:50:07,106 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 10:50:08,348 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 10:50:08,352 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 10:50:08,409 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 10:52:50,566 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\templates.py', reloading
+2022-03-08 10:52:50,693 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 10:52:52,302 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 10:52:52,311 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 10:52:52,434 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 10:53:16,830 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\templates.py', reloading
+2022-03-08 10:53:16,950 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 10:53:18,186 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 10:53:18,190 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 10:53:18,248 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 10:54:01,681 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\templates.py', reloading
+2022-03-08 10:54:01,803 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 10:54:03,021 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 10:54:03,024 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 10:54:03,082 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 10:55:28,810 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\templates.py', reloading
+2022-03-08 10:55:28,933 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-08 10:55:30,254 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-08 10:55:30,257 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-08 10:55:30,324 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-08 10:56:27,733 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:56:27] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-08 10:56:27,736 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:56:27] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-08 10:56:27,743 - _internal.py[line:225] - INFO: 127.0.0.1 - - [08/Mar/2022 10:56:27] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -

@@ -18,8 +18,8 @@ class ProductionConfig(object):
     APP_ID = "1129997654166624"
     APP_Secret = "df8e756e14a54c2645a418cc294baa8f"
     avatar = "https://i.gtimg.cn/club/item/face/img/2/15922_100.gif"
-    domain = "http://127.0.0.1:5555"
-    BIND = '0.0.0.0:5555'
+    domain = "http://127.0.0.1:5678"
+    BIND = '0.0.0.0:5678'
     DEBUG = False
     WORKERS = multiprocessing.cpu_count() * 2 + 1
     WORKER_CONNECTIONS = 10000
@@ -88,7 +88,7 @@ class DevelopConfig(object):
     APP_ID = "1129997654166624"
     APP_Secret = "df8e756e14a54c2645a418cc294baa8f"
     avatar = "https://i.gtimg.cn/club/item/face/img/2/15922_100.gif"
-    domain = "http://127.0.0.1:5555"
+    domain = "http://127.0.0.1:5678"
     BIND = '0.0.0.0:5555'
     DEBUG = True
     WORKERS = 2

@@ -6,12 +6,12 @@
 from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
-from common.error_code import Success,ServerError
-import logging
-import json
-from app import rd
-from models.tests import TestsModel
 from flasgger import swag_from
+from flask import make_response, render_template, abort, jsonify, request
+import json
+import os
+root = os.path.abspath(os.path.join(os.getcwd()))
+headers = {'Content-Type': 'text/html'}
 
 
 class H5Resource(Resource):
@@ -25,35 +25,69 @@ class H5Resource(Resource):
         self.parser = RequestParser()
 
     @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
-    def get(self):
+    def get(self, workKey):
         """
         Test Method
 
         swagger_from_file: ../../docs/swagger/test_get.yml
 
         """
-        self.parser.add_argument("username", type=str, required=True, location="args", help='name format is incorrect')
-        args = self.parser.parse_args()
-        rd.set('username', args.username)
-        data = {"username": str(rd.get('username'))}
-        logging.error("error info: %s" % "test error")
-        # raise InternalServerError()
-        # raise Success()
-        test = TestsModel()
-        test.username = args.username
-        TestsModel.add(TestsModel, test)
-        if test.id:
-            return pretty_result(code.OK, data=data, msg="redis mysql test successful")
-        else:
-            return pretty_result(code.OK, msg="redis mysql test failed")
+        data = {}
+        try:
+            with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+                load_dict = json.load(load_f)
+            for item in load_dict.get("data"):
+                for key in item:
+                    if key == 'key' and item[key] == workKey:
+                        data = item
+                        break
+            greetings = []
+            path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".txt")
+            try:
+                with open(path, mode='r', encoding='utf-8') as ff:
+                    greetings = ff.readlines()
+            except FileNotFoundError:
+                open(path, 'a').close()
+            data['greetings'] = greetings
+            if data.get("isTanmu") == 1:
+                return make_response(render_template('index2.html', data=data), 200, headers)
+            else:
+                return make_response(render_template('index.html', data=data), 200, headers)
+        except IndexError:
+            abort(404)
 
-    def post(self):
+
+class H5GreetingsResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+
+
+    def post(self, id):
         """
         test
         :return: json
         """
         # return pretty_result(code.OK)
-        logging.error("error info: %s" % "test error")
-        with open("./data/template/getbycode.json", 'r', encoding="utf8") as load_f:
-            load_dict = json.load(load_f)
-        return pretty_result(code.OK, data=load_dict['data'])
+        # logging.error("error info: %s" % "test error")
+        name = request.form.get("name")
+        greetings = request.form.get("greetings")
+        path = os.path.join(root, "data", "template", "greetings", str(id) + ".txt")
+        with open(path, 'a+', encoding="utf8") as f:
+            f.write(str(name)+"："+str(greetings) + "\n")
+        greetings = []
+        f = open(path)  # 返回一个文件对象
+        line = f.readline()  # 调用文件的 readline()方法
+        while line:
+            line = f.readline()
+            if line:
+                greetings.append(line)
+        f.close()
+        return pretty_result(code.OK, data=greetings)

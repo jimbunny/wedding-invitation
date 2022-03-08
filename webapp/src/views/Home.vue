@@ -1,18 +1,14 @@
 <template>
   <div>
     <header class="home-header wrap" :class="{'active' : headerScroll}">
-        <span class="app-name">JP </span>
-        <div class="header-search">
+        <span class="app-name">UniEcard</span>
+        <!-- <img class="logo" :src="require('../assets/logo.png')" alt=""> -->
+        <!--<div class="header-search">-->
             <!--<span class="app-name">JP</span>
             <i class="iconfont icon-search"></i> -->
-            <router-link tag="span" class="search-title" to="./product-list?from=home">  please input keyword
-    </router-link>
-        </div>
-    
-        <router-link class="login" tag="span" to="./login" v-if="!isLogin">login</router-link>
-        <router-link class="login" tag="span" to="./user" v-else>
-          <van-icon name="manager-o" />
-        </router-link>
+            <!--<router-link tag="span" class="search-title" to="./product-list?from=home">  please input keyword
+            </router-link>
+        </div>-->
     </header>
     <nav-bar></nav-bar>
     
@@ -21,10 +17,9 @@
     <div class="good"  :style="{ paddingBottom: '50px'}">
       <header class="good-header">template</header>
       <div class="good-box">
-        <div class="good-item" v-for="item in templates" :key="item.id" @click="goToTemplateShow(item)">
-          <img :src="prefix(item.url)" alt="">
+        <div class="good-item" v-for="item in templates" :key="item.id" @click="goToTemplateShow(item.key)">
+          <img :src="prefix(item.coverUrl)" alt="">
           <div class="good-desc">
-            <!-- <div class="title">{{ item.goodsName }}</div> -->
             <div class="title"  style="margin-bottom:5px;">
               {{ item.name }}
             </div>
@@ -60,7 +55,6 @@ export default {
   data() {
     return {
       swiperList: [],
-      isLogin: false,
       headerScroll: false,
       templates: [],
       scrollType:false,
@@ -85,10 +79,6 @@ export default {
     }
   },
   async mounted() {
-    const { code } = await validLogin()
-    if (code == okCode) {
-      this.isLogin = true
-    }
     window.addEventListener('scroll', this.pageScroll)
     Toast.loading({
       message: 'กำลังเข้าสู่ระบบ...',
@@ -123,7 +113,7 @@ export default {
       getTemplateList(this.queryForm).then((res) => {
       const { code, msg, data } = res;
       if (code === okCode) {
-        this.templates = data.items;
+        this.templates = data.data;
         setTimeout((_) => {
           Toast.clear()
         }, 300);
@@ -142,12 +132,9 @@ export default {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
       scrollTop > 100 ? this.headerScroll = true : this.headerScroll = false
     },
-    goToDetail(item) {
-      this.$router.push({ path: `product/${item.goodsId}` })
-    },
-    goToTemplateShow(item) {
-      // this.$router.push({ path: `box/${item.no}` })
-      window.location.href='http://127.0.0.1:5555/api/v1/webapp/test'
+    goToTemplateShow(id) {
+      this.$router.push({ path: `works/${id}` })
+      // window.location.href=url
     }
   }
 }

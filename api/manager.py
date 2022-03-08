@@ -81,7 +81,7 @@ def run():
     logging.getLogger().addHandler(file_log_handler)
 
     service_config = {
-        'bind': app.config.get('BIND', '0.0.0.0:5555'),
+        'bind': app.config.get('BIND', '0.0.0.0:5678'),
         'workers': app.config.get('WORKERS', cpu_count() * 2 + 1),
         'worker_class': 'gevent',
         'worker_connections': app.config.get('WORKER_CONNECTIONS', 10000),
@@ -105,7 +105,7 @@ def debug():
                     backupCount=app.config.get('LOG_FILE_BACKUP_COUNT', 1))
     file_log_handler.setFormatter(formatter)
     logging.getLogger().addHandler(file_log_handler)
-    app.run(debug=True, port=5555)
+    app.run(debug=True, port=5678)
 
 
 if __name__ == '__main__':

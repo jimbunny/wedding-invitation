@@ -5,13 +5,9 @@
         <i class="nbicon nblvsefenkaicankaoxianban-1"></i>
         <span>Home</span>
       </router-link>
-      <router-link tag="li" class="nav-list-item" to="works">
-        <i class="nbicon nbfenlei"></i>
-        <span>Work</span>
-      </router-link>
-      <router-link tag="li" class="nav-list-item" to="user">
+      <router-link tag="li" class="nav-list-item" to="about">
         <i class="nbicon nblvsefenkaicankaoxianban-"></i>
-        <span>Me</span>
+        <span>About</span>
       </router-link>
     </ul>
   </div>
