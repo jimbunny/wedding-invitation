@@ -3,7 +3,7 @@
     <div style="width:100%;height:100%;">
       <header class="simple-header-left">
         <div  style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToHome">
-          <img style="width:40px;" :src="require('../assets/return.png')" alt="">
+          <img style="width:40px;" :src="require('../assets/back.png')" alt="">
           </div>
         <div style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToAbout">
           <img style="width:40px;" :src="require('../assets/LINE1.png')" alt="">
