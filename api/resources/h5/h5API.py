@@ -10,10 +10,7 @@ from flasgger import swag_from
 from flask import make_response, render_template, abort, jsonify, request
 import json
 import os
-<<<<<<< HEAD
-=======
-import requests
->>>>>>> 49f32990ad79801f1ac28d54f1492efb1dc66944
+
 root = os.path.abspath(os.path.join(os.getcwd()))
 headers = {'Content-Type': 'text/html'}
 

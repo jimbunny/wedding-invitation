@@ -2,36 +2,24 @@
   <div class="about">
     <s-header :name="'About'"></s-header>
     <div class="about-body">
-      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">简介</van-divider>
+      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">introduce</van-divider>
       <div>Unicard
       </div>
-      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">test</van-divider>
-      <div>
-        <div class="share-body">
+      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }"></van-divider>
+      <div style="margin: auto;">
+        <div class="share-body" style="text-align: center;">
           <qr-code id="imageWrapper" :appSrc="appSrc" :logoSrc="logoSrc" :size="300"></qr-code>
-          <van-field :value="appSrc" disabled />
+          <van-field :value="appSrc"/>
           <van-share-sheet
             v-model="showShare"
             :options="options"
             @select="onSelect"
             title="立即分享给好友"
+            cancel-text="cancel"
           />
           <div style="margin: 16px;">
-            <van-button round block type="info"  @click="showShare=true">download</van-button>
+            <van-button round block type="info"  @click="showShare=true">add</van-button>
           </div>
-
-          <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
-            <!-- <van-cell v-for="item in list" :key="item" :title="item" /> -->
-            <van-cell-group>
-              <van-cell v-for="item in list" :key="item.id" :value="item.register_on">
-                <!-- 使用 title 插槽来自定义标题 -->
-                <template #title>
-                  <span class="custom-title">{{ item.invited }}</span>
-                  <van-tag plain type="danger" style="margin-top: 5px; float: right;"> + {{ item.point }} point</van-tag>
-                </template>
-              </van-cell> 
-            </van-cell-group>
-          </van-pull-refresh>
         </div>
       </div>
     </div>
@@ -56,7 +44,7 @@ export default {
       logoSrc: require('../assets/logo.png'),
       showShare: false,
       options: [
-        { name: 'Facebook', icon: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png' },
+        // { name: 'Facebook', icon: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png' },
         { name: '复制链接', icon: 'link', className: "copy"},
         { name: '二维码', icon: 'qrcode' },
       ],
@@ -68,7 +56,7 @@ export default {
     appSrc:{
       //getter
       get:function(){
-        return 'http://localhost:8083/#/home?inviterId=' + Base64.encode(this.email)
+        return 'https://line.me/ti/p/ygpofTh9w1'
       },
       //setter
       set:function(newValue){
@@ -90,12 +78,6 @@ export default {
     
   },
   methods: {
-    async onRefresh() {
-      const { code, data, msg } = await inviteList({"email": this.email});
-      this.list = data
-      Toast('刷新成功');
-      this.isLoading = false;
-    },
     onSelect(option) {
       if(option.name === '复制链接') {
         this.$copyText(this.appSrc).then( e => {

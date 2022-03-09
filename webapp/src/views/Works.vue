@@ -1,18 +1,22 @@
 <template>
     <!-- <s-header :name="'Works'"></s-header> -->
     <div style="width:100%;height:100%;">
-    <!-- <iframe ref="iframe1"  id="iframeId" style="width:100%; height:100%;" frameborder=0 scrolling=auto :src=iframeUrl></iframe> -->
-    <iframe src="https://www.baidu.com" style="width:100%;height:800px;"></iframe>
-    <div style="width:100%;height:100%">sssssssssssssssssssssss</div>
-    <van-button @click="goToAbout" size="small" style="background: rgba(255, 255, 255, 0.5);z-index:9999;position: absolute;bottom: 30px;left: 30px;" color="#7232dd" round plain>contact</van-button>
-    <van-button @click="goToHome" size="small" style="position:fixed;background: rgba(255, 255, 255, 0.5);z-index:9999;right: 30px;bottom: 30px;" type="primary" round plain>return</van-button>
+      <header class="simple-header-left">
+        <div  style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToHome">
+          <img style="width:40px;" :src="require('../assets/return.png')" alt="">
+          </div>
+        <div style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToAbout">
+          <img style="width:40px;" :src="require('../assets/LINE1.png')" alt="">
+        </div>
+      </header>
+    <div style="width:100%;height:100%;">
+      <iframe id="iframeId" style="width:100%;height:100%;" frameborder=0 scrolling=auto :src=iframeUrl></iframe>
     </div>
-
+    </div>
 </template>
 
 <script>
 import { Toast } from 'vant'
-import navBar from '@/components/NavBar'
 import sHeader from '@/components/SimpleHeader'
 
 export default {
@@ -22,11 +26,9 @@ export default {
   data() {
     return {
       iframeUrl: '',
-      show: false
     }
   },
   components: {
-    navBar,
     sHeader,
     // VueCropper
   },
@@ -181,4 +183,25 @@ export default {
       border-color: @primary;
     }
   }
+</style>
+<style lang="less" scoped>
+  @import '../common/style/mixin';
+  .simple-header-left {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 10000;
+    .fj();
+    .wh(100%, 44px);
+    line-height: 34px;
+    padding: 0 10px;
+    .boxSizing();
+    color: #252525;
+    // border-bottom: 1px solid #dcdcdc;
+    .simple-header-name {
+      font-size: 14px;
+    }
+  }
+  
 </style>
