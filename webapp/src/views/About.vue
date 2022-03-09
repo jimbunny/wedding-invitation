@@ -14,11 +14,11 @@
             v-model="showShare"
             :options="options"
             @select="onSelect"
-            title="立即分享给好友"
-            cancel-text="cancel"
+            title="เพิ่มเพื่อน"
+            cancel-text="ยกเลิก"
           />
           <div style="margin: 16px;">
-            <van-button round block type="info"  @click="showShare=true">add</van-button>
+            <van-button round block type="info"  @click="showShare=true">เพิ่มเพื่อน</van-button>
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@ export default {
       showShare: false,
       options: [
         // { name: 'Facebook', icon: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png' },
-        { name: '复制链接', icon: 'link', className: "copy"},
-        { name: '二维码', icon: 'qrcode' },
+        { name: 'คัดลอกลิ้ง', icon: 'link', className: "copy"},
+        { name: 'คิวอาร์โค้ด', icon: 'qrcode' },
       ],
       list: [],
       isLoading: false,
@@ -79,21 +79,21 @@ export default {
   },
   methods: {
     onSelect(option) {
-      if(option.name === '复制链接') {
+      if(option.name === 'คัดลอกลิ้ง') {
         this.$copyText(this.appSrc).then( e => {
-          Toast("已复制到剪切板，请分享");
+          Toast("คัดลอกเรียบร้อย โปรดเพิ่มเพื่อนผ่าน Line");
         }, function (e) {
-          Toast("该浏览器不支持自动复制");
+          Toast("บราวเซอร์ไม่รองรับการคัดลอก");
           console.log(e)
         })
-      } else if(option.name === '二维码') {
+      } else if(option.name === 'คิวอาร์โค้ด') {
           html2canvas(document.getElementById("imageWrapper")).then(canvas => {
           let saveUrl = canvas.toDataURL('image/png')
           let aLink = document.createElement('a')
           let blob = this.base64ToBlob(saveUrl)
           let evt = document.createEvent('HTMLEvents')
           evt.initEvent('click', true, true)
-          aLink.download = '二维码.jpg'
+          aLink.download = 'คิวอาร์โค้ด.jpg'
           aLink.href = URL.createObjectURL(blob)
           aLink.click()
         });
