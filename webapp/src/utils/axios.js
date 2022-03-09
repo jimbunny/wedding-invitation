@@ -31,7 +31,7 @@ const service = axios.create({
 function startLoading() {
   // 开始加载
   Toast.loading({
-      message: '加载中...',
+      message: 'loading...',
       forbidClick: true,
   });
 }

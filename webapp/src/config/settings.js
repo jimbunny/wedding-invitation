@@ -21,7 +21,7 @@ module.exports = {
     //不经过token校验的路由
     routesWhiteList: ["/login", "/404", "/401"],
     //加载时显示文字
-    loadingText: "正在加载中...",
+    loadingText: "loading...",
     //token名称
     tokenName: "access_token",
     //刷新token名称
