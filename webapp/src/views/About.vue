@@ -23,6 +23,7 @@
         </div>
       </div>
     </div>
+    <nav-bar></nav-bar>
   </div>
 </template>
 
@@ -33,11 +34,13 @@ import Clipboard from 'clipboard'
 import { Toast } from 'vant'
 import html2canvas from 'html2canvas';
 let Base64 = require('js-base64').Base64
+import navBar from '@/components/NavBar'
 
 export default {
   components: {
     sHeader,
-    QrCode
+    QrCode,
+    navBar
   },// mixins: [Clipboard],
   data() {
     return {

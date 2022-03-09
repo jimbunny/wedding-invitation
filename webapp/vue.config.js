@@ -9,6 +9,7 @@ module.exports = {
     // "/api/getok.php"
     // http://122.51.238.153/getok.php
     devServer: {
+      disableHostCheck: true,
         proxy: {
             // change xxx-api/login => mock/login
             // detail: https://cli.vuejs.org/config/#devserver-proxy

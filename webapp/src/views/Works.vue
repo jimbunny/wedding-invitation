@@ -9,9 +9,9 @@
           <img style="width:40px;" :src="require('../assets/LINE1.png')" alt="">
         </div>
       </header>
-    <div style="width:100%;height:100%;">
-      <iframe id="iframeId" style="width:100%;height:100%;" frameborder=0 scrolling=auto :src=iframeUrl></iframe>
-    </div>
+      <div style="width:100%;height:100%;">
+        <iframe id="iframeId" style="width:100%;height:100%;" frameborder=0 scrolling=auto :src=iframeUrl></iframe>
+      </div>
     </div>
 </template>
 
@@ -21,7 +21,7 @@ import sHeader from '@/components/SimpleHeader'
 
 export default {
   components: {
-    // sHeader
+    // sHeader,
   },
   data() {
     return {
