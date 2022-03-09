@@ -9,8 +9,8 @@
           <img style="width:40px;" :src="require('../assets/LINE1.png')" alt="">
         </div>
       </header>
-      <div style="width:100%;height:100%;">
-        <iframe id="iframeId" style="width:100%;height:100%;" frameborder=0 scrolling=auto :src=iframeUrl></iframe>
+      <div class="show_iframe">
+        <iframe scrolling="yes" frameborder="0" wicket:id="mainPage" :src=iframeUrl></iframe>
       </div>
     </div>
 </template>
@@ -203,5 +203,19 @@ export default {
       font-size: 14px;
     }
   }
-  
+  .show_iframe{
+    -webkit-overflow-scrolling: touch;
+    overflow-y: 
+    scroll;position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .show_iframe iframe {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%
+  }
 </style>
