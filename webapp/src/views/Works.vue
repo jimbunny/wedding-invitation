@@ -10,7 +10,7 @@
         </div>
       </header>
       <div class="show_iframe">
-        <iframe scrolling="yes" frameborder="0" wicket:id="mainPage" :src=iframeUrl></iframe>
+        <iframe ref="iframe" scrolling="yes" frameborder="0" wicket:id="mainPage" :src=iframeUrl></iframe>
       </div>
     </div>
 </template>
@@ -19,6 +19,7 @@
 import { Toast } from 'vant'
 import sHeader from '@/components/SimpleHeader'
 
+
 export default {
   components: {
     // sHeader,
@@ -26,6 +27,7 @@ export default {
   data() {
     return {
       iframeUrl: '',
+      loading: true,
     }
   },
   components: {
@@ -33,12 +35,42 @@ export default {
     // VueCropper
   },
   async mounted() {
-     const { id } = this.$route.params
-     this.iframeUrl = 'http://127.0.0.1:5678/api/v1/h5/work/' + id.toString()
+    this.startLoading()
+    const { id } = this.$route.params
+    this.iframeUrl = 'http://182.160.15.72:5678/api/v1/h5/work/' + id.toString()
+      
+    const { iframe } = this.$refs;
+    // IE和非IE浏览器，监听iframe加载事件不一样，需要兼容
+    const that = this;
+    if (iframe.attachEvent) {
+      // IE
+      iframe.attachEvent('onload', () => {
+        that.stateChange();
+      });
+    } else {
+      // 非IE
+      iframe.onload = function () {
+        that.stateChange();
+      };
+    }
   },
   computed: {
   },
   methods: {
+    stateChange() {
+      this.loading = false;
+      this.endLoading()
+    },
+    startLoading() {
+  // 开始加载
+  Toast.loading({
+      message: 'loading...',
+      forbidClick: true,
+  });
+},endLoading() {
+  // 结束加载
+  Toast.clear()
+},
     goToAbout() {
       this.$router.push({ path: '/about' })
     },

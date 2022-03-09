@@ -4472,3 +4472,43 @@
 2022-03-09 15:47:03,365 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
 2022-03-09 15:47:03,424 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-03-09 15:47:21,494 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\app.py', reloading
+2022-03-09 15:47:21,605 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-09 15:47:22,880 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-09 15:47:22,884 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-09 15:47:22,941 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-09 15:48:55,690 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 15:48:55] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-09 15:49:23,593 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 15:49:23] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-09 15:52:30,555 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 15:52:30] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-09 15:58:54,634 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 15:58:54] "GET /api/v1/h5/work/4182616 HTTP/1.1" 200 -
+2022-03-09 16:03:13,406 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:03:13] "GET /api/v1/h5/work/4182616 HTTP/1.1" 200 -
+2022-03-09 16:09:11,267 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:09:11] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-09 16:10:37,344 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-09 16:10:37,380 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:37] "[31m[1mGET /undefined/api/v1/h5/work/4182616 HTTP/1.1[0m" 411 -
+2022-03-09 16:10:42,786 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-09 16:10:42,788 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:42] "[31m[1mGET /undefined/api/v1/h5/work/4182616 HTTP/1.1[0m" 411 -
+2022-03-09 16:10:46,942 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-09 16:10:46,944 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:46] "[31m[1mGET /undefined/api/v1/h5/work/4182616 HTTP/1.1[0m" 411 -
+2022-03-09 16:10:51,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-09 16:10:51,285 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-09 16:10:51,298 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-09 16:10:51,348 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-09 16:10:51,352 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-09 16:10:51,358 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-09 16:10:51,366 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-09 16:10:51,371 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-09 16:10:51,377 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:51] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-09 16:10:52,599 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-09 16:10:52,600 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:10:52] "[31m[1mGET /undefined/api/v1/h5/work/H5t8so51148n HTTP/1.1[0m" 411 -
+2022-03-09 16:11:21,558 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:11:21] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-09 16:27:58,290 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-09 16:27:58,294 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-09 16:27:58,299 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-09 16:27:58,311 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-09 16:27:58,311 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-09 16:27:58,315 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-09 16:27:58,317 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-09 16:27:58,320 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-09 16:27:58,320 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:27:58] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-09 16:28:10,196 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:28:10] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-09 16:28:10,199 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:28:10] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-09 16:28:10,199 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 16:28:10] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -

@@ -19,6 +19,46 @@
             width: 100%;
             height: 100%;
         }
+        .loading{
+            width: 150px;
+            height: 15px;
+            margin: 0 auto;
+        }
+        .loading span{
+            display: inline-block;
+            width: 15px;
+            height: 100%;
+            margin-right: 5px;
+            border-radius: 50%;
+            background: lightgreen;
+            -webkit-animation: load 1.04s ease infinite;
+        }
+        .loading span:last-child{
+            margin-right: 0px;
+        }
+        @-webkit-keyframes load{
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        .loading span:nth-child(1){
+            -webkit-animation-delay:0.13s;
+        }
+        .loading span:nth-child(2){
+            -webkit-animation-delay:0.26s;
+        }
+        .loading span:nth-child(3){
+            -webkit-animation-delay:0.39s;
+        }
+        .loading span:nth-child(4){
+            -webkit-animation-delay:0.52s;
+        }
+        .loading span:nth-child(5){
+            -webkit-animation-delay:0.65s;
+        }
     </style>
     <script type="text/javascript">
         function iframeHeight() {
@@ -27,8 +67,34 @@
     </script>
 </head>
 <body style="height: 100%">
-    <div style="text-align:center; height: 100%">
+    <div id="load" style="text-align:center;margin-top:100px;">
+        <img style="width:250px;" src="/static/logo.png"  alt="logo" />
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div style="text-align:center; height: 100%; visibility:hidden;" id="iframe">
         <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
     </div>
 </body>
 </html>
+<script type="text/javascript">
+var load = document.getElementById("load")
+var iframe = document.getElementById("iframe")
+// 取得文档载入状态，如果载入完成，则readystate='complete'
+// 根据这个可以定时去获取文档载入状态，来实现页面载入等待效果
+var interval = setInterval(function () {
+    var readystate = document.readyState.toLowerCase();
+    console.log(readystate)
+    if (readystate == 'complete')
+    {
+        load.style.display = "none";
+        iframe.style.visibility = "visible"
+        clearInterval(interval);
+    }
+},500)
+</script>
