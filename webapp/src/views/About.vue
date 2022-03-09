@@ -18,7 +18,7 @@
             cancel-text="ยกเลิก"
           />
           <div style="margin: 16px;">
-            <van-button round block type="info"  @click="showShare=true">เพิ่มเพื่อน</van-button>
+            <van-button round block type="info"  @click="copyUrl()">copy</van-button>
           </div>
         </div>
       </div>
@@ -81,6 +81,14 @@ export default {
     
   },
   methods: {
+    copyUrl() {
+      this.$copyText(this.appSrc).then( e => {
+        Toast("คัดลอกเรียบร้อย โปรดเพิ่มเพื่อนผ่าน Line");
+      }, function (e) {
+        Toast("บราวเซอร์ไม่รองรับการคัดลอก");
+        console.log(e)
+      })
+    },
     onSelect(option) {
       if(option.name === 'คัดลอกลิ้ง') {
         this.$copyText(this.appSrc).then( e => {
