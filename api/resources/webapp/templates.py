@@ -4,12 +4,8 @@
 # datetime:2020/6/8 10:14 下午
 # software: PyCharm
 
-from models.templates import TemplatesModel
-from models.logs import LogsModel
 from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
-from common.decorators import login_required
-from werkzeug.datastructures import FileStorage
 from flask_restful import Resource
 import json
 import os

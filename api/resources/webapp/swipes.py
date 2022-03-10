@@ -9,9 +9,10 @@ from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
 import os
-from config.setting import config
+import json
 from werkzeug.datastructures import FileStorage
 
+root = os.path.abspath(os.path.join(os.getcwd()))
 filePath = r'./downloads/swipe/'
 if not os.path.exists(filePath):
     os.makedirs(filePath)
@@ -33,10 +34,12 @@ class SwipesResource(Resource):
             :return: 图片流
             """
         data = []
-        for i in os.listdir(filePath):
-            url = config.domain + "/api/v1/admin/image?_type=swipe&id=" + i.split(".")[0]
-            data.append({"name": i, "redirectUrl": url, "carouselUrl": url})
-        return pretty_result(code.OK, data=data, msg='Get swipes picture successful！')
+        # for i in os.listdir(filePath):
+        #     url = config.domain + "/api/v1/admin/image?_type=swipe&id=" + i.split(".")[0]
+        #     data.append({"name": i, "redirectUrl": url, "carouselUrl": url})
+        with open(os.path.join(root, "data", "template", "swipe.json"), 'r', encoding="utf8") as load_f:
+            load_dict = json.load(load_f)
+        return pretty_result(code.OK, data=load_dict.get("data"), msg='Get swipes picture successful！')
 
     def put(self):
         """
