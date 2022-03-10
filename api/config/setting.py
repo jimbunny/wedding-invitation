@@ -89,7 +89,7 @@ class DevelopConfig(object):
     APP_Secret = "df8e756e14a54c2645a418cc294baa8f"
     avatar = "https://i.gtimg.cn/club/item/face/img/2/15922_100.gif"
     domain = "http://127.0.0.1:5678"
-    BIND = '0.0.0.0:5555'
+    BIND = '0.0.0.0:5678'
     DEBUG = True
     WORKERS = 2
     WORKER_CONNECTIONS = 1000
