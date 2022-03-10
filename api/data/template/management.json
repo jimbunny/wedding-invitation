@@ -13,8 +13,7 @@
     "type": "wedding",
     "source": "hunqing365",
     "pageViews": 503,
-    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=1",
-    "source": "hunqing365"
+    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=1"
   },
     {
     "title": "橙色现代简约时尚婚礼邀请函请柬请帖",
@@ -30,7 +29,22 @@
     "type": "wedding",
     "source": "hunbei",
     "pageViews": 513,
-    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=2",
-    "source": "hunbei"
+    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=2"
+  },
+    {
+    "title": "橙色现代简约时尚婚礼邀请函请柬请帖",
+    "description": "橙色现代简约时尚婚礼邀请函请柬请帖，微信电子邀请函、请柬、请帖模板",
+    "name": "时尚婚礼邀请函2",
+    "id": "4",
+    "key": "MjYwMjMxMzJmaXJlX2Nsb3Vk",
+    "iframeUrl": "https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=MjYwMjMxMzJmaXJlX2Nsb3Vk#/",
+    "isTanmu": 0,
+    "tanmuColor": "#ae48bb",
+    "greetings": "2",
+    "color": "red",
+    "type": "wedding",
+    "source": "hunliji",
+    "pageViews": 533,
+    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=3"
   }]
 }
