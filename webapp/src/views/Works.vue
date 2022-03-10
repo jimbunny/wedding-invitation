@@ -36,7 +36,7 @@ export default {
     // VueCropper
   },
   async mounted() {
-    this.startLoading()
+    // this.startLoading()
     const { id } = this.$route.params
     this.iframeUrl = 'http://182.160.15.72:5678/api/v1/h5/work/' + id.toString()
       
@@ -63,15 +63,15 @@ export default {
       this.endLoading()
     },
     startLoading() {
-  // 开始加载
-  Toast.loading({
-      message: 'loading...',
-      forbidClick: true,
-  });
-},endLoading() {
-  // 结束加载
-  Toast.clear()
-},
+      // 开始加载
+      Toast.loading({
+          message: 'loading...',
+          forbidClick: true,
+      });
+    },endLoading() {
+      // 结束加载
+      Toast.clear()
+    },
     goToAbout() {
       this.$router.push({ path: '/about' })
     },
