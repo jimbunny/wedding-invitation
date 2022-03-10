@@ -2,12 +2,13 @@
     <!-- <s-header :name="'Works'"></s-header> -->
     <div style="width:100%;height:100%;">
       <header class="simple-header-left">
-        <div  style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToHome">
-          <img style="width:40px;" :src="require('../assets/back.png')" alt="">
-          </div>
-        <div style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToAbout">
+        <div  style="color:blue;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToHome">
+          <img style="width:35px;" :src="require('../assets/back.png')" alt="">
           <img style="width:40px;" :src="require('../assets/LINE1.png')" alt="">
-        </div>
+          </div>
+        <!-- <div style="color:red;width:40px;text-align:center;margin-top:10px;border-radius: 10px;"  @click="goToAbout">
+          <img style="width:40px;" :src="require('../assets/LINE1.png')" alt="">
+        </div> -->
       </header>
       <div class="show_iframe">
         <iframe ref="iframe" scrolling="yes" frameborder="0" wicket:id="mainPage" :src=iframeUrl></iframe>
@@ -39,20 +40,20 @@ export default {
     const { id } = this.$route.params
     this.iframeUrl = 'http://182.160.15.72:5678/api/v1/h5/work/' + id.toString()
       
-    const { iframe } = this.$refs;
-    // IE和非IE浏览器，监听iframe加载事件不一样，需要兼容
-    const that = this;
-    if (iframe.attachEvent) {
-      // IE
-      iframe.attachEvent('onload', () => {
-        that.stateChange();
-      });
-    } else {
-      // 非IE
-      iframe.onload = function () {
-        that.stateChange();
-      };
-    }
+    // const { iframe } = this.$refs;
+    // // IE和非IE浏览器，监听iframe加载事件不一样，需要兼容
+    // const that = this;
+    // if (iframe.attachEvent) {
+    //   // IE
+    //   iframe.attachEvent('onload', () => {
+    //     that.stateChange();
+    //   });
+    // } else {
+    //   // 非IE
+    //   iframe.onload = function () {
+    //     that.stateChange();
+    //   };
+    // }
   },
   computed: {
   },

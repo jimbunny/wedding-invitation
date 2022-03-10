@@ -14,25 +14,14 @@
 </template>
 
 <script>
-import { okCode, errorCode } from "../config/settings";
-import { validLogin } from '../service/user'
   export default {
     async mounted() {
-      const { code, data } = await validLogin()
-      const path = this.$route.path
-      if (code == okCode && path != '/home') {
-        this.$store.dispatch('user/updateCart', {
-          "email": data.email
-        })
-      }
+      
     },
     data() {
       return {}
     },
     computed: {
-      count () { 
-        return this.$store.state.user.count
-      }
     }
   }
 </script>

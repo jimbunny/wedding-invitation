@@ -35,7 +35,7 @@ class SwipesResource(Resource):
         data = []
         for i in os.listdir(filePath):
             url = config.domain + "/api/v1/admin/image?_type=swipe&id=" + i.split(".")[0]
-            data.append({"name": i, "url": url, "carouselUrl": url})
+            data.append({"name": i, "redirectUrl": url, "carouselUrl": url})
         return pretty_result(code.OK, data=data, msg='Get swipes picture successful！')
 
     def put(self):

@@ -19,7 +19,7 @@ from Flask import Flask
 from flask import got_request_exception
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from flask_redis import FlaskRedis
+# from flask_redis import FlaskRedis
 from flasgger import Swagger
 
 
@@ -32,7 +32,7 @@ def log_exception(sender, exception, **extra):
 app = Flask(__name__, template_folder='./templates', static_folder='./static',)
 
 
-rd = FlaskRedis(app)
+# rd = FlaskRedis(app)
 
 #  limit限制
 # def limit_key_func():

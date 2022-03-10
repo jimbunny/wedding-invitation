@@ -43,12 +43,8 @@ import navBar from '@/components/NavBar'
 import swiper from '@/components/Swiper'
 import { okCode, errorCode } from "../config/settings";
 import { getTemplateList, getSwipeList } from '../service/home'
-import { getUserInfo, validLogin } from '../service/user'
 import { getLocal } from '@/common/js/utils'
 import { Toast } from 'vant'
-import {
-  getAccessToken,
-} from "../utils/accessToken";
 
 export default {
   name: 'home',

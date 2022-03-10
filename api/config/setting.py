@@ -18,7 +18,7 @@ class ProductionConfig(object):
     APP_ID = "1129997654166624"
     APP_Secret = "df8e756e14a54c2645a418cc294baa8f"
     avatar = "https://i.gtimg.cn/club/item/face/img/2/15922_100.gif"
-    domain = "http://127.0.0.1:5678"
+    #domain = "http://127.0.0.1:5678"
     BIND = '0.0.0.0:5678'
     DEBUG = False
     WORKERS = multiprocessing.cpu_count() * 2 + 1
@@ -33,16 +33,16 @@ class ProductionConfig(object):
     # sqlite 数据库配置
     # SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(os.path.dirname(__file__), 'example.db')
     # SQLALCHEMY_TRACK_MODIFICATIONS = False
-    HOSTNAME = '127.0.0.1'
-    PORT = '3306'
-    DATABASE = 'wedding'
-    USERNAME = 'root'
-    PASSWORD = '123456'
+    # HOSTNAME = '127.0.0.1'
+    # PORT = '3306'
+    # DATABASE = 'wedding'
+    # USERNAME = 'root'
+    # PASSWORD = '123456'
     # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1/tushare?charset=utf8'
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME, PASSWORD, HOSTNAME, PORT,
-                                                                                   DATABASE)
-    SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
-    SQLALCHEMY_TRACK_MODIFICATIONS = True
+    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME, PASSWORD, HOSTNAME, PORT,
+    #                                                                                DATABASE)
+    # SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
+    # SQLALCHEMY_TRACK_MODIFICATIONS = True
     BASEDIR = basedir
     # 安全配置
     CSRF_ENABLED = True
@@ -73,12 +73,12 @@ class ProductionConfig(object):
     blackList = []
 
     # redis
-    RATELIMIT_STORAGE_URL = "redis://127.0.0.1:6379"  # 将被限制不可以再正常访问的请求放入缓存
+    # RATELIMIT_STORAGE_URL = "redis://127.0.0.1:6379"  # 将被限制不可以再正常访问的请求放入缓存
 
     # swagger
     SWAGGER_TITLE = "Lucky Blind Box API Doc"  # 配置大标题
     SWAGGER_DESC = "Flask Restful API Doc about shopping!"  # 配置公共描述内容
-    SWAGGER_HOST = "http://127.0.0.1:5555"  # 请求域名 http://localhost:5555/apidocs/
+    SWAGGER_HOST = "http://127.0.0.1:5678"  # 请求域名 http://localhost:5555/apidocs/
 
 
 class DevelopConfig(object):
@@ -104,18 +104,18 @@ class DevelopConfig(object):
     # SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(os.path.dirname(__file__), 'example.db')
     # SQLALCHEMY_TRACK_MODIFICATIONS = False
     # SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:password@127.0.0.1/demo"
-    HOSTNAME = '127.0.0.1'
-    PORT = '3306'
-    DATABASE = 'wedding'
-    USERNAME = 'root'
-    PASSWORD = '123456'
+    # HOSTNAME = '127.0.0.1'
+    # PORT = '3306'
+    # DATABASE = 'wedding'
+    # USERNAME = 'root'
+    # PASSWORD = '123456'
     # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1/tushare?charset=utf8'
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME, PASSWORD, HOSTNAME, PORT,
-                                                                                   DATABASE)
-
-    SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
-
-    SQLALCHEMY_TRACK_MODIFICATIONS = True
+    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME, PASSWORD, HOSTNAME, PORT,
+    #                                                                                DATABASE)
+    #
+    # SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
+    #
+    # SQLALCHEMY_TRACK_MODIFICATIONS = True
     BASEDIR = basedir
     # 安全配置
     CSRF_ENABLED = True
@@ -146,12 +146,12 @@ class DevelopConfig(object):
     blackList = []
 
     # redis
-    RATELIMIT_STORAGE_URL = "redis://127.0.0.1:6379"  # 将被限制不可以再正常访问的请求放入缓存
+    # RATELIMIT_STORAGE_URL = "redis://127.0.0.1:6379"  # 将被限制不可以再正常访问的请求放入缓存
 
     # swagger
     SWAGGER_TITLE = "Lucky Blind Box API Doc"  # 配置大标题
     SWAGGER_DESC = "Flask Restful API Doc about shopping!"  # 配置公共描述内容
-    SWAGGER_HOST = "http://127.0.0.1:5555"  # 请求域名 http://localhost:5555/apidocs/
+    SWAGGER_HOST = "http://127.0.0.1:5678"  # 请求域名 http://localhost:5555/apidocs/
 
 
 if MODE == 'production':

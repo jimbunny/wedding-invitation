@@ -4565,3 +4565,158 @@
 2022-03-09 17:22:34,336 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:22:34] "GET /static/logo.png HTTP/1.1" 200 -
 2022-03-09 17:23:00,402 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:23:00] "GET /static/favicon.ico HTTP/1.1" 200 -
 2022-03-09 17:29:26,601 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:29:26] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-09 17:37:11,341 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-09 17:37:11,356 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-09 17:37:11,367 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-09 17:37:11,413 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-09 17:37:11,426 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-09 17:37:11,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-09 17:37:11,436 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-09 17:37:11,438 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-09 17:37:11,439 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:11] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-09 17:37:13,417 - _internal.py[line:225] - INFO: 127.0.0.1 - - [09/Mar/2022 17:37:13] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 08:52:07,644 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\app.py', reloading
+2022-03-10 08:52:08,209 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 08:53:42,981 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 08:53:44,422 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-10 08:53:44,426 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-10 08:53:44,486 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-10 09:01:33,795 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:33] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:01:47,391 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:01:47,402 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:01:47,412 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:01:47,450 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:01:47,451 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:01:47,452 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:01:47,455 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:01:47,460 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-10 09:01:47,463 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:47] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-10 09:01:49,270 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:01:49] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:02:08,076 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:02:08,080 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:02:08,083 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:02:08,111 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:02:08,122 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:02:08,127 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:02:08,134 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:02:08,139 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-10 09:02:08,141 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:02:08] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-10 09:14:38,241 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\webapp\\swipes.py', reloading
+2022-03-10 09:14:38,611 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 09:14:40,274 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-10 09:14:40,277 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-10 09:14:40,334 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-10 09:16:14,251 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:16:14,254 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:16:14,255 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:16:14,282 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:16:14,287 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:16:14,293 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:16:14,294 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:16:14,307 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-10 09:16:14,307 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:14] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-10 09:16:17,580 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:16:17,598 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:16:17,600 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:16:17,644 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:16:17,653 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:16:17,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:16:17,657 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:16:17,669 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-10 09:16:17,675 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:16:17] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-10 09:17:56,276 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/webapp/validLogin HTTP/1.1" 200 -
+2022-03-10 09:17:56,278 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:17:56,282 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:17:56,308 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:17:56,311 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:17:56,317 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:17:56,318 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:17:56,322 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/admin/image?_type=template&id=1 HTTP/1.1" 200 -
+2022-03-10 09:17:56,325 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:17:56] "GET /api/v1/admin/image?_type=template&id=2 HTTP/1.1" 200 -
+2022-03-10 09:20:28,734 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\setting.py', reloading
+2022-03-10 09:20:28,864 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 09:22:19,845 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 09:22:20,755 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-10 09:22:20,758 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-10 09:22:20,806 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-10 09:25:33,696 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\images.py', reloading
+2022-03-10 09:25:33,814 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 09:25:34,902 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-10 09:25:34,905 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-10 09:25:34,956 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-10 09:25:39,160 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\images.py', reloading
+2022-03-10 09:25:39,280 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-10 09:25:40,235 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-10 09:25:40,238 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-10 09:25:40,284 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-10 09:28:56,876 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-10 09:28:56,879 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "[31m[1mGET /api/v1/webapp/validLogin HTTP/1.1[0m" 411 -
+2022-03-10 09:28:56,882 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:28:56,883 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:28:56,884 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:28:56,885 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:28:56,917 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "[35m[1mGET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1[0m" 500 -
+2022-03-10 09:28:56,934 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:28:56,934 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:28:56,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:28:56,943 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:28:56] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:29:34,036 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-10 09:29:34,038 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "[31m[1mGET /api/v1/webapp/validLogin HTTP/1.1[0m" 411 -
+2022-03-10 09:29:34,041 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:29:34,041 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:29:34,043 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:29:34,043 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:29:34,066 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "[35m[1mGET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1[0m" 500 -
+2022-03-10 09:29:34,076 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:29:34,077 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:29:34,079 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:29:34,096 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-10 09:29:34,098 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "[31m[1mGET /api/v1/webapp/validLogin HTTP/1.1[0m" 411 -
+2022-03-10 09:29:34,102 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:29:34,105 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:29:34,107 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:29:34,108 - app.py[line:29] - ERROR: Got exception during processing: Expecting property name enclosed in double quotes: line 26 column 18 (char 750)
+2022-03-10 09:29:34,109 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:29:34,140 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:29:34,163 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:29:34,176 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:29:34,177 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:29:34,211 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:29:34] "[35m[1mGET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1[0m" 500 -
+2022-03-10 09:30:19,688 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-10 09:30:19,690 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:30:19,690 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "[31m[1mGET /api/v1/webapp/validLogin HTTP/1.1[0m" 411 -
+2022-03-10 09:30:19,694 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:30:19,722 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:30:19,724 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:30:19,728 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:30:19,729 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:30:19] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:32:09,397 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-10 09:32:09,400 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:32:09,402 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "[31m[1mGET /api/v1/webapp/validLogin HTTP/1.1[0m" 411 -
+2022-03-10 09:32:09,405 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:32:09,458 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:32:09,463 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:32:09,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:32:09,469 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:32:09] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:33:19,604 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:19] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:33:19,605 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:19] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:33:19,622 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:19] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:33:19,627 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:19] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:33:19,627 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:19] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:33:19,629 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:19] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:33:57,089 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:57] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:33:57,091 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:33:57] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:34:12,171 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:34:12] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:34:12,178 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:34:12] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:36:31,440 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:36:31,442 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:36:31,837 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 09:36:31,840 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-10 09:36:31,880 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:36:31,886 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:36:31,887 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:36:31,935 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=1 HTTP/1.1" 200 -
+2022-03-10 09:36:31,939 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=2 HTTP/1.1" 200 -
+2022-03-10 09:36:31,947 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=3 HTTP/1.1" 200 -
+2022-03-10 09:36:31,950 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:31] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -
+2022-03-10 09:36:32,052 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 09:36:32] "GET /api/v1/admin/image?_type=swipe&id=4 HTTP/1.1" 200 -

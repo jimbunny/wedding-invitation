@@ -4,14 +4,10 @@
 # datetime:2020/6/7 10:14 下午
 # software: PyCharm
 
-from flask import current_app, abort, Response
+from flask import Response
 from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
-from sqlalchemy.exc import SQLAlchemyError
-from app import hash_ids
-from models import db
 from common import code, pretty_result
-import base64
 import os
 
 
@@ -32,9 +28,7 @@ class ImageResource(Resource):
             """
         self.parser.add_argument("id", type=str, location="args", required=True)
         self.parser.add_argument("_type", type=str, location="args", required=True)
-        # self.parser.add_argument("dir", type=str, location="args")
         args = self.parser.parse_args()
-        img_stream = ''
         img_local_path = os.path.join("./downloads", args._type, str(args.id) + ".png")
         if os.path.exists(img_local_path):
             with open(img_local_path, 'rb') as f:

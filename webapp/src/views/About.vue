@@ -9,7 +9,7 @@
       <div style="margin: auto;">
         <div class="share-body" style="text-align: center;">
           <qr-code id="imageWrapper" :appSrc="appSrc" :logoSrc="logoSrc" :size="300"></qr-code>
-          <van-field :value="appSrc"/>
+          <van-field :value="appSrc" disabled/>
           <van-share-sheet
             v-model="showShare"
             :options="options"
@@ -18,7 +18,7 @@
             cancel-text="ยกเลิก"
           />
           <div style="margin: 16px;">
-            <van-button round block type="info"  @click="copyUrl()">copy</van-button>
+            <van-button round block type="info"  @click="goUrl(appSrc)">Add Friend</van-button>
           </div>
         </div>
       </div>
@@ -81,6 +81,9 @@ export default {
     
   },
   methods: {
+    goUrl(url){
+      window.location.href = url
+    },
     copyUrl() {
       this.$copyText(this.appSrc).then( e => {
         Toast("คัดลอกเรียบร้อย โปรดเพิ่มเพื่อนผ่าน Line");

@@ -13,7 +13,7 @@
     "type": "wedding",
     "source": "hunqing365",
     "pageViews": 503,
-    "coverUrl": "http://127.0.0.1:5678/api/v1/admin/image?_type=template&id=1",
+    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=1",
     "source": "hunqing365"
   },
     {
@@ -24,15 +24,13 @@
     "key": "4182616",
     "iframeUrl": "https://h5.hunbei.com/view/4182616",
     "isTanmu": 0,
-    "id": "2",
-    "key": "4182616",
     "tanmuColor": "#ae48bb",
     "greetings": "2",
     "color": "red",
     "type": "wedding",
     "source": "hunbei",
     "pageViews": 513,
-    "coverUrl": "http://127.0.0.1:5678/api/v1/admin/image?_type=template&id=2",
+    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=2",
     "source": "hunbei"
   }]
 }
