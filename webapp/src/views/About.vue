@@ -27,7 +27,7 @@ import navBar from '@/components/NavBar'
 
 export default {
   components: {
-    sHeader,
+    // sHeader,
     QrCode,
     navBar
   },// mixins: [Clipboard],
@@ -64,7 +64,7 @@ export default {
     box-sizing: border-box;
     padding: 20px;
     .about-body {
-      margin-top: 44px;
+      margin-top: 0px;
       font-size: 16px;
       a {
         color: #007fff;
