@@ -3,11 +3,11 @@
     <ul class="nav-list">
       <router-link tag="li" class="nav-list-item active" to="home">
         <i class="nbicon nblvsefenkaicankaoxianban-1"></i>
-        <span>Home</span>
+        <span>หน้าแรก</span>
       </router-link>
       <router-link tag="li" class="nav-list-item" to="about">
         <i class="nbicon nblvsefenkaicankaoxianban-"></i>
-        <span>About</span>
+        <span>ติดต่อ</span>
       </router-link>
     </ul>
   </div>

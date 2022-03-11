@@ -18,7 +18,7 @@
             cancel-text="ยกเลิก"
           />
           <div style="margin: 16px;">
-            <van-button round block type="info"  @click="goUrl(appSrc)">Add Friend</van-button>
+            <van-button round block type="info"  @click="goUrl(appSrc)">ติดต่อ UniEcard</van-button>
           </div>
         </div>
       </div>
