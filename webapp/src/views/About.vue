@@ -9,7 +9,7 @@
       <div style="margin: auto;">
         <div class="share-body" style="text-align: center;">
           <qr-code id="imageWrapper" :appSrc="appSrc" :logoSrc="logoSrc" :size="300"></qr-code>
-          <van-field :value="appSrc" disabled/>
+          <van-field input-align="center" :value="appSrc" disabled/>
           <van-share-sheet
             v-model="showShare"
             :options="options"
@@ -143,9 +143,5 @@ export default {
         color: #007fff;
       }
     }
-  }
-  .van-field__control:read-only {
-    cursor: default;
-    text-align: center;
   }
 </style>
