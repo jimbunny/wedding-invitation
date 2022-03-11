@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <s-header :name="'ติดต่อ'"></s-header>
+    <!-- <s-header :name="'ติดต่อ'"></s-header> -->
     <div class="about-body">
       <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">เกี่ยวกับเรา</van-divider>
       <div>Unicard
@@ -23,10 +23,6 @@
 <script>
 import sHeader from '@/components/SimpleHeader'
 import QrCode from '@/components/QrCode'
-import Clipboard from 'clipboard'
-import { Toast } from 'vant'
-import html2canvas from 'html2canvas';
-let Base64 = require('js-base64').Base64
 import navBar from '@/components/NavBar'
 
 export default {
