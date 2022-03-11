@@ -7,7 +7,7 @@ from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
 from flasgger import swag_from
-from flask import make_response, render_template, abort, jsonify, request
+from flask import make_response, render_template, abort, request
 import json
 import os
 
@@ -69,7 +69,6 @@ class H5GreetingsResource(Resource):
         self.parser = RequestParser()
 
     @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
-
 
     def post(self, id):
         """

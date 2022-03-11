@@ -4741,3 +4741,43 @@
 2022-03-10 14:40:41,901 - _internal.py[line:225] - WARNING:  * Debugger is active!
 2022-03-10 14:40:41,905 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
 2022-03-10 14:40:41,952 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-10 17:32:53,991 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 17:32:53] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-10 17:32:53,993 - _internal.py[line:225] - INFO: 127.0.0.1 - - [10/Mar/2022 17:32:53] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 09:04:57,743 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:04:57] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 09:04:57,745 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:04:57] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 09:21:40,314 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:21:40] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 09:21:40,316 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:21:40] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 09:47:52,022 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:47:52] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 09:47:52,027 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:47:52] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 09:47:55,358 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:47:55] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 09:47:55,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 09:47:55] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 12:46:08,304 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 12:46:08] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 12:46:08,307 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 12:46:08] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 12:46:45,821 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 12:46:45] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 12:46:45,826 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 12:46:45] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 12:49:18,453 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 12:49:18] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-11 12:49:18,461 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 12:49:18] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-11 17:22:42,248 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:22:43,056 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:22:43,068 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:22:43,112 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:23:04,998 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:23:04] "GET /api/v1/admin/template HTTP/1.1" 200 -
+2022-03-11 17:23:05,168 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:23:05,170 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:23:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:24:53,566 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\upload.py', reloading
+2022-03-11 17:24:53,674 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:24:54,562 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:24:54,565 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:24:54,613 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:25:15,542 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\upload.py', reloading
+2022-03-11 17:25:15,612 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:25:16,424 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:25:16,427 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:25:16,471 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:25:53,040 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-11 17:25:53,164 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:25:54,005 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:25:54,008 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:25:54,053 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:27:44,765 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\upload.py', reloading
+2022-03-11 17:27:44,866 - _internal.py[line:225] - INFO:  * Restarting with stat
