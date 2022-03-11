@@ -15,6 +15,8 @@ api = Api(api_v1_admin, catch_all_404s=True, serve_challenge_on_401=True, errors
 
 # image
 api.add_resource(images.ImageResource, '/image', endpoint='getImage')
+api.add_resource(images.UploadImageResource, '/images', endpoint='getImageFile')
+api.add_resource(images.UploadImageResource, '/images/uploader', endpoint='postImageFile')
 api.add_resource(upload.UploadTemplateResource, '/template', endpoint='getTemplateFile')
 api.add_resource(upload.UploadTemplateResource, '/template/uploader', endpoint='postTemplateFile')
 api.add_resource(upload.UploadSwipeResource, '/swipe', endpoint='getSwipeFile')

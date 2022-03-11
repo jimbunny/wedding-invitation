@@ -4781,3 +4781,91 @@
 2022-03-11 17:25:54,053 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-03-11 17:27:44,765 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\upload.py', reloading
 2022-03-11 17:27:44,866 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:31:56,503 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:31:57,312 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:31:57,315 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:31:57,360 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:33:29,450 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:33:29] "GET /api/v1/admin/template HTTP/1.1" 200 -
+2022-03-11 17:33:29,493 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:33:29,494 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:33:29] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:34:01,097 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:01] "POST /api/v1/admin/template/uploader HTTP/1.1" 200 -
+2022-03-11 17:34:01,233 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:34:01,234 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:01] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:34:21,995 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:34:21,996 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:34:25,674 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:25] "GET /api/v1/admin/template HTTP/1.1" 200 -
+2022-03-11 17:34:25,698 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:34:25,700 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:25] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:34:34,898 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:34] "POST /api/v1/admin/template/uploader HTTP/1.1" 200 -
+2022-03-11 17:34:35,199 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:34:35,200 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:35] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:34:42,802 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:34:42,803 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:34:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:35:08,339 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:08] "POST /api/v1/admin/template/uploader HTTP/1.1" 200 -
+2022-03-11 17:35:08,418 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:35:08,418 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:08] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:35:09,830 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:35:09,831 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:09] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:35:19,045 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:19] "GET /api/v1/admin/swipe HTTP/1.1" 200 -
+2022-03-11 17:35:19,084 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:35:19,085 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:19] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:35:30,332 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:30] "POST /api/v1/admin/swipe/uploader HTTP/1.1" 200 -
+2022-03-11 17:35:30,635 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:35:30,636 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:35:30] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:38:53,197 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:38:53] "POST /api/v1/admin/swipe/uploader HTTP/1.1" 200 -
+2022-03-11 17:38:53,278 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:38:53,279 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:38:53] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:39:21,315 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:39:21] "POST /api/v1/admin/template/uploader HTTP/1.1" 200 -
+2022-03-11 17:39:21,613 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:39:21,614 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:39:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:41:32,010 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\routes\\api_v1_admin.py', reloading
+2022-03-11 17:41:32,086 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:48:03,146 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:48:03,966 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:48:03,969 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:48:04,014 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:48:37,618 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:48:37,620 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:48:37] "[31m[1mGET /api/v1/admin/upload/image HTTP/1.1[0m" 411 -
+2022-03-11 17:48:37,727 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:48:37,727 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:48:37] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:48:57,852 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:48:57,853 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:48:57] "[31m[1mGET /api/v1/admin/upload/image HTTP/1.1[0m" 411 -
+2022-03-11 17:48:57,880 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:48:57,881 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:48:57] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:49:17,531 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:17,532 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:17] "[31m[1mGET /api/v1/admin/upload/image HTTP/1.1[0m" 411 -
+2022-03-11 17:49:17,562 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:17,563 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:49:23,448 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:23,449 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:23] "[31m[1mGET /api/v1/admin/upload/image HTTP/1.1[0m" 411 -
+2022-03-11 17:49:23,473 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:23,474 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:23] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:49:28,944 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:28,945 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:28] "[31m[1mGET /api/v1/admin/templaet HTTP/1.1[0m" 411 -
+2022-03-11 17:49:28,989 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:28,991 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:28] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:49:33,409 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:33] "GET /api/v1/admin/template HTTP/1.1" 200 -
+2022-03-11 17:49:33,450 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:49:33,451 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:49:33] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:50:02,866 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:50:02] "[32mGET /api/v1/admin//upload/image HTTP/1.1[0m" 308 -
+2022-03-11 17:50:02,872 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:50:02,873 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:50:02] "[31m[1mGET /api/v1/admin/upload/image HTTP/1.1[0m" 411 -
+2022-03-11 17:50:02,941 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:50:02,941 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:50:02] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:50:30,483 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\routes\\api_v1_admin.py', reloading
+2022-03-11 17:50:30,556 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:50:31,403 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:50:31,406 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:50:31,450 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:50:44,034 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\admin\\images.py', reloading
+2022-03-11 17:50:44,108 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-11 17:50:44,936 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-11 17:50:44,939 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-11 17:50:44,984 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-11 17:51:21,734 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:51:21,735 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:51:21] "[31m[1mGET /api/v1/admin/upload/image HTTP/1.1[0m" 411 -
+2022-03-11 17:51:21,770 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:51:21,771 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:51:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-11 17:51:27,345 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:51:27] "GET /api/v1/admin/images HTTP/1.1" 200 -
+2022-03-11 17:51:27,373 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-11 17:51:27,373 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:51:27] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -

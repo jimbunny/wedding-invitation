@@ -10,7 +10,6 @@ from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
 from flask import make_response, render_template, abort, request
 import os
-from werkzeug.utils import secure_filename
 
 root = os.path.abspath(os.path.join(os.getcwd()))
 headers = {'Content-Type': 'text/html'}
