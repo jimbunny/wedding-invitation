@@ -14,7 +14,7 @@
     "type": "wedding",
     "source": "hunliji",
     "pageViews": 533,
-    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=3"
+    "coverUrl": "https://www.uniecard.com/api/v1/admin/image?_type=template&id=3"
   },
     {
     "title": "橙色现代简约时尚婚礼邀请函请柬请帖",
@@ -30,7 +30,7 @@
     "type": "wedding",
     "source": "hunbei",
     "pageViews": 513,
-    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=2"
+    "coverUrl": "https://www.uniecard.com/api/v1/admin/image?_type=template&id=2"
   },{
     "title": "橙色现代简约时尚婚礼邀请函请柬请帖",
     "description": "橙色现代简约时尚婚礼邀请函请柬请帖，微信电子邀请函、请柬、请帖模板",
@@ -45,6 +45,6 @@
     "type": "wedding",
     "source": "hunqing365",
     "pageViews": 503,
-    "coverUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=template&id=1"
+    "coverUrl": "https://www.uniecard.com/api/v1/admin/image?_type=template&id=1"
   }]
 }
