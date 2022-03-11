@@ -15,7 +15,7 @@
     <swiper :list="swiperList"></swiper>
 
     <div class="good"  :style="{ paddingBottom: '50px'}">
-      <header class="good-header">template</header>
+      <header class="good-header">รูปแบบเทมเพลต</header>
       <div class="good-box">
         <div class="good-item" v-for="item in templates" :key="item.id" @click="goToTemplateShow(item.key)">
           <img :src="prefix(item.coverUrl)" alt="">
@@ -23,7 +23,7 @@
             <div class="title"  style="margin-bottom:5px;">
               {{ item.name }}
             </div>
-            <div class="price">pageViews: {{ item.pageViews }} </div>
+            <div class="price">จำนวนเข้าชม: {{ item.pageViews }} </div>
           </div>
         </div>
       </div>
@@ -99,12 +99,12 @@ export default {
         value: e.detail,
       });
     },
-    onSearch() {
-      Toast('搜索' + this.data.key);
-    },
-    onClick() {
-      Toast('搜索' + this.data.key);
-    },
+    // onSearch() {
+    //   Toast('搜索' + this.data.key);
+    // },
+    // onClick() {
+    //   Toast('搜索' + this.data.key);
+    // },
     TemplateList() {
       getTemplateList(this.queryForm).then((res) => {
       const { code, msg, data } = res;
