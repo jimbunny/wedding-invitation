@@ -146,7 +146,7 @@ export default {
         font-size: 14px;
       }
     }
-    .cart-body {
+    .work-body {
       margin: 60px 0 100px 0;
       padding-left: 10px;
       .good-item {

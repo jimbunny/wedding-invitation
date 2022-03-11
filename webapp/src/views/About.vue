@@ -2,7 +2,7 @@
   <div class="about">
     <s-header :name="'About'"></s-header>
     <div class="about-body">
-      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">introduce</van-divider>
+      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">เกี่ยวกับเรา</van-divider>
       <div>Unicard
       </div>
       <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }"></van-divider>
@@ -143,5 +143,9 @@ export default {
         color: #007fff;
       }
     }
+  }
+  .van-field__control:read-only {
+    cursor: default;
+    text-align: center;
   }
 </style>
