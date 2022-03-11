@@ -2,8 +2,19 @@
   <div class="about">
     <!-- <s-header :name="'ติดต่อ'"></s-header> -->
     <div class="about-body">
-      <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">เกี่ยวกับเรา</van-divider>
-      <div>Unicard
+       <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }">เกี่ยวกับเรา</van-divider>
+        <div>
+        UniEcard (ยูนิอีการ์ด) จะทำให้การ์ดแต่งงานของคุณแตกต่าง น่าจดจำ และประทับใจมากยิ่งขึ้นมากกว่าเดิม ทางเราให้บริการการ์ดแต่งงานในรูปแบบออนไลน์ โดยว่าที่เจ้าบ่าวเจ้าสาว สามารถแชร์ความรักของท่านผ่านทางโซเชียลมีเดีย (Social Media) ได้อย่างเต็มที่ ผู้รับชมจะได้รับประสบการณ์ความรักและเป็นพยานรักของท่านในครั้งนี้ ที่ต่างออกไปจากรูปแบบเดิมโดยสิ้นเชิง
+        <br><br>
+        ขั้นตอนการสั่งซื้อ<br>
+        (1) เลือกรูปแบบเทมเพลต<br>
+        (2) ติดต่อ UniEcard ทางไลน์<br>
+        (3) เลือกโปรโมชั่นและฟังก์ชั่นของการ์ด<br>
+        (4) วางเงินมัดจำ และจัดเตรียมข้อมูลให้ UniEcard<br>
+        (5) UniEcard ส่งแบบร่างการ์ด<br>
+        (6) จ่ายเงินส่วนสุดท้าย พร้อมรับ UniEcard<br>
+        <br>  
+        หมายเหตุ ลูกค้าจะได้การ์ดแต่งงานออนไลน์รูปแบบ Link และสามารถแก้ไขข้อมูลได้ตามจำนวนครั้งของโปรโมชั่นที่ซ
       </div>
       <van-divider :style="{ color: 'rgb(23, 157, 254)', borderColor: 'rgb(23, 157, 254)', fontSize: '20px', fontWeight: 500 }"></van-divider>
       <div style="margin: auto;">
@@ -66,6 +77,7 @@ export default {
     .about-body {
       margin-top: 0px;
       font-size: 16px;
+      padding-bottom: 50px;
       a {
         color: #007fff;
       }
