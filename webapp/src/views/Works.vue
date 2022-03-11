@@ -37,7 +37,7 @@ export default {
   async mounted() {
     // this.startLoading()
     const { id } = this.$route.params
-    this.iframeUrl = 'http://182.160.15.72:5678/api/v1/h5/work/' + id.toString()
+    this.iframeUrl = 'https://www.uniecard.com/api/v1/h5/work/' + id.toString()
       
     // const { iframe } = this.$refs;
     // // IE和非IE浏览器，监听iframe加载事件不一样，需要兼容
