@@ -1,22 +1,22 @@
 {
   "data": [{
     "name": "swipe1",
-    "carouselUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=swipe&id=1",
+    "carouselUrl": "https://www.uniecard.com/api/v1/admin/image?_type=swipe&id=1",
     "redirectUrl": "http://www.uniecard.com/work/H5t8so51148n"
   },
     {
     "name": "swipe2",
-    "carouselUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=swipe&id=2",
+    "carouselUrl": "https://www.uniecard.com/api/v1/admin/image?_type=swipe&id=2",
     "redirectUrl": "http://www.uniecard.com/work/H5t8so51148n"
   },
   {
     "name": "swipe3",
-    "carouselUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=swipe&id=3",
+    "carouselUrl": "https://www.uniecard.com/api/v1/admin/image?_type=swipe&id=3",
     "redirectUrl": "http://www.uniecard.com/work/H5t8so51148n"
   },
   {
     "name": "swipe4",
-    "carouselUrl": "http://182.160.15.72:5678/api/v1/admin/image?_type=swipe&id=4",
+    "carouselUrl": "https://www.uniecard.com/api/v1/admin/image?_type=swipe&id=4",
     "redirectUrl": "http://www.uniecard.com/work/H5t8so51148n"
   }]
 }
