@@ -72,7 +72,8 @@ export default {
       Toast.clear()
     },
     goToAbout() {
-      this.$router.push({ path: '/about' })
+      // this.$router.push({ path: '/about' })
+      window.location.href="https://lin.ee/qO0UuXf"
     },
     goToHome() {
       this.$router.push({ path: '/home' })

@@ -22,7 +22,8 @@
           <qr-code id="imageWrapper" :appSrc="appSrc" :logoSrc="logoSrc" :size="300"></qr-code>
           <van-field input-align="center" :value="appSrc" disabled/>
           <div style="margin: 16px;">
-            <van-button round block type="info"  @click="goUrl(appSrc)">ติดต่อ UniEcard</van-button>
+            <van-button round block style="background-color:#00b901;" @click="goUrl(appSrc)"><img height="44" border="0" style="margin-top:5px;" src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png"></van-button>
+            <!-- <a href=" " style="width:100%;"><img height="36" border="0" src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png"></a > zzzzzzติดต่อ UniEcard-->
           </div>
         </div>
       </div>
@@ -51,7 +52,7 @@ export default {
     appSrc:{
       //getter
       get:function(){
-        return 'https://line.me/ti/p/ygpofTh9w1'
+        return 'https://lin.ee/qO0UuXf'
       },
       //setter
       set:function(newValue){

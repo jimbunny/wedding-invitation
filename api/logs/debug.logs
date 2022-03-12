@@ -4869,3 +4869,17 @@
 2022-03-11 17:51:27,345 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:51:27] "GET /api/v1/admin/images HTTP/1.1" 200 -
 2022-03-11 17:51:27,373 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 2022-03-11 17:51:27,373 - _internal.py[line:225] - INFO: 127.0.0.1 - - [11/Mar/2022 17:51:27] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-12 18:40:17,744 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-12 18:40:17,746 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-12 18:40:18,258 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-12 18:40:18,270 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-12 18:43:00,821 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:43:00] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-12 18:43:00,822 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:43:00] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-12 18:54:33,256 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:54:33] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-12 18:54:33,257 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:54:33] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-12 18:55:06,980 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:55:06] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-12 18:55:06,989 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:55:06] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-12 18:57:46,325 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:57:46] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-12 18:57:46,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:57:46] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-12 18:57:57,768 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:57:57] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-12 18:57:57,771 - _internal.py[line:225] - INFO: 127.0.0.1 - - [12/Mar/2022 18:57:57] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
