@@ -40,6 +40,9 @@ class UploadTemplateResource(Resource):
         file = request.files['file']
         # secure_filename方法会去掉文件名中的中文
         file_name = 'management.json'
+        dirs = os.path.join('data', 'template')
+        if not os.path.exists(dirs):
+            os.makedirs(dirs)
         file.save(os.path.join('data', 'template', file_name))
         return pretty_result(code.OK)
 
@@ -69,5 +72,8 @@ class UploadSwipeResource(Resource):
         file = request.files['file']
         # secure_filename方法会去掉文件名中的中文
         file_name = 'swipe.json'
+        dirs = os.path.join('data', 'template')
+        if not os.path.exists(dirs):
+            os.makedirs(dirs)
         file.save(os.path.join('data', 'template', file_name))
         return pretty_result(code.OK)
