@@ -43,6 +43,7 @@ class ProductionConfig(object):
     #                                                                                DATABASE)
     # SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
     # SQLALCHEMY_TRACK_MODIFICATIONS = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     BASEDIR = basedir
     # 安全配置
     CSRF_ENABLED = True
@@ -116,6 +117,7 @@ class DevelopConfig(object):
     # SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
     #
     # SQLALCHEMY_TRACK_MODIFICATIONS = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     BASEDIR = basedir
     # 安全配置
     CSRF_ENABLED = True
