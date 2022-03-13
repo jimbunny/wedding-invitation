@@ -68,8 +68,8 @@ class UploadImageResource(Resource):
         file = request.files['file']
         # secure_filename方法会去掉文件名中的中文
         filename = secure_filename(file.filename)
-        dirs = os.path.join('download', 'template', filename)
+        dirs = os.path.join(root, 'downloads', 'template')
         if not os.path.exists(dirs):
             os.makedirs(dirs)
-        file.save(os.path.join('download', 'template', filename))
+        file.save(os.path.join(root, 'downloads', 'template', filename))
         return pretty_result(code.OK)
