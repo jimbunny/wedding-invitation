@@ -123,7 +123,7 @@ def create_app(config):
         return request.remote_addr in app.config.get('whiteList', ['127.0.0.1'])
 
     # 数据库初始化
-    db.init_app(app)
+    # db.init_app(app)
     limiter.init_app(app)
     register_blueprints(app)
 
