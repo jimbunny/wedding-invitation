@@ -5121,3 +5121,16 @@
 2022-03-14 16:29:13,432 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:29:13] "GET /static/favicon.ico HTTP/1.1" 200 -
 2022-03-14 16:36:16,668 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-14 16:36:16,899 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 16:36:55,122 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 16:36:56,040 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 16:36:56,045 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 16:36:56,094 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 16:37:09,485 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:37:09] "GET /api/v1/admin/product HTTP/1.1" 200 -
+2022-03-14 16:37:09,647 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-14 16:37:09,649 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:37:09] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-14 16:40:53,160 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-14 16:40:53,161 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:40:53] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-14 16:49:24,638 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:49:24] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 16:49:40,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:49:40] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 16:50:39,672 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-03-14 16:50:39,792 - _internal.py[line:225] - INFO:  * Restarting with stat

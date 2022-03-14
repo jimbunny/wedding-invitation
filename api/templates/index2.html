@@ -326,7 +326,7 @@
             </div>
                 <div style="z-index:99;height: 150px;position: absolute;bottom: 100px;left: 10px; visibility:hidden;" id="tanmu">
                 <marquee behavior="scroll" direction="up" scrollamount="2" id="mar">
-                    <font size="2px" class = "tanmu">{{ data.greetings }}</font>
+{#                    <font size="2px" class = "tanmu">{{ data.greetings }}</font>#}
                    {% for k in data.greetings %}
                         </br>
                         <font size="2px" class = "tanmu">{{ k }}</font>
@@ -508,7 +508,8 @@
                     if (result.code == 0) {
                         $("#myModal").modal('hide');
                         var tanmu = $("#mar")
-                        var contect = '<font size=\"2px\" class = \"tanmu\">uniEcard:Congratulations and best wishes.</font>'
+                        {#var contect = '<font size=\"2px\" class = \"tanmu\">uniEcard:Congratulations and best wishes.</font>'#}
+                        var contect = ""
                         for (var i=0;i<result.data.length;i++)
                         {
                             contect = contect + '</br>\n' + '<font size="2px" class = "tanmu">'+result.data[i]+'</font>'
