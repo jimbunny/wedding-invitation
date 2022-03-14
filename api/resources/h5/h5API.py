@@ -43,8 +43,6 @@ class H5Resource(Resource):
                         data = item
                         break
             if data.get("isTanmu") == 1:
-                return make_response(render_template('index2.html', data=data), 200, headers)
-            else:
                 greetings = []
                 path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".txt")
                 try:
@@ -53,6 +51,8 @@ class H5Resource(Resource):
                 except FileNotFoundError:
                     open(path, 'a').close()
                 data['greetings'] = greetings
+                return make_response(render_template('index2.html', data=data), 200, headers)
+            else:
                 return make_response(render_template('index.html', data=data), 200, headers)
         except IndexError:
             abort(404)
@@ -124,7 +124,7 @@ class H5GreetingsResource(Resource):
         greetings = request.form.get("greetings")
         path = os.path.join(root, "data", "template", "greetings", str(id) + ".txt")
         with open(path, 'a+', encoding="utf8") as f:
-            f.write(str(name)+"："+str(greetings) + "\n")
+            f.write(str(name)+":"+str(greetings) + "\n")
         greetings = []
         f = open(path)  # 返回一个文件对象
         line = f.readline()  # 调用文件的 readline()方法

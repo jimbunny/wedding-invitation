@@ -235,12 +235,14 @@
         width: auto;
         margin: 0px;
     }
+      #wish {
+          display:none;
+      }
     .wishBtn {
-        display:none;
         z-index:999;
         position: absolute;
-        bottom: 30px;
-        left: 15px;
+        bottom: 5px;
+        right: 15px;
         -webkit-box-flex: 1;
         -webkit-flex: 1;
         -ms-flex: 1;
@@ -255,7 +257,7 @@
         background: rgba(0,0,0,.35);
         padding-left: 20px;
         height: 30px;
-        width: 90%;
+        width: 150px;
         line-height: 0.5;
     }
     .tanmu {
@@ -273,14 +275,20 @@
         border-bottom: 0px solid #e5e5e5;
     }
     .btn-primary {
-        color: #fff;
-        background-color: #6342ca;
-        border-color: #6342ca;
+        color: #fff !important;
+        background-color: #6342ca !important;
+        border-color: #6342ca !important;
     }
     .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-        color: #fff;
-        background-color: #6342ca;
-        border-color: #6342ca;
+        color: #fff !important;
+        background-color: #6342ca !important;
+        border-color: #6342ca !important;
+    }
+    .btn-lg, .btn-group-lg>.btn {
+        padding: 10px 16px !important;
+        font-size: 18px !important;
+        line-height: 0.33 !important;
+        border-radius: 6px !important;
     }
     </style>
     <script type="text/javascript">
@@ -324,7 +332,7 @@
               <div style="text-align:center; height: 100%; visibility:hidden;" id="iframe">
                 <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
             </div>
-                <div style="z-index:99;height: 150px;position: absolute;bottom: 100px;left: 10px; visibility:hidden;" id="tanmu">
+                <div style="z-index:99;max-height: 150px;position: absolute;bottom: 35px;left: 10px; visibility:hidden;" id="tanmu">
                 <marquee behavior="scroll" direction="up" scrollamount="2" id="mar">
 {#                    <font size="2px" class = "tanmu">{{ data.greetings }}</font>#}
                    {% for k in data.greetings %}
@@ -333,10 +341,10 @@
                     {% endfor %}
                 </marquee>
                 </div>
-                <button class="btn btn-primary btn-lg wishBtn" data-toggle="modal" data-target="#myModal" id="wish"><p >ฝากคำอวยพร.....</p></button>
+                <button class="btn btn-primary btn-lg wishBtn" data-toggle="modal" data-target="#myModal" id="wish"><p >ฝากคำอวยพร</p></button>
                 <!-- 模态框（Modal） -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div style="width:100%;" class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>

@@ -5134,3 +5134,61 @@
 2022-03-14 16:49:40,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 16:49:40] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
 2022-03-14 16:50:39,672 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-14 16:50:39,792 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 17:07:13,616 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 17:07:14,494 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 17:07:14,497 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 17:07:14,547 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 17:07:15,417 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:15] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:07:15,458 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:15] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-14 17:07:15,458 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-14 17:07:15,465 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:15] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-14 17:07:15,467 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-14 17:07:15,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:15] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-14 17:07:18,566 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:07:18] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-14 17:08:46,668 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:08:46] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:09:03,410 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:09:03] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:09:17,163 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:09:17] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:09:54,077 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:09:54] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:10:20,307 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:20] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:10:20,340 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-14 17:10:20,342 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-14 17:10:20,344 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:20] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-14 17:10:20,345 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-14 17:10:20,346 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:20] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-14 17:10:21,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:10:21] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-14 17:12:14,777 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:12:14] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:12:47,025 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:12:47] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:14:04,083 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:14:04] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+2022-03-14 17:14:06,856 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:14:06] "POST /api/v1/h5/greetings/4 HTTP/1.1" 200 -
+2022-03-14 17:15:07,834 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:15:07] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:19:17,804 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-14 17:19:17,909 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 17:19:18,870 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 17:19:18,879 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 17:19:18,925 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 17:19:28,965 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:19:28] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:19:56,091 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:19:56] "POST /api/v1/h5/greetings/4 HTTP/1.1" 200 -
+2022-03-14 17:20:30,077 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-14 17:20:30,186 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 17:20:31,220 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 17:20:31,223 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 17:20:31,269 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 17:20:32,543 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:20:32] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:22:11,215 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:22:11] "POST /api/v1/h5/greetings/4 HTTP/1.1" 200 -
+2022-03-14 17:22:48,520 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-14 17:22:48,610 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 17:22:49,504 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 17:22:49,507 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 17:22:49,553 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 17:23:01,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:23:01] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:25:07,800 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-14 17:25:07,878 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 17:25:08,788 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 17:25:08,791 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 17:25:08,837 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 17:25:09,820 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:25:09] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:27:22,386 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:27:22] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:27:33,460 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:27:33] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:27:42,589 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 17:27:42] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-14 17:28:01,674 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-03-14 17:28:01,766 - _internal.py[line:225] - INFO:  * Restarting with stat
