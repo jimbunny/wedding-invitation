@@ -1,21 +1,30 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>{{ data.title }}</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta id="metaDescription" itemprop="description" name="description" content="{{ data.description }}">
+    <meta itemprop="image" content="{{ data.ThumbnailUrl }}">
     <title>{{ data.title }}</title>
-    <link href="/static/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="/static/js/jquery.min.js"></script>
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="/static/js/bootstrap.min.js"></script>
-    <!-- 表单验证 -->
-    <link href="/static/css/bootstrapValidator.min.css" rel="stylesheet">
-    <script src="/static/js/bootstrapValidator.min.js"></script>
+    <meta itemprop="name" content="{{ data.title }}"/>
+    <meta itemprop="image" content="{{ data.ThumbnailUrl }}"/>
+    <meta property="og:image" content="{{ data.ThumbnailUrl }}"/>
+    <meta name="description" itemprop="description" content="{{ data.description }}"/>
+    <link href="{{ data.ThumbnailUrl }}" rel="shortcut icon">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1111390818569849"
+     crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-40Z887Z33T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-40Z887Z33T');
+    </script>
     <style type="text/css">
         html, body {
             margin: 0 0;
@@ -28,110 +37,350 @@
             width: 100%;
             height: 100%;
         }
-        .modal-dialog {
-            position: relative;
-            width: auto;
-            margin: 0px;
+        .loading{
+            width: 150px;
+            height: 15px;
+            margin: 0 auto;
         }
-        .wishBtn {
-            display:none;
-            z-index:999;
-            position: absolute;
-            bottom: 30px;
-            left: 15px;
-            -webkit-box-flex: 1;
-            -webkit-flex: 1;
-            -ms-flex: 1;
-            filter:Alpha(opacity=0.3);
-            -moz-opacity:0.3;
-            opacity:0.3;
-            flex: 1;
-            border: 0;
-            color: #fff;
-            -ms-flex-align: center;
-            border-radius: 0.96rem;
-            background: rgba(0,0,0,.35);
-            padding-left: 20px;
-            height: 30px;
-            width: 90%;
-            line-height: 0.5;
+        .loading span{
+            display: inline-block;
+            width: 15px;
+            height: 100%;
+            margin-right: 5px;
+            border-radius: 50%;
+            background: #f2b1ce;
+            -webkit-animation: load 1.04s ease infinite;
         }
-        .tanmu {
-            padding:2px;
-            margin-left:10px;
-            color:white;
-            background-color:{{ data.tanmuColor }};
-            border-radius:5px;
-            padding-left:5px;
-            padding-right:5px;
+        .loading span:last-child{
+            margin-right: 0px;
         }
-        .modal-header {
-            min-height: 16.43px;
-            padding: 5px;
-            border-bottom: 0px solid #e5e5e5;
+        @-webkit-keyframes load{
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
         }
-        .btn-primary {
-            color: #fff;
-            background-color: #6342ca;
-            border-color: #6342ca;
+        .loading span:nth-child(1){
+            -webkit-animation-delay:0.13s;
         }
-        .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-            color: #fff;
-            background-color: #6342ca;
-            border-color: #6342ca;
+        .loading span:nth-child(2){
+            -webkit-animation-delay:0.26s;
         }
+        .loading span:nth-child(3){
+            -webkit-animation-delay:0.39s;
+        }
+        .loading span:nth-child(4){
+            -webkit-animation-delay:0.52s;
+        }
+        .loading span:nth-child(5){
+            -webkit-animation-delay:0.65s;
+        }
+    </style>
+
+    <style>
+    /*
+      scss 文件，用来生成下面一段 style 中的 css
+      css 在线转 css：https://www.sassmeister.com/
+    */
+    /* * {
+      outline: none;
+    }
+
+    .bg-wrapper {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    }
+
+    .preview-wrapper {
+      position: relative;
+      display: flex;
+      flex-wrap: nowrap;
+      width: 320px;
+      height: 568px;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .phone-wrapper {
+        position: absolute;
+        width: 320px;
+        height: 568px;
+        display: inline-block;
+        background: #fff;
+        box-sizing: content-box;
+        border: 10px solid #f6f6f6;
+      }
+
+      .float-shortcuts {
+        position: absolute;
+        top: 100px;
+        right: 0;
+
+        .page-controller {
+          position: absolute;
+          left: 0 !important;
+          display: block;
+          box-sizing: border-box;
+          width: 48px;
+          height: 25px;
+          padding: 4px;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+
+          cursor: pointer;
+          background: #2096f9;
+          font-size: 12px;
+          border: 1px solid #2096f9;
+          color: #fff;
+
+          &.next {
+            top: 80px;
+          }
+        }
+      }
+
+      .work-info {
+        color: #4a4a4a;
+        font-size: 14px;
+        margin-left: 380px;
+
+        .qrcode-wrapper {
+          .qrcode-label {
+          }
+
+          .qrcode-img {
+          }
+        }
+      }
+    } */
+  </style>
+  <style>
+    * {
+      outline: none;
+    }
+
+    .bg-wrapper {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    }
+    /* .swiper-container {
+      width: 100%;
+      height: 100vh;
+    } */
+
+    .preview-wrapper {
+      position: relative;
+      display: flex;
+      flex-wrap: nowrap;
+      width: 320px;
+      height: 568px;
+      /* position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .preview-wrapper .phone-wrapper {
+      position: absolute;
+      width: 320px;
+      height: 568px;
+      display: inline-block;
+      background: #fff;
+      box-sizing: content-box;
+      border: 10px solid #f6f6f6;
+    }
+    .preview-wrapper .float-shortcuts {
+      position: absolute;
+      top: 100px;
+      right: 0;
+    }
+    .preview-wrapper .float-shortcuts .page-controller {
+      position: absolute;
+      left: 0 !important;
+      display: block;
+      box-sizing: border-box;
+      width: 48px;
+      height: 22px;
+      padding: 4px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      cursor: pointer;
+      background: #2096f9;
+      font-size: 12px;
+      /* border: 1px solid #2096f9; */
+      color: #fff;
+    }
+    .preview-wrapper .float-shortcuts .page-controller.next {
+      top: 40px;
+    }
+    .preview-wrapper .work-info {
+      color: #4a4a4a;
+      font-size: 14px;
+      margin-left: 380px;
+    }
+
+  .modal-dialog {
+        position: relative;
+        width: auto;
+        margin: 0px;
+    }
+    .wishBtn {
+        display:none;
+        z-index:999;
+        position: absolute;
+        bottom: 30px;
+        left: 15px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        filter:Alpha(opacity=0.3);
+        -moz-opacity:0.3;
+        opacity:0.3;
+        flex: 1;
+        border: 0;
+        color: #fff;
+        -ms-flex-align: center;
+        border-radius: 0.96rem;
+        background: rgba(0,0,0,.35);
+        padding-left: 20px;
+        height: 30px;
+        width: 90%;
+        line-height: 0.5;
+    }
+    .tanmu {
+        padding:2px;
+        margin-left:10px;
+        color:white;
+        background-color:{{ data.tanmuColor }};
+        border-radius:5px;
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .modal-header {
+        min-height: 16.43px;
+        padding: 5px;
+        border-bottom: 0px solid #e5e5e5;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #6342ca;
+        border-color: #6342ca;
+    }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: #6342ca;
+        border-color: #6342ca;
+    }
     </style>
     <script type="text/javascript">
         function iframeHeight() {
             document.getElementById('iframeId').height = "100%";
         }
     </script>
+    <link href="/static/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="/static/js/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- 表单验证 -->
+    <link href="/static/css/bootstrapValidator.min.css" rel="stylesheet">
+    <script src="/static/js/bootstrapValidator.min.js"></script>
 </head>
-<body style="height: 100%">
-    <div style="text-align:center; height: 100%">
-        <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
-    </div>
-    <div style="z-index:99;height: 150px;position: absolute;bottom: 10px;left: 10px; visibility:hidden;" id="tanmu">
- 	<marquee behavior="scroll" direction="up" scrollamount="2" id="mar">
-        <font size="2px" class = "tanmu">uniEcard:hello</font>
-       {% for k in data.greetings %}
-            </br>
-            <font size="2px" class = "tanmu">{{ k }}</font>
-        {% endfor %}
-    </marquee>
-    </div>
-	<button class="btn btn-primary btn-lg wishBtn" data-toggle="modal" data-target="#myModal" id="wish"><p >ฝากคำอวยพร.....</p></button>
-    <!-- 模态框（Modal） -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">อวยพร</h4>
+<body id="viewport" style="height: 100%">
+<div>
+    <img src='{{ data.ThumbnailUrl }}' style='height:0;width:0;overflow:hidden;display:block;'/>
+</div>
+<div class="bg-wrapper"></div>
+  <div class="preview-wrapper">
+    <div class="phone-wrapper">
+{#      <div class="float-shortcuts">#}
+{#        <a class="page-controller swiper-button-prev prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">preview</a>#}
+{#        <a class="page-controller swiper-button-next next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">next</a>#}
+{#      </div>#}
+      <div id="app" style="height: 100%;">
+          <div id="work-container" data-work-id="1" style="position: relative; height: 100%;">
+            <div id="load" style="text-align:center;margin-top:100px;">
+                <img style="width:250px;" src="https://i.ibb.co/YRpd6LH/logo.png"  alt="logo" />
+                <div class="loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="modal-body">
-                    <form action="" id="form" class="form-horizontal">
-                      <div class="form-group">
-                        <div class="col-md-24" style="padding-left:10px;padding-right: 10px;">
-                          <input type="text" class="form-control" name="name"  placeholder="สกุล" />
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="col-md-24" style="padding-left:10px;padding-right: 10px;">
-                          <input type="text" class="form-control" name="greetings" placeholder="คำอวยพร" />
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="col-md-24 col-md-offset-2" style="padding-left:10px;padding-right: 10px;">
-                          <button id="subBtn" type="submit" class="btn btn-primary" style="width:100%;">ส่ง</button>
-                        </div>
-                      </div>
-                    </form>
+            </div>
+              <div style="text-align:center; height: 100%; visibility:hidden;" id="iframe">
+                <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
+            </div>
+                <div style="z-index:99;height: 150px;position: absolute;bottom: 100px;left: 10px; visibility:hidden;" id="tanmu">
+                <marquee behavior="scroll" direction="up" scrollamount="2" id="mar">
+                    <font size="2px" class = "tanmu">{{ data.greetings }}</font>
+                   {% for k in data.greetings %}
+                        </br>
+                        <font size="2px" class = "tanmu">{{ k }}</font>
+                    {% endfor %}
+                </marquee>
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
+                <button class="btn btn-primary btn-lg wishBtn" data-toggle="modal" data-target="#myModal" id="wish"><p >ฝากคำอวยพร.....</p></button>
+                <!-- 模态框（Modal） -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title" id="myModalLabel">อวยพร</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" id="form" class="form-horizontal">
+                                  <div class="form-group">
+                                    <div class="col-md-24" style="padding-left:10px;padding-right: 10px;">
+                                      <input type="text" class="form-control" name="name"  placeholder="สกุล" />
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-md-24" style="padding-left:10px;padding-right: 10px;">
+                                      <input type="text" class="form-control" name="greetings" placeholder="คำอวยพร" />
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-md-24 col-md-offset-2" style="padding-left:10px;padding-right: 10px;">
+                                      <button id="subBtn" type="submit" class="btn btn-primary" style="width:100%;">ส่ง</button>
+                                    </div>
+                                  </div>
+                                </form>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+   	    </div>
+      </div>
     </div>
-    <!-- /.modal -->
+    <div class="work-info">
+      <div class="qrcode-wrapper">
+        <div class="qrcode-label">
+          <span>สแกนคิวอาร์โค๊ดเพื่อแชร์ไปยังเพื่อนของคุณ</span>
+        </div>
+        <div class="qrcode-img">
+          <canvas style="float: left; height: 164px; width: 164px;" id="qrcode-canvas" height="164" width="164"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 <script type="text/javascript">
     const myTimeout = setTimeout(myGreeting, 10000);
@@ -141,79 +390,139 @@
       var wishDiv= document.getElementById('wish');	//找到文档中id为test的
       wishDiv.style.display = 'block';
     }
+    var load = document.getElementById("load")
+    var iframe = document.getElementById("iframe")
+    // 取得文档载入状态，如果载入完成，则readystate='complete'
+    // 根据这个可以定时去获取文档载入状态，来实现页面载入等待效果
+    var interval = setInterval(function () {
+        var readystate = document.readyState.toLowerCase();
+        console.log(readystate)
+        if (readystate == 'complete')
+        {
+            load.style.display = "none";
+            iframe.style.visibility = "visible"
+            clearInterval(interval);
+        }
+    },500)
 
- $(function () {
-    $('form').bootstrapValidator({
-      //默认提示
-      message: 'This value is not valid',
-      // 表单框里右侧的icon
-      feedbackIcons: {
-        valid: 'glyphicon glyphicon-ok',
-        invalid: 'glyphicon glyphicon-remove',
-        validating: 'glyphicon glyphicon-refresh'
-      },
-      submitHandler: function (validator, form, submitButton) {
-        // 表单提交成功时会调用此方法
-        // validator: 表单验证实例对象
-        // form jq对象 指定表单对象
-        // submitButton jq对象 指定提交按钮的对象
-      },
-      fields: {
-        name: {
-          message: 'ปรดกรอกชื่อ, ความยาวไม่เกิน 20 ตัวอักษร',
-          validators: {
-            notEmpty: {   //不能为空
-              message: 'โปรดกรอกชื่อ'
-            },
-            stringLength: {
-                max: 20,
-                message: 'ความยาวไม่เกิน 20 ตัวอักษร'
-            },
-          }
-        },
-        greetings: {
-          message: 'โปรดกรอกคำอวยพร, ความยาวไม่เกิน 40 ตัวอักษร',
-          validators: {
-            notEmpty: {
-              message: 'โปรดกรอกคำอวยพร'
-            },
-            stringLength: {
-                max: 40,
-                message: 'ความยาวไม่เกิน 40 ตัวอักษร'
-            },
-          }
-        },
+    !function () {
+      function isMobile() {
+        var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
+        return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
       }
-    });
 
-    $("#subBtn").click(function () {  //非submit按钮点击后进行验证，如果是submit则无需此句直接验证
-      $("form").bootstrapValidator('validate');  //提交验证
-      if ($("form").data('bootstrapValidator').isValid()) {  //获取验证结果，如果成功，执行下面代码
-         $.ajax({
-            //几个参数需要注意一下
-            type: "POST",//方法类型
-            dataType: "json",//预期服务器返回的数据类型
-            url: "/api/v1/h5/greetings/"+{{ data.id }},//url
-            data: $('#form').serialize(),
-            success: function (result) {
-                console.log(result);//打印服务端返回的数据(调试用)
-                if (result.code == 0) {
-                    $("#myModal").modal('hide');
-                    var tanmu = $("#mar")
-                    var contect = '<font size=\"2px\" class = \"tanmu\">uniEcard:hello</font>'
-                    for (var i=0;i<result.data.length;i++)
-                    {
-                        contect = contect + '</br>\n' + '<font size="2px" class = "tanmu">'+result.data[i]+'</font>'
-                    }
-                    tanmu.html(contect)
-                };
+      function updateViewport() {
+        var scale = 1;
+        var w = document.documentElement.clientWidth || 320;
+        // var h = document.documentElement.clientHeight || 568;
+        // scale = w/h >= 320/568 ? h/568 : w/320;
+        scale = w/320;
+        var viewport = "width=320, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no";
+        document.getElementById("viewport").setAttribute("content", viewport)
+      }
+
+      function doMobileActions () {
+        updateViewport();
+        var app = document.getElementById('app');
+        document.body.innerHTML = '';
+        document.body.appendChild(app);
+      }
+
+      var loadJS = function (url, callback, location) {
+        location = location || document.head
+
+        var scriptTag = document.createElement('script');
+        scriptTag.onload = callback;
+        // scriptTag.onreadystatechange = callback;
+        scriptTag.src = url;
+        location.appendChild(scriptTag);
+      };
+
+      function drawQRcode () {
+        var canvas = document.getElementById('qrcode-canvas')
+        QRCode.toCanvas(canvas, window.location.href, {
+          scale: 4
+        })
+      }
+
+      function doPCActions() {
+        loadJS('https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js', drawQRcode);
+      }
+
+      isMobile() ? doMobileActions() : doPCActions();
+
+      $('form').bootstrapValidator({
+          //默认提示
+          message: 'This value is not valid',
+          // 表单框里右侧的icon
+          feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+          },
+          submitHandler: function (validator, form, submitButton) {
+            // 表单提交成功时会调用此方法
+            // validator: 表单验证实例对象
+            // form jq对象 指定表单对象
+            // submitButton jq对象 指定提交按钮的对象
+          },
+          fields: {
+            name: {
+              message: 'ปรดกรอกชื่อ, ความยาวไม่เกิน 20 ตัวอักษร',
+              validators: {
+                notEmpty: {   //不能为空
+                  message: 'โปรดกรอกชื่อ'
+                },
+                stringLength: {
+                    max: 20,
+                    message: 'ความยาวไม่เกิน 20 ตัวอักษร'
+                },
+              }
             },
-            error : function() {
-                alert("Error！");
-            }
+            greetings: {
+              message: 'โปรดกรอกคำอวยพร, ความยาวไม่เกิน 40 ตัวอักษร',
+              validators: {
+                notEmpty: {
+                  message: 'โปรดกรอกคำอวยพร'
+                },
+                stringLength: {
+                    max: 40,
+                    message: 'ความยาวไม่เกิน 40 ตัวอักษร'
+                },
+              }
+            },
+          }
         });
-      }
-    });
-  })
+
+        $("#subBtn").click(function () {  //非submit按钮点击后进行验证，如果是submit则无需此句直接验证
+          $("form").bootstrapValidator('validate');  //提交验证
+          if ($("form").data('bootstrapValidator').isValid()) {  //获取验证结果，如果成功，执行下面代码
+             $.ajax({
+                //几个参数需要注意一下
+                type: "POST",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "/api/v1/h5/greetings/"+{{ data.id }},//url
+                data: $('#form').serialize(),
+                success: function (result) {
+                    console.log(result);//打印服务端返回的数据(调试用)
+                    if (result.code == 0) {
+                        $("#myModal").modal('hide');
+                        var tanmu = $("#mar")
+                        var contect = '<font size=\"2px\" class = \"tanmu\">uniEcard:Congratulations and best wishes.</font>'
+                        for (var i=0;i<result.data.length;i++)
+                        {
+                            contect = contect + '</br>\n' + '<font size="2px" class = "tanmu">'+result.data[i]+'</font>'
+                        }
+                        tanmu.html(contect)
+                    };
+                },
+                error : function() {
+                    alert("Error！");
+                }
+            });
+          }
+        });
+    }();
+
 </script>
 </html>

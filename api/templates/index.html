@@ -237,6 +237,9 @@
     </script>
 </head>
 <body id="viewport" style="height: 100%">
+<div>
+    <img src='{{ data.ThumbnailUrl }}' style='height:0;width:0;overflow:hidden;display:block;'/>
+</div>
 <div class="bg-wrapper"></div>
   <div class="preview-wrapper">
     <div class="phone-wrapper">
@@ -246,10 +249,6 @@
 {#      </div>#}
       <div id="app" style="height: 100%;">
           <div id="work-container" data-work-id="1" style="position: relative; height: 100%;">
-          <div>
-            <img src='{{ data.ThumbnailUrl }}'
-                style='height:0;width:0;overflow:hidden;display:block;'/>
-              </div>
             <div id="load" style="text-align:center;margin-top:100px;">
                 <img style="width:250px;" src="https://i.ibb.co/YRpd6LH/logo.png"  alt="logo" />
                 <div class="loading">
