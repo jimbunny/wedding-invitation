@@ -5008,3 +5008,23 @@
 2022-03-13 12:22:20,783 - _internal.py[line:225] - INFO:  * Restarting with stat
 2022-03-13 12:22:21,454 - _internal.py[line:225] - WARNING:  * Debugger is active!
 2022-03-13 12:22:21,463 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-14 11:02:16,390 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 11:02:17,232 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 11:02:17,235 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 11:02:17,282 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 11:03:58,323 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:03:58] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:04:28,382 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:04:28] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:04:32,264 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:04:32] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:07:03,901 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:07:03] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:11:37,735 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:11:37] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:12:04,121 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:12:04] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:12:10,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:12:10] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:23:32,897 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:23:32] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 11:27:42,314 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 11:27:42] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 12:57:25,888 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 12:57:25] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 12:59:54,335 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 12:59:54] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 13:02:45,157 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 13:02:45] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 13:03:13,788 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 13:03:13] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 13:06:08,762 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 13:06:08] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 13:32:50,975 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-03-14 13:32:51,168 - _internal.py[line:225] - INFO:  * Restarting with stat
