@@ -14,4 +14,5 @@ api_v1_h5 = Blueprint('api_v1_h5', __name__)
 api = Api(api_v1_h5, catch_all_404s=True, serve_challenge_on_401=True, errors=errors)
 
 api.add_resource(h5API.H5Resource, '/work/<workKey>', endpoint='work')
+api.add_resource(h5API.H5ProductResource, '/product/<productKey>', endpoint='product')
 api.add_resource(h5API.H5GreetingsResource, '/greetings/<id>', endpoint='tanmu')

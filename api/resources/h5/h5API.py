@@ -25,7 +25,7 @@ class H5Resource(Resource):
     def __init__(self):
         self.parser = RequestParser()
 
-    @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
     def get(self, workKey):
         """
         Test Method
@@ -42,15 +42,58 @@ class H5Resource(Resource):
                     if key == 'key' and item[key] == workKey:
                         data = item
                         break
-            greetings = []
-            path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".txt")
-            try:
-                with open(path, mode='r', encoding='utf-8') as ff:
-                    greetings = ff.readlines()
-            except FileNotFoundError:
-                open(path, 'a').close()
-            data['greetings'] = greetings
             if data.get("isTanmu") == 1:
+                return make_response(render_template('index2.html', data=data), 200, headers)
+            else:
+                greetings = []
+                path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".txt")
+                try:
+                    with open(path, mode='r', encoding='utf-8') as ff:
+                        greetings = ff.readlines()
+                except FileNotFoundError:
+                    open(path, 'a').close()
+                data['greetings'] = greetings
+                return make_response(render_template('index.html', data=data), 200, headers)
+        except IndexError:
+            abort(404)
+
+
+class H5ProductResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self, workKey):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        data = {}
+        try:
+            with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
+                load_dict = json.load(load_f)
+            for item in load_dict.get("data"):
+                for key in item:
+                    if key == 'key' and item[key] == workKey:
+                        data = item
+                        break
+            if data.get("isTanmu") == 1:
+                greetings = []
+                path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".txt")
+                try:
+                    with open(path, mode='r', encoding='utf-8') as ff:
+                        greetings = ff.readlines()
+                except FileNotFoundError:
+                    open(path, 'a').close()
+                data['greetings'] = greetings
                 return make_response(render_template('index2.html', data=data), 200, headers)
             else:
                 return make_response(render_template('index.html', data=data), 200, headers)

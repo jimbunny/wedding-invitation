@@ -77,3 +77,35 @@ class UploadSwipeResource(Resource):
             os.makedirs(dirs)
         file.save(os.path.join('data', 'template', file_name))
         return pretty_result(code.OK)
+
+
+class UploadProductResource(Resource):
+    """
+    示例picture list资源类
+    """
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    def get(self):
+        """
+            工具函数:
+            获取本地图片流
+            :param img_local_path:文件单张图片的本地绝对路径
+            :return: 图片流
+            """
+        try:
+            return make_response(render_template('uploadProduct.html'), 200, headers)
+        except Exception as e:
+            abort(404)
+
+    def post(self):
+        # 获取post过来的文件名称，从name=file参数中获取
+        file = request.files['file']
+        # secure_filename方法会去掉文件名中的中文
+        file_name = 'product.json'
+        dirs = os.path.join('data', 'template')
+        if not os.path.exists(dirs):
+            os.makedirs(dirs)
+        file.save(os.path.join('data', 'template', file_name))
+        return pretty_result(code.OK)

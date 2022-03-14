@@ -21,3 +21,5 @@ api.add_resource(upload.UploadTemplateResource, '/template', endpoint='getTempla
 api.add_resource(upload.UploadTemplateResource, '/template/uploader', endpoint='postTemplateFile')
 api.add_resource(upload.UploadSwipeResource, '/swipe', endpoint='getSwipeFile')
 api.add_resource(upload.UploadSwipeResource, '/swipe/uploader', endpoint='postSwipeFile')
+api.add_resource(upload.UploadProductResource, '/product', endpoint='getProductFile')
+api.add_resource(upload.UploadProductResource, '/product/uploader', endpoint='postProductFile')
