@@ -5028,3 +5028,40 @@
 2022-03-14 13:06:08,762 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 13:06:08] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
 2022-03-14 13:32:50,975 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-14 13:32:51,168 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 15:51:41,290 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 15:51:42,132 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 15:51:42,136 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 15:51:42,183 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 15:52:10,412 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:52:10] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 15:52:54,370 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:52:54] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 15:53:21,505 - app.py[line:29] - ERROR: Got exception during processing: get() got an unexpected keyword argument 'productKey'
+2022-03-14 15:53:21,506 - app.py[line:29] - ERROR: Got exception during processing: get() got an unexpected keyword argument 'productKey'
+2022-03-14 15:53:21,507 - app.py[line:29] - ERROR: Got exception during processing: get() got an unexpected keyword argument 'productKey'
+2022-03-14 15:53:21,525 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:21] "[35m[1mGET /api/v1/h5/product/H5t8so51148n HTTP/1.1[0m" 500 -
+2022-03-14 15:53:21,584 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:21] "GET /api/v1/h5/product/H5t8so51148n?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-14 15:53:21,589 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:21] "GET /api/v1/h5/product/H5t8so51148n?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-14 15:53:21,683 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:21] "GET /api/v1/h5/product/H5t8so51148n?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-14 15:53:21,704 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:21] "GET /api/v1/h5/product/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-14 15:53:21,749 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:21] "GET /api/v1/h5/product/H5t8so51148n?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-14 15:53:45,746 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-14 15:53:45,839 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 15:53:46,712 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 15:53:46,715 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 15:53:46,762 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 15:53:52,024 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-14 15:53:52,098 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-14 15:53:52,952 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-14 15:53:52,955 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-14 15:53:53,002 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-14 15:53:53,528 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:53:53] "GET /api/v1/h5/product/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 15:54:11,189 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:11] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-14 15:54:11,261 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-03-14 15:54:11,261 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:11] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-03-14 15:54:11,293 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-03-14 15:54:11,313 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:11] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-03-14 15:54:11,322 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:11] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-03-14 15:54:12,771 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:12] "GET /static/favicon.ico HTTP/1.1" 200 -
+2022-03-14 15:54:32,213 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:32] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+2022-03-14 15:54:35,173 - _internal.py[line:225] - INFO: 127.0.0.1 - - [14/Mar/2022 15:54:35] "POST /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-14 15:55:09,391 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-03-14 15:55:09,490 - _internal.py[line:225] - INFO:  * Restarting with stat

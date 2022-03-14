@@ -69,7 +69,7 @@ class H5ProductResource(Resource):
         self.parser = RequestParser()
 
     # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
-    def get(self, workKey):
+    def get(self, productKey):
         """
         Test Method
 
@@ -82,7 +82,7 @@ class H5ProductResource(Resource):
                 load_dict = json.load(load_f)
             for item in load_dict.get("data"):
                 for key in item:
-                    if key == 'key' and item[key] == workKey:
+                    if key == 'key' and item[key] == productKey:
                         data = item
                         break
             if data.get("isTanmu") == 1:
