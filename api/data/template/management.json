@@ -169,6 +169,38 @@
       "pageViews": 599,
       "coverUrl": "https://i.ibb.co/1vcw5pX/Template10.png",
       "ThumbnailUrl": "https://i.ibb.co/nRnRj4y/Logo.jpg"
+    },{
+      "title": "Template #11",
+      "description": "Template #11",
+      "name": "Template #11",
+      "id": "11",
+      "key": "tanmu",
+      "iframeUrl": "https://maka.im/pcviewer/8520204/4FQEJCF2W8520204",
+      "isTanmu": 1,
+      "tanmuColor": "#ae48bb",
+      "greetings": ["uniEcard:Congratulations and best wishes."],
+      "color": "red",
+      "type": "wedding",
+      "source": "hunqing365",
+      "pageViews": 702,
+      "coverUrl": "https://i.ibb.co/QFQB1LZ/Template4.png",
+      "ThumbnailUrl": "https://i.ibb.co/nRnRj4y/Logo.jpg"
+    },{
+      "title": "Template #12",
+      "description": "Template #12",
+      "name": "Template #12",
+      "id": "12",
+      "key": "tanmutest",
+      "iframeUrl": "https://www.huanqing365.com/h5/publish/H5t8so51148n",
+      "isTanmu": 1,
+      "tanmuColor": "#ae48bb",
+      "greetings": ["uniEcard:Congratulations and best wishes."],
+      "color": "red",
+      "type": "wedding",
+      "source": "hunqing365",
+      "pageViews": 503,
+      "coverUrl": "https://www.uniecard.com/api/v1/admin/image?_type=template&id=1",
+      "ThumbnailUrl": "https://i.ibb.co/nRnRj4y/Logo.jpg"
     }
   ]
 }
