@@ -5659,3 +5659,24 @@
 2022-03-16 15:02:58,666 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:02:58] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
 2022-03-16 15:04:26,674 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-16 15:04:26,989 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-16 15:09:05,943 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-16 15:09:06,843 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-16 15:09:06,846 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-16 15:09:06,897 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-16 15:11:23,278 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:11:23] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-16 15:11:23,288 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:11:23] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-16 15:13:54,406 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:13:54] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-16 15:13:54,407 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:13:54] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-16 15:14:27,507 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:14:27] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-16 15:14:54,333 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:14:54] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-16 15:14:57,068 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:14:57] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-16 15:15:16,807 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:15:16] "GET /api/v1/h5/work/1647019631589 HTTP/1.1" 200 -
+2022-03-16 15:15:42,981 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:15:42] "GET /api/v1/h5/work/H5t8so51148n HTTP/1.1" 200 -
+2022-03-16 15:16:45,955 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:16:45] "GET /api/v1/admin/product HTTP/1.1" 200 -
+2022-03-16 15:16:46,162 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-16 15:16:46,175 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:16:46] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-16 15:18:30,414 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-16 15:18:30,415 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:18:30] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-16 15:18:41,360 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:18:41] "GET /api/v1/h5/product/H5t8so51148n HTTP/1.1" 200 -
+2022-03-16 15:19:13,790 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-03-16 15:19:14,043 - _internal.py[line:225] - INFO:  * Restarting with stat

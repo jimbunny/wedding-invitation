@@ -91,7 +91,7 @@ export default {
     opacity: 0.8;
     z-index: 10000;
     .fj();
-    .wh(100%, 44px);
+    .wh(44px, 44px);
     line-height: 34px;
     padding: 0 10px;
     .boxSizing();
