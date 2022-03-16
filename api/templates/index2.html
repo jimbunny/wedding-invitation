@@ -284,7 +284,7 @@
         box-sizing: border-box;
         color: rgb(255, 255, 255);
         margin-left: 45.7031px;
-        background-color: rgb(47, 50, 52);
+        background-color: {{ data.tanmuBtnColor }};
         opacity: 0.65;
         pointer-events: initial;
         padding: 0px 16.9922px;
@@ -301,14 +301,14 @@
         border-radius: 22.8516px;
         bottom: 4.96094px;
         width:fit-content;
-        background-color: rgba(47, 50, 52, 0.6);
+        background-color: {{ data.tanmuColor }};
         transform: scale(1);
         opacity: 1;
         transition: all 0.65s ease-in 0s;"
     }
       .tanmu {
           z-index: 999;position: absolute;bottom: 20px;left: 10px;
-          {#background: url(&quot;https://res.maka.im/assets/viewer/danmu_open.png&quot;) 0% 0% / contain no-repeat;#}
+          {#background: url(&quot;https://i.ibb.co/1QmGHWV/danmu-open1.png&quot;) 0% 0% / contain no-repeat;#}
           border-radius: 100%;width: 35.7422px;height: 35.7422px;
       }
     </style>
@@ -341,7 +341,9 @@
       <div id="app" style="height: 100%;">
           <div id="work-container" data-work-id="1" style="position: relative; height: 100%;">
             <div id="load" style="text-align:center;margin-top:100px;">
-                <img style="width:250px;" src="https://i.ibb.co/YRpd6LH/logo.png"  alt="logo" />
+                <a href="https://www.uniecard.com">
+                    <img style="width:250px;" src="https://i.ibb.co/YRpd6LH/logo.png" alt="logo" />
+                </a>
                 <div class="loading">
                     <span></span>
                     <span></span>
@@ -349,7 +351,10 @@
                     <span></span>
                     <span></span>
                 </div>
-            </div>
+                <a href="https://lin.ee/qO0UuXf">
+                <img style="width:250px; margin-top:40px;" src="https://w9d5c5b9.stackpathcdn.com/wp-content/uploads/2019/05/contact.jpg"  alt="logo" />
+                </a>
+              </div>
               <div style="text-align:center; height: 100%; visibility:hidden;" id="iframe">
                 <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
             </div>
@@ -365,7 +370,7 @@
                 </div>
 
                 <div class="tanmu" id="tanmuClick">
-                    <img style="width: 35.7422px;height: 35.7422px;" class="button" src="https://res.maka.im/assets/viewer/danmu_open.png">
+                    <img style="width: 35.7422px;height: 35.7422px;" class="button" src="https://i.ibb.co/1QmGHWV/danmu-open1.png">
                     <b id="count" style="position: absolute; color: rgb(255, 255, 255); top: 2.92969px; left: 19.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
                 </div>
 {#              <div class="imgclick" id="tanmuOpen" style=""></div>#}
@@ -376,7 +381,7 @@
                     <div style="width:100%;" class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <button type="button" class="close" style="cursor: pointer;" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h4 class="modal-title" id="myModalLabel">อวยพร</h4>
                             </div>
                             <div class="modal-body">
@@ -419,15 +424,7 @@
 
 </body>
 <script type="text/javascript">
-    const myTimeout = setTimeout(myGreeting, 1000);
-    function myGreeting() {
-      var tanmuDiv= document.getElementById('tanmu');	//找到文档中id为test的
-      tanmuDiv.style.visibility='visible';
-      var wishDiv= document.getElementById('wish');	//找到文档中id为test的
-      wishDiv.style.display = 'block';
-      var tanmuClickDiv= document.getElementById('tanmuClick');	//找到文档中id为test的
-      tanmuClickDiv.style.display='block';
-    }
+
     var load = document.getElementById("load")
     var iframe = document.getElementById("iframe")
     // 取得文档载入状态，如果载入完成，则readystate='complete'
@@ -440,6 +437,15 @@
             load.style.display = "none";
             iframe.style.visibility = "visible"
             clearInterval(interval);
+            const myTimeout = setTimeout(myGreeting, 10000);
+            function myGreeting() {
+              var tanmuDiv= document.getElementById('tanmu');	//找到文档中id为test的
+              tanmuDiv.style.visibility='visible';
+              var wishDiv= document.getElementById('wish');	//找到文档中id为test的
+              wishDiv.style.display = 'block';
+              var tanmuClickDiv= document.getElementById('tanmuClick');	//找到文档中id为test的
+              tanmuClickDiv.style.display='block';
+            }
         }
     },500)
      //这是一个全局变量
@@ -448,7 +454,7 @@
     $(".button").click(function() { //给button按钮一个点击事件
 
          if (kg) { //进行判断               //attr() 方法设置或返回被选元素的属性值
-            $(this).attr("src", "https://res.maka.im/assets/viewer/danmu_open.png") //这里一定要放另外的一张图，不然当点击时，会实现不了切换的效果
+            $(this).attr("src", "https://i.ibb.co/1QmGHWV/danmu-open1.png") //这里一定要放另外的一张图，不然当点击时，会实现不了切换的效果
             var countDiv= document.getElementById('count');	//找到文档中id为test的
             countDiv.style.display = 'none';
             var tanmuDiv= document.getElementById('tanmu');	//找到文档中id为test的
@@ -456,7 +462,7 @@
               var wishDiv= document.getElementById('wish');	//找到文档中id为test的
               wishDiv.style.display = 'block';
          } else {
-              $(this).attr("src", "https://res.maka.im/assets/viewer/danmu_close.png")
+              $(this).attr("src", "https://i.ibb.co/QNwcxLx/danmu-close1.png")
               var countDiv= document.getElementById('count');	//找到文档中id为test的
              countDiv.style.display = 'block';
              var tanmuDiv= document.getElementById('tanmu');	//找到文档中id为test的
@@ -510,7 +516,6 @@
       function doPCActions() {
         loadJS('https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js', drawQRcode);
       }
-
       isMobile() ? doMobileActions() : doPCActions();
 
       $('form').bootstrapValidator({

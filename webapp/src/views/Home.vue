@@ -2,20 +2,20 @@
   <div>
     <header class="home-header wrap" :class="{'active' : headerScroll}">
         <span class="app-name">UniEcard</span>
-        <!-- <img class="logo" :src="require('../assets/logo.png')" alt=""> -->
-        <!--<div class="header-search">-->
-            <!--<span class="app-name">JP</span>
-            <i class="iconfont icon-search"></i> -->
-            <!--<router-link tag="span" class="search-title" to="./product-list?from=home">  please input keyword
-            </router-link>
-        </div>-->
     </header>
     <nav-bar></nav-bar>
     
     <swiper :list="swiperList"></swiper>
 
+    <div class="category-list">
+      <div v-for="item in categoryList" v-bind:key="item.categoryId">
+        <img :src="item.imgUrl" @click="categoryTemplate(item.categoryId)">
+        <span>{{item.name}}</span>
+      </div>
+    </div>
+
     <div class="good"  :style="{ paddingBottom: '50px'}">
-      <header class="good-header">รูปแบบเทมเพลต</header>
+      <!-- <header class="good-header">รูปแบบเทมเพลต</header> -->
       <div class="good-box">
         <div class="good-item" v-for="item in templates" :key="item.id" @click="goToTemplateShow(item.key)">
           <img :src="prefix(item.coverUrl)" alt="">
@@ -43,7 +43,6 @@ import navBar from '@/components/NavBar'
 import swiper from '@/components/Swiper'
 import { okCode, errorCode } from "../config/settings";
 import { getTemplateList, getSwipeList } from '../service/home'
-import { getLocal } from '@/common/js/utils'
 import { Toast } from 'vant'
 
 export default {
@@ -53,13 +52,36 @@ export default {
       swiperList: [],
       headerScroll: false,
       templates: [],
+      tmp: [],
       scrollType:false,
       queryForm: {
         pageNo: 1,
         pageSize: 1000,
         name: ""
       },
-      name:""
+      categoryList: [
+        {
+          name: 'ALL',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          categoryId: 'all'
+        }, {
+          name: '普通',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          categoryId: 'normal'
+        }, {
+          name: '高级',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          categoryId: "vip"
+        }, {
+          name: '超级',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          categoryId: "super"
+        }, {
+          name: '定制',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          categoryId: "customize"
+        }
+      ],
     }
   },
   components: {
@@ -94,21 +116,24 @@ export default {
     this.TemplateList();
   },
   methods: {
-    onChange(e) {
-      this.setData({
-        value: e.detail,
-      });
+    categoryTemplate(_type) {
+      if (_type == 'all') {
+        this.templates = this.tmp
+      } else{
+      var storeTmp = []
+      for (var i = 0; i < this.tmp.length; i++) {
+        if(this.tmp[i]['tags'].indexOf(_type) > -1){
+          storeTmp.push(this.tmp[i])
+        }
+      }
+      this.templates = storeTmp
+      }
     },
-    // onSearch() {
-    //   Toast('搜索' + this.data.key);
-    // },
-    // onClick() {
-    //   Toast('搜索' + this.data.key);
-    // },
     TemplateList() {
       getTemplateList(this.queryForm).then((res) => {
       const { code, msg, data } = res;
       if (code === okCode) {
+        this.tmp = data.data;
         this.templates = data.data;
         setTimeout((_) => {
           Toast.clear()
@@ -233,6 +258,23 @@ export default {
           vertical-align: -3px;
         }
       }
+  }
+  .category-list {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 13px;
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      text-align: center;
+      img {
+        .wh(40px, 40px);
+        margin: 13px auto 8px auto;
+      }
+    }
   }
   .good {
     .good-header {
