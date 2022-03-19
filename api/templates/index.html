@@ -36,8 +36,6 @@
             margin: 0 0;
             width: 100%;
             height: 100%;
-            overflow: scroll;
-            z-index: 500;
         }
         .loading{
             width: 150px;
@@ -344,4 +342,13 @@ var interval = setInterval(function () {
 
       isMobile() ? doMobileActions() : doPCActions();
     }();
+
+function bodyScroll(event){
+    event.preventDefault();
+}
+let u = navigator.userAgent
+let isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/) // ios终端
+if (isiOS) {//解决iframe父亲页滚动失效的问题
+  document.body.removeEventListener('touchmove',this.bodyScroll,false);
+}
 </script>
