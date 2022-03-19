@@ -261,7 +261,7 @@
                     <span></span>
                 </div>
             </div>
-            <div style="position: fixed; right: 0; bottom: 0; left: 0; top: 0; -webkit-overflow-scrolling: touch; overflow-y: scroll;" id="iframe">
+            <div style="text-align:center; height: 100%; visibility:hidden;" id="iframe">
                 <iframe id="iframeId" frameborder=0 scrolling=auto src={{ data.iframeUrl }}></iframe>
             </div>
    	    </div>
@@ -342,5 +342,14 @@ var interval = setInterval(function () {
 
       isMobile() ? doMobileActions() : doPCActions();
     }();
-
+    var ifram = document.getElementById('iframeId');
+        if (navigator.userAgent.match(/iPad|iPhone/i)) {
+             var iframe_box = document.getElementById('iframe');
+             iframe_box.style.width = 100 + '%';
+             iframe_box.style.overflowX = 'hidden';
+             iframe_box.style.overflowY = 'scroll';
+             iframe_box.style.webkitOverflowScrolling = 'touch';
+             ifram.setAttribute('scrolling', 'no');
+             iframe_box.appendChild(ifram);
+         }
 </script>
