@@ -66,19 +66,19 @@ export default {
           categoryId: 'all'
         }, {
           name: 'ปกติ',
-          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs4.png',
           categoryId: 'normal'
         }, {
           name: 'ซิลเวอร์',
-          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs3.png',
           categoryId: "vip"
         }, {
           name: 'โกลด์',
-          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs10.png',
           categoryId: "super"
         }, {
           name: 'กำหนดเอง',
-          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
+          imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs8.png',
           categoryId: "customize"
         }
       ],
