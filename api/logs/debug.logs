@@ -5680,3 +5680,33 @@
 2022-03-16 15:18:41,360 - _internal.py[line:225] - INFO: 127.0.0.1 - - [16/Mar/2022 15:18:41] "GET /api/v1/h5/product/H5t8so51148n HTTP/1.1" 200 -
 2022-03-16 15:19:13,790 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-16 15:19:14,043 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-19 18:35:59,945 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-19 18:35:59,949 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-19 18:36:00,562 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-19 18:36:00,577 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-19 18:38:21,368 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:38:21] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 18:38:21,371 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:38:21] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 18:40:05,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:40:05] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 18:40:05,643 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:40:05] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 18:48:31,245 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:48:31] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 18:48:31,252 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:48:31] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 18:57:03,474 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:57:03] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 18:57:03,496 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:57:03] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 18:57:10,165 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:57:10] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 18:57:10,170 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:57:10] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 18:57:34,902 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:57:34] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 18:57:34,909 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 18:57:34] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 19:52:35,000 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:52:35] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 19:52:35,004 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:52:35] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 19:55:51,540 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:55:51] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 19:55:51,543 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:55:51] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 19:56:38,308 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:56:38] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 19:56:38,311 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:56:38] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 19:57:04,148 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:57:04] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 19:57:04,151 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 19:57:04] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 20:00:07,324 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 20:00:07] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 20:00:07,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 20:00:07] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 20:00:59,130 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 20:00:59] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 20:00:59,132 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 20:00:59] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-19 20:02:38,196 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 20:02:38] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-19 20:02:38,198 - _internal.py[line:225] - INFO: 127.0.0.1 - - [19/Mar/2022 20:02:38] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -

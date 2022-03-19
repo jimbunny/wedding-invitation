@@ -8,9 +8,11 @@
     <swiper :list="swiperList"></swiper>
 
     <div class="category-list">
-      <div v-for="item in categoryList" v-bind:key="item.categoryId">
-        <img :src="item.imgUrl" @click="categoryTemplate(item.categoryId)">
+      <div class="item" v-for="item in categoryList" v-bind:key="item.categoryId">
+        <div class="gnzs-item" @click="categoryTemplate(item.categoryId)">   
+        <img :src="item.imgUrl" :class="item.categoryId==category?'imgChoose':''"><br>
         <span>{{item.name}}</span>
+        </div>
       </div>
     </div>
 
@@ -59,6 +61,7 @@ export default {
         pageSize: 1000,
         name: ""
       },
+      category: "all",
       categoryList: [
         {
           name: 'ทั้งหมด',
@@ -117,6 +120,7 @@ export default {
   },
   methods: {
     categoryTemplate(_type) {
+      this.category = _type
       if (_type == 'all') {
         this.templates = this.tmp
       } else{
@@ -186,6 +190,18 @@ export default {
       background-color: #3c93ef35;
     }
   }
+
+.imgChoose{
+    // box-shadow: 0px 0px 16px rgb(0 0 0 / 8%);
+    // transform: translateY(-10px);
+    // -webkit-transform: translateY(-10px);
+    box-shadow: 0 0 15px rgb(11, 234, 235);
+    padding:0px
+}
+.imgChoose:hover {
+    box-shadow: 0 0 15px rgb(11, 234, 235);
+    padding:0px
+}
 </style>
 <style lang="less" scoped >
   @import '../common/style/mixin';
@@ -265,14 +281,16 @@ export default {
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 13px;
-    div {
+    .item {
       display: flex;
       flex-direction: column;
       width: 20%;
       text-align: center;
-      img {
-        .wh(40px, 40px);
-        margin: 13px auto 8px auto;
+      .gnzs-item{
+        img {
+          .wh(40px, 40px);
+          margin: 13px auto 8px auto;
+        }
       }
     }
   }
