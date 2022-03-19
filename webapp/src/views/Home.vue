@@ -61,23 +61,23 @@ export default {
       },
       categoryList: [
         {
-          name: 'ALL',
+          name: 'ทั้งหมด',
           imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
           categoryId: 'all'
         }, {
-          name: '普通',
+          name: 'ปกติ',
           imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
           categoryId: 'normal'
         }, {
-          name: '高级',
+          name: 'ซิลเวอร์',
           imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
           categoryId: "vip"
         }, {
-          name: '超级',
+          name: 'โกลด์',
           imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
           categoryId: "super"
         }, {
-          name: '定制',
+          name: 'กำหนดเอง',
           imgUrl: 'https://h5.hunbei.com/static/hunbei/img/newIndex/gnzs5.png',
           categoryId: "customize"
         }
