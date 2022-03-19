@@ -195,12 +195,12 @@ export default {
     // box-shadow: 0px 0px 16px rgb(0 0 0 / 8%);
     // transform: translateY(-10px);
     // -webkit-transform: translateY(-10px);
-    box-shadow: 0 0 15px rgb(11, 234, 235);
+    box-shadow: 0 0 15px #149dfe;
     padding:0px
 }
 .imgChoose:hover {
-    box-shadow: 0 0 15px rgb(11, 234, 235);
-    padding:0px
+    box-shadow: 0 0 15px #149dfe;
+    padding:0px 
 }
 </style>
 <style lang="less" scoped >
