@@ -6,6 +6,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta http-equiv="Content-Security-Policy"
+content="default-src *; frame-src *; style-src * 'self' 'unsafe-inline' 'unsafe-eval';
+script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
+    <meta name="format-detection" content="telephone=yes">
     <meta id="metaDescription" itemprop="description" name="description" content="{{ data.description }}">
     <meta itemprop="image" content="{{ data.ThumbnailUrl }}">
     <title>{{ data.title }}</title>
@@ -341,15 +345,5 @@ var interval = setInterval(function () {
       }
 
       isMobile() ? doMobileActions() : doPCActions();
-    }();
-    var ifram = document.getElementById('iframeId');
-        if (navigator.userAgent.match(/iPad|iPhone/i)) {
-             var iframe_box = document.getElementById('iframe');
-             iframe_box.style.width = 100 + '%';
-             iframe_box.style.overflowX = 'hidden';
-             iframe_box.style.overflowY = 'scroll';
-             iframe_box.style.webkitOverflowScrolling = 'touch';
-             ifram.setAttribute('scrolling', 'no');
-             iframe_box.appendChild(ifram);
-         }
+    }
 </script>
