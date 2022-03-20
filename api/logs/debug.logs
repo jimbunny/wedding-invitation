@@ -5756,3 +5756,28 @@
 2022-03-20 12:07:58,571 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:07:58] "GET /api/v1/h5/work/1647698512096 HTTP/1.1" 200 -
 2022-03-20 12:08:48,342 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:08:48] "GET /api/v1/h5/work/1647698512096 HTTP/1.1" 200 -
 2022-03-20 12:11:09,379 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:11:09] "GET /api/v1/h5/work/1647698512096 HTTP/1.1" 200 -
+2022-03-20 12:32:51,228 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:32:51] "GET /api/v1/admin/images/uploader HTTP/1.1" 200 -
+2022-03-20 12:32:51,477 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:32:51,478 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:32:51] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:33:15,710 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:15] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:33:16,197 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:33:16,197 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:16] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:33:25,127 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:25] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:33:25,648 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:33:25,649 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:25] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:33:29,615 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:29] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:33:30,065 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:33:30,066 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:30] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:33:58,825 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:58] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:33:59,271 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:33:59,272 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:33:59] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:34:01,979 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:34:01] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:34:02,410 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:34:02,411 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:34:02] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:34:04,099 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:34:04] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:34:04,583 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:34:04,585 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:34:04] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:34:35,977 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:34:35] "GET /api/v1/h5/work/601736963 HTTP/1.1" 200 -
+2022-03-20 12:34:36,525 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-20 12:34:36,526 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:34:36] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-20 12:35:04,535 - _internal.py[line:225] - INFO: 127.0.0.1 - - [20/Mar/2022 12:35:04] "GET /api/v1/h5/work/1647698512096 HTTP/1.1" 200 -
