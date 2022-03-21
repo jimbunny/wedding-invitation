@@ -130,7 +130,6 @@ class H5GreetingsResource(Resource):
         line = f.readline()  # 调用文件的 readline()方法
         while line:
             line = f.readline()
-            if line:
-                greetings.append(line)
+            greetings.append(line)
         f.close()
         return pretty_result(code.OK, data=greetings)
