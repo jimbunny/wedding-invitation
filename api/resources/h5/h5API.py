@@ -126,10 +126,10 @@ class H5GreetingsResource(Resource):
         with open(path, 'a+', encoding="utf8") as f:
             f.write(str(name)+":"+str(greetings) + "\n")
         greetings = []
-        f = open(path)  # 返回一个文件对象
-        line = f.readline()  # 调用文件的 readline()方法
-        while line:
-            line = f.readline()
-            greetings.append(line)
+        f = open(path, "r")  # 返回一个文件对象
+        lines = f.readlines()  # 调用文件的 readline()方法
+        for line in lines:
+            if line:
+                greetings.append(line)
         f.close()
         return pretty_result(code.OK, data=greetings)
