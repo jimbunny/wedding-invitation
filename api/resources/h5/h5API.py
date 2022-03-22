@@ -133,3 +133,165 @@ class H5GreetingsResource(Resource):
                 greetings.append(line)
         f.close()
         return pretty_result(code.OK, data=greetings)
+
+
+class H5WeddingResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self, weddingKey):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        data = {}
+        try:
+            return make_response(render_template('template/' + str(weddingKey) + '.html', data=data), 200, headers)
+        except IndexError:
+            abort(404)
+
+
+class MakeH5TemplateResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self, _type, h5Key):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        # http://maka.im/viewer/601736963/1CKXBVN2W601736963
+
+        # https://u601736963.viewer.maka.im/k/1CKXBVN2W601736963
+        import requests
+
+        pcHeader = {'User-Agent': 'User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'}
+        phoneHeader = {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1'}
+
+        pcUrl = 'https://maka.im/pcviewer/601736963/' + str(h5Key)
+        phoneUrl = 'https://maka.im/viewer/601736963/' + str(h5Key)
+        pcHtml = requests.get(pcUrl, headers=pcHeader)
+        phoneHtml = requests.get(phoneUrl, headers=phoneHeader)
+        pcHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
+        phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
+        # print(html.text)
+        pcUrl = "https://uniecard/pcViewer/" + _type + str(h5Key)
+        phoneUrl = "https://uniecard/viewer/" + _type + str(h5Key)
+        IsPc = '''
+            <script>
+            !function () {
+              function isMobile() {
+                var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
+                return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
+              }
+
+
+              function doMobileActions () {
+                window.location.href="''' + pcUrl + '''"
+              }
+
+              function doPCActions() {
+              }
+
+              isMobile() ? doMobileActions() : doPCActions();
+            }();
+        </script>
+        '''
+        IsPhone = '''
+            <script>
+            !function () {
+              function isMobile() {
+                var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
+                return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
+              }
+
+
+              function doMobileActions () {
+              }
+
+              function doPCActions() {
+                window.location.href="''' + phoneUrl + '''"
+              }
+
+              isMobile() ? doMobileActions() : doPCActions();
+            }();
+        </script>
+        '''
+        templateBtn = '''
+            <style>
+              .simple-header-left {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                opacity: 0.8;
+                z-index: 10000;
+                line-height: 34px;
+                padding: 0 10px;
+                color: #252525;
+              }
+            </style>
+              <header class="simple-header-left">
+                <div  style="color:blue;width:40px;text-align:center;margin-top:10px;border-radius: 10px;">
+                  <a href="https://www.uniecard.com/#/home"><img style="width:35px;" src="https://i.ibb.co/Kzwf4cq/back.png" alt="back" ></a>
+                  <a href="https://lin.ee/qO0UuXf"><img style="width:40px;" src="https://i.ibb.co/1rQdySV/LINE1.png" alt="line" ></a>
+                  </div>
+              </header>
+            '''
+        phoneIndex = phoneHtml.text.find('<body>')
+        pcIndex = pcHtml.text.find('<body>')
+        path = os.path.join(root, "templates")
+
+        try:
+            if _type == 'template':
+                phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + templateBtn + phoneHtml.text[phoneIndex + 6:])
+                pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + templateBtn + pcHtml.text[pcIndex + 6:])
+                path = os.path.join(path, "template")
+                if not os.path.exists(path):
+                    os.makedirs(path)
+                filePath = os.path.join(path, str(h5Key) + ".html")
+                phoneFile = open(filePath, "w", encoding="utf-8")
+                phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                  "https://www.uniecard.com/static/favicon.ico"))
+                phoneFile.close()
+                filePath = os.path.join(path, str(h5Key) + "_pc.html")
+                pcFile = open(filePath, "w", encoding="utf-8")
+                pcFile.write(pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                         "https://www.uniecard.com/static/favicon.ico"))
+                pcFile.close()
+            else:
+                phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
+                pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                path = os.path.join(path, "viewer")
+                if not os.path.exists(path):
+                    os.makedirs(path)
+                filePath = os.path.join(path, str(h5Key) + ".html")
+                phoneFile = open(filePath, "w", encoding="utf-8")
+                phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                         "https://www.uniecard.com/static/favicon.ico"))
+                phoneFile.close()
+                filePath = os.path.join(path, str(h5Key) + "_pc.html")
+                pcFile = open(filePath, "w", encoding="utf-8")
+                pcFile.write(pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                   "https://www.uniecard.com/static/favicon.ico"))
+                pcFile.close()
+            return pretty_result(code.OK, data=[phoneUrl, pcUrl], msg='make h5 successful！')
+        except IndexError:
+            return pretty_result(code.ERROR,  msg='make h5 failed！')
