@@ -158,8 +158,8 @@ export default {
       scrollTop > 100 ? this.headerScroll = true : this.headerScroll = false
     },
     goToTemplateShow(id) {
-      this.$router.push({ path: `works/${id}` })
-      // window.location.href=url
+      // this.$router.push({ path: `works/${id}` })
+      window.location.href="https://www.uniecard.com/api/v1/h5/tempalate/"+ id
     }
   }
 }

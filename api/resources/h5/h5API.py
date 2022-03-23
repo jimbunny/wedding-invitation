@@ -135,7 +135,7 @@ class H5GreetingsResource(Resource):
         return pretty_result(code.OK, data=greetings)
 
 
-class H5WeddingResource(Resource):
+class H5ViewResource(Resource):
     """
     test list资源类
     """
@@ -146,7 +146,7 @@ class H5WeddingResource(Resource):
         self.parser = RequestParser()
 
     # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
-    def get(self, weddingKey):
+    def get(self, _type, view_type, h5Key):
         """
         Test Method
 
@@ -155,7 +155,11 @@ class H5WeddingResource(Resource):
         """
         data = {}
         try:
-            return make_response(render_template('template/' + str(weddingKey) + '.html', data=data), 200, headers)
+            if view_type == "pc":
+                htmlPath = str(_type) + '/' + str(h5Key) + '_pc.html'
+            else:
+                htmlPath = str(_type) + '/' + str(h5Key) + '.html'
+            return make_response(render_template(htmlPath, data=data), 200, headers)
         except IndexError:
             abort(404)
 
@@ -192,9 +196,8 @@ class MakeH5TemplateResource(Resource):
         phoneHtml = requests.get(phoneUrl, headers=phoneHeader)
         pcHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
         phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
-        # print(html.text)
-        pcUrl = "https://uniecard/pcViewer/" + _type + str(h5Key)
-        phoneUrl = "https://uniecard/viewer/" + _type + str(h5Key)
+        pcUrl = "https://uniecard/pcViewer/" + _type + "/" + str(h5Key)
+        phoneUrl = "https://uniecard/viewer/" + _type + "/" + str(h5Key)
         IsPc = '''
             <script>
             !function () {
@@ -203,12 +206,30 @@ class MakeH5TemplateResource(Resource):
                 return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
               }
 
-
+            var loadJS = function (url, callback, location) {
+                location = location || document.head
+        
+                var scriptTag = document.createElement('script');
+                scriptTag.onload = callback;
+                // scriptTag.onreadystatechange = callback;
+                scriptTag.src = url;
+                location.appendChild(scriptTag);
+              };
+        
+              function drawQRcode () {
+                var canvas = document.getElementById('qrcode-canvas')
+                QRCode.toCanvas(canvas, window.location.href, {
+                  scale: 4,
+                  width: 130,
+                  height: 130
+                })
+              }
+        
+              function doPCActions() {
+                loadJS('https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js', drawQRcode);
+              }
               function doMobileActions () {
                 window.location.href="''' + pcUrl + '''"
-              }
-
-              function doPCActions() {
               }
 
               isMobile() ? doMobileActions() : doPCActions();
@@ -273,8 +294,12 @@ class MakeH5TemplateResource(Resource):
                 phoneFile.close()
                 filePath = os.path.join(path, str(h5Key) + "_pc.html")
                 pcFile = open(filePath, "w", encoding="utf-8")
-                pcFile.write(pcFinalString.replace("https://img1.maka.im/favicon.ico",
-                                                         "https://www.uniecard.com/static/favicon.ico"))
+                pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                  "https://www.uniecard.com/static/favicon.ico").replace(
+                    "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
+                                                          "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
+                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>', '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>')
+                pcFile.write(pcContent)
                 pcFile.close()
             else:
                 phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
@@ -289,8 +314,12 @@ class MakeH5TemplateResource(Resource):
                 phoneFile.close()
                 filePath = os.path.join(path, str(h5Key) + "_pc.html")
                 pcFile = open(filePath, "w", encoding="utf-8")
-                pcFile.write(pcFinalString.replace("https://img1.maka.im/favicon.ico",
-                                                   "https://www.uniecard.com/static/favicon.ico"))
+                pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                      "https://www.uniecard.com/static/favicon.ico").replace(
+                    "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
+                                                          "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
+                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>', '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>')
+                pcFile.write(pcContent)
                 pcFile.close()
             return pretty_result(code.OK, data=[phoneUrl, pcUrl], msg='make h5 successful！')
         except IndexError:

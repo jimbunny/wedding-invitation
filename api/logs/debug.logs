@@ -71,3 +71,248 @@
 2022-03-22 18:16:50,290 - _internal.py[line:225] - INFO: 127.0.0.1 - - [22/Mar/2022 18:16:50] "GET /api/v1/h5/wedding/BHARZSQ5W601736963 HTTP/1.1" 200 -
 2022-03-22 18:18:37,664 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-22 18:18:37,757 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:25:05,655 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:25:06,588 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:25:06,593 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:25:06,664 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:27:05,824 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\routes\\api_v1_h5.py', reloading
+2022-03-23 14:27:05,908 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:27:06,917 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:27:06,920 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:27:06,968 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:27:25,822 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\routes\\api_v1_h5.py', reloading
+2022-03-23 14:27:25,916 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:27:26,817 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:27:26,820 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:27:26,865 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:29:13,814 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:29:13,903 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:29:14,970 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:29:14,973 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:29:15,020 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:31:51,790 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:31:51,869 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:31:52,752 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:31:52,756 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:31:52,803 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:31:57,365 - app.py[line:29] - ERROR: Got exception during processing: tempalate/BHARZSQ5W601736963.html
+2022-03-23 14:31:57,366 - app.py[line:29] - ERROR: Got exception during processing: tempalate/BHARZSQ5W601736963.html
+2022-03-23 14:31:57,368 - app.py[line:29] - ERROR: Got exception during processing: tempalate/BHARZSQ5W601736963.html
+2022-03-23 14:31:57,385 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:31:57] "[35m[1mGET /api/v1/h5/tempalate/BHARZSQ5W601736963 HTTP/1.1[0m" 500 -
+2022-03-23 14:31:57,467 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:31:57] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-23 14:31:57,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:31:57] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-23 14:31:57,491 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:31:57] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-23 14:31:57,508 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:31:57] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-23 14:31:57,613 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:31:57] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-23 14:33:07,494 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:33:07] "GET /api/v1/h5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:34:53,898 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:34:53] "GET /api/v1/h5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:35:16,617 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:35:16] "GET /api/v1/h5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:36:34,318 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:36:34,423 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:36:35,418 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:36:35,421 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:36:35,469 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:37:18,374 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:37:18,451 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:37:19,327 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:37:19,329 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:37:19,373 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:37:46,675 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:37:46,782 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:37:47,650 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:37:47,653 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:37:47,698 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:38:02,418 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:38:02,487 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:38:03,361 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:38:03,364 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:38:03,408 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:38:54,756 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:38:54,863 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:38:55,746 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:38:55,749 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:38:55,795 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:41:53,258 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:41:53] "GET /api/v1/webapp/swipes/getList HTTP/1.1" 200 -
+2022-03-23 14:41:53,260 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:41:53] "GET /api/v1/webapp/templates/getList?pageNo=1&pageSize=1000&name= HTTP/1.1" 200 -
+2022-03-23 14:42:36,634 - app.py[line:29] - ERROR: Got exception during processing: tempalate/1647690152290.html
+2022-03-23 14:42:36,635 - app.py[line:29] - ERROR: Got exception during processing: tempalate/1647690152290.html
+2022-03-23 14:42:36,636 - app.py[line:29] - ERROR: Got exception during processing: tempalate/1647690152290.html
+2022-03-23 14:42:36,658 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:42:36] "[35m[1mGET /api/v1/h5/tempalate/1647690152290 HTTP/1.1[0m" 500 -
+2022-03-23 14:42:36,684 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:42:36] "GET /api/v1/h5/tempalate/1647690152290?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-23 14:42:36,688 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:42:36] "GET /api/v1/h5/tempalate/1647690152290?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-23 14:42:36,715 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:42:36] "GET /api/v1/h5/tempalate/1647690152290?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-23 14:42:36,727 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:42:36] "GET /api/v1/h5/tempalate/1647690152290?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-23 14:42:36,769 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:42:36] "GET /api/v1/h5/tempalate/1647690152290?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-23 14:43:13,546 - app.py[line:29] - ERROR: Got exception during processing: tempalate/BHARZSQ5W601736963.html
+2022-03-23 14:43:13,546 - app.py[line:29] - ERROR: Got exception during processing: tempalate/BHARZSQ5W601736963.html
+2022-03-23 14:43:13,546 - app.py[line:29] - ERROR: Got exception during processing: tempalate/BHARZSQ5W601736963.html
+2022-03-23 14:43:13,562 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:43:13] "[35m[1mGET /api/v1/h5/tempalate/BHARZSQ5W601736963 HTTP/1.1[0m" 500 -
+2022-03-23 14:43:13,587 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:43:13] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-23 14:43:13,588 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:43:13] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-23 14:43:13,607 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:43:13] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-03-23 14:43:13,607 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:43:13] "GET /api/v1/h5/tempalate/BHARZSQ5W601736963?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-23 14:43:22,083 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:43:22] "GET /api/v1/h5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:46:53,060 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:46:53,175 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:46:54,200 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:46:54,203 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:46:54,250 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:47:05,730 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:47:05] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:48:05,440 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:48:08,955 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:48:08,958 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:48:14,581 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:48:14,594 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:48:14] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:48:14,672 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 14:48:14,673 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:48:14] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 14:48:32,624 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:48:32] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:50:48,936 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:50:51,388 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:50:51,391 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:50:55,035 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:50:55,038 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:50:55] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:50:55,083 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 14:50:55,084 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:50:55] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 14:51:49,995 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:51:50,114 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:51:51,027 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:51:51,030 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:51:51,076 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:51:52,629 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:51:54,289 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:51:54,293 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:52:13,656 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:52:13,662 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:52:13] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:52:13,717 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 14:52:13,718 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:52:13] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 14:54:21,202 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 14:54:21,294 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 14:54:22,332 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 14:54:22,335 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 14:54:22,382 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 14:54:22,938 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:54:35,007 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:54:35,010 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 14:54:47,561 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 14:54:47,564 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:54:47] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 14:54:47,620 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 14:54:47,621 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:54:47] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 14:54:52,751 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 14:54:52] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:00:29,524 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:00:29,621 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:00:30,564 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:00:30,567 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:00:30,612 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:01:28,259 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:01:28,336 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:01:29,198 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:01:29,201 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:01:29,248 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:01:36,207 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:01:39,249 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:01:39,254 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:01:42,923 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:01:42,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:01:42] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:01:42,980 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:01:42,981 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:01:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:02:03,150 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:02:03] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:05:39,391 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:05:39] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:05:46,290 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:05:46] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:07:54,499 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:07:54,589 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:07:55,690 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:07:55,694 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:07:55,750 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:07:58,684 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:08:01,970 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:08:01,973 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:08:04,924 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:08:04,927 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:08:04] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:08:04,973 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:08:04,974 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:08:04] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:08:11,033 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:08:11] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:10:38,749 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:10:38] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:10:45,817 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:10:45] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:13:19,356 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:13:19,452 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:13:20,387 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:13:20,390 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:13:20,437 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:13:25,766 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:13:25] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:15:14,523 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:15:14,626 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:15:28,674 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:15:29,527 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:15:29,530 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:15:29,575 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:15:33,610 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:15:39,410 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:15:39,414 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:15:51,191 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:15:51] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:16:07,970 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:16:07,974 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:16:07] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:16:08,031 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:16:08,033 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:16:08] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:16:11,906 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:16:11] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:17:11,718 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:17:11,809 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:17:12,724 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:17:12,727 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:17:12,775 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:17:14,908 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:17:16,210 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:17:16,213 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:17:21,034 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:17:21,037 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:17:21] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:17:21,090 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:17:21,092 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:17:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:17:44,847 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:17:44] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:18:09,934 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:18:09] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:19:15,750 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:19:15,838 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:19:16,891 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:19:16,894 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:19:16,940 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:19:20,775 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:19:40,829 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:19:40,832 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:19:45,919 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:19:45,923 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:19:45] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:19:45,961 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:19:45,962 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:19:45] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:20:23,320 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:20:23] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:21:46,026 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:21:46,138 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:21:47,432 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:21:47,436 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:21:47,484 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:22:10,530 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:22:10] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:23:13,385 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:23:13] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:25:05,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:25:05] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:26:13,484 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:26:13,570 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:26:14,588 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:26:14,591 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:26:14,637 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:26:17,614 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:26:17] "GET /api/v1/h5/template/pc/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:26:23,151 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:26:24,671 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:26:24,679 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:26:27,276 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BHARZSQ5W601736963 HTTP/1.1" 200 None
+2022-03-23 15:26:27,280 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:26:27] "GET /api/v1/h5/makeH5/template/BHARZSQ5W601736963 HTTP/1.1" 200 -
+2022-03-23 15:26:27,330 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:26:27,332 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:26:27] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:29:04,869 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:29:13,265 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/1CKXBVN2W601736963 HTTP/1.1" 200 None
+2022-03-23 15:29:13,268 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-23 15:29:16,203 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/1CKXBVN2W601736963 HTTP/1.1" 200 None
+2022-03-23 15:29:16,206 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:29:16] "GET /api/v1/h5/makeH5/template/1CKXBVN2W601736963 HTTP/1.1" 200 -
+2022-03-23 15:29:16,276 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-23 15:29:16,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:29:16] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-23 15:29:26,048 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:29:26] "GET /api/v1/h5/template/pc/1CKXBVN2W601736963 HTTP/1.1" 200 -
+2022-03-23 15:31:56,012 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-03-23 15:31:56,118 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-23 15:31:57,538 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-23 15:31:57,541 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-23 15:31:57,593 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-23 15:33:16,030 - _internal.py[line:225] - INFO: 127.0.0.1 - - [23/Mar/2022 15:33:16] "GET /api/v1/h5/template/pc/1CKXBVN2W601736963 HTTP/1.1" 200 -
