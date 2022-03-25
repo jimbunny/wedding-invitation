@@ -10,6 +10,7 @@
       "isTanmu": 0,
       "tanmuColor": "rgba(47, 50, 52, 0.6)",
       "tanmuBtnColor": "rgba(47, 50, 52)",
+      "fontColor": "#fff",
       "tmpColor": "red",
       "tmpType": "wedding",
       "tmpSource": "hunliji",

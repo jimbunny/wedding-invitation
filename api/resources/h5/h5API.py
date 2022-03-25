@@ -113,7 +113,7 @@ class H5GreetingsResource(Resource):
 
     @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
 
-    def post(self, id):
+    def post(self, key):
         """
         test
         :return: json
@@ -122,7 +122,7 @@ class H5GreetingsResource(Resource):
         # logging.error("error info: %s" % "test error")
         name = request.form.get("name")
         greetings = request.form.get("greetings")
-        path = os.path.join(root, "data", "template", "greetings", str(id) + ".txt")
+        path = os.path.join(root, "data", "template", "greetings", str(key) + ".txt")
         with open(path, 'a+', encoding="utf8") as f:
             f.write(str(name)+":"+str(greetings) + "\n")
         greetings = []
