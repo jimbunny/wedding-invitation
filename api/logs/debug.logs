@@ -3752,3 +3752,13 @@
 2022-03-27 17:07:56,833 - _internal.py[line:225] - INFO:  * Restarting with stat
 2022-03-27 17:07:57,921 - _internal.py[line:225] - WARNING:  * Debugger is active!
 2022-03-27 17:07:57,936 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 17:17:30,009 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:17:30] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:17:30,203 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:17:30] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:17:30,483 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:17:30] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:19:34,022 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:19:34] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:19:34,182 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:19:34] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:19:34,589 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:19:34] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:20:21,078 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/config/h5Template/tanmuContent.py', reloading
+2022-03-27 17:20:21,222 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 17:20:22,548 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 17:20:22,564 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
