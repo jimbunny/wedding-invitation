@@ -159,7 +159,7 @@ export default {
     },
     goToTemplateShow(id) {
       // this.$router.push({ path: `works/${id}` })
-      window.location.href="https://www.uniecard.com/api/v1/h5/tempalate/"+ id
+      window.location.href="https://www.uniecard.com/api/v1/h5/viewer/template/"+ id
     }
   }
 }
