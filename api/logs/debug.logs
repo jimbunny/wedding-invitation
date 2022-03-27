@@ -3762,3 +3762,33 @@
 2022-03-27 17:20:21,222 - _internal.py[line:225] - INFO:  * Restarting with stat
 2022-03-27 17:20:22,548 - _internal.py[line:225] - WARNING:  * Debugger is active!
 2022-03-27 17:20:22,564 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 17:35:30,164 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:35:30] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:35:30,831 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:35:30] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:35:31,069 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:35:31] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:35:57,406 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:35:57] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:35:57,578 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:35:57] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:35:57,953 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:35:57] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:42:36,810 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:42:36] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:42:36,984 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:42:36] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:42:37,260 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:42:37] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:46:00,848 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:46:00] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:46:01,046 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:46:01] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:46:01,314 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:46:01] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:47:27,361 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/config/h5Template/tanmuContent.py', reloading
+2022-03-27 17:47:27,518 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 17:47:28,740 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 17:47:28,757 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 17:47:47,636 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:47:49,398 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:47:49,405 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:47:51,084 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:47:51,091 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:47:51] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:47:51,278 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-27 17:47:51,279 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:47:51] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-27 17:48:01,018 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:48:01] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:48:01,144 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:48:01] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:48:01,558 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:48:01] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:48:46,844 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/config/h5Template/tanmuContent.py', reloading
+2022-03-27 17:48:47,020 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 17:48:47,929 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 17:48:47,941 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
