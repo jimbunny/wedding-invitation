@@ -3792,3 +3792,35 @@
 2022-03-27 17:48:47,020 - _internal.py[line:225] - INFO:  * Restarting with stat
 2022-03-27 17:48:47,929 - _internal.py[line:225] - WARNING:  * Debugger is active!
 2022-03-27 17:48:47,941 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 17:55:12,915 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-27 17:55:12,916 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 17:55:13,520 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 17:55:13,529 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 17:55:16,876 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:55:16] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:55:17,073 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:55:17] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:55:17,329 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:55:17] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:58:10,800 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:58:10] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:58:10,945 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:58:10] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:58:11,370 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:58:11] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:58:56,352 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:58:56] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:58:56,517 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:58:56] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:58:56,898 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:58:56] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:59:23,278 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:59:23] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:59:23,424 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:59:23] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:59:23,821 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:59:23] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:59:43,574 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:59:43] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:59:43,746 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:59:43] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:59:44,167 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:59:44] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 18:00:14,622 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:00:14] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 18:00:14,763 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:00:14] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 18:00:15,167 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:00:15] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 18:02:39,619 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:02:39] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 18:02:39,777 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:02:39] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 18:02:40,169 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:02:40] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 18:03:03,901 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:03:03] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 18:03:04,032 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:03:04] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 18:03:04,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 18:03:04] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 18:04:44,009 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/config/h5Template/tanmuContent.py', reloading
+2022-03-27 18:04:44,123 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 18:04:45,396 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 18:04:45,411 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
