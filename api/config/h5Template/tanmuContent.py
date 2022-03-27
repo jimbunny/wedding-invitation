@@ -38,7 +38,6 @@ tanmuContent = '''
     <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: env(safe-area-inset-bottom); position: relative; min-height: 35.7422px; width: 100%;">
         <div class="barrage-input-tip" data-toggle="modal" data-target="#myModal"  style="background:{{ data.tanmuColor }}; width: 179.883px; height: 35.7422px; line-height: 35.7422px; border-radius: 35.7422px; box-sizing: border-box; color: rgb(255, 255, 255); margin-left: 45.7031px; background-color: rgb(47, 50, 52); opacity: 0.65; pointer-events: initial; padding: 0px 16.9922px; font-size: 14.0625px;">ฝากคำอวยพร...</div>
     </div>
-   <div id="j-barrage-top" class="barrage_box barrage_box_top" style="position: fixed; box-sizing: border-box; padding: 0px; right: 0px; bottom: 0px; z-index: 1000; width: 100%; pointer-events: none;"></div>
     <div class="backdrop" style="position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); z-index: 999; display: none; top: 0px; left: 0px; pointer-events: initial;"></div>
     <div class="barrage-btn tanBtn" style="padding-bottom: env(safe-area-inset-bottom); margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 11.7188px; pointer-events: initial;">
       <div class="correct-icon" id="tanmuOpen" style="background: url(&quot;https://i.ibb.co/1QmGHWV/danmu-open1.png&quot;) 0% 0% / contain no-repeat; border-radius: 100%; width: 35.7422px; height: 35.7422px;"></div>
@@ -46,6 +45,7 @@ tanmuContent = '''
         <b style="position: absolute; color: rgb(255, 255, 255); top: 2.92969px; left: 19.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
       </div>
     </div>
+    <div id="j-barrage-top" class="barrage_box barrage_box_top" style="position: fixed; box-sizing: border-box; padding: 0px; right: 0px; bottom: 0px; z-index: 1000; width: 100%; pointer-events: none;"></div>
   </div>
   <div class="barrage-input-wrap" id="modalShow" style="display: none; position: fixed; left: 0px; bottom: 0px;height: 0px; width: 100%; background-color:transparent; padding: 9.375px 11.7188px; box-sizing: border-box; z-index: 2000; pointer-events: initial;">
 

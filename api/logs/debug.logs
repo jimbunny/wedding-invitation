@@ -3711,3 +3711,44 @@
 2022-03-27 15:57:00,527 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 15:57:00] "GET /api/v1/h5/template/viewer/YJO1MYUAW601736963 HTTP/1.1" 200 -
 2022-03-27 15:57:01,265 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 15:57:01] "GET /static/js/index.js HTTP/1.1" 200 -
 2022-03-27 15:57:01,515 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 15:57:01] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:05:25,823 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-27 17:05:25,825 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 17:05:26,542 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 17:05:26,559 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 17:05:50,487 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:05:52,696 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:05:52,702 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:05:54,334 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:05:54,343 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:05:54] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:05:54,479 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-27 17:05:54,480 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:05:54] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-27 17:06:06,734 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:06] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:06:20,947 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:06:22,363 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:06:22,368 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:06:23,949 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:06:24,389 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:06:24,395 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:24] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:06:25,329 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:06:25,336 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:06:26,946 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:06:26,952 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:26] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:06:27,047 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-27 17:06:27,048 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:27] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-27 17:06:33,964 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:06:35,532 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:06:35,538 - connectionpool.py[line:941] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-03-27 17:06:37,648 - connectionpool.py[line:442] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-03-27 17:06:37,653 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:37] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:06:37,754 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-03-27 17:06:37,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:37] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-03-27 17:06:39,574 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:39] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:06:39,785 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:39] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:06:40,089 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:06:40] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:07:30,085 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:07:30] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 17:07:30,244 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:07:30] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 17:07:30,643 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 17:07:30] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-03-27 17:07:56,718 - _internal.py[line:225] - INFO:  * Detected change in '/Users/jingtongyu/Downloads/code/wedding-invitation/api/config/h5Template/tanmuContent.py', reloading
+2022-03-27 17:07:56,833 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-27 17:07:57,921 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-27 17:07:57,936 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
