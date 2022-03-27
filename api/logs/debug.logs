@@ -3708,3 +3708,6 @@
 2022-03-27 15:36:54,348 - _internal.py[line:225] - INFO:  * Restarting with stat
 2022-03-27 15:36:55,486 - _internal.py[line:225] - WARNING:  * Debugger is active!
 2022-03-27 15:36:55,498 - _internal.py[line:225] - INFO:  * Debugger PIN: 607-244-775
+2022-03-27 15:57:00,527 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 15:57:00] "GET /api/v1/h5/template/viewer/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-03-27 15:57:01,265 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 15:57:01] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-03-27 15:57:01,515 - _internal.py[line:225] - INFO: 127.0.0.1 - - [27/Mar/2022 15:57:01] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -

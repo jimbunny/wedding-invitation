@@ -159,7 +159,7 @@ class H5ViewResource(Resource):
         self.parser = RequestParser()
 
     # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
-    def get(self, _type, view_type, h5Key):
+    def get(self, view_type, _type, h5Key):
         """
         Test Method
 
@@ -294,7 +294,7 @@ class MakeH5TemplateResource(Resource):
                                                           "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
                     replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
                             '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
-                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/template/viewer')
+                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/template')
                 pcFile.write(pcContent)
                 pcFile.close()
             else:
@@ -338,7 +338,7 @@ class MakeH5TemplateResource(Resource):
                                                           "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
                     replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
                             '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
-                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/product/viewer')
+                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/product')
                 pcFile.write(pcContent)
                 pcFile.close()
             return pretty_result(code.OK, data=[phoneUrl, pcUrl], msg='make h5 successful！')
