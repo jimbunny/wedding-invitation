@@ -10,6 +10,11 @@ from flasgger import swag_from
 from flask import make_response, render_template, abort, request
 import json
 import os
+from config.h5Template.templateBtn import templateBtn
+from config.h5Template.tanmuLink import tanmuLink
+from config.h5Template.tanmuContent import tanmuContent
+from config.h5Template.phone import phone
+from config.h5Template.pc import pc
 
 root = os.path.abspath(os.path.join(os.getcwd()))
 headers = {'Content-Type': 'text/html'}
@@ -113,7 +118,18 @@ class H5GreetingsResource(Resource):
 
     @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
 
-    def post(self, key):
+    def get(self, id):
+        greetings = {'data': []}
+        path = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
+        if not os.path.exists(path):
+            json_str = json.dumps(greetings, indent=4)
+            with open(path, 'w') as json_file:
+                json_file.write(json_str)
+        with open(path, 'r', encoding="utf8") as load_f:
+            load_dict = json.load(load_f)
+        return pretty_result(code.OK, data=load_dict.get('data'))
+
+    def post(self, id):
         """
         test
         :return: json
@@ -122,17 +138,14 @@ class H5GreetingsResource(Resource):
         # logging.error("error info: %s" % "test error")
         name = request.form.get("name")
         greetings = request.form.get("greetings")
-        path = os.path.join(root, "data", "template", "greetings", str(key) + ".txt")
-        with open(path, 'a+', encoding="utf8") as f:
-            f.write(str(name)+":"+str(greetings) + "\n")
-        greetings = []
-        f = open(path, "r")  # 返回一个文件对象
-        lines = f.readlines()  # 调用文件的 readline()方法
-        for line in lines:
-            if line:
-                greetings.append(line)
-        f.close()
-        return pretty_result(code.OK, data=greetings)
+        path = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
+        with open(path, 'r', encoding="utf8") as load_f:
+            load_dict = json.load(load_f)
+        load_dict.get('data').append({"text":str(name)+":"+str(greetings)})
+        json_str = json.dumps(load_dict, indent=4)
+        with open(path, 'w') as json_file:
+            json_file.write(json_str)
+        return pretty_result(code.OK, data=str(str(name)+":"+str(greetings)))
 
 
 class H5ViewResource(Resource):
@@ -154,6 +167,39 @@ class H5ViewResource(Resource):
 
         """
         data = {}
+        if _type == 'template':
+            with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+                load_dict = json.load(load_f)
+            for item in load_dict.get("data"):
+                for key in item:
+                    if key == 'key' and item[key] == h5Key:
+                        data = item
+                        break
+        else:
+            with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
+                load_dict = json.load(load_f)
+            for item in load_dict.get("data"):
+                for key in item:
+                    if key == 'key' and item[key] == h5Key:
+                        data = item
+                        break
+        if data.get("isTanmu") == 1:
+            greetings = {"data": [{"text": "uniEcard:Best wishes on a long and happy life together."}]}
+            path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".json")
+            if not os.path.exists(path):
+                json_str = json.dumps(greetings, indent=4)
+                with open(path, 'w') as json_file:
+                    json_file.write(json_str)
+            try:
+                with open(path, 'r', encoding="utf8") as load_f:
+                    load_dict = json.load(load_f)
+                    greetings = load_dict.get('data')
+            except FileNotFoundError:
+                open(path, 'a').close()
+                # json_str = json.dumps(greetings)
+                # with open(path, 'w') as json_file:
+                #     json_file.write(json_str)
+            data['greetings'] =greetings
         try:
             if view_type == "pc":
                 htmlPath = str(_type) + '/' + str(h5Key) + '_pc.html'
@@ -198,92 +244,39 @@ class MakeH5TemplateResource(Resource):
         phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
         pcUrl = "https://uniecard/pcViewer/" + _type + "/" + str(h5Key)
         phoneUrl = "https://uniecard/viewer/" + _type + "/" + str(h5Key)
-        IsPc = '''
-            <script>
-            !function () {
-              function isMobile() {
-                var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
-                return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
-              }
-
-            var loadJS = function (url, callback, location) {
-                location = location || document.head
-        
-                var scriptTag = document.createElement('script');
-                scriptTag.onload = callback;
-                // scriptTag.onreadystatechange = callback;
-                scriptTag.src = url;
-                location.appendChild(scriptTag);
-              };
-        
-              function drawQRcode () {
-                var canvas = document.getElementById('qrcode-canvas')
-                QRCode.toCanvas(canvas, window.location.href, {
-                  scale: 4,
-                  width: 130,
-                  height: 130
-                })
-              }
-        
-              function doPCActions() {
-                loadJS('https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js', drawQRcode);
-              }
-              function doMobileActions () {
-                window.location.href="''' + pcUrl + '''"
-              }
-
-              isMobile() ? doMobileActions() : doPCActions();
-            }();
-        </script>
-        '''
-        IsPhone = '''
-            <script>
-            !function () {
-              function isMobile() {
-                var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
-                return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
-              }
-
-
-              function doMobileActions () {
-              }
-
-              function doPCActions() {
-                window.location.href="''' + phoneUrl + '''"
-              }
-
-              isMobile() ? doMobileActions() : doPCActions();
-            }();
-        </script>
-        '''
-        templateBtn = '''
-            <style>
-              .simple-header-left {
-                position: fixed;
-                top: 0px;
-                left: 0px;
-                opacity: 0.8;
-                z-index: 10000;
-                line-height: 34px;
-                padding: 0 10px;
-                color: #252525;
-              }
-            </style>
-              <header class="simple-header-left">
-                <div  style="color:blue;width:40px;text-align:center;margin-top:10px;border-radius: 10px;">
-                  <a href="https://www.uniecard.com/#/home"><img style="width:35px;" src="https://i.ibb.co/Kzwf4cq/back.png" alt="back" ></a>
-                  <a href="https://lin.ee/qO0UuXf"><img style="width:40px;" src="https://i.ibb.co/1rQdySV/LINE1.png" alt="line" ></a>
-                  </div>
-              </header>
-            '''
+        IsPc = pc(pcUrl)
+        IsPhone = phone(pcUrl)
         phoneIndex = phoneHtml.text.find('<body>')
         pcIndex = pcHtml.text.find('<body>')
         path = os.path.join(root, "templates")
-
+        data = {}
         try:
             if _type == 'template':
+                with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+                    load_dict = json.load(load_f)
+                for item in load_dict.get("data"):
+                    for key in item:
+                        if key == 'key' and item[key] == h5Key:
+                            data = item
+                            break
                 phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + templateBtn + phoneHtml.text[phoneIndex + 6:])
-                pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + templateBtn + pcHtml.text[pcIndex + 6:])
+                pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                if data.get("isTanmu"):
+                    phoneFinalStringIndex = phoneFinalString.find('</title>')
+                    # pcFinalStringIndex = pcFinalString.find('</title>')
+                    phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
+                                                 tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
+                    # pcFinalStringAddHeader = (
+                    #             pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
+                    #                                                                             pcFinalStringIndex + 8:])
+                    phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
+                    # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
+                    phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex ] +
+                                                 tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
+                    # pcFinalString = (
+                    #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
+                    #                                                                   pcFinalStringIndex:])
+
                 path = os.path.join(path, "template")
                 if not os.path.exists(path):
                     os.makedirs(path)
@@ -292,18 +285,43 @@ class MakeH5TemplateResource(Resource):
                 phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
                                                   "https://www.uniecard.com/static/favicon.ico"))
                 phoneFile.close()
+
                 filePath = os.path.join(path, str(h5Key) + "_pc.html")
                 pcFile = open(filePath, "w", encoding="utf-8")
                 pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
                                                   "https://www.uniecard.com/static/favicon.ico").replace(
                     "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
                                                           "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
-                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>', '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>')
+                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
+                            '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
+                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/template/viewer')
                 pcFile.write(pcContent)
                 pcFile.close()
             else:
+                with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
+                    load_dict = json.load(load_f)
+                for item in load_dict.get("data"):
+                    for key in item:
+                        if key == 'key' and item[key] == h5Key:
+                            data = item
+                            break
                 phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
                 pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                if data.get("isTanmu"):
+                    phoneFinalStringIndex = phoneFinalString.find('</title>')
+                    # pcFinalStringIndex = pcFinalString.find('</title>')
+                    phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
+                                                 tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
+                    # pcFinalStringAddHeader = (
+                    #         pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
+                    #                                                              pcFinalStringIndex + 8:])
+                    phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
+                    # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
+                    phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex] +
+                                        tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
+                    # pcFinalString = (
+                    #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
+                    #                                                                          pcFinalStringIndex:])
                 path = os.path.join(path, "viewer")
                 if not os.path.exists(path):
                     os.makedirs(path)
@@ -318,7 +336,9 @@ class MakeH5TemplateResource(Resource):
                                       "https://www.uniecard.com/static/favicon.ico").replace(
                     "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
                                                           "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
-                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>', '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>')
+                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
+                            '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
+                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/product/viewer')
                 pcFile.write(pcContent)
                 pcFile.close()
             return pretty_result(code.OK, data=[phoneUrl, pcUrl], msg='make h5 successful！')
