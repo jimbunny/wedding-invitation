@@ -242,8 +242,8 @@ class MakeH5TemplateResource(Resource):
         phoneHtml = requests.get(phoneUrl, headers=phoneHeader)
         pcHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
         phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
-        pcUrl = "https://uniecard/pcViewer/" + _type + "/" + str(h5Key)
-        phoneUrl = "https://uniecard/viewer/" + _type + "/" + str(h5Key)
+        pcUrl = "https://www.uniecard.com/pcViewer/" + _type + "/" + str(h5Key)
+        phoneUrl = "https://www.uniecard.com/viewer/" + _type + "/" + str(h5Key)
         IsPc = pc(pcUrl)
         IsPhone = phone(pcUrl)
         phoneIndex = phoneHtml.text.find('<body>')
