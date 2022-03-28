@@ -7,7 +7,9 @@
 
 def phone(url):
     phone =  '''
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script>
+    $('.barrage-more').css('display', 'none')
     !function () {
       function isMobile() {
         var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i

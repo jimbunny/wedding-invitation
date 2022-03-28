@@ -19,9 +19,6 @@ tanmuContent = '''
         font-size: 14.0625px;
         display: block;
     }
-    .barrage-more {
-        display: none !important;
-    }
     .data-box{display:none}
     .barrage_box_top{width:100%;height:160px;margin:0px auto;}
     .barrage_box_top .barrage-row{margin-bottom:20px;}
@@ -85,7 +82,6 @@ tanmuContent = '''
 <div class="alert alert-danger hide">ส่งคำอวยพรสำเร็จ！</div>
 <div class="alert alert-success hide">ส่งคำอวยพรล้มเหลว！</div>
   
-<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
 {#	<script type="text/javascript" src="/static/js/data.js"></script>#}
@@ -193,9 +189,9 @@ tanmuContent = '''
                 // 数据初始化
                 Obj = $('#j-barrage-top').barrage({
                     data : result.data, //数据列表
-                    row : 4,   //显示行数
+                    row : 1,   //显示行数
                     time : 2500, //间隔时间
-                    gap : 20,    //每一个的间隙
+                    gap : 100,    //每一个的间隙
                     position : 'fixed', //绝对定位
                     direction : 'bottom left', //方向
                     ismoseoverclose : true, //悬浮是否停止
