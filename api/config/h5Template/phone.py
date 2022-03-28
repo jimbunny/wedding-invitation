@@ -36,7 +36,7 @@ def phone(url):
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
             setTimeout(function () {
             $('.barrage-more').css('display', 'none')
-            }, 100);
+            }, 2000);
             // 判断X轴移动的距离是否大于Y轴移动的距离
             if (Math.abs(moveDistanceX) > Math.abs(moveDistanceY)) {
             // 左右

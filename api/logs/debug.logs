@@ -4284,3 +4284,29 @@
 2022-03-28 14:58:02,657 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-03-28 14:58:52,884 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-28 14:58:52,976 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-28 15:03:35,049 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-28 15:03:35,913 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-28 15:03:35,918 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-28 15:03:35,969 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-28 15:04:10,855 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:04:10] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:05:08,543 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:05:08] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:06:10,466 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:06:10] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:07:25,448 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:07:25] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:08:34,619 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:08:34] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:09:54,231 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:09:54] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:11:21,619 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:11:21] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:12:10,956 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:12:10] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:12:52,078 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:12:52] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:13:25,443 - _internal.py[line:225] - INFO: 127.0.0.1 - - [28/Mar/2022 15:13:25] "GET /api/v1/h5/viewer/template/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-03-28 15:14:38,464 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-03-28 15:14:38,567 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-28 15:14:39,547 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-28 15:14:39,550 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-28 15:14:39,600 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-28 15:14:45,918 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\pc.py', reloading
+2022-03-28 15:14:45,992 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-03-28 15:14:46,858 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-03-28 15:14:46,861 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-03-28 15:14:46,908 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-03-28 15:14:58,439 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-03-28 15:14:58,506 - _internal.py[line:225] - INFO:  * Restarting with stat
