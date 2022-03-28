@@ -322,7 +322,7 @@ class MakeH5TemplateResource(Resource):
                     # pcFinalString = (
                     #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
                     #                                                                          pcFinalStringIndex:])
-                path = os.path.join(path, "viewer")
+                path = os.path.join(path, "product")
                 if not os.path.exists(path):
                     os.makedirs(path)
                 filePath = os.path.join(path, str(h5Key) + ".html")

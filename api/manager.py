@@ -41,7 +41,7 @@ if not os.path.exists(log_dirs):
 
 formatter = logging.Formatter('%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
-#
+
 class StandaloneApplication(BaseApplication, ABC):
     """
     gunicorn服务器启动类
