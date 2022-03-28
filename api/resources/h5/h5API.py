@@ -231,116 +231,234 @@ class MakeH5TemplateResource(Resource):
         # http://maka.im/viewer/601736963/1CKXBVN2W601736963
 
         # https://u601736963.viewer.maka.im/k/1CKXBVN2W601736963
-        import requests
+        if h5Key != 'all':
+            import requests
 
-        pcHeader = {'User-Agent': 'User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'}
-        phoneHeader = {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1'}
+            pcHeader = {'User-Agent': 'User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'}
+            phoneHeader = {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1'}
 
-        pcUrl = 'https://maka.im/pcviewer/601736963/' + str(h5Key)
-        phoneUrl = 'https://maka.im/viewer/601736963/' + str(h5Key)
-        pcHtml = requests.get(pcUrl, headers=pcHeader)
-        phoneHtml = requests.get(phoneUrl, headers=phoneHeader)
-        pcHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
-        phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
-        pcUrl = "https://www.uniecard.com/pcViewer/" + _type + "/" + str(h5Key)
-        phoneUrl = "https://www.uniecard.com/viewer/" + _type + "/" + str(h5Key)
-        IsPc = pc(pcUrl)
-        IsPhone = phone(pcUrl)
-        phoneIndex = phoneHtml.text.find('<body>')
-        pcIndex = pcHtml.text.find('<body>')
-        path = os.path.join(root, "templates")
-        data = {}
-        try:
+            pcUrl = 'https://maka.im/pcviewer/601736963/' + str(h5Key)
+            phoneUrl = 'https://maka.im/viewer/601736963/' + str(h5Key)
+            pcHtml = requests.get(pcUrl, headers=pcHeader)
+            phoneHtml = requests.get(phoneUrl, headers=phoneHeader)
+            pcHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
+            phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
+            pcUrl = "https://www.uniecard.com/pcViewer/" + _type + "/" + str(h5Key)
+            phoneUrl = "https://www.uniecard.com/viewer/" + _type + "/" + str(h5Key)
+            IsPc = pc(phoneUrl)
+            IsPhone = phone(pcUrl)
+            phoneIndex = phoneHtml.text.find('<body>')
+            pcIndex = pcHtml.text.find('<body>')
+            path = os.path.join(root, "templates")
+            data = {}
+            try:
+                if _type == 'template':
+                    with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+                        load_dict = json.load(load_f)
+                    for item in load_dict.get("data"):
+                        for key in item:
+                            if key == 'key' and item[key] == h5Key:
+                                data = item
+                                break
+                    phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + templateBtn + phoneHtml.text[phoneIndex + 6:])
+                    pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                    if data.get("isTanmu"):
+                        phoneFinalStringIndex = phoneFinalString.find('</title>')
+                        # pcFinalStringIndex = pcFinalString.find('</title>')
+                        phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
+                                                     tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
+                        # pcFinalStringAddHeader = (
+                        #             pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
+                        #                                                                             pcFinalStringIndex + 8:])
+                        phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
+                        # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
+                        phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex ] +
+                                                     tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
+                        # pcFinalString = (
+                        #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
+                        #                                                                   pcFinalStringIndex:])
+
+                    path = os.path.join(path, "template")
+                    if not os.path.exists(path):
+                        os.makedirs(path)
+                    filePath = os.path.join(path, str(h5Key) + ".html")
+                    phoneFile = open(filePath, "w", encoding="utf-8")
+                    phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                      "https://www.uniecard.com/static/favicon.ico").replace('class="mark"', ''))
+                    phoneFile.close()
+
+                    filePath = os.path.join(path, str(h5Key) + "_pc.html")
+                    pcFile = open(filePath, "w", encoding="utf-8")
+                    pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                      "https://www.uniecard.com/static/favicon.ico").replace(
+                        "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
+                                                              "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
+                        replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
+                                '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
+                        replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/template').replace('class="mark"', '')
+                    pcFile.write(pcContent)
+                    pcFile.close()
+                else:
+                    with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
+                        load_dict = json.load(load_f)
+                    for item in load_dict.get("data"):
+                        for key in item:
+                            if key == 'key' and item[key] == h5Key:
+                                data = item
+                                break
+                    phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
+                    pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                    if data.get("isTanmu"):
+                        phoneFinalStringIndex = phoneFinalString.find('</title>')
+                        # pcFinalStringIndex = pcFinalString.find('</title>')
+                        phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
+                                                     tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
+                        # pcFinalStringAddHeader = (
+                        #         pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
+                        #                                                              pcFinalStringIndex + 8:])
+                        phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
+                        # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
+                        phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex] +
+                                            tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
+                        # pcFinalString = (
+                        #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
+                        #                                                                          pcFinalStringIndex:])
+                    path = os.path.join(path, "product")
+                    if not os.path.exists(path):
+                        os.makedirs(path)
+                    filePath = os.path.join(path, str(h5Key) + ".html")
+                    phoneFile = open(filePath, "w", encoding="utf-8")
+                    phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                             "https://www.uniecard.com/static/favicon.ico").replace('class="mark"', ''))
+                    phoneFile.close()
+                    filePath = os.path.join(path, str(h5Key) + "_pc.html")
+                    pcFile = open(filePath, "w", encoding="utf-8")
+                    pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                          "https://www.uniecard.com/static/favicon.ico").replace(
+                        "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
+                                                              "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
+                        replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
+                                '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
+                        replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/product').replace('class="mark"', '')
+                    pcFile.write(pcContent)
+                    pcFile.close()
+                return pretty_result(code.OK, data=[phoneUrl, pcUrl], msg='make h5 successful！')
+            except IndexError:
+                return pretty_result(code.ERROR,  msg='make h5 failed！')
+        else:
+            import requests
+
+            pcHeader = {
+                'User-Agent': 'User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'}
+            phoneHeader = {
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1'}
+
             if _type == 'template':
-                with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+                with open(os.path.join(root, "data", "template", "management.json"), 'r',
+                          encoding="utf8") as load_f:
                     load_dict = json.load(load_f)
-                for item in load_dict.get("data"):
-                    for key in item:
-                        if key == 'key' and item[key] == h5Key:
-                            data = item
-                            break
-                phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + templateBtn + phoneHtml.text[phoneIndex + 6:])
-                pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
-                if data.get("isTanmu"):
-                    phoneFinalStringIndex = phoneFinalString.find('</title>')
-                    # pcFinalStringIndex = pcFinalString.find('</title>')
-                    phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
-                                                 tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
-                    # pcFinalStringAddHeader = (
-                    #             pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
-                    #                                                                             pcFinalStringIndex + 8:])
-                    phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
-                    # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
-                    phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex ] +
-                                                 tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
-                    # pcFinalString = (
-                    #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
-                    #                                                                   pcFinalStringIndex:])
-
-                path = os.path.join(path, "template")
-                if not os.path.exists(path):
-                    os.makedirs(path)
-                filePath = os.path.join(path, str(h5Key) + ".html")
-                phoneFile = open(filePath, "w", encoding="utf-8")
-                phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
-                                                  "https://www.uniecard.com/static/favicon.ico"))
-                phoneFile.close()
-
-                filePath = os.path.join(path, str(h5Key) + "_pc.html")
-                pcFile = open(filePath, "w", encoding="utf-8")
-                pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
-                                                  "https://www.uniecard.com/static/favicon.ico").replace(
-                    "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
-                                                          "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
-                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
-                            '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
-                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/template')
-                pcFile.write(pcContent)
-                pcFile.close()
             else:
-                with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
+                with open(os.path.join(root, "data", "template", "product.json"), 'r',
+                          encoding="utf8") as load_f:
                     load_dict = json.load(load_f)
-                for item in load_dict.get("data"):
-                    for key in item:
-                        if key == 'key' and item[key] == h5Key:
-                            data = item
-                            break
-                phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
-                pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
-                if data.get("isTanmu"):
-                    phoneFinalStringIndex = phoneFinalString.find('</title>')
-                    # pcFinalStringIndex = pcFinalString.find('</title>')
-                    phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
-                                                 tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
-                    # pcFinalStringAddHeader = (
-                    #         pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
-                    #                                                              pcFinalStringIndex + 8:])
-                    phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
-                    # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
-                    phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex] +
-                                        tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
-                    # pcFinalString = (
-                    #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
-                    #                                                                          pcFinalStringIndex:])
-                path = os.path.join(path, "product")
-                if not os.path.exists(path):
-                    os.makedirs(path)
-                filePath = os.path.join(path, str(h5Key) + ".html")
-                phoneFile = open(filePath, "w", encoding="utf-8")
-                phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
-                                                         "https://www.uniecard.com/static/favicon.ico"))
-                phoneFile.close()
-                filePath = os.path.join(path, str(h5Key) + "_pc.html")
-                pcFile = open(filePath, "w", encoding="utf-8")
-                pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
-                                      "https://www.uniecard.com/static/favicon.ico").replace(
-                    "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
-                                                          "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์").\
-                    replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
-                            '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>').\
-                    replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/product')
-                pcFile.write(pcContent)
-                pcFile.close()
-            return pretty_result(code.OK, data=[phoneUrl, pcUrl], msg='make h5 successful！')
-        except IndexError:
-            return pretty_result(code.ERROR,  msg='make h5 failed！')
+            for item in load_dict.get("data"):
+                h5Key = item.get('key')
+                pcUrl = 'https://maka.im/pcviewer/601736963/' + str(h5Key)
+                phoneUrl = 'https://maka.im/viewer/601736963/' + str(h5Key)
+                pcHtml = requests.get(pcUrl, headers=pcHeader)
+                phoneHtml = requests.get(phoneUrl, headers=phoneHeader)
+                pcHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
+                phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
+                pcUrl = "https://www.uniecard.com/pcViewer/" + _type + "/" + str(h5Key)
+                phoneUrl = "https://www.uniecard.com/viewer/" + _type + "/" + str(h5Key)
+                IsPc = pc(phoneUrl)
+                IsPhone = phone(pcUrl)
+                phoneIndex = phoneHtml.text.find('<body>')
+                pcIndex = pcHtml.text.find('<body>')
+                path = os.path.join(root, "templates")
+                data = item
+                try:
+                    if _type == 'template':
+                        phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + templateBtn + phoneHtml.text[
+                                                                                                      phoneIndex + 6:])
+                        pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                        if data.get("isTanmu"):
+                            phoneFinalStringIndex = phoneFinalString.find('</title>')
+                            # pcFinalStringIndex = pcFinalString.find('</title>')
+                            phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
+                                                         tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
+                            # pcFinalStringAddHeader = (
+                            #             pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
+                            #                                                                             pcFinalStringIndex + 8:])
+                            phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
+                            # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
+                            phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex] +
+                                                tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
+                            # pcFinalString = (
+                            #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
+                            #                                                                   pcFinalStringIndex:])
+
+                        path = os.path.join(path, "template")
+                        if not os.path.exists(path):
+                            os.makedirs(path)
+                        filePath = os.path.join(path, str(h5Key) + ".html")
+                        phoneFile = open(filePath, "w", encoding="utf-8")
+                        phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                                 "https://www.uniecard.com/static/favicon.ico").replace(
+                            'class="mark"', ''))
+                        phoneFile.close()
+
+                        filePath = os.path.join(path, str(h5Key) + "_pc.html")
+                        pcFile = open(filePath, "w", encoding="utf-8")
+                        pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                          "https://www.uniecard.com/static/favicon.ico").replace(
+                            "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
+                                                                  "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์"). \
+                            replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
+                                    '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>'). \
+                            replace('src="//maka.im/viewer/601736963',
+                                    'src="https://www.uniecard.com/viewer/template').replace('class="mark"', '')
+                        pcFile.write(pcContent)
+                        pcFile.close()
+                    else:
+                        phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
+                        pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
+                        if data.get("isTanmu"):
+                            phoneFinalStringIndex = phoneFinalString.find('</title>')
+                            # pcFinalStringIndex = pcFinalString.find('</title>')
+                            phoneFinalStringAddHeader = (phoneFinalString[:phoneFinalStringIndex + 8] +
+                                                         tanmuLink + phoneFinalString[phoneFinalStringIndex + 8:])
+                            # pcFinalStringAddHeader = (
+                            #         pcFinalString[:pcFinalStringIndex + 8] + tanmuLink + pcFinalString[
+                            #                                                              pcFinalStringIndex + 8:])
+                            phoneFinalStringIndex = phoneFinalStringAddHeader.find('</html>')
+                            # pcFinalStringIndex = pcFinalStringAddHeader.find('</html>')
+                            phoneFinalString = (phoneFinalStringAddHeader[:phoneFinalStringIndex] +
+                                                tanmuContent + phoneFinalStringAddHeader[phoneFinalStringIndex:])
+                            # pcFinalString = (
+                            #         pcFinalStringAddHeader[:pcFinalStringIndex] + tanmuContent + pcFinalStringAddHeader[
+                            #                                                                          pcFinalStringIndex:])
+                        path = os.path.join(path, "product")
+                        if not os.path.exists(path):
+                            os.makedirs(path)
+                        filePath = os.path.join(path, str(h5Key) + ".html")
+                        phoneFile = open(filePath, "w", encoding="utf-8")
+                        phoneFile.write(phoneFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                                 "https://www.uniecard.com/static/favicon.ico").replace(
+                            'class="mark"', ''))
+                        phoneFile.close()
+                        filePath = os.path.join(path, str(h5Key) + "_pc.html")
+                        pcFile = open(filePath, "w", encoding="utf-8")
+                        pcContent = pcFinalString.replace("https://img1.maka.im/favicon.ico",
+                                                          "https://www.uniecard.com/static/favicon.ico").replace(
+                            "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面",
+                                                                  "สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์"). \
+                            replace('<img class="pcviewer-infoarea-qrcodearea-img"/>',
+                                    '<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>'). \
+                            replace('src="//maka.im/viewer/601736963',
+                                    'src="https://www.uniecard.com/viewer/product').replace('class="mark"', '')
+                        pcFile.write(pcContent)
+                        pcFile.close()
+                except IndexError:
+                    return pretty_result(code.ERROR, msg='make h5 all failed！')
+            return pretty_result(code.OK, data="", msg='make h5 all successful！')

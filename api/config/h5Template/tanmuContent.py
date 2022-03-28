@@ -32,7 +32,7 @@ tanmuContent = '''
         <div class="barrage-words row" style="margin-top: 11.7188px; height: 212.695px;"><div class="barrage-word" style="min-height: 32.2266px; line-height: 32.2266px; font-size: 12.8906px; padding: 4.10156px; border-radius: 22.8516px; bottom: 94.3359px; max-width: 310.547px; background-color: rgba(47, 50, 52, 0.6); transform: scale(1); opacity: 0; transition: bottom 2s ease-out 0s, opacity 0.75s linear 0.75s;">
         </div>
     </div>
-    <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: env(safe-area-inset-bottom); position: relative; min-height: 35.7422px; width: 100%;">
+    <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: env(safe-area-inset-bottom); margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 47px; pointer-events: initial;">
         <div class="barrage-input-tip" data-toggle="modal" data-target="#myModal"  style="background:{{ data.tanmuColor }}; width: 179.883px; height: 35.7422px; line-height: 35.7422px; border-radius: 35.7422px; box-sizing: border-box; color: rgb(255, 255, 255); margin-left: 45.7031px; background-color: rgb(47, 50, 52); opacity: 0.65; pointer-events: initial; padding: 0px 16.9922px; font-size: 14.0625px;">ฝากคำอวยพร...</div>
     </div>
     <div class="backdrop" style="position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); z-index: 999; display: none; top: 0px; left: 0px; pointer-events: initial;"></div>
@@ -79,8 +79,8 @@ tanmuContent = '''
     <!-- /.modal -->
   </div>
 </div>
-<div class="alert alert-danger hide">ส่งคำอวยพรสำเร็จ！</div>
-<div class="alert alert-success hide">ส่งคำอวยพรล้มเหลว！</div>
+<div class="alert alert-danger hide">ส่งคำอวยพรล้มเหลว！</div>
+<div class="alert alert-success hide">ส่งคำอวยพรสำเร็จ！</div>
   
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
