@@ -3,12 +3,31 @@
 # author:jingtongyu
 # datetime:2022/3/26 下午8:39
 # software: PyCharm
+from config.h5Template.font import choseFont
 
 
-def pc(url):
+def pc(url, name):
+    font = choseFont(name)
     pc = '''
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
+        var interval = setInterval(function () {
+            var readystate = document.readyState.toLowerCase();
+            console.log(readystate)
+            if (readystate == 'complete')
+            {
+            setTimeout(function () {
+                $('.barrage-more').css('display', 'none')
+                $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
+            }, 2000);
+            setTimeout(function () {
+                $('.barrage-more').css('display', 'none')
+                $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
+            }, 5000);
+            clearInterval(interval);
+        }
+    },500)
     let box = document.querySelector('body') // 监听对象
     let startTime = '' // 触摸开始时间
     let startDistanceX = '' // 触摸开始X轴位置
@@ -35,7 +54,8 @@ def pc(url):
         // 判断滑动距离超过40 且 时间小于500毫秒
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
             setTimeout(function () {
-            $('.barrage-more').css('display', 'none')
+                $('.barrage-more').css('display', 'none')
+                $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
             }, 2000);
             // 判断X轴移动的距离是否大于Y轴移动的距离
             if (Math.abs(moveDistanceX) > Math.abs(moveDistanceY)) {
@@ -47,6 +67,7 @@ def pc(url):
             }
         }
     })
+    
     !function () {
       function isMobile() {
         var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
@@ -76,7 +97,7 @@ def pc(url):
         loadJS('https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js', drawQRcode);
       }
       function doMobileActions () {
-        window.location.href="''' + url + '''"
+        window.location.href="''' + str(url) + '''"
       }
 
       isMobile() ? doMobileActions() : doPCActions();

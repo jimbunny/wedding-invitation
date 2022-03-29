@@ -245,12 +245,6 @@ class MakeH5TemplateResource(Resource):
             phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
             pcUrl = "https://www.uniecard.com/pcViewer/" + _type + "/" + str(h5Key)
             phoneUrl = "https://www.uniecard.com/viewer/" + _type + "/" + str(h5Key)
-            IsPc = pc(phoneUrl)
-            IsPhone = phone(pcUrl)
-            phoneIndex = phoneHtml.text.find('<body>')
-            pcIndex = pcHtml.text.find('<body>')
-            path = os.path.join(root, "templates")
-            data = {}
             try:
                 if _type == 'template':
                     with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
@@ -260,6 +254,11 @@ class MakeH5TemplateResource(Resource):
                             if key == 'key' and item[key] == h5Key:
                                 data = item
                                 break
+                    IsPc = pc(phoneUrl, data.get('font'))
+                    IsPhone = phone(pcUrl, data.get('font'))
+                    phoneIndex = phoneHtml.text.find('<body>')
+                    pcIndex = pcHtml.text.find('<body>')
+                    path = os.path.join(root, "templates")
                     phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + templateBtn + phoneHtml.text[phoneIndex + 6:])
                     pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
                     if data.get("isTanmu"):
@@ -306,6 +305,11 @@ class MakeH5TemplateResource(Resource):
                             if key == 'key' and item[key] == h5Key:
                                 data = item
                                 break
+                    IsPc = pc(phoneUrl, data.get('font'))
+                    IsPhone = phone(pcUrl, data.get('font'))
+                    phoneIndex = phoneHtml.text.find('<body>')
+                    pcIndex = pcHtml.text.find('<body>')
+                    path = os.path.join(root, "templates")
                     phoneFinalString = (phoneHtml.text[:phoneIndex + 6] + IsPhone + phoneHtml.text[phoneIndex + 6:])
                     pcFinalString = (pcHtml.text[:pcIndex + 6] + IsPc + pcHtml.text[pcIndex + 6:])
                     if data.get("isTanmu"):
@@ -371,8 +375,8 @@ class MakeH5TemplateResource(Resource):
                 phoneHtml.encoding = 'utf-8'  # 这一行是将编码转为utf-8否则中文会显示乱码。
                 pcUrl = "https://www.uniecard.com/pcViewer/" + _type + "/" + str(h5Key)
                 phoneUrl = "https://www.uniecard.com/viewer/" + _type + "/" + str(h5Key)
-                IsPc = pc(phoneUrl)
-                IsPhone = phone(pcUrl)
+                IsPc = pc(phoneUrl, item.get('font'))
+                IsPhone = phone(pcUrl, item.get('font'))
                 phoneIndex = phoneHtml.text.find('<body>')
                 pcIndex = pcHtml.text.find('<body>')
                 path = os.path.join(root, "templates")
