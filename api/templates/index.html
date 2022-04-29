@@ -1,346 +1,645 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>{{ data.title }}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta id="metaDescription" itemprop="description" name="description" content="{{ data.description }}">
-    <meta itemprop="image" content="{{ data.ThumbnailUrl }}">
-    <title>{{ data.title }}</title>
-    <meta itemprop="name" content="{{ data.title }}"/>
-    <meta itemprop="image" content="{{ data.ThumbnailUrl }}"/>
-    <meta property="og:image" content="{{ data.ThumbnailUrl }}"/>
-    <meta name="description" itemprop="description" content="{{ data.description }}"/>
-    <link href="{{ data.ThumbnailUrl }}" rel="shortcut icon">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1111390818569849"
-     crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-40Z887Z33T"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-40Z887Z33T');
-    </script>
-    <style type="text/css">
-        html, body {
-            margin: 0 0;
-            width: 100%;
-            height: 100%;
-        }
+  <head>
 
-        iframe {
-            margin: 0 0;
-            width: 100%;
-            height: 100%;
-        }
-        .loading{
-            width: 150px;
-            height: 15px;
-            margin: 0 auto;
-        }
-        .loading span{
-            display: inline-block;
-            width: 15px;
-            height: 100%;
-            margin-right: 5px;
-            border-radius: 50%;
-            background: #f2b1ce;
-            -webkit-animation: load 1.04s ease infinite;
-        }
-        .loading span:last-child{
-            margin-right: 0px;
-        }
-        @-webkit-keyframes load{
-            0%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0;
-            }
-        }
-        .loading span:nth-child(1){
-            -webkit-animation-delay:0.13s;
-        }
-        .loading span:nth-child(2){
-            -webkit-animation-delay:0.26s;
-        }
-        .loading span:nth-child(3){
-            -webkit-animation-delay:0.39s;
-        }
-        .loading span:nth-child(4){
-            -webkit-animation-delay:0.52s;
-        }
-        .loading span:nth-child(5){
-            -webkit-animation-delay:0.65s;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="You're the only one.">
+    <meta name="author" content="jimYu">
+    <link rel="icon" href="/static/website/assets/images/logo.svg">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <style>
-    /*
-      scss 文件，用来生成下面一段 style 中的 css
-      css 在线转 css：https://www.sassmeister.com/
-    */
-    /* * {
-      outline: none;
-    }
+    <title>uniEcard</title>
 
-    .bg-wrapper {
-      width: 100%;
-      height: 100%;
-      background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    }
+    <!-- Bootstrap core CSS -->
+    <link href="/static/website/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    .preview-wrapper {
-      position: relative;
-      display: flex;
-      flex-wrap: nowrap;
-      width: 320px;
-      height: 568px;
 
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/static/website/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/static/website/assets/css/templatemo-eduwell-style.css">
+    <link rel="stylesheet" href="/static/website/assets/css/owl.css">
+    <link rel="stylesheet" href="/static/website/assets/css/lightbox.css">
 
-      .phone-wrapper {
-        position: absolute;
-        width: 320px;
-        height: 568px;
-        display: inline-block;
-        background: #fff;
-        box-sizing: content-box;
-        border: 10px solid #f6f6f6;
-      }
 
-      .float-shortcuts {
-        position: absolute;
-        top: 100px;
-        right: 0;
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
 
-        .page-controller {
-          position: absolute;
-          left: 0 !important;
-          display: block;
-          box-sizing: border-box;
-          width: 48px;
-          height: 25px;
-          padding: 4px;
-          border-top-right-radius: 5px;
-          border-bottom-right-radius: 5px;
+    <!-- Icon Font Stylesheet -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-          cursor: pointer;
-          background: #2096f9;
-          font-size: 12px;
-          border: 1px solid #2096f9;
-          color: #fff;
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="/static/website/assets/css/style.css">
 
-          &.next {
-            top: 80px;
-          }
-        }
-      }
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3348414_mkxx84var8.css">
+  </head>
 
-      .work-info {
-        color: #4a4a4a;
-        font-size: 14px;
-        margin-left: 380px;
+<body>
 
-        .qrcode-wrapper {
-          .qrcode-label {
-          }
-
-          .qrcode-img {
-          }
-        }
-      }
-    } */
-  </style>
-  <style>
-    * {
-      outline: none;
-    }
-
-    .bg-wrapper {
-      width: 100%;
-      height: 100%;
-      background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    }
-    /* .swiper-container {
-      width: 100%;
-      height: 100vh;
-    } */
-
-    .preview-wrapper {
-      position: relative;
-      display: flex;
-      flex-wrap: nowrap;
-      width: 320px;
-      height: 568px;
-      /* position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto; */
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .preview-wrapper .phone-wrapper {
-      position: absolute;
-      width: 320px;
-      height: 568px;
-      display: inline-block;
-      background: #fff;
-      box-sizing: content-box;
-      border: 10px solid #f6f6f6;
-    }
-    .preview-wrapper .float-shortcuts {
-      position: absolute;
-      top: 100px;
-      right: 0;
-    }
-    .preview-wrapper .float-shortcuts .page-controller {
-      position: absolute;
-      left: 0 !important;
-      display: block;
-      box-sizing: border-box;
-      width: 48px;
-      height: 22px;
-      padding: 4px;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      cursor: pointer;
-      background: #2096f9;
-      font-size: 12px;
-      /* border: 1px solid #2096f9; */
-      color: #fff;
-    }
-    .preview-wrapper .float-shortcuts .page-controller.next {
-      top: 40px;
-    }
-    .preview-wrapper .work-info {
-      color: #4a4a4a;
-      font-size: 14px;
-      margin-left: 380px;
-    }
-    </style>
-    <script type="text/javascript">
-        function iframeHeight() {
-            document.getElementById('iframeId').height = "100%";
-        }
-    </script>
-</head>
-<body id="viewport" style="height: 100%">
-<div>
-    <img src='{{ data.ThumbnailUrl }}' style='height:0;width:0;overflow:hidden;display:block;'/>
-</div>
-<div class="bg-wrapper"></div>
-  <div class="preview-wrapper">
-    <div class="phone-wrapper">
-{#      <div class="float-shortcuts">#}
-{#        <a class="page-controller swiper-button-prev prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">preview</a>#}
-{#        <a class="page-controller swiper-button-next next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">next</a>#}
-{#      </div>#}
-      <div id="app" style="height: 100%;">
-          <div id="work-container" data-work-id="1" style="position: relative; height: 100%;">
-            <div id="load" style="text-align:center;margin-top:100px;">
-                <a href="https://www.uniecard.com">
-                    <img style="width:250px;" src="https://i.ibb.co/YRpd6LH/logo.png" alt="logo" />
-                </a>
-                <div class="loading">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-            <div style="text-align:center; height: 100%; visibility:hidden;" id="iframe">
-                <iframe id="iframeId" frameborder=0 scrolling=auto src="{{ data.iframeUrl }}"></iframe>
-            </div>
-   	    </div>
-      </div>
-    </div>
-    <div class="work-info">
-      <div class="qrcode-wrapper">
-        <div class="qrcode-label">
-          <span>สแกนคิวอาร์โค๊ดเพื่อแชร์ไปยังเพื่อนของคุณ</span>
-        </div>
-        <div class="qrcode-img">
-          <canvas style="float: left; height: 164px; width: 164px;" id="qrcode-canvas" height="164" width="164"></canvas>
-          <img style="width:148px;" src="https://i.ibb.co/YRpd6LH/logo.png" alt="logo" />
-        </div>
-      </div>
+  <!-- Spinner Start -->
+  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
     </div>
   </div>
+  <!-- Spinner End -->
 
+  <!-- ***** Header Area Start ***** -->
+  <div class="container-xxl bg-menu p-0">
+      <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+              <a href="" class="navbar-brand p-0">
+                  <img src="/static/website/assets/images/logo-web.png" alt="Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <span class="fa fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav mx-auto py-0">
+                      <a href="#home" class="nav-item nav-link active">Home</a>
+                      <a href="template.html" class="nav-item nav-link">Template</a>
+                      <a href="#services" class="nav-item nav-link">Feature</a>
+                      <a href="#pricing" class="nav-item nav-link">Pricing</a>
+                      <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="about-us.html" class="dropdown-item">About Us</a>
+                            <a href="our-services.html" class="dropdown-item">Our Services</a>
+                            <a href="contact-us.html" class="dropdown-item">Contact Us</a>
+                        </div>
+                    </div>
+                      
+                      <!-- <a href="#testimonials" class="nav-item nav-link">Testimonials</a>
+                      <a href="#contact-section" class="nav-item nav-link">Contact Us</a> -->
+                  </div>
+                  <a href="https://lin.ee/7K12Ixj" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3" style="color: #fff !important;">
+                    <span style="color: #00C300;">
+                      <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 0 0 10px;width: 36px;">
+                    </span>
+                    <span style="color: #00C300; font-weight:bold;">Official LINE</span>
+                  </a>
+              </div>
+          </nav>
+                  
+      </div>
+  </div>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="main-banner" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 align-self-center">
+          <div class="header-text">
+            <h6>Made With Love, Serve With Heart.</h6>
+            <h2>More detail preview <em>Go!</em> </h2>
+            <div class="main-button-gradient">
+              <div class="scroll-to-section"><a href="#contact-section">
+              More templates!</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="right-image">
+            <div class=" d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+              <div class="owl-carousel screenshot-carousel">
+                <iframe class="img-fluid" style="width: 240px; height: 480px;" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963"></iframe>
+                  <!-- <img class="img-fluid" src="/static/website/assets/images/screenshot-1.png" alt="">
+                  <img class="img-fluid" src="/static/website/assets/images/screenshot-2.png" alt="">
+                  <img class="img-fluid" src="/static/website/assets/images/screenshot-3.png" alt="">
+                  <img class="img-fluid" src="/static/website/assets/images/screenshot-4.png" alt="">
+                  <img class="img-fluid" src="/static/website/assets/images/screenshot-5.png" alt=""> -->
+              </div>
+            </div>
+            <!-- <img src="/static/website/assets/images/banner-right-image.png" alt=""> -->
+            <!-- <iframe style="height: 610px; width: 340px; z-index: 2;" src="https://www.uniecard.com/viewer/product/4KVC29YZW601736963"></iframe> -->
+            <!-- <img style="max-height: 615px;z-index: 2;position:absolute;left: -90px;" src="/static/website/assets/images/phonetemplate.png" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Features Start -->
+      <section class="templates" id="templates">
+        <div class="container py-5 px-lg-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary-gradient fw-medium">Templates</h6>
+                <h4 class="mb-5">Awesome Templates</h4>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.1s">
+                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    </iframe>
+                  </a>
+                  <div class="view"><span>view</span></div>
+                  <p class="m-0">template1</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="text-align: center;">
+                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    </iframe>
+                  </a>
+                  <div class="view"><span>view</span></div>
+                  <p class="m-0">template1</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.5s" style="text-align: center;">
+                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    </iframe>
+                  </a>
+                  <div class="view"><span>view</span></div>
+                  <p class="m-0">template1</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.7s" style="text-align: center;">
+                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    </iframe>
+                  </a>
+                  <div class="view"><span>view</span></div>
+                  <p class="m-0">template1</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.9s" style="text-align: center;">
+                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    </iframe>
+                  </a>
+                  <div class="view"><span>view</span></div>
+                  <p class="m-0">template1</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="1.1s" style="text-align: center;">
+                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                    </iframe>
+                  </a>
+                  <div class="view"><span>view</span></div>
+                  <p class="m-0">template1</p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                <div class="more"><span>More templates</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features End -->
+
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h6>Our Feature</h6>
+            <h4>Provided <em>Feature</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/z_music.png" alt="">
+                </div>
+                <h4>自定义音乐</h4>
+                <p>丰富的音乐资源.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/greeting.png" alt="">
+                </div>
+                <h4>祝福弹幕</h4>
+                <p>朋友可以留下祝愿.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/call.png" alt="">
+                </div>
+                <h4>拨打电话</h4>
+                <p>直接联系新郎新娘.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/GPS.png" alt="">
+                </div>
+                <h4>Google导航</h4>
+                <p>直接让你的朋友到达.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/photo.png" alt="">
+                </div>
+                <h4>电子相册</h4>
+                <p>展示婚礼照片.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/schedule.png" alt="">
+                </div>
+                <h4>婚礼仪式安排</h4>
+                <p>婚礼仪式安排.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="/static/website/assets/images/x_introduction.png" alt="">
+                </div>
+                <h4>文字字体图片修改</h4>
+                <p>自定义图片文字.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-courses" id="pricing">
+        <!-- Pricing Start -->
+        <div class="container-xxl py-5">
+          <div class="container py-5 px-lg-5">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <h5 class="text-primary-gradient fw-medium">Pricing Plan</h5>
+                  <h1 class="mb-5">Choose Your Plan</h1>
+              </div>
+              <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="tab-content text-start">
+                      <div id="tab-1" class="tab-pane fade show p-0 active">
+                          <div class="row g-4">
+                              <div class="col-lg-4">
+                                  <div class="bg-light rounded">
+                                      <div class="border-bottom p-4 mb-4">
+                                          <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
+                                          <span>Powerful & Awesome Features</span>
+                                      </div>
+                                      <div class="p-4 pt-0">
+                                          <h1 class="mb-3">
+                                              <!-- <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>14.99<small
+                                                  class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small> -->
+                                              <div id="Discount">
+                                                <div id="left">฿ 299</div>
+                                                <div id="division"></div> 
+                                                <div id="right"><del>฿ 598</del></div>
+                                              </div>
+                                          </h1>
+                                          <div class="d-flex justify-content-between mb-2"><span>拨打电话</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>Google导航</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>背景音乐修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（默认3次）</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>模板永久保存（默认3个月）</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
+                                          <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4">
+                                  <div class="bg-light rounded border">
+                                      <div class="border-bottom p-4 mb-4">
+                                          <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
+                                          <span>Powerful & Awesome Features</span>
+                                      </div>
+                                      <div class="p-4 pt-0">
+                                          <h1 class="mb-3">
+                                            <div id="Discount">
+                                              <div id="left">฿ 499</div>
+                                              <div id="division"></div> 
+                                              <div id="right"><del>฿ 998</del></div>
+                                            </div>
+                                          </h1>
+                                          <div class="d-flex justify-content-between mb-2"><span>拨打电话</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>Google导航</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>背景音乐修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（默认1周内）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>模板永久保存）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
+                                          <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                          
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4">
+                                  <div class="bg-light rounded">
+                                      <div class="border-bottom p-4 mb-4">
+                                          <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
+                                          <span>Powerful & Awesome Features</span>
+                                      </div>
+                                      <div class="p-4 pt-0">
+                                          <h1 class="mb-3">
+                                            <div id="Discount">
+                                              <div id="left">฿ 999</div>
+                                              <div id="division"></div> 
+                                              <div id="right"><del>฿ 1998</del></div>
+                                            </div>
+                                          </h1>
+                                          <div class="d-flex justify-content-between mb-2"><span>拨打电话</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>Google导航</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>背景音乐修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（默认1周内）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>模板永久保存）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Pricing End -->
+  </section>
+
+  <section class="simple-cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+          <div class="left-image">
+            <img src="/static/website/assets/images/intrduction.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h6>Get the sale right now!</h6>
+          <h4>Up to 50% OFF For new user</h4>
+          <p>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+          <div class="white-button">
+            <a href="contact-us.html">View Pricing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <!-- Testimonial Start -->
+        <div class="container-xxl py-5" id="review">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
+                    <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
+                    <h1 class="mb-5">What Say Our Clients!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website/assets/images/testimonial-1.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Client Name</h5>
+                                <p class="mb-1">Profession</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website/assets/images/testimonial-2.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Client Name</h5>
+                                <p class="mb-1">Profession</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website/assets/images/testimonial-3.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Client Name</h5>
+                                <p class="mb-1">Profession</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website/assets/images/testimonial-4.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Client Name</h5>
+                                <p class="mb-1">Profession</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+  </section>
+
+  <section class="contact-us" id="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div id="map">
+          
+            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-1">
+                <div class="contact-info">
+                  <div class="icon">
+                    <i class="iconfont icon-line"></i>
+                  </div>
+                  <h4>Line</h4>
+                  <span>uniecard</span>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="contact-info">
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <h4>Mobile</h4>
+                  <span>090-080-0760</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                  <h6>Contact us</h6>
+                  <h4>Say <em>Hello</em></h4>
+                  <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-gradient-button">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-12">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-12">
+          <p class="copyright">Copyright © 2022 UniEcard Co., Ltd. All Rights Reserved. 
+          
+          <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">JimYu</a>
+          <br>Distribution: <a rel="sponsored" href="https://themewagon.com" target="_blank">JimYu</a></p>
+        </div>
+      </div>
+      <!-- customer service -->
+      <a href="#" class="btn btn-lg btn-lg-square back-to-top2 pt-2">
+        <svg t="1650945685541" class="icon" viewBox="0 0 1107 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6479" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.59375" height="32"><defs><style type="text/css">@font-face { font-family: feedback-iconfont; src: url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff2?t=1630033759944") format("woff2"), url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff?t=1630033759944") format("woff"), url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.ttf?t=1630033759944") format("truetype"); }
+        </style></defs><path d="M553.967 0C248.01 0 0 195.231 0 436.04c0 223.685 214.083 407.92 489.757 433.017a33.708 33.708 0 0 1 22.512 14.705c12.237 20.145 3.542 63.069-5.96 111.197s42.169 23.149 53.6 17.576c9.1-4.415 243.31-136.444 382.742-265.921 101.963-79.1 165.25-189.02 165.25-310.558C1107.934 195.231 859.908 0 553.967 0zM369.311 550.157a29.545 29.545 0 0 1-29.78 29.276H238.257c-17.878 0-41.698-6.178-41.698-35.135v-216.55a29.528 29.528 0 0 1 29.78-29.277h5.959a29.528 29.528 0 0 1 29.78 29.276v187.275h77.438a29.545 29.545 0 0 1 29.796 29.276v5.859z m83.482-5.825a29.746 29.746 0 0 1-59.493 0V333.958a29.746 29.746 0 0 1 59.493 0v210.374z m262.01 0a32.92 32.92 0 0 1-29.78 29.276 33.708 33.708 0 0 1-35.102-16.787l-95.954-134.58v122.057a29.78 29.78 0 0 1-59.543 0V333.589a29.511 29.511 0 0 1 29.763-29.26 37.67 37.67 0 0 1 33.759 21.437c9.232 13.631 97.364 136.511 97.364 136.511V333.59a29.797 29.797 0 0 1 59.576 0v210.709z m178.696-134.614a29.276 29.276 0 1 1 0 58.552H816.06v46.819h77.438a29.276 29.276 0 1 1 0 58.536H777.35a26.557 26.557 0 0 1-26.859-26.322V330.702a26.557 26.557 0 0 1 26.86-26.339h116.148a29.276 29.276 0 1 1 0 58.536H816.06v46.835h77.438z" fill="#00C300" p-id="6480"></path></svg>
+
+      </a>
+     <!-- Back to Top -->
+     <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2">
+       <svg version="1.1" with="30" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 273.1091 238.2098" enable-background="new 0 0 273.1091 238.2098" xml:space="preserve">
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:rgb(242,183,168);stop-opacity:1" />
+          <stop offset="100%" style="stop-color:rgb(220,141,219);stop-opacity:1" />
+        </linearGradient>
+        <path fill="url(#grad1)" d="M136.7428,23.457L136.7428,23.457C105.6324-7.6197,55.2286-7.8699,23.8161,23.0177
+         c-31.6835,31.1545-31.6582,82.277-0.501,113.9287l90.7191,92.1591c11.8174,12.005,31.1293,12.1571,43.1343,0.3396l91.6648-90.2325
+         c31.6726-31.1777,32.5645-83.0754,1.4308-114.7912C219.1893-7.2342,168.3452-7.6516,136.7428,23.457z" />
+      <path fill="#FFFFFF" d="M110.7149,123.5662l-2.9542-2.9542c-1.2509-1.2509-1.2509-3.2736,0-4.5112l25.8562-25.8695
+         c1.2509-1.2509,3.2736-1.2509,4.5112,0l25.8562,25.8562c1.2509,1.2509,1.2509,3.2736,0,4.5112l-2.9542,2.9542
+         c-1.2642,1.2642-3.3268,1.2376-4.5644-0.0532l-15.2635-16.0221v38.2454c0,1.7699-1.4239,3.1938-3.1938,3.1938H133.75
+         c-1.7699,0-3.1938-1.4239-3.1938-3.1938v-38.2454l-15.2769,16.0354C114.0418,124.8171,111.9791,124.8437,110.7149,123.5662z" />
+   </svg>
+  </a>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="/static/website/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/website/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- <script src="/static/website/assets/js/isotope.min.js"></script> -->
+    <script src="/static/website/assets/js/owl-carousel.js"></script>
+    <script src="/static/website/assets/js/lightbox.js"></script>
+    <script src="/static/website/assets/js/tabs.js"></script>
+    <script src="/static/website/assets/js/video.js"></script>
+    <script src="/static/website/assets/js/slick-slider.js"></script>
+    <script src="/static/website/assets/js/custom.js"></script>
+    <script src="/static/website/assets/js/wow/wow.min.js"></script>
+    <script src="/static/website/assets/js/main.js"></script>
+
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
 </body>
+
 </html>
-<script type="text/javascript">
-var load = document.getElementById("load")
-var iframe = document.getElementById("iframe")
-// 取得文档载入状态，如果载入完成，则readystate='complete'
-// 根据这个可以定时去获取文档载入状态，来实现页面载入等待效果
-var interval = setInterval(function () {
-    var readystate = document.readyState.toLowerCase();
-    console.log(readystate)
-    if (readystate == 'complete')
-    {
-        load.style.display = "none";
-        iframe.style.visibility = "visible"
-        clearInterval(interval);
-    }
-},500)
-!function () {
-      function isMobile() {
-        var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
-        return mobileDeviceReg.test(navigator.userAgent) || window.innerWidth < 500
-      }
-
-      function updateViewport() {
-        var scale = 1;
-        var w = document.documentElement.clientWidth || 320;
-        // var h = document.documentElement.clientHeight || 568;
-        // scale = w/h >= 320/568 ? h/568 : w/320;
-        scale = w/320;
-        var viewport = "width=320, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no";
-        document.getElementById("viewport").setAttribute("content", viewport)
-      }
-
-      function doMobileActions () {
-        updateViewport();
-        var app = document.getElementById('app');
-        document.body.innerHTML = '';
-        document.body.appendChild(app);
-      }
-
-      var loadJS = function (url, callback, location) {
-        location = location || document.head
-
-        var scriptTag = document.createElement('script');
-        scriptTag.onload = callback;
-        // scriptTag.onreadystatechange = callback;
-        scriptTag.src = url;
-        location.appendChild(scriptTag);
-      };
-
-      function drawQRcode () {
-        var canvas = document.getElementById('qrcode-canvas')
-        QRCode.toCanvas(canvas, window.location.href, {
-          scale: 4
-        })
-      }
-
-      function doPCActions() {
-        loadJS('https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js', drawQRcode);
-      }
-
-      isMobile() ? doMobileActions() : doPCActions();
-    }();
-</script>

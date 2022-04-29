@@ -58,7 +58,7 @@ class H5Resource(Resource):
                 data['greetings'] = greetings
                 return make_response(render_template('index2.html', data=data), 200, headers)
             else:
-                return make_response(render_template('index.html', data=data), 200, headers)
+                return make_response(render_template('index_bak.html', data=data), 200, headers)
         except IndexError:
             abort(404)
 
@@ -101,7 +101,7 @@ class H5ProductResource(Resource):
                 data['greetings'] = greetings
                 return make_response(render_template('index2.html', data=data), 200, headers)
             else:
-                return make_response(render_template('index.html', data=data), 200, headers)
+                return make_response(render_template('index_bak.html', data=data), 200, headers)
         except IndexError:
             abort(404)
 
@@ -466,3 +466,27 @@ class MakeH5TemplateResource(Resource):
                 except IndexError:
                     return pretty_result(code.ERROR, msg='make h5 all failed！')
             return pretty_result(code.OK, data="", msg='make h5 all successful！')
+
+
+class WebsiteResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        try:
+            return make_response(render_template('index.html'), 200, headers)
+        except IndexError:
+            abort(404)

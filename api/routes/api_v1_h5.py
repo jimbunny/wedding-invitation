@@ -18,3 +18,4 @@ api.add_resource(h5API.H5ProductResource, '/product/<productKey>', endpoint='pro
 api.add_resource(h5API.H5GreetingsResource, '/greetings/<id>', endpoint='tanmu')
 api.add_resource(h5API.H5ViewResource, '/<view_type>/<_type>/<h5Key>', endpoint='h5Template')
 api.add_resource(h5API.MakeH5TemplateResource, '/makeH5/<_type>/<h5Key>', endpoint='makeH5Template')
+api.add_resource(h5API.WebsiteResource, '/website', endpoint='website')

@@ -5119,3 +5119,82 @@
 2022-03-29 14:34:16,295 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Mar/2022 14:34:16] "GET /api/v1/h5/greetings/10002 HTTP/1.1" 200 -
 2022-03-29 14:34:36,486 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-03-29 14:34:36,600 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-04-29 17:06:28,044 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-04-29 17:06:29,064 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-04-29 17:06:29,070 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-04-29 17:06:29,153 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-04-29 17:06:41,555 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-04-29 17:06:41,559 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:06:41] "[31m[1mGET / HTTP/1.1[0m" 411 -
+2022-04-29 17:06:41,720 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-04-29 17:06:41,720 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:06:41] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-04-29 17:07:45,712 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\routes\\api_v1_h5.py', reloading
+2022-04-29 17:07:45,860 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-04-29 17:10:35,854 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-04-29 17:10:36,788 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-04-29 17:10:36,792 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-04-29 17:10:36,846 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-04-29 17:10:54,369 - app.py[line:29] - ERROR: Got exception during processing: get() missing 1 required positional argument: 'workKey'
+2022-04-29 17:10:54,370 - app.py[line:29] - ERROR: Got exception during processing: get() missing 1 required positional argument: 'workKey'
+2022-04-29 17:10:54,370 - app.py[line:29] - ERROR: Got exception during processing: get() missing 1 required positional argument: 'workKey'
+2022-04-29 17:10:54,397 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:10:54] "[35m[1mGET /api/v1/h5/website HTTP/1.1[0m" 500 -
+2022-04-29 17:10:54,505 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:10:54] "GET /api/v1/h5/website?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-29 17:10:54,505 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:10:54] "GET /api/v1/h5/website?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-29 17:10:54,583 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:10:54] "GET /api/v1/h5/website?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-04-29 17:10:54,622 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:10:54] "GET /api/v1/h5/website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-29 17:10:54,698 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:10:54] "GET /api/v1/h5/website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-29 17:11:05,217 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-04-29 17:11:05,321 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-04-29 17:11:06,574 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-04-29 17:11:06,577 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-04-29 17:11:06,631 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-04-29 17:11:06,817 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /api/v1/h5/website HTTP/1.1" 200 -
+2022-04-29 17:11:06,866 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-04-29 17:11:06,873 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/css/fontawesome.css HTTP/1.1" 200 -
+2022-04-29 17:11:06,892 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/css/templatemo-eduwell-style.css HTTP/1.1" 200 -
+2022-04-29 17:11:06,914 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/css/owl.css HTTP/1.1" 200 -
+2022-04-29 17:11:06,923 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/css/lightbox.css HTTP/1.1" 200 -
+2022-04-29 17:11:06,925 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/css/style.css HTTP/1.1" 200 -
+2022-04-29 17:11:06,931 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/vendor/jquery/jquery.min.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,934 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/owl-carousel.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/lightbox.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,958 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/video.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,959 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/slick-slider.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,959 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/tabs.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,960 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/custom.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,972 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/wow/wow.min.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,977 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/js/main.js HTTP/1.1" 200 -
+2022-04-29 17:11:06,978 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/images/logo-web.png HTTP/1.1" 200 -
+2022-04-29 17:11:06,983 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:06] "GET /static/website/assets/images/line.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,001 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/z_music.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,003 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/greeting.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,003 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/call.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,005 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/GPS.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,016 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/photo.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,019 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/schedule.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,020 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/intrduction.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,020 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/x_introduction.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,031 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/testimonial-2.jpg HTTP/1.1" 200 -
+2022-04-29 17:11:07,032 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/testimonial-1.jpg HTTP/1.1" 200 -
+2022-04-29 17:11:07,059 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/testimonial-3.jpg HTTP/1.1" 200 -
+2022-04-29 17:11:07,060 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/testimonial-4.jpg HTTP/1.1" 200 -
+2022-04-29 17:11:07,184 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/header-bg.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,187 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/banner-left-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,188 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/banner-right-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,189 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/banner-bg.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,190 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/our-courses-left-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,202 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/our-courses-right-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,206 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/cta-bg.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,207 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/testimonials-left-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,209 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/testimonials-right-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,209 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/footer-bg.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,210 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/footer-left-dec.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,357 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/screenshot-frame.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,365 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1" 200 -
+2022-04-29 17:11:07,422 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/prev.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,427 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/next.png HTTP/1.1" 200 -
+2022-04-29 17:11:07,431 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/loading.gif HTTP/1.1" 200 -
+2022-04-29 17:11:07,432 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:07] "GET /static/website/assets/images/close.png HTTP/1.1" 200 -
+2022-04-29 17:11:11,931 - _internal.py[line:225] - INFO: 127.0.0.1 - - [29/Apr/2022 17:11:11] "GET /static/website/assets/images/logo.svg HTTP/1.1" 200 -
+2022-04-29 17:11:44,546 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-04-29 17:11:44,645 - _internal.py[line:225] - INFO:  * Restarting with stat
