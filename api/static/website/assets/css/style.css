@@ -243,7 +243,7 @@ box-shadow: 0 0 0 0.25rem rgb(220 141 219 / 25%);
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: #FFFFFF;
+        /* background: #FFFFFF; */
     }
 
     .navbar-light .navbar-collapse {
