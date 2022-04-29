@@ -243,6 +243,7 @@ box-shadow: 0 0 0 0.25rem rgb(220 141 219 / 25%);
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
+        background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
         /* background: #FFFFFF; */
     }
 
