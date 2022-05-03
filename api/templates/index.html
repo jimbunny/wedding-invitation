@@ -10,6 +10,10 @@
     <link rel="icon" href="/static/website/assets/images/logo.svg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
+    <meta itemprop="name" content="uniEcard"/>
+    <meta itemprop="image" content="https://i.ibb.co/CbmbbG1/logo.png"/>
+    <meta property="og:image" content="https://i.ibb.co/CbmbbG1/logo.png"/>
+
     <title>uniEcard</title>
 
     <!-- Bootstrap core CSS -->
@@ -26,7 +30,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
@@ -39,18 +43,21 @@
   </head>
 
 <body>
+  <div>
+    <img src='https://i.ibb.co/CbmbbG1/logo.png'
+    style='height:0;width:0;overflow:hidden;display:block;'/>
+  </div>
 
   <!-- Spinner Start -->
   <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
         <span class="sr-only">Loading...</span>
     </div>
-  </div>
-  <!-- Spinner End -->
+</div>
+<!-- Spinner End -->
 
   <!-- ***** Header Area Start ***** -->
-  <div class="container-xxl bg-menu p-0 fixed-top">
-      <div class="container">
+  <div class=" bg-menu p-0 fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
               <a href="" class="navbar-brand p-0">
                   <img src="/static/website/assets/images/logo-web.png" alt="Logo">
@@ -61,22 +68,22 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                   <div class="navbar-nav mx-auto py-0">
                       <a href="#home" class="nav-item nav-link active">Home</a>
-                      <a href="template.html" class="nav-item nav-link">Template</a>
-                      <a href="#services" class="nav-item nav-link">Feature</a>
+                      <a href="#templates" class="nav-item nav-link">Template</a>
+                      <a href="#functions" class="nav-item nav-link">Function</a>
                       <a href="#pricing" class="nav-item nav-link">Pricing</a>
-                      <div class="nav-item dropdown">
+                      <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
                             <a href="about-us.html" class="dropdown-item">About Us</a>
                             <a href="our-services.html" class="dropdown-item">Our Services</a>
                             <a href="contact-us.html" class="dropdown-item">Contact Us</a>
                         </div>
-                    </div>
-                      
-                      <!-- <a href="#testimonials" class="nav-item nav-link">Testimonials</a>
-                      <a href="#contact-section" class="nav-item nav-link">Contact Us</a> -->
+                    </div> -->
+
+                      <a href="#testimonials" class="nav-item nav-link">Testimonials</a>
+                      <a href="#contact-section" class="nav-item nav-link">About Us</a>
                   </div>
-                  <a href="https://lin.ee/7K12Ixj" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3" style="color: #fff !important;">
+                  <a href="https://lin.ee/qO0UuXf" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3" style="color: #fff !important;">
                     <span style="color: #00C300;">
                       <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 0 0 10px;width: 36px;">
                     </span>
@@ -84,8 +91,7 @@
                   </a>
               </div>
           </nav>
-                  
-      </div>
+
   </div>
   <!-- ***** Header Area End ***** -->
 
@@ -98,8 +104,10 @@
             <h6>Made With Love, Serve With Heart.</h6>
             <h2>More detail preview <em>Go!</em> </h2>
             <div class="main-button-gradient">
-              <div class="scroll-to-section"><a href="#contact-section">
-              More templates!</a></div>
+              <div class="scroll-to-section">
+                <a href="https://lin.ee/qO0UuXf">
+                  <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">
+              CONTACT US!</a></div>
             </div>
           </div>
         </div>
@@ -107,7 +115,7 @@
           <div class="right-image">
             <div class=" d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
               <div class="owl-carousel screenshot-carousel">
-                <iframe class="img-fluid" style="width: 240px; height: 480px;" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963"></iframe>
+                <iframe class="img-fluid" style="width: 240px; height: 480px;" src="https://www.uniecard.com/viewer/product/U742Z1N0W601736963"></iframe>
                   <!-- <img class="img-fluid" src="/static/website/assets/images/screenshot-1.png" alt="">
                   <img class="img-fluid" src="/static/website/assets/images/screenshot-2.png" alt="">
                   <img class="img-fluid" src="/static/website/assets/images/screenshot-3.png" alt="">
@@ -124,152 +132,194 @@
     </div>
   </section>
 
-      <!-- Features Start -->
-      <section class="templates" id="templates">
-        <div class="container py-5 px-lg-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-primary-gradient fw-medium">Templates</h6>
-                <h4 class="mb-5">Awesome Templates</h4>
+  <!-- Features Start -->
+  <section class="templates" id="templates">
+    <div class="container py-5 px-lg-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-primary-gradient fw-medium">Templates</h6>
+            <h4 class="mb-5">Awesome Templates</h4>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.1s">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/1.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.1s">
-                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    </iframe>
-                  </a>
-                  <div class="view"><span>view</span></div>
-                  <p class="m-0">template1</p>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="text-align: center;">
-                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    </iframe>
-                  </a>
-                  <div class="view"><span>view</span></div>
-                  <p class="m-0">template1</p>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.5s" style="text-align: center;">
-                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    </iframe>
-                  </a>
-                  <div class="view"><span>view</span></div>
-                  <p class="m-0">template1</p>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.7s" style="text-align: center;">
-                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    </iframe>
-                  </a>
-                  <div class="view"><span>view</span></div>
-                  <p class="m-0">template1</p>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.9s" style="text-align: center;">
-                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    </iframe>
-                  </a>
-                  <div class="view"><span>view</span></div>
-                  <p class="m-0">template1</p>
-                </div>
-                <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="1.1s" style="text-align: center;">
-                  <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    <iframe class="img-fluid" src="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
-                    </iframe>
-                  </a>
-                  <div class="view"><span>view</span></div>
-                  <p class="m-0">template1</p>
-                </div>
-                <div class="col-lg-12 col-md-12 col-12">
-                <div class="more"><span>More templates</span></div>
-                </div>
+            <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/2.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template2</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.5s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/3.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.7s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/4.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.9s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/5.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="1.1s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/6.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.1s">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/1.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/2.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template2</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.5s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/3.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.7s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/4.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="0.9s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/5.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6  wow fadeInUp iframe-center" data-wow-delay="1.1s" style="text-align: center;">
+              <a href="https://www.uniecard.com/viewer/product/1CKXBVN2W601736963">
+                <img class="img-fluid" src="https://i.ibb.co/LrH3b0d/6.png">
+              </a>
+              <div class="view"><span>view</span></div>
+              <p class="m-0">template1</p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+            <!-- <div class="more"><span>More templates</span></div> -->
+            <div id="pagination"></div>
             </div>
         </div>
-    </section>
-    <!-- Features End -->
-
-  <!-- ***** Main Banner Area End ***** -->
-
-  <section class="services" id="services">
+    </div>
+  </section>
+  <!-- Features End -->
+<!-- Function Start -->
+  <section class="simple-cta" id="functions">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h6>Our Feature</h6>
-            <h4>Provided <em>Feature</em></h4>
+        <div class="col-lg-5 offset-lg-1">
+          <div class="left-image">
+            <img src="/static/website/assets/images/intrduction.png" alt="">
           </div>
         </div>
-        <div class="col-lg-12">
-          <div class="owl-service-item owl-carousel">
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/z_music.png" alt="">
+        <div class="col-lg-5 align-self-center">
+          <div style="background-color: #fff; padding: 10px;">
+            <div class="owl-service-item owl-carousel">
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/z_music.png" alt="">
+                  </div>
+                  <h4>自定义音乐</h4>
+                  <p>丰富的音乐资源.</p>
                 </div>
-                <h4>自定义音乐</h4>
-                <p>丰富的音乐资源.</p>
+              </div>
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/greeting.png" alt="">
+                  </div>
+                  <h4>祝福弹幕</h4>
+                  <p>朋友可以留下祝愿.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/call.png" alt="">
+                  </div>
+                  <h4>拨打电话</h4>
+                  <p>直接联系新郎新娘.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/GPS.png" alt="">
+                  </div>
+                  <h4>Google导航</h4>
+                  <p>直接让你的朋友到达.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/photo.png" alt="">
+                  </div>
+                  <h4>电子相册</h4>
+                  <p>展示婚礼照片.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/schedule.png" alt="">
+                  </div>
+                  <h4>婚礼仪式安排</h4>
+                  <p>婚礼仪式安排.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="service-item">
+                  <div class="icon">
+                    <img src="/static/website/assets/images/x_introduction.png" alt="">
+                  </div>
+                  <h4>文字字体图片修改</h4>
+                  <p>自定义图片文字.</p>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/greeting.png" alt="">
-                </div>
-                <h4>祝福弹幕</h4>
-                <p>朋友可以留下祝愿.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/call.png" alt="">
-                </div>
-                <h4>拨打电话</h4>
-                <p>直接联系新郎新娘.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/GPS.png" alt="">
-                </div>
-                <h4>Google导航</h4>
-                <p>直接让你的朋友到达.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/photo.png" alt="">
-                </div>
-                <h4>电子相册</h4>
-                <p>展示婚礼照片.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/schedule.png" alt="">
-                </div>
-                <h4>婚礼仪式安排</h4>
-                <p>婚礼仪式安排.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="/static/website/assets/images/x_introduction.png" alt="">
-                </div>
-                <h4>文字字体图片修改</h4>
-                <p>自定义图片文字.</p>
-              </div>
-            </div>
+          </div>
+          <!-- <h6>Get the sale right now!</h6>
+          <h4>Up to 50% OFF For new user</h4>
+          <p>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p> -->
+          <div class="white-button">
+            <a href="https://lin.ee/qO0UuXf"> <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;"> Contact US!</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  <!-- Function End -->
   <section class="our-courses" id="pricing">
         <!-- Pricing Start -->
         <div class="container-xxl py-5">
@@ -294,19 +344,21 @@
                                                   class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small> -->
                                               <div id="Discount">
                                                 <div id="left">฿ 299</div>
-                                                <div id="division"></div> 
+                                                <div id="division"></div>
                                                 <div id="right"><del>฿ 598</del></div>
                                               </div>
                                           </h1>
                                           <div class="d-flex justify-content-between mb-2"><span>拨打电话</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>Google导航</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>背景音乐修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（默认3次）</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>模板永久保存（默认3个月）</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
-                                          <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                          <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-close text-primary-gradient-error pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-close text-primary-gradient-error pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（一天内）</span><i class="fa fa-close text-primary-gradient-error pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>模板永久保存（3个月）</span><i class="fa fa-close text-primary-gradient-error pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-close text-primary-gradient-error pt-1"></i></div>
+                                          <a href="https://lin.ee/qO0UuXf" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">
+                                            <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">
+                                            Contact US</a>
                                       </div>
                                   </div>
                               </div>
@@ -320,7 +372,7 @@
                                           <h1 class="mb-3">
                                             <div id="Discount">
                                               <div id="left">฿ 499</div>
-                                              <div id="division"></div> 
+                                              <div id="division"></div>
                                               <div id="right"><del>฿ 998</del></div>
                                             </div>
                                           </h1>
@@ -329,11 +381,12 @@
                                           <div class="d-flex justify-content-between mb-2"><span>背景音乐修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（默认1周内）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（1周内）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>模板永久保存）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-close text-primary-gradient pt-1"></i></div>
-                                          <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                          
+                                          <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-close text-primary-gradient-error pt-1"></i></div>
+                                          <a href="https://lin.ee/qO0UuXf" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">
+                                            <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">
+                                            Contact US</a>
                                       </div>
                                   </div>
                               </div>
@@ -347,7 +400,7 @@
                                           <h1 class="mb-3">
                                             <div id="Discount">
                                               <div id="left">฿ 999</div>
-                                              <div id="division"></div> 
+                                              <div id="division"></div>
                                               <div id="right"><del>฿ 1998</del></div>
                                             </div>
                                           </h1>
@@ -356,10 +409,12 @@
                                           <div class="d-flex justify-content-between mb-2"><span>背景音乐修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>祝福弹幕</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>字体修改</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（默认1周内）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                          <div class="d-flex justify-content-between mb-2"><span>修改次数无限制（1周内）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>模板永久保存）</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
                                           <div class="d-flex justify-content-between mb-2"><span>自定义额外功能</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                          <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                          <a href="https://lin.ee/qO0UuXf" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">
+                                            <img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">
+                                            Contact US</a>
                                       </div>
                                   </div>
                               </div>
@@ -370,26 +425,6 @@
           </div>
       </div>
       <!-- Pricing End -->
-  </section>
-
-  <section class="simple-cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 offset-lg-1">
-          <div class="left-image">
-            <img src="/static/website/assets/images/intrduction.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <h6>Get the sale right now!</h6>
-          <h4>Up to 50% OFF For new user</h4>
-          <p>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
-          <div class="white-button">
-            <a href="contact-us.html">View Pricing</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <section class="testimonials" id="testimonials">
@@ -475,83 +510,55 @@
         <!-- Testimonial End -->
   </section>
 
-  <section class="contact-us" id="contact-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div id="map">
-          
-            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
-            <div class="row">
-              <div class="col-lg-4 offset-lg-1">
-                <div class="contact-info">
-                  <div class="icon">
-                    <i class="iconfont icon-line"></i>
-                  </div>
-                  <h4>Line</h4>
-                  <span>uniecard</span>
-                </div>
+  <section class="contact-us our-office" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="left-info">
+              <div class="section-heading">
+                <h6>Our Office</h6>
+                <h4>Get closer to <em>UniEcard</em></h4>
               </div>
-              <div class="col-lg-4">
-                <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Mobile</h4>
-                  <span>090-080-0760</span>
+              <p>Trust fund nocore broklyn humblebrag mustache
+                pork kitsch, bicycle rights hexagon schlitz keytar palo is
+                santo drinking vinegar fam ramps. <br><br>Four dollar toast and
+                edison bulb vinyl, listicle hashtag pug scenester typewrit
+                er yuccie street artboard or whatever to fill place.</p>
+              <ul>
+                <li>- Selfies you probably haven't heard of them.</li>
+                <li>- Tousled cold-pressed chicharrones yuccie.</li>
+                <li>- Pabst iPhone chartreuse shabby chic tumeric.</li>
+                <li>- Scenester normcore mumblecore snackwave.</li>
+              </ul>
+              <div class="main-button-gradient">
+                <a href="our-services.html"><img alt="LINE" src="/static/website/assets/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;"> Contact US</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div id="video">
+              <div class="thumb">
+                <img src="/static/website/assets/images/video-thumb.jpg" alt="">
+                <div class="play-button">
+                  <a rel="nofollow" href="https://www.youtube.com/templatemo" target="_blank"><i class="fa fa-play"></i></a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-heading">
-                  <h6>Contact us</h6>
-                  <h4>Say <em>Hello</em></h4>
-                  <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-gradient-button">Send Message</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-lg-12">
-          <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-lg-12">
-          <p class="copyright">Copyright © 2022 UniEcard Co., Ltd. All Rights Reserved. 
-          
-          <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">JimYu</a>
-          <br>Distribution: <a rel="sponsored" href="https://themewagon.com" target="_blank">JimYu</a></p>
+          <div class="col-lg-12">
+            <ul class="social-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <p class="copyright">Copyright © 2022 uniEcard Co., Ltd. All Rights Reserved.
+
+            <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">Jim Yu</a></p>
+          </div>
         </div>
       </div>
       <!-- customer service -->
@@ -583,7 +590,7 @@
   <!-- Bootstrap core JavaScript -->
     <script src="/static/website/vendor/jquery/jquery.min.js"></script>
     <script src="/static/website/vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    <script src="/static/website/vendor/bootstrap/js/bootstrap-paginator.js"></script>
     <!-- <script src="/static/website/assets/js/isotope.min.js"></script> -->
     <script src="/static/website/assets/js/owl-carousel.js"></script>
     <script src="/static/website/assets/js/lightbox.js"></script>
@@ -595,6 +602,81 @@
     <script src="/static/website/assets/js/main.js"></script>
 
     <script>
+
+      let pages = 25;
+
+document.getElementById('pagination').innerHTML = createPagination(pages, 12);
+
+function createPagination(pages, page) {
+  let str = '<ul>';
+  let active;
+  let pageCutLow = page - 1;
+  let pageCutHigh = page + 1;
+  // Show the Previous button only if you are on a page other than the first
+  if (page > 1) {
+    str += '<li class="page-item previous no"><a onclick="createPagination(pages, '+(page-1)+')"><</a></li>';
+  }
+  // Show all the pagination elements if there are less than 6 pages total
+  if (pages < 6) {
+    for (let p = 1; p <= pages; p++) {
+      active = page == p ? "active" : "no";
+      str += '<li class="'+active+'"><a onclick="createPagination(pages, '+p+')">'+ p +'</a></li>';
+    }
+  }
+  // Use "..." to collapse pages outside of a certain range
+  else {
+    // Show the very first page followed by a "..." at the beginning of the
+    // pagination section (after the Previous button)
+    if (page > 2) {
+      str += '<li class="no page-item"><a onclick="createPagination(pages, 1)">1</a></li>';
+      if (page > 3) {
+          str += '<li class="out-of-range"><a onclick="createPagination(pages,'+(page-2)+')">...</a></li>';
+      }
+    }
+    // Determine how many pages to show after the current page index
+    if (page === 1) {
+      pageCutHigh += 2;
+    } else if (page === 2) {
+      pageCutHigh += 1;
+    }
+    // Determine how many pages to show before the current page index
+    if (page === pages) {
+      pageCutLow -= 2;
+    } else if (page === pages-1) {
+      pageCutLow -= 1;
+    }
+    // Output the indexes for pages that fall inside the range of pageCutLow
+    // and pageCutHigh
+    for (let p = pageCutLow; p <= pageCutHigh; p++) {
+      if (p === 0) {
+        p += 1;
+      }
+      if (p > pages) {
+        continue
+      }
+      active = page == p ? "active" : "no";
+      str += '<li class="page-item '+active+'"><a onclick="createPagination(pages, '+p+')">'+ p +'</a></li>';
+    }
+    // Show the very last page preceded by a "..." at the end of the pagination
+    // section (before the Next button)
+    if (page < pages-1) {
+      if (page < pages-2) {
+        str += '<li class="out-of-range"><a onclick="createPagination(pages,'+(page+2)+')">...</a></li>';
+      }
+      str += '<li class="page-item no"><a onclick="createPagination(pages, pages)">'+pages+'</a></li>';
+    }
+  }
+  // Show the Next button only if you are on a page other than the last
+  if (page < pages) {
+    str += '<li class="page-item next no"><a onclick="createPagination(pages, '+(page+1)+')">></a></li>';
+  }
+  str += '</ul>';
+  // Return the pagination string to be outputted in the pug templates
+  document.getElementById('pagination').innerHTML = str;
+  return str;
+}
+
+
         //according to loftblog tut
         $('.nav li:first').addClass('active');
 
