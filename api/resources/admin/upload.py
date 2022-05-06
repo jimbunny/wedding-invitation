@@ -10,6 +10,8 @@ from flask_restful.reqparse import RequestParser
 from common import code, pretty_result
 from flask import make_response, render_template, abort, request
 import os
+import json
+import math
 
 root = os.path.abspath(os.path.join(os.getcwd()))
 headers = {'Content-Type': 'text/html'}
@@ -109,3 +111,42 @@ class UploadProductResource(Resource):
             os.makedirs(dirs)
         file.save(os.path.join('data', 'template', file_name))
         return pretty_result(code.OK)
+
+
+class TemplatesResource(Resource):
+    """
+    products resource class
+    """
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    def get(self):
+        """
+        get product info
+        :return: json
+        """
+        self.parser.add_argument("pageNo", type=int, required=True, location="args",
+                                 help='pageNo is required')
+        self.parser.add_argument("pageSize", type=int, required=True, location="args", help='pageSize is required')
+        self.parser.add_argument("color", type=str, required=True, location="args", help='color is required')
+        args = self.parser.parse_args()
+
+        load_dict = {}
+        with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+            load_dict = json.load(load_f)
+        temp = []
+        if args.color == 'all':
+            temp = load_dict.get("data")
+        for item in load_dict.get("data"):
+            if item.get('tmpColor') == args.color:
+                temp.append(item)
+
+        data = {
+            'pageNo': args.pageNo,
+            'pageSize': args.pageSize,
+            'totalCount': len(temp),
+            'totalPages': math.ceil(len(temp)/args.pageSize),
+            'items': temp[(args.pageNo-1)*args.pageSize: args.pageNo*args.pageSize]
+        }
+        return pretty_result(code.OK, data=data, msg='get template info successful！')
