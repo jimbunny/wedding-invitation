@@ -18,13 +18,13 @@ a:hover {
 
 .btn-secondary {
   color: #fff;
-  background-color: #dc8ddb;
+  background-color: #fff;
   border-color: #dc8ddb;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #fff;
+  background-color: #f2b7a8;
   border-color: #fff;
 }
 
