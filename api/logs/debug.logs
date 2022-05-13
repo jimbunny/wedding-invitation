@@ -85,3 +85,56 @@
 2022-05-06 15:04:21,889 - _internal.py[line:225] - INFO: 127.0.0.1 - - [06/May/2022 15:04:21] "GET /api/v1/admin/templates/getList?pageNo=1&pageSize=12&color=red HTTP/1.1" 200 -
 2022-05-06 15:04:48,956 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-05-06 15:04:49,033 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-05-13 22:16:48,080 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-05-13 22:16:48,942 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-05-13 22:16:48,945 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-05-13 22:16:48,998 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-05-13 22:17:22,039 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /api/v1/h5/website_v2 HTTP/1.1" 200 -
+2022-05-13 22:17:22,102 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/css/fontawesome-all.min.css HTTP/1.1" 200 -
+2022-05-13 22:17:22,102 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-13 22:17:22,113 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/css/swiper.css HTTP/1.1" 200 -
+2022-05-13 22:17:22,114 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/css/owl.css HTTP/1.1" 200 -
+2022-05-13 22:17:22,118 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/css/animate.min.css HTTP/1.1" 200 -
+2022-05-13 22:17:22,119 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/css/styles.css HTTP/1.1" 200 -
+2022-05-13 22:17:22,229 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/jquery.min.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,236 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/wow.min.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,240 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,245 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/owl-carousel.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,251 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/swiper.min.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,256 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/purecounter.min.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,259 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/js/scripts.js HTTP/1.1" 200 -
+2022-05-13 22:17:22,264 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/logo.svg HTTP/1.1" 200 -
+2022-05-13 22:17:22,268 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/line.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,284 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/decoration-star.svg HTTP/1.1" 200 -
+2022-05-13 22:17:22,288 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-1.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,292 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-2.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,297 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-3.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,301 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-4.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,306 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-5.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,310 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-6.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,314 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/banner-7.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,318 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/allcolor.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,324 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/white.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,329 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/red.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,334 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/fen.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,336 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/yellow.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/green.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/lan.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/zi.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/zong.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/black.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,352 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/function-4.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,360 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/user1.jpg HTTP/1.1" 200 -
+2022-05-13 22:17:22,360 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/user2.jpg HTTP/1.1" 200 -
+2022-05-13 22:17:22,361 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/user3.jpg HTTP/1.1" 200 -
+2022-05-13 22:17:22,363 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/user4.jpg HTTP/1.1" 200 -
+2022-05-13 22:17:22,364 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/facebook_qrcode.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,364 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/user5.jpg HTTP/1.1" 200 -
+2022-05-13 22:17:22,368 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/line_qrcode.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,369 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/tiktok_qrcode.png HTTP/1.1" 200 -
+2022-05-13 22:17:22,415 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 -
+2022-05-13 22:17:22,415 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+2022-05-13 22:17:22,484 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:22] "GET /static/website_v2/images/screenshot-frame.png HTTP/1.1" 200 -
+2022-05-13 22:17:25,794 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:25] "GET /static/website_v2/images/logo_no.png HTTP/1.1" 200 -
+2022-05-13 22:20:40,579 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-05-13 22:20:40,712 - _internal.py[line:225] - INFO:  * Restarting with stat
