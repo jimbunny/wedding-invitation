@@ -50,13 +50,14 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-
+templates/template
+templates/product
 # Translations
 *.mo
 *.pot
 *.txt
 *.json
-*.html
+
 *.logs
 
 # Django stuff:
