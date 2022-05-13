@@ -490,3 +490,27 @@ class WebsiteResource(Resource):
             return make_response(render_template('index.html'), 200, headers)
         except IndexError:
             abort(404)
+
+
+class WebsiteV2Resource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        try:
+            return make_response(render_template('index_v2.html'), 200, headers)
+        except IndexError:
+            abort(404)

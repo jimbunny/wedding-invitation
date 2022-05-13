@@ -7,12 +7,12 @@
 import os
 import logging
 import logging.handlers
-from gevent import monkey; monkey.patch_all()
+# from gevent import monkey; monkey.patch_all()
 from abc import ABC
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
-from gunicorn.app.base import BaseApplication
-from gunicorn.six import iteritems
+# from gunicorn.app.base import BaseApplication
+# from gunicorn.six import iteritems
 from multiprocessing import cpu_count
 from app import create_app, db
 from config.setting import config
@@ -42,24 +42,24 @@ if not os.path.exists(log_dirs):
 formatter = logging.Formatter('%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
 
-class StandaloneApplication(BaseApplication, ABC):
-    """
-    gunicorn服务器启动类
-    """
-#
-    def __init__(self, application, options):
-        self.application = application
-        self.options = options or {}
-        super(StandaloneApplication, self).__init__()
-#
-    def load_config(self):
-        config = dict([(key, value) for key, value in iteritems(self.options)
-                       if key in self.cfg.settings and value is not None])
-        for key, value in iteritems(config):
-            self.cfg.set(key.lower(), value)
-#
-    def load(self):
-        return self.application
+# class StandaloneApplication(BaseApplication, ABC):
+#     """
+#     gunicorn服务器启动类
+#     """
+# #
+#     def __init__(self, application, options):
+#         self.application = application
+#         self.options = options or {}
+#         super(StandaloneApplication, self).__init__()
+# #
+#     def load_config(self):
+#         config = dict([(key, value) for key, value in iteritems(self.options)
+#                        if key in self.cfg.settings and value is not None])
+#         for key, value in iteritems(config):
+#             self.cfg.set(key.lower(), value)
+# #
+#     def load(self):
+#         return self.application
 
 
 @manager.command
@@ -90,7 +90,7 @@ def run():
         'loglevel': app.config.get('LOG_LEVEL', 'info'),
         'pidfile': app.config.get('PID_FILE', 'run.pid'),
     }
-    StandaloneApplication(app, service_config).run()
+    # StandaloneApplication(app, service_config).run()
 
 
 @manager.command
