@@ -49,6 +49,19 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+body {
+    position: relative;
+}
 
 ul li {
   list-style: none;
