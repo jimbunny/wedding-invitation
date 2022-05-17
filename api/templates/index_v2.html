@@ -75,6 +75,49 @@
   </div>
   <!-- Topbar End -->
 
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="/static/website_v2/images/logo.svg" alt="alternative"></a>
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">หน้าหลัก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#templates">แบบการ์ด</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#functions">ฟังก์ชั่นของการ์ด</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricings">แพ็คเกจ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#testimonials">รีวิวจากลูกค้า</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about-us">เกี่ยวกับ Unika</a>
+                    </li>
+                </ul>
+                <span class="nav-item">
+                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;">Line Official</a>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
 
     <!-- Header -->
     <header id="home" class="header">
@@ -186,109 +229,6 @@
     <!-- end of introduction -->
 
 
-    <!-- Details 1 -->
-    <div id="functions" class="basic-2 slider-1 cards-2">
-        <img class="decoration-star" src="/static/website_v2/images/decoration-star.svg" alt="alternative">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-                <h2 class="h2-heading">Template Functions</h2>
-            </div> <!-- end of col -->
-          </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="image-container animated slideInLeft">
-                        <img class="function-img" src="/static/website_v2/images/function-4.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-
-                   <!-- Card Slider -->
-                   <!-- <div class="slider-container">
-                    <div class="swiper-container card-slider">
-                        <div class="swiper-wrapper">
-
-                          <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/music_icon.png" alt="alternative">
-                            <div class="testimonial-author">มีเพลงเปิดคลอตลอดการชมการ์ด</div>
-                            <p class="testimonial-text">“คุณสามารถเลือกใส่เพลงที่คุณชอบลงไปในการ์ด เพื่อเพิ่มอรรถรสและส่งผ่านเรื่องราวความรักของคุณถึงแขกคนสำคัญของคุณผ่านเสียงเพลง”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/commentpng.png" alt="alternative">
-                            <div class="testimonial-author">มีช่องเขียนคำอวยพรให้คู่บ่าวสาว</div>
-                            <p class="testimonial-text">“แขกผู้ได้รับการ์ดเชิญสามารถเขียนคำอวยพรผ่านช่องทางออนไลน์ โดยไม่จำเป็นต้องไปต่อคิวเขียนคำอวยพรหน้างานอีกต่อไป ฟังก์ชั่นนี้ยังอำนวยความสะดวกให้กับแขกที่ไม่สามารถมาร่วมงานได้ แต่ยังสามารถส่งคำอวยพรถึงบ่าวสาวได้เช่นกัน
-                              ”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/callme.png" alt="alternative">
-                            <div class="testimonial-author">ข้อมูลการติดต่อคู่บ่าวสาว</div>
-                            <p class="testimonial-text">“ในการ์ดมีการระบุช่องทางติดต่อคู่บ่าวสาว ไม่ว่าจะเป็นเบอร์โทรศัพท์ ไลน์ หรือช่องทางอื่น เพื่ออำนวยความสะดวกให้แขกผู้ร่วมงานติดต่อคู่บ่าวสาวได้โดยตรง”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/GPSpng.png" alt="alternative">
-                            <div class="testimonial-author">มีลิงค์สถานที่จัดงานโดยใช้ Google Map</div>
-                            <p class="testimonial-text">“มีการใส่ลิ๊งปักหมุด GPS นำทางไปสถานที่จัดงาน ผ่าน Google Map เพื่ออำนวยความสะดวกกับแขกผู้ร่วมงาน ทำให้ผู้ร่วมงานไม่หลงทางอีกต่อไป”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/photopng.png" alt="alternative">
-                            <div class="testimonial-author">มีพื้นที่ในการใส่รูปภาพที่มากขึ้น</div>
-                            <p class="testimonial-text">“คุณสามารถใส่รูปภาพพรีเวดดิ้งสวยๆในการ์ดได้หลายภาพกว่าการ์ดกระดาษทั่วไป โดยที่คุณภาพความคมชัดและสีสันของภาพเหมือนเดิม”</p>
-                        </div>
-                        <div class="swiper-slide">
-                          <img class="testimonial-image" src="/static/website_v2/images/schedulepng.png" alt="alternative">
-                          <div class="testimonial-author">มีเวลาและลำดับพิธีการที่ชัดเจน</div>
-                          <p class="testimonial-text">“ด้วยพื้นที่ตัวอักษรที่ใส่ในการ์ดมากขึ้น เพื่อให้คุณสามารถใส่รายละเอียดเวลาและลำดับพิธีการของงารได้ชัดเจนยิ่งขึ้น”</p>
-                      </div>
-                      <div class="swiper-slide">
-                        <img class="testimonial-image" src="/static/website_v2/images/x_introductionpng.png" alt="alternative">
-                        <div class="testimonial-author">มีคำประกอบรูปภาพ</div>
-                        <p class="testimonial-text">“คุณสามารถเขียนคำบรรยายหวานๆซึ้งๆประกอบรูปภาพได้ด้วยตัวเอง เพื่อส่งต่อความรักของคุณถึงผู้อ่าน”</p>
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="testimonial-image" src="/static/website_v2/images/customizepng.png" alt="alternative">
-                      <div class="testimonial-author">ปรับแต่ง function ของการ์ดได้ด้วยตัวเอง</div>
-                      <p class="testimonial-text">“ถ้ารูปแบบการ์ดที่เรามียังไม่ตอบโจทย์ความต้องการของคู่บ่าวสาวแล้วล่ะก็ เรามีฟังก์ชั่นเสริมให้คู่บ่าวสาวสามารถเสนอและปรับแต่ง function ของการ์ดในสไตล์ของตัวเองได้ด้วย”</p>
-                  </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>  -->
-                <div class="text-container">
-                  <!-- <h2>Office spaces should be unique they don’t need to look the same</h2> -->
-                  <ul class="list-unstyled li-space-lg animated slideInRight">
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">ปัญหาบัตรเชิญหาย จำรายละเอียดไม่ได้ จะหมดไป</div>
-                      </li>
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">หมดกังวลว่าคนสำคัญของคุณหลงทาง ด้วยการปักหมุดแผนที่ GPS นำทาง </div>
-                      </li>
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">เพิ่มความมีชีวิตชีวามากกว่าการ์ดทั่วๆไป ผ่านเสียงเพลงประกอบและภาพเคลื่อนไหว</div>
-                      </li>
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">หมดปัญหาพื้นที่การ์ดจำกัด ใส่รูปภาพและเนื้อหาได้มากกว่าการ์ดกระดาษทั่วไป</div>
-                      </li>
-                      <li class="d-flex">
-                        <i class="fas fa-square"></i>
-                        <div class="flex-grow-1">ไม่ต้องกลัวว่าจะพิมพ์การ์ดขาดหรือเกินจากจำนวนผู้ร่วมงาน แค่ลิงค์เดียวจะส่งให้กี่คนก็ได้</div>
-                    </li>
-                    <li class="d-flex">
-                      <i class="fas fa-square"></i>
-                      <div class="flex-grow-1">ไม่มาร่วมงาน ก็ส่งคำอวยพรผ่าน e-card ได้เลย ลดปัญหารอต่อคิวเขียนคำอวยพรหน้างาน</div>
-                  </li>
-                  </ul>
-                  <a class="btn-outline-lg" href="https://lin.ee/qO0UuXf"> <img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">Line Official</a>
-                  </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 1 -->
 
 
     <!-- Services -->
