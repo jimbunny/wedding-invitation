@@ -49,9 +49,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
-html,body {
-  overflow-x: hidden !important;
-}
 
 ul li {
   list-style: none;
@@ -503,9 +500,6 @@ Banner Style
   border: none;
 }
 @media (max-width: 767px) {
-  html, body {
-    overflow-x: hidden;
-  }
 .offer_section .box {
     flex-direction: row;
     text-align: left;
@@ -520,9 +514,6 @@ Banner Style
 }
 }
 @media (max-width: 992px) {
-  html, body {
-    overflow-x: hidden;
-  }
 .offer_section .box {
     flex-direction: column;
     align-items: center;
@@ -2091,9 +2082,7 @@ a:hover {
 /*************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
-html, body {
-    overflow-x: hidden;
-  }
+
 	/* Header */
 	.header {
 		padding-top: 1rem;
@@ -2156,9 +2145,7 @@ html, body {
 
 /* Min-width 992px */
 @media (min-width: 992px) {
-	html, body {
-    overflow-x: hidden;
-  }
+
 	/* General Styles */
 	.h2-heading {
 		width: 35.25rem;
@@ -2406,9 +2393,7 @@ html, body {
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
-	html, body {
-    overflow-x: hidden;
-  }
+
 	/* General Styles */
 	.container {
 		max-width: 1140px;
@@ -2609,9 +2594,7 @@ html, body {
 
 /* Min-width 1400px */
 @media (min-width: 1400px) {
-	html, body {
-    overflow-x: hidden;
-  }
+
 	/* Header */
 	/*.header .decoration-star {
 		top: 120px;
