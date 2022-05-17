@@ -50,7 +50,7 @@
           <span class="sr-only">Loading...</span>
       </div>
   </div>
-  <!-- Spinner End  -->
+  <!-- Spinner End -->
 
 
   <!-- Topbar Start -->
@@ -693,7 +693,7 @@
 
       var ajaxRequest = function (pageNo, pageSize, color) {
           $.ajax({
-              url: "/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
+              url: "http://182.160.15.72:5678/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
               type: "GET",
               // data: data,
               error: function () {

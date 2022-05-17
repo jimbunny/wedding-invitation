@@ -714,7 +714,7 @@ Banner Style
 
 
 .template-title {
-  padding: 60px 0 10px 0;
+  padding: 10px 0 10px 0;
   color: #4555d2;
 }
 
@@ -1313,6 +1313,7 @@ a:hover {
 	visibility: visible;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
+    z-index: 99;
 }
 
 .navbar .navbar-nav {

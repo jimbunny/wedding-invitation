@@ -138,3 +138,164 @@
 2022-05-13 22:17:25,794 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/May/2022 22:17:25] "GET /static/website_v2/images/logo_no.png HTTP/1.1" 200 -
 2022-05-13 22:20:40,579 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-05-13 22:20:40,712 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-05-17 10:51:06,597 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-05-17 10:51:07,449 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-05-17 10:51:07,461 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-05-17 10:51:07,513 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-05-17 10:51:09,634 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:09,637 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:09] "[31m[1mGET / HTTP/1.1[0m" 411 -
+2022-05-17 10:51:09,816 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:09,816 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:09] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,841 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "GET /api/v1/h5/website_v2 HTTP/1.1" 200 -
+2022-05-17 10:51:20,858 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,860 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/css/bootstrap.min.css HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,863 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,866 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,867 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/css/fontawesome-all.min.css HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,869 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,870 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/css/swiper.css HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,871 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,874 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/css/owl.css HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,875 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,877 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/css/animate.min.css HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,877 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/css/styles.css HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,922 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,922 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/jquery.min.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,926 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,927 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/wow.min.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,932 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,932 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/bootstrap.min.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,935 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,935 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/owl-carousel.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,937 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/swiper.min.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,940 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,940 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/purecounter.min.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,944 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,945 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/js/scripts.js HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,948 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,949 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/logo.svg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,951 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,952 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/line.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,955 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,955 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/decoration-star.svg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,958 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,958 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-1.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,961 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,961 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-2.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,964 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,965 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-3.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,968 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,968 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-4.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,971 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,971 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-5.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,974 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,975 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-6.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,978 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,978 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/banner-7.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,981 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,982 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/allcolor.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,984 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,985 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/white.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,987 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,988 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/red.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,991 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,991 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/fen.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,994 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,995 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/yellow.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:20,997 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:20,998 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:20] "[31m[1mGET /api/v1/h5/images/green.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,000 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,000 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/lan.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,003 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,004 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/zi.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,008 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,008 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/zong.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,011 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,012 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/black.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,014 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,014 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/function-4.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,016 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,017 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/user1.jpg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,020 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,020 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/user2.jpg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,023 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/user3.jpg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,028 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,029 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/user4.jpg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,031 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,032 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/user5.jpg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,037 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,037 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/facebook_qrcode.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,040 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,040 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/line_qrcode.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,043 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,044 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/tiktok_qrcode.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,088 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,088 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/decoration-star.svg HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,089 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,090 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/line.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,135 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,136 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/line.png HTTP/1.1[0m" 411 -
+2022-05-17 10:51:21,178 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-05-17 10:51:21,181 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:51:21] "[31m[1mGET /api/v1/h5/images/logo_no.png HTTP/1.1[0m" 411 -
+2022-05-17 10:53:00,481 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /api/v1/h5/website_v2 HTTP/1.1" 200 -
+2022-05-17 10:53:00,504 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/css/fontawesome-all.min.css HTTP/1.1" 200 -
+2022-05-17 10:53:00,505 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/css/owl.css HTTP/1.1" 200 -
+2022-05-17 10:53:00,506 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-17 10:53:00,506 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/css/swiper.css HTTP/1.1" 200 -
+2022-05-17 10:53:00,508 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/css/animate.min.css HTTP/1.1" 200 -
+2022-05-17 10:53:00,508 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/css/styles.css HTTP/1.1" 200 -
+2022-05-17 10:53:00,567 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/jquery.min.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,587 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/wow.min.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,602 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,627 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/owl-carousel.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,666 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/swiper.min.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,689 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/purecounter.min.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,690 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/js/scripts.js HTTP/1.1" 200 -
+2022-05-17 10:53:00,694 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-1.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,696 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/line.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,698 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/logo.svg HTTP/1.1" 200 -
+2022-05-17 10:53:00,699 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/decoration-star.svg HTTP/1.1" 200 -
+2022-05-17 10:53:00,701 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-2.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,703 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-3.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,710 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-4.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,718 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-5.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,719 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-6.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,721 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/banner-7.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,723 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/allcolor.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,727 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/white.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,743 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 -
+2022-05-17 10:53:00,746 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+2022-05-17 10:53:00,749 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/red.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,750 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/fen.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/yellow.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,762 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/green.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,774 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/lan.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,781 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/zi.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,787 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/black.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,787 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/zong.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,792 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/function-4.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,793 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/user1.jpg HTTP/1.1" 200 -
+2022-05-17 10:53:00,802 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/user2.jpg HTTP/1.1" 200 -
+2022-05-17 10:53:00,808 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/user3.jpg HTTP/1.1" 200 -
+2022-05-17 10:53:00,812 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/user4.jpg HTTP/1.1" 200 -
+2022-05-17 10:53:00,812 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/user5.jpg HTTP/1.1" 200 -
+2022-05-17 10:53:00,820 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/facebook_qrcode.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,823 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/line_qrcode.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,826 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/tiktok_qrcode.png HTTP/1.1" 200 -
+2022-05-17 10:53:00,839 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:00] "GET /static/website_v2/images/screenshot-frame.png HTTP/1.1" 200 -
+2022-05-17 10:53:03,627 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:03] "GET /static/website_v2/images/logo_no.png HTTP/1.1" 200 -
+2022-05-17 10:53:15,241 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:15] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-05-17 10:53:15,242 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:15] "[33mGET /static/website_v2/js/swiper.min.js.map HTTP/1.1[0m" 404 -
+2022-05-17 10:53:15,354 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:15] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-05-17 10:53:16,597 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:16] "GET /api/v1/h5/website_v2 HTTP/1.1" 200 -
+2022-05-17 10:53:16,677 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:16] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-05-17 10:53:16,727 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:16] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-05-17 10:53:16,747 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:53:16] "[33mGET /static/website_v2/js/swiper.min.js.map HTTP/1.1[0m" 404 -
+2022-05-17 10:54:53,864 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:54:53] "GET /api/v1/h5/website_v2 HTTP/1.1" 200 -
+2022-05-17 10:54:53,943 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:54:53] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-05-17 10:54:54,131 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:54:54] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-05-17 10:54:54,133 - _internal.py[line:225] - INFO: 127.0.0.1 - - [17/May/2022 10:54:54] "[33mGET /static/website_v2/js/swiper.min.js.map HTTP/1.1[0m" 404 -
+2022-05-17 11:09:15,625 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-05-17 11:09:15,724 - _internal.py[line:225] - INFO:  * Restarting with stat
