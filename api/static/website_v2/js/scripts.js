@@ -196,7 +196,7 @@ $('.owl-service-item').owlCarousel({
         type: "GET",
         // data: data,
         error: function () {
-          html = '<div class="swiper-slide"><div data-wow-delay="0.3s" style="text-align: center;">Error</div></div>'
+          var html = '<div class="swiper-slide"><div data-wow-delay="0.3s" style="text-align: center;">Error</div></div>'
           document.getElementById('template_swiper').innerHTML = html;
         },
         async:false,
