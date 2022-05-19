@@ -192,7 +192,7 @@ $('.owl-service-item').owlCarousel({
   
   var ajaxRequest = function (pageNo, pageSize, color) {
     $.ajax({
-        url: "http://182.160.15.72:5678/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
+        url: "/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
         type: "GET",
         // data: data,
         error: function () {
