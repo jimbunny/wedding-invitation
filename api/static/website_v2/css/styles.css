@@ -1584,7 +1584,7 @@ a:hover {
 	margin-bottom: 2rem;
 }
 
-.basic-2 .list-unstyled .fas {
+.basic-2 .list-unstyled  .fas {
 	color: #cc2973;
 	font-size: 0.375rem;
 	line-height: 1.625rem;
@@ -1730,7 +1730,7 @@ a:hover {
 .cards-2 .h2-heading {
 	margin-bottom: 3.75rem;
 	text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Trirong', serif;
 }
 
 .cards-2 .card {
@@ -2262,7 +2262,7 @@ a:hover {
 		width: 35.25rem;
 		margin-right: auto;
 		margin-left: auto;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Trirong', serif;
 	}
 
 	.p-heading {

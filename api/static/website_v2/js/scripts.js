@@ -192,7 +192,7 @@ $('.owl-service-item').owlCarousel({
   
   var ajaxRequest = function (pageNo, pageSize, color) {
     $.ajax({
-        url: "/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
+        url: "http://182.160.15.72:5678/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
         type: "GET",
         // data: data,
         error: function () {
@@ -204,7 +204,7 @@ $('.owl-service-item').owlCarousel({
           var arr = data.data.items
           var html = ""
           for (let i = 0; i < arr.length; i++) {
-            var item= '<div class="swiper-slide">' + '<div class=" wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"><div class="room-item shadow rounded overflow-hidden"><div class="position-relative"><img class="img-fluid-template" src="' + arr[i]['coverUrl']+ '" alt="template"></div><h6 class="template-title">'+arr[i]['name']+'</h6><a class="template-button" href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">เพิ่มเติม</a></div></div>' + '</div>'
+            var item= '<div class="swiper-slide">' + '<div class=" wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"><div class="room-item shadow rounded overflow-hidden"><div class="position-relative"><img class="img-fluid-template" src="' + arr[i]['coverUrl']+ '" alt="template"></div><h6 class="template-title">'+arr[i]['name']+'</h6><a class="template-button" style="font-family: \'Mitr\', sans-serif;" href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">เพิ่มเติม</a></div></div>' + '</div>'
             html = html + item
           }
           if (html == "") {
