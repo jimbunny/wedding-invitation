@@ -30,6 +30,7 @@ for (let i = 0; i < elements.length; i++) {
 }
 
 document.querySelector(".navbar-toggler").addEventListener("click", () => {
+  console.log("test")
   	document.querySelector(".offcanvas-collapse").classList.toggle("open");
 });
 
@@ -73,17 +74,17 @@ if (dropdownCheck !== null) {
   
 
 /* Card Slider - Swiper */
-var cardSlider = new Swiper('.card-slider', {
-	autoplay: {
-		delay: 4000,
-		disableOnInteraction: false
-	},
-	loop: true,
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev'
-	}
-});
+// var cardSlider = new Swiper('.card-slider', {
+// 	autoplay: {
+// 		delay: 4000,
+// 		disableOnInteraction: false
+// 	},
+// 	loop: true,
+// 	navigation: {
+// 		nextEl: '.swiper-button-next',
+// 		prevEl: '.swiper-button-prev'
+// 	}
+// });
 
 
 /* Back To Top Button */
@@ -182,7 +183,77 @@ $('.owl-service-item').owlCarousel({
 		  }
 	})
 
+  $('.colorful').click(function(){
+    $('.colorful').removeClass('active');
+    $(this).addClass('active');
+    var value = this.getAttribute("value");
+     ajaxRequest(1,1000,value);
+  })
+  
+  var ajaxRequest = function (pageNo, pageSize, color) {
+    $.ajax({
+        url: "/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
+        type: "GET",
+        // data: data,
+        error: function () {
+          html = '<div class="swiper-slide"><div data-wow-delay="0.3s" style="text-align: center;">Error</div></div>'
+          document.getElementById('template_swiper').innerHTML = html;
+        },
+        async:false,
+        success: function (data) {
+          var arr = data.data.items
+          var html = ""
+          for (let i = 0; i < arr.length; i++) {
+            var item= '<div class="swiper-slide">' + '<div class=" wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"><div class="room-item shadow rounded overflow-hidden"><div class="position-relative"><img class="img-fluid-template" src="' + arr[i]['coverUrl']+ '" alt="template"></div><h6 class="template-title">'+arr[i]['name']+'</h6><a class="template-button" href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">view</a></div></div>' + '</div>'
+            html = html + item
+          }
+          if (html == "") {
+            html = '<div class="swiper-slide"><div data-wow-delay="0.3s" style="text-align: center;">No Data</div></div>'
+          }
+          document.getElementById('template_swiper').innerHTML = html;
+          var swiper = new Swiper(".mySwiper", {
+            lazy: true,
+            slidesPerView: 2,
+            centeredSlides: false,
+            grid: {
+              rows: 2,
+            },
+            slidesPerGroup: 2,
+            spaceBetween: 30,
+            grabCursor: true,
+            keyboard: {
+              enabled: true,
+            },
+            breakpoints: {
+              769: {
+                slidesPerView: 4,
+                slidesPerGroup: 4,
+                spaceBetween: 30,
+              },
+              993: {
+                slidesPerView: 6,
+                slidesPerGroup: 6,
+                spaceBetween: 30,
+              }
+            },
+            scrollbar: {
+              el: ".swiper-scrollbar",
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              type: "fraction",
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        }
+    });
+  }
+
   function doMobileActions() {
+    ajaxRequest(1,1000,"all")
      // Price carousel
    $(".price1-carousel").owlCarousel({
     autoplay: true,
@@ -209,6 +280,7 @@ $('.owl-service-item').owlCarousel({
 });
   }
   function doPCActions() {
+    ajaxRequest(1,1000,"all")
     // Price carousel
   $(".price1-carousel").owlCarousel({
    autoplay: false,
@@ -232,6 +304,7 @@ $('.owl-service-item').owlCarousel({
            items:3
        }
    }
+   
 });
  }
   function isMobile() {

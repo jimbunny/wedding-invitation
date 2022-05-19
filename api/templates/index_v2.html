@@ -25,53 +25,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link href="/static/website_v2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/website_v2/css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="/static/website_v2/css/swiper.css" rel="stylesheet">
-    <link href="/static/website_v2/css/owl.css" rel="stylesheet">
-    <link href="/static/website_v2/css/animate.min.css" rel="stylesheet">
-	  <link href="/static/website_v2/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- <link href="css/swiper.css" rel="stylesheet"> -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+	  <link href="css/styles.css" rel="stylesheet">
 
   <script src="https://kit.fontawesome.com/93b84d02b2.js" crossorigin="anonymous"></script>
 
 	<!-- Favicon  -->
-    <link rel="icon" href="/static/website_v2/images/logo_no.png">
+    <link rel="icon" href="images/logo_no.png">
 </head>
 <body>
-     <!-- Spinner Start -->
-     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
       <div class="spinner-grow text-primary m-1" role="status">
-          <span class="sr-only">Loading...</span>
+        <span class="sr-only">Loading...</span>
       </div>
       <div class="spinner-grow text-dark m-1" role="status">
-          <span class="sr-only">Loading...</span>
+        <span class="sr-only">Loading...</span>
       </div>
       <div class="spinner-grow text-secondary m-1" role="status">
-          <span class="sr-only">Loading...</span>
+        <span class="sr-only">Loading...</span>
       </div>
-  </div>
-  <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
 
   <!-- Topbar Start -->
   <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
-      <div class="row gx-0">
-          <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-              <div class="d-inline-flex align-items-center">
-                  <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 8.00 am - 21.00 pm, Sunday Closed </small>
-              </div>
-          </div>
-          <div class="col-md-6 text-center text-lg-end">
-              <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
-                  <div class="me-3 pe-3 border-end py-2">
-                      <p class="m-0" style="color: #fff !important;"><i class="fa fa-envelope-open me-2"></i>unika@gmail.com</p>
-                  </div>
-                  <div class="py-2">
-                      <p class="m-0" style="color: #fff !important;"><i class="fa fa-phone-alt me-2"></i>+065 690 9440</p>
-                  </div>
-              </div>
-          </div>
+    <div class="row gx-0">
+      <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+        <div class="d-inline-flex align-items-center">
+          <small class="py-2" style="font-family: 'Dancing Script', cursive;"><i class="far fa-clock text-primary me-2"></i>เปิดทำการ : ทุกวัน <erm style="font-family: 'Open Sans', sans-serif;">8.00-21.00</erm> </small>
+        </div>
       </div>
+      <div class="col-md-6 text-center text-lg-end">
+        <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+            <div class="me-3 pe-3 border-end py-2">
+              <p class="m-0" style="color: #fff !important;"><i class="fa fa-envelope-open me-2"></i>unika.official.th@gmail.com</p>
+            </div>
+            <div class="py-2">
+              <p class="m-0" style="color: #fff !important;"><i class="fa fa-phone-alt me-2"></i>+065 690 9440</p>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- Topbar End -->
 
@@ -80,10 +85,7 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="/static/website_v2/images/logo.svg" alt="alternative"></a>
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -91,27 +93,27 @@
 
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">หน้าหลัก</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#templates">แบบการ์ด</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#functions">ฟังก์ชั่นของการ์ด</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricings">แพ็คเกจ</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#testimonials">รีวิวจากลูกค้า</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about-us">เกี่ยวกับ Unika</a>
-                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home" style="font-family: 'Dancing Script', cursive;">หน้าหลัก</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#templates" style="font-family: 'Dancing Script', cursive;">แบบการ์ด</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#functions" style="font-family: 'Dancing Script', cursive;">ฟังก์ชั่นของการ์ด</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#pricings" style="font-family: 'Dancing Script', cursive;">แพ็คเกจ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials" style="font-family: 'Dancing Script', cursive;">รีวิวจากลูกค้า</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us"><erm style="font-family: 'Dancing Script', cursive;">เกี่ยวกับ</erm> Unika </a>
+                  </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;">Line Official</a>
+                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;">Line Official</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -121,521 +123,429 @@
 
     <!-- Header -->
     <header id="home" class="header">
-        <img class="decoration-star" src="/static/website_v2/images/decoration-star.svg" alt="alternative">
-        <img class="decoration-star-2" src="/static/website_v2/images/decoration-star.svg" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-xl-7">
-                  <!-- <div class="owl-carousel owl-banner">
-                    <div class="item text-container">
-                      <h6 class="h1-large animated slideInDown" style="font-size: 2rem;">ให้ Unika ช่วยคุณส่งต่อความรัก ด้วยอิเล็กทรอนิกส์การ์ดแต่งงานที่ล้ำสมัย ช่วยตอบโจทย์ปัญหาต่างๆที่การ์ดกระดาษทำไม่ได้</h6>
-                        <a class="btn-solid-lg animated slideInLeft" href="#templates">More Templates</a>
-                        <a class="btn-outline-lg  animated slideInRight" href="https://lin.ee/qO0UuXf" style="line-height: 25px;"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;float: left;">Line Official</a>
-                    </div>
-                    <div class="item text-container">
-                      <p class="p-large animated slideInDown"><i class="fas fa-square" style="color: #cc2973; margin-left: 5px; margin-right: 5px;"></i>ปัญหาบัตรเชิญหาย จำรายละเอียดไม่ได้ จะหมดไป</p>
-                      <p class="p-large animated slideInDown"><i class="fas fa-square" style="color: #cc2973; margin-left: 5px; margin-right: 5px;"></i>หมดกังวลว่าคนสำคัญของคุณหลงทาง ด้วยการปักหมุดแผนที่ GPS นำทาง</p>
-                      <p class="p-large animated slideInDown"><i class="fas fa-square" style="color: #cc2973; margin-left: 5px; margin-right: 5px;"></i>เพิ่มความมีชีวิตชีวามากกว่าการ์ดทั่วๆไป ผ่านเสียงเพลงประกอบและภาพเคลื่อนไหว</p>
-                      <p class="p-large animated slideInDown"><i class="fas fa-square" style="color: #cc2973; margin-left: 5px; margin-right: 5px;"></i>หมดปัญหาพื้นที่การ์ดจำกัด ใส่รูปภาพและเนื้อหาได้มากกว่าการ์ดกระดาษทั่วไป</p>
-                      <p class="p-large animated slideInDown"><i class="fas fa-square" style="color: #cc2973; margin-left: 5px; margin-right: 5px;"></i>ไม่ต้องกลัวว่าจะพิมพ์การ์ดขาดหรือเกินจากจำนวนผู้ร่วมงาน แค่ลิงค์เดียวจะส่งให้กี่คนก็ได้</p>
-                      <p class="p-large animated slideInDown"><i class="fas fa-square" style="color: #cc2973; margin-left: 5px; margin-right: 5px;"></i>ไม่มาร่วมงาน ก็ส่งคำอวยพรผ่าน e-card ได้เลย ลดปัญหารอต่อคิวเขียนคำอวยพรหน้างาน</p>
-                        <a class="btn-solid-lg animated slideInLeft" href="#templates">More Templates</a>
-                        <a class="btn-outline-lg  animated slideInRight" href="https://lin.ee/qO0UuXf" style="line-height: 25px;"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;float: left;">Line Official</a>
-                    </div>
-                  </div> -->
-                    <div class="text-container">
-                        <h1 class="h1-large animated slideInDown">ให้ Unika ช่วยคุณส่งต่อความรัก </h1>
-                        <p class="p-large animated slideInDown">ด้วยอิเล็กทรอนิกส์การ์ดแต่งงานที่ล้ำสมัย ช่วยตอบโจทย์ปัญหาต่างๆที่การ์ดกระดาษทำไม่ได้</p>
-                        <a class="btn-solid-lg animated slideInLeft" href="#templates">More Templates</a>
-                        <a class="btn-outline-lg  animated slideInRight" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;">Line Official</a>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-lg-5 col-xl-5">
-                  <div class="template-title">
-                  <div class=" d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s" style="margin-left: -10px;">
-                    <div class="owl-carousel screenshot-carousel">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-1.png" alt="">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-2.png" alt="">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-3.png" alt="">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-4.png" alt="">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-5.png" alt="">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-6.png" alt="">
-                      <img class="img-fluid" src="/static/website_v2/images/banner-7.png" alt="">
-                    </div>
-                  </div>
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
+      <img class="decoration-star" src="images/decoration-star.svg" alt="alternative">
+      <img class="decoration-star-2" src="images/decoration-star.svg" alt="alternative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-xl-7">
+            <div class="text-container">
+              <h1 class="h1-large animated slideInDown" style="font-family: 'Dancing Script', cursive;">ให้ <erm style="font-family: 'Open Sans', sans-serif;">Unika</erm> ช่วยคุณส่งต่อความรัก </h1>
+              <p class="p-large animated slideInDown" style="font-family: 'Dancing Script', cursive;">ด้วยอิเล็กทรอนิกส์การ์ดแต่งงานที่ล้ำสมัย ช่วยตอบโจทย์ปัญหาต่างๆที่การ์ดกระดาษทำไม่ได้</p>
+              <a class="btn-solid-lg animated slideInLeft" href="#templates" style="font-family: 'Dancing Script', cursive;">แบบการ์ดเพิ่มเติม</a>
+              <a class="btn-outline-lg  animated slideInRight" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;">Line Official</a>
+            </div>
+          </div> <!-- end of col -->
+          <div class="col-lg-5 col-xl-5">
+            <div class="template-title">
+              <div class=" d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s" style="margin-left: -10px;">
+                <div class="owl-carousel screenshot-carousel">
+                  <img class="img-fluid" src="images/banner-1.png" alt="">
+                  <img class="img-fluid" src="images/banner-2.png" alt="">
+                  <img class="img-fluid" src="images/banner-3.png" alt="">
+                  <img class="img-fluid" src="images/banner-4.png" alt="">
+                  <img class="img-fluid" src="images/banner-5.png" alt="">
+                  <img class="img-fluid" src="images/banner-6.png" alt="">
+                  <img class="img-fluid" src="images/banner-7.png" alt="">
+                </div>
+              </div>
+            </div> <!-- end of image-container -->
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
     </header> <!-- end of header -->
     <!-- end of header -->
 
-
-    <!-- Introduction -->
-    <div id="templates" class="basic-1 bg-gray cards-2 templates">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 wow fadeIn">
-                <h2 class="h2-heading">Awesome Templates</h2>
+    <!-- Awesome Templates -->
+    <div class="cards-2 slider-1 bg-gray" id="templates">
+      <img class="quotes-decoration" src="images/quotes.svg" alt="alternative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeIn" data-wow-delay="0.3s">
+              <h2 class="h2-heading">Awesome Templates</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-2 wow fadeIn" style="margin-top: 22px; text-align: right;font-family: 'Dancing Script', cursive;">สี</div>
+          <div class="col-lg-10 col-10 wow fadeIn">
+            <div class="row" style="margin-right: 0px !important;">
+              <div class="col-lg-1 col-2 color-size">
+                <img value="all" class="colorful active" src="images/allcolor.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="white" class="colorful" src="images/white.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="red" class="colorful" src="images/red.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="pink" class="colorful" src="images/fen.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="yellow" class="colorful" src="images/yellow.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="green" class="colorful" src="images/green.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="blue" class="colorful" src="images/lan.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="purple" class="colorful" src="images/zi.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="brown" class="colorful" src="images/zong.png">
+              </div>
+              <div class="col-lg-1 col-2 color-size">
+                <img value="black" class="colorful" src="images/black.png">
+              </div>
             </div>
           </div>
-            <div class="row">
-              <div class="col-lg-2 col-2 wow fadeIn" style="margin-top: 22px; text-align: right;">Color</div>
-              <div class="col-lg-10 col-10 wow fadeIn">
-                <div class="row" style="margin-right: 0px !important;">
-                  <div class="col-lg-1 col-2 color-size">
-                      <img value="all" class="colorful active" src="/static/website_v2/images/allcolor.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="white" class="colorful" src="/static/website_v2/images/white.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="red" class="colorful" src="/static/website_v2/images/red.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="pink" class="colorful" src="/static/website_v2/images/fen.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="yellow" class="colorful" src="/static/website_v2/images/yellow.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="green" class="colorful" src="/static/website_v2/images/green.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="blue" class="colorful" src="/static/website_v2/images/lan.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="purple" class="colorful" src="/static/website_v2/images/zi.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="brown" class="colorful" src="/static/website_v2/images/zong.png">
-                  </div>
-                  <div class="col-lg-1 col-2 color-size">
-                    <img value="black" class="colorful" src="/static/website_v2/images/black.png">
-                  </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Swiper -->
+            <div class="all_slide">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="template_swiper">
                 </div>
               </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
             </div>
-            <div class="col-lg-12 col-12">
-              <div class="row" id="template">
-              </div>
-            </div>
-            <div class="col-lg-12 col-md-12 col-12" style="margin-top: 40px;">
-              <div id="pagination"></div>
-              </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of introduction -->
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+  <!-- end of testimonials -->
 
 
-    <!-- Details 1 -->
+    <!-- Template Functions 1 -->
     <div id="functions" class="basic-2 cards-2">
-        <img class="decoration-star" src="/static/website_v2/images/decoration-star.svg" alt="alternative">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-                <h2 class="h2-heading">Template Functions</h2>
-            </div> <!-- end of col -->
-          </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="image-container animated slideInLeft">
-                        <img class="function-img" src="/static/website_v2/images/function-4.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-
-                   <!-- Card Slider -->
-                   <!-- <div class="slider-container">
-                    <div class="swiper-container card-slider">
-                        <div class="swiper-wrapper">
-
-                          <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/music_icon.png" alt="alternative">
-                            <div class="testimonial-author">มีเพลงเปิดคลอตลอดการชมการ์ด</div>
-                            <p class="testimonial-text">“คุณสามารถเลือกใส่เพลงที่คุณชอบลงไปในการ์ด เพื่อเพิ่มอรรถรสและส่งผ่านเรื่องราวความรักของคุณถึงแขกคนสำคัญของคุณผ่านเสียงเพลง”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/commentpng.png" alt="alternative">
-                            <div class="testimonial-author">มีช่องเขียนคำอวยพรให้คู่บ่าวสาว</div>
-                            <p class="testimonial-text">“แขกผู้ได้รับการ์ดเชิญสามารถเขียนคำอวยพรผ่านช่องทางออนไลน์ โดยไม่จำเป็นต้องไปต่อคิวเขียนคำอวยพรหน้างานอีกต่อไป ฟังก์ชั่นนี้ยังอำนวยความสะดวกให้กับแขกที่ไม่สามารถมาร่วมงานได้ แต่ยังสามารถส่งคำอวยพรถึงบ่าวสาวได้เช่นกัน
-                              ”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/callme.png" alt="alternative">
-                            <div class="testimonial-author">ข้อมูลการติดต่อคู่บ่าวสาว</div>
-                            <p class="testimonial-text">“ในการ์ดมีการระบุช่องทางติดต่อคู่บ่าวสาว ไม่ว่าจะเป็นเบอร์โทรศัพท์ ไลน์ หรือช่องทางอื่น เพื่ออำนวยความสะดวกให้แขกผู้ร่วมงานติดต่อคู่บ่าวสาวได้โดยตรง”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/GPSpng.png" alt="alternative">
-                            <div class="testimonial-author">มีลิงค์สถานที่จัดงานโดยใช้ Google Map</div>
-                            <p class="testimonial-text">“มีการใส่ลิ๊งปักหมุด GPS นำทางไปสถานที่จัดงาน ผ่าน Google Map เพื่ออำนวยความสะดวกกับแขกผู้ร่วมงาน ทำให้ผู้ร่วมงานไม่หลงทางอีกต่อไป”</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="testimonial-image" src="/static/website_v2/images/photopng.png" alt="alternative">
-                            <div class="testimonial-author">มีพื้นที่ในการใส่รูปภาพที่มากขึ้น</div>
-                            <p class="testimonial-text">“คุณสามารถใส่รูปภาพพรีเวดดิ้งสวยๆในการ์ดได้หลายภาพกว่าการ์ดกระดาษทั่วไป โดยที่คุณภาพความคมชัดและสีสันของภาพเหมือนเดิม”</p>
-                        </div>
-                        <div class="swiper-slide">
-                          <img class="testimonial-image" src="/static/website_v2/images/schedulepng.png" alt="alternative">
-                          <div class="testimonial-author">มีเวลาและลำดับพิธีการที่ชัดเจน</div>
-                          <p class="testimonial-text">“ด้วยพื้นที่ตัวอักษรที่ใส่ในการ์ดมากขึ้น เพื่อให้คุณสามารถใส่รายละเอียดเวลาและลำดับพิธีการของงารได้ชัดเจนยิ่งขึ้น”</p>
-                      </div>
-                      <div class="swiper-slide">
-                        <img class="testimonial-image" src="/static/website_v2/images/x_introductionpng.png" alt="alternative">
-                        <div class="testimonial-author">มีคำประกอบรูปภาพ</div>
-                        <p class="testimonial-text">“คุณสามารถเขียนคำบรรยายหวานๆซึ้งๆประกอบรูปภาพได้ด้วยตัวเอง เพื่อส่งต่อความรักของคุณถึงผู้อ่าน”</p>
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="testimonial-image" src="/static/website_v2/images/customizepng.png" alt="alternative">
-                      <div class="testimonial-author">ปรับแต่ง function ของการ์ดได้ด้วยตัวเอง</div>
-                      <p class="testimonial-text">“ถ้ารูปแบบการ์ดที่เรามียังไม่ตอบโจทย์ความต้องการของคู่บ่าวสาวแล้วล่ะก็ เรามีฟังก์ชั่นเสริมให้คู่บ่าวสาวสามารถเสนอและปรับแต่ง function ของการ์ดในสไตล์ของตัวเองได้ด้วย”</p>
-                  </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>  -->
-                <div class="text-container">
-                  <!-- <h2>Office spaces should be unique they don’t need to look the same</h2> -->
-                  <ul class="list-unstyled li-space-lg animated slideInRight">
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">ปัญหาบัตรเชิญหาย จำรายละเอียดไม่ได้ จะหมดไป</div>
-                      </li>
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">หมดกังวลว่าคนสำคัญของคุณหลงทาง ด้วยการปักหมุดแผนที่ GPS นำทาง </div>
-                      </li>
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">เพิ่มความมีชีวิตชีวามากกว่าการ์ดทั่วๆไป ผ่านเสียงเพลงประกอบและภาพเคลื่อนไหว</div>
-                      </li>
-                      <li class="d-flex">
-                          <i class="fas fa-square"></i>
-                          <div class="flex-grow-1">หมดปัญหาพื้นที่การ์ดจำกัด ใส่รูปภาพและเนื้อหาได้มากกว่าการ์ดกระดาษทั่วไป</div>
-                      </li>
-                      <li class="d-flex">
-                        <i class="fas fa-square"></i>
-                        <div class="flex-grow-1">ไม่ต้องกลัวว่าจะพิมพ์การ์ดขาดหรือเกินจากจำนวนผู้ร่วมงาน แค่ลิงค์เดียวจะส่งให้กี่คนก็ได้</div>
-                    </li>
-                    <li class="d-flex">
-                      <i class="fas fa-square"></i>
-                      <div class="flex-grow-1">ไม่มาร่วมงาน ก็ส่งคำอวยพรผ่าน e-card ได้เลย ลดปัญหารอต่อคิวเขียนคำอวยพรหน้างาน</div>
-                  </li>
-                  </ul>
-                  <a class="btn-outline-lg" href="https://lin.ee/qO0UuXf"> <img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">Line Official</a>
-                  </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
+      <img class="decoration-star" src="images/decoration-star.svg" alt="alternative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeIn" data-wow-delay="0.3s">
+            <h2 class="h2-heading">Template Functions</h2>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-6 col-xl-5">
+            <div class="image-container animated slideInLeft" data-wow-delay="0.3s">
+              <img class="function-img" src="images/function-4.png" alt="alternative">
+            </div> <!-- end of image-container -->
+          </div> <!-- end of col -->
+          <div class="col-lg-6 col-xl-7">
+            <div class="text-container">
+              <!-- <h2>Office spaces should be unique they don’t need to look the same</h2> -->
+              <ul class="list-unstyled li-space-lg animated slideInRight" data-wow-delay="0.3s" style="font-family: 'Dancing Script', cursive;">
+                <li class="d-flex">
+                  <i class="fas fa-square"></i>
+                  <div class="flex-grow-1">ปัญหาบัตรเชิญหาย จำรายละเอียดไม่ได้ จะหมดไป</div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square"></i>
+                  <div class="flex-grow-1">หมดกังวลว่าคนสำคัญของคุณหลงทาง ด้วยการปักหมุดแผนที่ GPS นำทาง </div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square"></i>
+                  <div class="flex-grow-1">เพิ่มความมีชีวิตชีวามากกว่าการ์ดทั่วๆไป ผ่านเสียงเพลงประกอบและภาพเคลื่อนไหว</div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square"></i>
+                  <div class="flex-grow-1">หมดปัญหาพื้นที่การ์ดจำกัด ใส่รูปภาพและเนื้อหาได้มากกว่าการ์ดกระดาษทั่วไป</div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square"></i>
+                  <div class="flex-grow-1">ไม่ต้องกลัวว่าจะพิมพ์การ์ดขาดหรือเกินจากจำนวนผู้ร่วมงาน แค่ลิงค์เดียวจะส่งให้กี่คนก็ได้</div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square"></i>
+                  <div class="flex-grow-1">ไม่มาร่วมงาน ก็ส่งคำอวยพรผ่าน e-card ได้เลย ลดปัญหารอต่อคิวเขียนคำอวยพรหน้างาน</div>
+                </li>
+              </ul>
+              <a class="btn-outline-lg animated slideInRight" data-wow-delay="0.3s" href="https://lin.ee/qO0UuXf"> <img alt="LINE" src="images/line.png" style="border: none; margin: 0 10px 0 0;width: 36px;">Line Official</a>
+            </div>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
     </div> <!-- end of basic-2 -->
     <!-- end of details 1 -->
 
 
-    <!-- Services -->
+    <!-- Choose your plan -->
     <div id="pricings" class="cards-2 bg-gray">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-                <h2 class="h2-heading">Choose your plan</h2>
-            </div> <!-- end of col -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeIn" data-wow-delay="0.3s">
+            <h2 class="h2-heading">Choose your plan</h2>
+          </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row">
           <div class="col-lg-12">
-            <div class="owl-carousel price1-carousel wow fadeInUp" data-wow-delay="0.1s">
-
+            <div class="owl-carousel price1-carousel wow fadeInUp" data-wow-delay="0.3s" style="font-family: 'Dancing Script', cursive;">
               <div class="rounded p-4">
-                <!-- Pricing Table -->
                 <div class="pricing-table featured text-center">
-                  <!-- Title -->
                   <div class="title">
-                    <h5>Advance Plan</h5>
+                    <h5 style="font-family: 'Open Sans', sans-serif;">Advance Plan</h5>
                   </div>
-                  <!-- Price Tag -->
                   <div class="price">
                     <em>฿ 998</em>
                     <p>฿ 499</p>
                   </div>
-                  <!-- Features -->
                   <ul class="feature-list">
                     <li>ช่องทางติดต่อเจ้าบ่าว เจ้าสาว</li>
-                    <li>แผนที่สถานที่จัดงาน Google map</li>
+                    <li>แผนที่สถานที่จัดงาน <erm style="font-family: 'Open Sans', sans-serif;">Google map</erm></li>
                     <li>เลือก/เปลี่ยน เพลงแบล็กกราว</li>
+                    <li>ส่งงานภายใน24ชม</li>
                     <li>ช่องเขียนคำอวยพรให้คู่บ่าวสาว</li>
                     <li>เลือก/เปลี่ยน ฟอนต</li>
-                    <li>สามารถแก้ไขได้ตลอด ภายใน1อาทิตย</li>
-                    <li>ลิงค์ E-card ไม่มีวันหมดอาย</li>
-                    <li class="non-function">ออกแบบปรับแต่ง function ของการ์ดได้ด้วยตัวเอง</li>
+                    <li>สามารถแก้งานได้ <erm class="different">10ครั้ง ภายใน 1เดือน</erm></li>
+                    <li>ลิงค์ <erm style="font-family: 'Open Sans', sans-serif;">E-card</erm> <erm class="different"> ไม่มีวันหมดอาย</erm></li>
+                    <li class="non-function">ออกแบบปรับแต่ง <erm style="font-family: 'Open Sans', sans-serif;">function</erm> ของการ์ดได้ด้วยตัวเอง</li>
                   </ul>
-                  <!-- Take Action -->
                   <div class="action-button">
-                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;float: left;">Line Official</a>
+                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf" style="font-family: 'Open Sans', sans-serif;"><img alt="LINE" src="images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;float: left;">Line Official</a>
                   </div>
                 </div>
               </div>
               <div class="rounded p-4">
-                 <!-- Pricing Table -->
-                 <div class="pricing-table text-center">
-                  <!-- Title -->
+                <div class="pricing-table text-center">
                   <div class="title">
-                    <h5>Premium Plan</h5>
+                    <h5 style="font-family: 'Open Sans', sans-serif;">Premium Plan</h5>
                   </div>
-                  <!-- Price Tag -->
                   <div class="price">
                     <em>฿ 1998</em>
                     <p>฿ 999</p>
                   </div>
-                  <!-- Features -->
                   <ul class="feature-list">
                     <li>ช่องทางติดต่อเจ้าบ่าว เจ้าสาว</li>
-                    <li>แผนที่สถานที่จัดงาน Google map</li>
+                    <li>แผนที่สถานที่จัดงาน <erm style="font-family: 'Open Sans', sans-serif;">Google map</erm></li>
                     <li>เลือก/เปลี่ยน เพลงแบล็กกราว</li>
+                    <li>ส่งงานภายใน24ชม</li>
                     <li>ช่องเขียนคำอวยพรให้คู่บ่าวสาว</li>
                     <li>เลือก/เปลี่ยน ฟอนต</li>
-                    <li>สามารถแก้ไขได้ตลอด ภายใน1อาทิตย</li>
-                    <li>ลิงค์ E-card ไม่มีวันหมดอาย</li>
-                    <li>ออกแบบปรับแต่ง function ของการ์ดได้ด้วยตัวเอง</li>
+                    <li>สามารถแก้งานได้ <erm class="different">10ครั้ง ภายใน 1เดือน</erm></li>
+                    <li>ลิงค์ <erm style="font-family: 'Open Sans', sans-serif;">E-card</erm> <erm class="different"> ไม่มีวันหมดอาย</erm></li>
+                    <li>ออกแบบปรับแต่ง <erm style="font-family: 'Open Sans', sans-serif;">function</erm> ของการ์ดได้ด้วยตัวเอง</li>
                   </ul>
-                  <!-- Take Action -->
                   <div class="action-button">
-                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px; float: left;">Line Official</a>
+                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf" style="font-family: 'Open Sans', sans-serif;"><img alt="LINE" src="images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px; float: left;">Line Official</a>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded p-4">
+                <div class="pricing-table text-center">
+                  <div class="title">
+                    <h5 style="font-family: 'Open Sans', sans-serif;">Starter Plan</h5>
+                  </div>
+                  <div class="price">
+                    <em>฿ 598</em>
+                    <p>฿ 299</p>
+                  </div>
+                  <ul>
+                    <li>ช่องทางติดต่อเจ้าบ่าว เจ้าสาว</li>
+                    <li>แผนที่สถานที่จัดงาน <erm style="font-family: 'Open Sans', sans-serif;">Google map</erm></li>
+                    <li>เลือก/เปลี่ยน เพลงแบล็กกราว</li>
+                    <li>ส่งงานภายใน24ชม</li>
+                    <li class="non-function">ช่องเขียนคำอวยพรให้คู่บ่าวสาว</li>
+                    <li class="non-function">เลือก/เปลี่ยน ฟอนต</li>
+                    <li>สามารถแก้งานได<erm class="different">3ครั้งภายใน1เดือน</erm></li>
+                    <li>ลิงค์ <erm style="font-family: 'Open Sans', sans-serif;">E-card</erm><erm class="different"> มีอายุ3เดือน</erm></li>
+                    <li class="non-function">ออกแบบปรับแต่ง <erm style="font-family: 'Open Sans', sans-serif;">function</erm> ของการ์ดได้ด้วยตัวเอง</li>
+                  </ul>
+                  <div class="action-button">
+                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf" style="font-family: 'Open Sans', sans-serif;"><img alt="LINE" src="images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;float: left;">
+                      Line Official</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of services -->
+
+    <!-- Testimonials -->
+    <div id="testimonials" class="cards-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeIn" data-wow-delay="0.3s">
+            <h2 class="h2-heading">Testimonials</h2>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+              <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                  <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="images/user1.jpg" style="width: 85px; height: 85px;">
+                  <div class="ms-4">
+                    <h5 class="mb-1">Tar</h5>
+                    <p class="mb-1">Bangkok</p>
+                    <div>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0" style="font-family: 'Dancing Script', cursive;">ชอบมากค่ะ การ์ดน่ารักมาก ราคาเป็นกันเองด้วย เจ้าของร้านก็ดูแลดีมากๆเลย ไว้จะแนะนำเพื่อนๆมาใช้บริการนะคะ.</p>
+              </div>
+              <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                  <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="images/user2.jpg" style="width: 85px; height: 85px;">
+                  <div class="ms-4">
+                    <h5 class="mb-1">Meen</h5>
+                    <p class="mb-1">Profession</p>
+                    <div>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0" style="font-family: 'Dancing Script', cursive;">ขอบคุณมากร้านมากนะครับ มีแต่คนชมว่าการ์ดน่ารัก ดูไปยิ้มไป ชอบที่แค่กดลิงค์ก็เห็นคำอวยพรของเพื่อนๆพี่ๆน้องๆได้เลย จะเปิดอ่านเมื่อไหร่ก็ได้ อ่านแล้วรู้สึกอุ่นใจ.</p>
+              </div>
+              <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                  <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="images/user3.jpg" style="width: 85px; height: 85px;">
+                  <div class="ms-4">
+                    <h5 class="mb-1">Fern</h5>
+                    <p class="mb-1">Saraburi</p>
+                    <div>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0" style="font-family: 'Dancing Script', cursive;">รู้สึกประทับใจมากค่ะ ตอนแรกแค่จะสอบถามรายละเอียดเฉยๆ แต่พี่ๆให้คำแนะนำดีมาก จนต้องตัดสินใจใช้บริการ ได้การ์ดที่ออกมาสวย ตรงใจมากๆค่ะ.</p>
+              </div>
+              <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                  <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="images/user4.jpg" style="width: 85px; height: 85px;">
+                  <div class="ms-4">
+                    <h5 class="mb-1">LookMoo</h5>
+                    <p class="mb-1">Phetchabun</p>
+                    <div>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0" style="font-family: 'Dancing Script', cursive;">เป็นครั้งแต่ที่ได้เห็นการ์ดเชิญแบบอิเล็กทรอนิกส์ เห็นราคาไม่แพงเลยลองใช้บริการดู รู้สึกประทับใจมากครับ แขกก็ชอบ บอกว่าการ์ดน่ารัก มีลิงค์GPSนำทางด้วย.</p>
+              </div>
+              <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                  <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="images/user5.jpg" style="width: 85px; height: 85px;">
+                  <div class="ms-4">
+                    <h5 class="mb-1">ice</h5>
+                    <p class="mb-1">Chiang Mai</p>
+                    <div>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                      <small class="fa fa-star text-warning"></small>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0" style="font-family: 'Dancing Script', cursive;">เปิดการ์ดตัวเองดูหลายรอบเลยค่ะ ดูไปยิ้มไป ชอบค่ะ บริการด.</p>
+              </div>
+            </div> <!-- end of col -->
+          </div>
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of projects -->
+  </div>
+
+    <!-- About us -->
+    <div id="about-us" class="cards-2 bg-gray">
+      <div class="container offer_section">
+        <div class="row">
+          <div class="col-lg-12 wow fadeIn" data-wow-delay="0.3s">
+            <h2 class="h2-heading">About us</h2>
+            <p class="mb-4 wow fadeInUp text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto" style="font-family: 'Dancing Script', cursive;">ร้านยูนิข่า เป็นร้านที่ให้บริการรับทำการ์ดแต่งงานอิเล็กทรอนิกส์ร้านแรกๆของประเทศไทย เรามีแบบการ์ดมากมายให้คุณเลือกสรร นอกจากนี้คุณยังสามารถกำหนดแบบการ์ดได้ด้วยตนเองทั้งรูปแบบ ดีไซน์ สไตล์การ์ดให้เข้ากับธีมงานและตรงใจคู่บ่าวสาวมากที่สุด ร้านยูนิข่าเต็มใจให้บริการทุกคน ด้วยผลงานที่มีคุณภาพ และราคาที่ลูกค้าทุกคนเอื้อมถึง เรายินดีให้คำปรึกษา แนะนำ ฟรี</p>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row g-4">
+          <div class="col-lg-12">
+            <div class="owl-carousel price1-carousel wow fadeInUp" data-wow-delay="0.3s">
+              <div class="rounded p-4">
+                <div class="rounded shadow overflow-hidden">
+                  <div class="position-relative">
+                    <img class="img-fluid-about" src="images/line_qrcode.png" alt="">
+                    <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                      <a class="btn-outline-lg mx-1" href="https://lin.ee/qO0UuXf"><i class="fa-brands fa-line" style="margin-right: 10px"></i>Follow</a>
+                    </div>
+                  </div>
+                  <div class="text-center p-4 mt-3">
+                    <h5 class="fw-bold mb-0">unika</h5>
                   </div>
                 </div>
               </div>
 
               <div class="rounded p-4">
-                <div class="pricing-table text-center">
-                  <!-- Title -->
-                  <div class="title">
-                    <h5>Starter Plan</h5>
+                <div class="rounded shadow overflow-hidden">
+                  <div class="position-relative">
+                    <img class="img-fluid-about" src="images/tiktok_qrcode.png" alt="">
+                    <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                      <a class="btn-outline-lg mx-1" href="https://vt.tiktok.com/ZSdHTVv6E/"><i class="fa-brands fa-tiktok" style="margin-right: 10px"></i>Follow</a>
+                    </div>
                   </div>
-                  <!-- Price Tag -->
-                  <div class="price">
-                    <em>฿ 598</em>
-                    <p>฿ 299</p>
-                  </div>
-                  <!-- Features -->
-                  <ul>
-                    <li>ช่องทางติดต่อเจ้าบ่าว เจ้าสาว</li>
-                    <li>แผนที่สถานที่จัดงาน Google map</li>
-                    <li>เลือก/เปลี่ยน เพลงแบล็กกราว</li>
-                    <li class="non-function">ช่องเขียนคำอวยพรให้คู่บ่าวสาว</li>
-                    <li class="non-function">เลือก/เปลี่ยน ฟอนต</li>
-                    <li class="non-function">สามารถแก้ไขได้ตลอด ภายใน1วัน）</li>
-                    <li class="non-function">ลิงค์ E-card มีอายุ 3 เดือน）</li>
-                    <li class="non-function">ออกแบบปรับแต่ง function ของการ์ดได้ด้วยตัวเอง</li>
-                  </ul>
-                  <!-- Take Action -->
-                  <div class="action-button">
-                    <a class="btn-outline-sm" href="https://lin.ee/qO0UuXf"><img alt="LINE" src="/static/website_v2/images/line.png" style="border: none; margin: 0 10px 0 0;width: 30px;float: left;">
-                      Line Official</a>
+                  <div class="text-center p-4 mt-3">
+                    <h5 class="fw-bold mb-0">unika</h5>
                   </div>
                 </div>
               </div>
 
-            </div>
-          </div> <!-- end of col -->
-      </div> <!-- end of row -->
-
-
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
-
-    <!-- Projects -->
-    <div id="testimonials" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Testimonials</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                  <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website_v2/images/user1.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Tar</h5>
-                                <p class="mb-1">Bangkok</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">ชอบมากค่ะ การ์ดน่ารักมาก ราคาเป็นกันเองด้วย เจ้าของร้านก็ดูแลดีมากๆเลย ไว้จะแนะนำเพื่อนๆมาใช้บริการนะคะ.</p>
+              <div class="rounded p-4">
+                <div class="rounded shadow overflow-hidden">
+                  <div class="position-relative">
+                    <img class="img-fluid-about" src="images/facebook_qrcode.png" alt="">
+                    <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                      <a class="btn-outline-lg mx-1" href="https://www.facebook.com/105462688836050/"><i class="fa-brands fa-facebook-square" style="margin-right: 10px"></i>Follow</a>
                     </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website_v2/images/user2.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Meen</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">ขอบคุณมากร้านมากนะครับ มีแต่คนชมว่าการ์ดน่ารัก ดูไปยิ้มไป ชอบที่แค่กดลิงค์ก็เห็นคำอวยพรของเพื่อนๆพี่ๆน้องๆได้เลย จะเปิดอ่านเมื่อไหร่ก็ได้ อ่านแล้วรู้สึกอุ่นใจ.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website_v2/images/user3.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Fern</h5>
-                                <p class="mb-1">Saraburi</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">รู้สึกประทับใจมากค่ะ ตอนแรกแค่จะสอบถามรายละเอียดเฉยๆ แต่พี่ๆให้คำแนะนำดีมาก จนต้องตัดสินใจใช้บริการ ได้การ์ดที่ออกมาสวย ตรงใจมากๆค่ะ.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website_v2/images/user4.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">LookMoo</h5>
-                                <p class="mb-1">Phetchabun</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">เป็นครั้งแต่ที่ได้เห็นการ์ดเชิญแบบอิเล็กทรอนิกส์ เห็นราคาไม่แพงเลยลองใช้บริการดู รู้สึกประทับใจมากครับ แขกก็ชอบ บอกว่าการ์ดน่ารัก มีลิงค์GPSนำทางด้วย.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                      <div class="d-flex align-items-center mb-4">
-                          <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website_v2/images/user5.jpg" style="width: 85px; height: 85px;">
-                          <div class="ms-4">
-                              <h5 class="mb-1">ice</h5>
-                              <p class="mb-1">Chiang Mai</p>
-                              <div>
-                                  <small class="fa fa-star text-warning"></small>
-                                  <small class="fa fa-star text-warning"></small>
-                                  <small class="fa fa-star text-warning"></small>
-                                  <small class="fa fa-star text-warning"></small>
-                                  <small class="fa fa-star text-warning"></small>
-                              </div>
-                          </div>
-                      </div>
-                      <p class="mb-0">เปิดการ์ดตัวเองดูหลายรอบเลยค่ะ ดูไปยิ้มไป ชอบค่ะ บริการด.</p>
                   </div>
-                  <!-- <div class="testimonial-item rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="/static/website_v2/images/user6.jpg" style="width: 85px; height: 85px;">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="mb-1">Profession</p>
-                            <div>
-                                <small class="fa fa-star text-warning"></small>
-                                <small class="fa fa-star text-warning"></small>
-                                <small class="fa fa-star text-warning"></small>
-                                <small class="fa fa-star text-warning"></small>
-                                <small class="fa fa-star text-warning"></small>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>-->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
-    <!-- end of projects -->
-</div>
-
-    <!-- Testimonials -->
-    <div id="about-us" class="cards-2 bg-gray">
-      <div class="container offer_section">
-        <div class="row">
-          <div class="col-lg-12">
-              <h2 class="h2-heading">About us</h2>
-              <p class="mb-4 wow fadeInUp text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto">ร้านยูนิข่า เป็นร้านที่ให้บริการรับทำการ์ดแต่งงานอิเล็กทรอนิกส์ร้านแรกๆของประเทศไทย เรามีแบบการ์ดมากมายให้คุณเลือกสรร นอกจากนี้คุณยังสามารถกำหนดแบบการ์ดได้ด้วยตนเองทั้งรูปแบบ ดีไซน์ สไตล์การ์ดให้เข้ากับธีมงานและตรงใจคู่บ่าวสาวมากที่สุด ร้านยูนิข่าเต็มใจให้บริการทุกคน ด้วยผลงานที่มีคุณภาพ และราคาที่ลูกค้าทุกคนเอื้อมถึง เรายินดีให้คำปรึกษา แนะนำ ฟรี</p>
-          </div> <!-- end of col -->
-      </div> <!-- end of row -->
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-            <div class="rounded shadow overflow-hidden">
-                <div class="position-relative">
-                    <img class="img-fluid-about" src="/static/website_v2/images/facebook_qrcode.png" alt="">
-                    <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                        <a class="btn-outline-lg mx-1" href="https://www.facebook.com/105462688836050/"><i class="fa-brands fa-facebook-square" style="margin-right: 10px"></i>Follow</a>
-                    </div>
+                  <div class="text-center p-4 mt-3">
+                    <h5 class="fw-bold mb-0">unika</h5>
+                  </div>
                 </div>
-                <div class="text-center p-4 mt-3">
-                    <h5 class="fw-bold mb-0">uniEcard</h5>
-                </div>
+              </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-            <div class="rounded shadow overflow-hidden">
-                <div class="position-relative">
-                    <img class="img-fluid-about" src="/static/website_v2/images/line_qrcode.png" alt="">
-                    <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                      <a class="btn-outline-lg mx-1" href="https://lin.ee/qO0UuXf"><i class="fa-brands fa-line" style="margin-right: 10px"></i>Follow</a>
-                    </div>
-                </div>
-                <div class="text-center p-4 mt-3">
-                    <h5 class="fw-bold mb-0">uniEcard</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-            <div class="rounded shadow overflow-hidden">
-                <div class="position-relative">
-                    <img class="img-fluid-about" src="/static/website_v2/images/tiktok_qrcode.png" alt="">
-                    <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                      <a class="btn-outline-lg mx-1" href="https://vt.tiktok.com/ZSdHTVv6E/"><i class="fa-brands fa-tiktok" style="margin-right: 10px"></i>Follow</a>
-                    </div>
-                </div>
-                <div class="text-center p-4 mt-3">
-                    <h5 class="fw-bold mb-0">uniEcard</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-        </div>
-      </div>
-          </div> <!-- end of row -->
+          </div>
+        </div> <!-- end of row -->
       </div> <!-- end of container -->
-  </div> <!-- end of slider-1 -->
+    </div> <!-- end of slider-1 -->
 
     <!-- end of testimonials -->
     <!-- Copyright -->
     <div class="copyright" style="padding-top: 1rem;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a href="https://www.uniecard.com">uniEcard</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">Copyright © <a href="https://www.uniecard.com">unika</a></p>
+          </div> <!-- end of col -->
+        </div> <!-- enf of row -->
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Distributed By <a href="https://www.uniecard.com">Jim yu</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">Distributed By <a href="https://www.uniecard.com">Jim Yu</a></p>
+          </div> <!-- end of col -->
+        </div> <!-- enf of row -->
+      </div> <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
 
@@ -664,77 +574,81 @@
   </svg>
   </a>
     <!-- <button onclick="topFunction()" id="myBtn">
-        <img src="/static/website_v2/images/up-arrow.png" alt="alternative">
+        <img src="images/up-arrow.png" alt="alternative">
     </button> -->
     <!-- end of back to top button -->
 
     <!-- Scripts -->
-    <script src="/static/website_v2/js/jquery.min.js"></script>
-    <script src="/static/website_v2/js/wow.min.js"></script>
-    <script src="/static/website_v2/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="/static/website_v2/js/owl-carousel.js"></script>
-    <script src="/static/website_v2/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="/static/website_v2/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="/static/website_v2/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/owl-carousel.js"></script>
+    <!-- <script src="js/swiper.min.js"></script>  -->
+    <!-- Swiper for image and text sliders -->
+     <!-- Swiper JS -->
+     <script src="js/swiper-bundle.min.js"> </script>
+    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 
     <script>
-      var value = 'all'
-      var pages;
-      var page = 1;
-      var pageSize = 12
-      var _this=this
-      $('.colorful').click(function(){
-        $('.colorful').removeClass('active');
-        $(this).addClass('active');
-        value = this.getAttribute("value");
-        var color_page = ajaxRequest(page,pageSize,value);
-        createPagination(color_page.pages, 1, false)
-      })
 
-      var ajaxRequest = function (pageNo, pageSize, color) {
-          $.ajax({
-              url: "/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
-              type: "GET",
-              // data: data,
-              error: function () {
-                html = '<div class="col-lg-12 col-md-12 col-12" data-wow-delay="0.3s" style="text-align: center;">Error</div>'
-                document.getElementById('template').innerHTML = html;
-              },
-              async:false,
-              success: function (data) {
-                var arr = data.data.items
-                _this.pages = data.data.totalPages
-                var html = ""
-                for (let i = 0; i < arr.length; ++i) {
-                  var coverUrl = arr[i]['coverUrl']
-                  var name = arr[i]['name']
-                  var key = arr[i]['key']
-                  // var item = '<div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="text-align: center;">'
-                  //   + '<a href="https://www.uniecard.com/viewer/template/' + key + '">' +
-                  //   '<img class="img-fluid" src="' + coverUrl + '">' +
-                  //   '</a><div class="view"><span>view</span></div>' +
-                  //   '<p class="m-0">' + name + '</p></div>'
-                  var item =  '<div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">'+
-                  '<div class="room-item shadow rounded overflow-hidden"><div class="position-relative">'+
-                  '<a href="https://www.uniecard.com/viewer/template/' + key + ' target="_blank""><img class="img-fluid-template" src="' + coverUrl + '" alt="template"></a></div>' +
-                  '<h6 class="template-title">' + name + '</h6><a class="template-button" href="https://www.uniecard.com/viewer/template/' + key + ' target="_blank"">View</a></div></div>'
-                  html = html + item
-                }
-                if (html == "") {
-                  html = '<div class="col-lg-12 col-md-12 col-12" data-wow-delay="0.3s" style="text-align: center;">No Data</div>'
-                  document.getElementById('pagination').innerHTML = ""
-                }
-                document.getElementById('template').innerHTML = html;
-              }
-          });
-          return {pageNo: pageNo, pages:  _this.pages};
-        }
+      // var value = 'all'
+      // var pages;
+      // var page = 1;
+      // var pageSize = 12
+      // var _this=this
+      // $('.colorful').click(function(){
+      //   $('.colorful').removeClass('active');
+      //   $(this).addClass('active');
+      //   value = this.getAttribute("value");
+      //   var color_page = ajaxRequest(page,pageSize,value);
+      //   createPagination(color_page.pages, 1, false)
+      // })
 
-      $(function () {
-        var init_page;
-        init_page = ajaxRequest(_this.page,_this.pageSize,"all");
-        document.getElementById('pagination').innerHTML = createPagination(init_page.pages,init_page.pageNo,false);
-      });
+      // var ajaxRequest = function (pageNo, pageSize, color) {
+      //     $.ajax({
+      //         url: "http://182.160.15.72:5678/api/v1/admin/templates/getList?pageNo="+pageNo+"&pageSize="+pageSize+"&color=" +color,
+      //         type: "GET",
+      //         // data: data,
+      //         error: function () {
+      //           html = '<div class="col-lg-12 col-md-12 col-12" data-wow-delay="0.3s" style="text-align: center;">Error</div>'
+      //           document.getElementById('template').innerHTML = html;
+      //         },
+      //         async:false,
+      //         success: function (data) {
+      //           var arr = data.data.items
+      //           _this.pages = data.data.totalPages
+      //           var html = ""
+      //           for (let i = 0; i < arr.length; ++i) {
+      //             var coverUrl = arr[i]['coverUrl']
+      //             var name = arr[i]['name']
+      //             var key = arr[i]['key']
+      //             // var item = '<div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="text-align: center;">'
+      //             //   + '<a href="https://www.uniecard.com/viewer/template/' + key + '">' +
+      //             //   '<img class="img-fluid" src="' + coverUrl + '">' +
+      //             //   '</a><div class="view"><span>view</span></div>' +
+      //             //   '<p class="m-0">' + name + '</p></div>'
+      //             var item =  '<div class="col-lg-2 col-md-3 col-6 wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">'+
+      //             '<div class="room-item shadow rounded overflow-hidden"><div class="position-relative">'+
+      //             '<a href="https://www.uniecard.com/viewer/template/' + key + ' target="_blank""><img class="img-fluid-template" src="' + coverUrl + '" alt="template"></a></div>' +
+      //             '<h6 class="template-title">' + name + '</h6><a class="template-button" href="https://www.uniecard.com/viewer/template/' + key + ' target="_blank"">View</a></div></div>'
+      //             html = html + item
+      //           }
+      //           if (html == "") {
+      //             html = '<div class="col-lg-12 col-md-12 col-12" data-wow-delay="0.3s" style="text-align: center;">No Data</div>'
+      //             document.getElementById('pagination').innerHTML = ""
+      //           }
+      //           document.getElementById('template').innerHTML = html;
+      //         }
+      //     });
+      //     return {pageNo: pageNo, pages:  _this.pages};
+      //   }
+
+      // $(function () {
+      //   var init_page;
+      //   init_page = ajaxRequest(_this.page,_this.pageSize,"all");
+      //   document.getElementById('pagination').innerHTML = createPagination(init_page.pages,init_page.pageNo,false);
+      // });
 
 
       function createPagination(pages, page, isStatus=true) {
