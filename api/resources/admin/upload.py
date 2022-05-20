@@ -139,7 +139,7 @@ class TemplatesResource(Resource):
         if args.color == 'all':
             temp = load_dict.get("data")
         for item in load_dict.get("data"):
-            if item.get('tmpColor') == args.color:
+            if args.color in item.get('tmpColor'):
                 temp.append(item)
 
         data = {
