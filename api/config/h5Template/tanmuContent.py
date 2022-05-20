@@ -82,9 +82,8 @@ tanmuContent = '''
 <div class="alert alert-danger hide">ส่งคำอวยพรล้มเหลว！</div>
 <div class="alert alert-success hide">ส่งคำอวยพรสำเร็จ！</div>
   
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
-{#	<script type="text/javascript" src="/static/js/data.js"></script>#}
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/bootstrapValidator.min.js"></script>
 <script type="text/javascript" src="/static/js/index.js"></script>
 <style type="text/css">
     *{

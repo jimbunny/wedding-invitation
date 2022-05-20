@@ -9,7 +9,7 @@ from config.h5Template.font import choseFont
 def phone(url, name):
     font = choseFont(name)
     phone =  '''
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
         var interval = setInterval(function () {
