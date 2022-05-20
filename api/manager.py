@@ -90,7 +90,7 @@ def run():
         'loglevel': app.config.get('LOG_LEVEL', 'info'),
         'pidfile': app.config.get('PID_FILE', 'run.pid'),
     }
-    # StandaloneApplication(app, service_config).run()
+    StandaloneApplication(app, service_config).run()
 
 
 @manager.command
