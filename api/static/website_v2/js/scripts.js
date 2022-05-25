@@ -209,8 +209,8 @@ $('.owl-service-item').owlCarousel({
               '<div class="room-item shadow rounded overflow-hidden" style="background-color:#fff;">'+
                 '<div class="position-relative">'+
                   '<a href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">'+
-                    '<img class="img-fluid-template swiper-lazy" data-src="' + arr[i]['coverUrl']+ '" alt="template">'+
-                    '<div class="swiper-lazy-preloader"></div>'+
+                    '<img class="img-fluid-template" src="' + arr[i]['coverUrl']+ '" alt="template">'+
+                    // '<div class="swiper-lazy-preloader"></div>'+
                   '</a>'+
                 '</div>'+
                 '<h6 class="template-title">'+arr[i]['name']+'</h6>'+
@@ -228,9 +228,9 @@ $('.owl-service-item').owlCarousel({
 // 　　lazyLoadingInPrevNext : true,      //延迟加载应用到最接近的slide的图片
 // 　　lazyLoadingInPrevNextAmount : 1,   //加载下一个slide
 // 　　lazyLoadingOnTransitionStart : true,  //过渡到slide一开始就加载，设置为true
-            lazy: {
-              loadPrevNext: true,
-            },
+//             lazy: {
+//               loadPrevNext: true,
+//             },
             slidesPerView: 2,
             centeredSlides: false,
             grid: {
