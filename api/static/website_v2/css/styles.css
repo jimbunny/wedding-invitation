@@ -675,17 +675,18 @@ Banner Style
 
 .iframe-center {
   text-align: center;
-  padding-top: 25px;
+  /* padding-top: 25px; */
+  height: 100%;
 }
 .img-fluid {
   width: 20vh;
-  height: 30vh; 
+  height: 30vh;
   /* border:2px solid #ed5566; */
 }
 
 .img-fluid-template {
   width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 .img-fluid-template:hover {
@@ -746,8 +747,8 @@ Banner Style
   color: #fff;
   border-radius: 4px;
   font-size: 13px;
-  cursor: pointer; 
-  display: none;  
+  cursor: pointer;
+  display: none;
 }
 
 .iframe-center:hover > .view {
@@ -785,7 +786,7 @@ Banner Style
 .service-item:hover .bg-light::after {
     opacity: 1;
 } */
-/* 
+/*
 ---------------------------------------------
 The Clients
 ---------------------------------------------
@@ -1007,7 +1008,7 @@ html {
 }
 
 body, p {
-	color: #6c717b; 
+	color: #6c717b;
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
@@ -1416,7 +1417,7 @@ a:hover {
 	opacity: 0.7;
 }
 
-.header div[class*="col"] {  
+.header div[class*="col"] {
 	/* selects all elements which have classes starting with col */
 	/* needed so that the absolute positioned decoration stays behind */
 	position: relative;
@@ -1566,7 +1567,7 @@ a:hover {
 	opacity: 0.7;
 }
 
-.basic-2 div[class*="col"] {  
+.basic-2 div[class*="col"] {
 	/* selects all elements which have classes starting with col */
 	/* needed so that the absolute positioned decoration stays behind */
 	position: relative;
@@ -1686,7 +1687,7 @@ a:hover {
 	opacity: 0.7;
 }
 
-.basic-3 div[class*="col"] {  
+.basic-3 div[class*="col"] {
 	/* selects all elements which have classes starting with col */
 	/* needed so that the absolute positioned decoration stays behind */
 	position: relative;
@@ -1871,18 +1872,24 @@ a:hover {
   border-radius: 50%;
 }
 
+/* @media (min-width:1200px) {
+  .help-tip{
+      display: block;
+  }
+} */
+
 .all_slide {
   padding: 20px;
   width: 100%;
-  height:calc(100vh);
+  /* height:calc(100vh); */
   margin: 0 auto;
   position: relative;
-} 
+}
 .swiper-container {
   width: 89%;
   height: 100%;
   display: flex;
-} 
+}
 .cont {
   width: 80%;
   margin: 0 auto;
@@ -1900,10 +1907,17 @@ a:hover {
   justify-content: center;
   position: relative;
 } */
-
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 0px;
+  left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 0px;
+  right: auto;
+}
 .swiper {
-  width: 88%;
-  height: 95%;
+  width: 90%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1913,7 +1927,7 @@ a:hover {
   font-size: 18px;
   background: #fff;
   height: calc((100% - 40px) / 2);
-  /* max-height: 800px; */
+  /* max-height: 300px; */
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1930,7 +1944,19 @@ a:hover {
   position: relative;
 }
 
-
+/* .swiper-slide img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+} */
 
 /* .swiper {
   width: 100%;

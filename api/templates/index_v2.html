@@ -589,7 +589,86 @@
     <script src="/static/website_v2/js/scripts.js"></script> <!-- Custom scripts -->
 
     <script>
-      
+      refresh();
+      window.onresize = function () {  //监听屏幕的改变
+        setTimeout(function () {
+          refresh();
+        }, 1000)
+      };
+
+      function refresh() {
+        let devicewidth = document.documentElement.clientWidth;
+        var element = document.getElementById("slide_height");
+        console.log(devicewidth)
+        if (devicewidth > 1200) {
+          element.style.height = (1140 * 0.9 / 6 -30)/2 * 3 *2 +260 + "px"
+        } else if (devicewidth > 993) {
+          element.style.height = (devicewidth * 0.9 / 6 -30 )/2 * 3 *2 +260 + "px"
+        } else if (devicewidth > 769) {
+          element.style.height = (devicewidth * 0.9 / 4 -30)/2 * 3 *2 +260 + "px"
+        }else {
+          element.style.height = (devicewidth * 0.9 / 2 -30)/2 * 3 *2 +260 + "px"  //设计稿物理分辨率（750）/100
+        }
+        var swiper = new Swiper(".mySwiper", {
+          lazy: {
+              loadPrevNext: true,
+            },
+          slidesPerView: 2,
+          centeredSlides: false,
+          grid: {
+            fill: 'column',
+            rows: 2,
+          },
+          slidesPerGroup: 2,
+          spaceBetween: 20,
+          grabCursor: true,
+          keyboard: {
+            enabled: true,
+          },
+          breakpoints: {
+            // '@0.75': { //当屏幕宽高比大于等于0.75
+            //   grid: {
+            //     // fill: 'column',
+            //     rows: 1,
+            //   },
+            //   },
+            //   '@2.00': { //当屏幕宽高比大于等于1
+            //     grid: {
+            //       // fill: 'column',
+            //       rows: 3,
+            //     },
+            //   },
+            // 769
+            693: {
+              slidesPerView: 4,
+              slidesPerGroup: 4,
+              spaceBetween: 30,
+            },
+            // 993
+            1011: {
+              slidesPerView: 6,
+              slidesPerGroup: 6,
+              spaceBetween: 30,
+            }
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+
+          //点击事件
+          onTap: function(swiper){
+            alert('你tap了Swiper');
+          },//在移动端，click会有 200~300 ms延迟，所以请用tap代替click作为点击事件
+        });
+      }
       // var value = 'all'
       // var pages;
       // var page = 1;
