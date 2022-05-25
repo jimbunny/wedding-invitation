@@ -1944,6 +1944,9 @@ a:hover {
   position: relative;
 }
 
+.my-lazy-loading {
+  min-height: 200px !important;
+}
 /* .swiper-slide img {
   width: auto;
   height: auto;

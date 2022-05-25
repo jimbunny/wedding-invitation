@@ -207,10 +207,10 @@ $('.owl-service-item').owlCarousel({
             var item= '<div class="swiper-slide">' +
             '<div class=" wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">'+
               '<div class="room-item shadow rounded overflow-hidden" style="background-color:#fff;">'+
-                '<div class="position-relative">'+
+                '<div class="position-relative" style="min-height:200px;">'+
                   '<a href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">'+
-                    '<img class="img-fluid-template" src="' + arr[i]['coverUrl']+ '" alt="template">'+
-                    // '<div class="swiper-lazy-preloader"></div>'+
+                    '<img class="img-fluid-template swiper-lazy" data-src="' + arr[i]['coverUrl']+ '">'+
+                    '<div class="swiper-lazy-preloader"></div>'+
                   '</a>'+
                 '</div>'+
                 '<h6 class="template-title">'+arr[i]['name']+'</h6>'+
@@ -228,9 +228,12 @@ $('.owl-service-item').owlCarousel({
 // 　　lazyLoadingInPrevNext : true,      //延迟加载应用到最接近的slide的图片
 // 　　lazyLoadingInPrevNextAmount : 1,   //加载下一个slide
 // 　　lazyLoadingOnTransitionStart : true,  //过渡到slide一开始就加载，设置为true
-//             lazy: {
-//               loadPrevNext: true,
-//             },
+            lazy: {
+              loadPrevNext: true,
+              loadPrevNextAmount: 10000,
+              loadOnTransitionStart: true,
+              loadingClass: 'my-lazy-loading',
+            },
             slidesPerView: 2,
             centeredSlides: false,
             grid: {
@@ -281,9 +284,9 @@ $('.owl-service-item').owlCarousel({
               prevEl: ".swiper-button-prev",
             },
             //点击事件
-              onTap: function(swiper){
-                alert('你tap了Swiper');
-            },//在移动端，click会有 200~300 ms延迟，所以请用tap代替click作为点击事件
+            //   onTap: function(swiper){
+            //     alert('你tap了Swiper');
+            // },//在移动端，click会有 200~300 ms延迟，所以请用tap代替click作为点击事件
           });
         }
     });

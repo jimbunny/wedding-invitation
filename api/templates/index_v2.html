@@ -613,6 +613,12 @@
           {#lazy: {#}
           {#    loadPrevNext: true,#}
           {#  },#}
+            lazy: {
+              loadPrevNext: true,
+              loadPrevNextAmount: 10000,
+              loadOnTransitionStart: true,
+              loadingClass: 'my-lazy-loading',
+            },
           slidesPerView: 2,
           centeredSlides: false,
           grid: {
