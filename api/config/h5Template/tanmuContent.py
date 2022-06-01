@@ -214,6 +214,12 @@ var modalShowDiv = document.getElementById('modalShow');
 modalShowDiv.style.display = 'block';
 })
 
+const myTimeout = setTimeout(closeTanmuFunction, 100);
+
+function closeTanmuFunction() {
+  document.getElementById("tanmuOpen").click();
+}
+
 var kg = true; //给一个开关并赋值，用来进行后面的 if else 条件判断
 
 $(".tanBtn").click(function() { //给button按钮一个点击事件
