@@ -282,14 +282,14 @@ $('form').bootstrapValidator({
       }
     },
     greetings: {
-      message: 'โปรดกรอกคำอวยพร, ความยาวไม่เกิน 40 ตัวอักษร',
+      message: 'โปรดกรอกคำอวยพร, ความยาวไม่เกิน 400 ตัวอักษร',
       validators: {
         notEmpty: {
           message: 'โปรดกรอกคำอวยพร'
         },
         stringLength: {
-            max: 40,
-            message: 'ความยาวไม่เกิน 40 ตัวอักษร'
+            max: 400,
+            message: 'ความยาวไม่เกิน 400 ตัวอักษร'
         },
       }
     },
