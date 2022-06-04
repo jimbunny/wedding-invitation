@@ -184,7 +184,7 @@ class H5ViewResource(Resource):
                         data = item
                         break
         if data.get("isTanmu") == 1:
-            greetings = {"data": [{"text": "uniEcard:ขออวยพรให้คุณมีความสุขตลอดไป."}]}
+            greetings = {"data": [{"text": "Unika:ขออวยพรให้คุณมีความสุขตลอดไป."}]}
             path = os.path.join(root, "data", "template", "greetings", str(data.get("id")) + ".json")
             if not os.path.exists(path):
                 json_str = json.dumps(greetings, indent=4)
