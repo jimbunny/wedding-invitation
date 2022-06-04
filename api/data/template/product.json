@@ -49,6 +49,17 @@
 			"tanmuBtnColor": "rgba(47, 50, 52)",
 			"fontColor": "#fff"
 		},
+		{
+			"name": "kin ＆ lookmoo",
+			"id": "10006",
+			"key": "MBTEDYL2W601736963",
+			"iframeUrl": "https://u601736963.viewer.maka.im/k/MBTEDYL2W601736963?t=1654326182497",
+			"font": "Mitr",
+			"isTanmu": 1,
+			"tanmuColor": "rgba(47, 50, 52, 0.6)",
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"fontColor": "#fff"
+		},
 
 		{
 			"title": "day1-15",
