@@ -18,6 +18,7 @@ def phone(url, name):
             if (readystate == 'complete')
             {
             setTimeout(function () {
+                document.getElementById("bgmedia").play()
                 $('.barrage-more').css('display', 'none')
                 $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
             }, 2000);
