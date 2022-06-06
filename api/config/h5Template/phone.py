@@ -20,13 +20,6 @@ def phone(url, name):
         console.log('Its playing...do your job')
     } else {
         console.log('Not playing...maybe paused, stopped or never played.')
-        var tmp_music = document.getElementById("bgmedia").src;
-        console.log(tmp_music)
-        var audio = document.createElement("AUDIO")
-        audio.setAttribute("id", "bgmedia");
-        document.body.appendChild(audio);
-        audio.src = tmp_music
-        audio.play()
     }
     },1000)
     var interval = setInterval(function () {
