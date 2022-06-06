@@ -143,9 +143,6 @@ tanmuContent = '''
     /*组件主样式*/
     .overflow-text{
         display: block;
-        white-space:nowrap;
-        overflow:hidden;
-        text-overflow:ellipsis;
         opacity:0;
         clear: both;
         padding:0 10px;
