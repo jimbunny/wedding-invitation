@@ -21,7 +21,7 @@ def pc(url, name):
     } else {
     
         console.log('Not playing...maybe paused, stopped or never played.')
-        myAudio.play()
+        document.getElementById("bgmedia").play()
     }
     },1000)
     
