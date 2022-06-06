@@ -19,10 +19,7 @@ def phone(url, name):
         clearInterval(intervalAudio);
         console.log('Its playing...do your job')
     } else {
-        # myAudio.muted = true;
-        # myAudio.autoplay = true;
-        # console.log('Not playing...maybe paused, stopped or never played.')
-        # document.getElementById("bgmedia").play()
+        console.log('Not playing...maybe paused, stopped or never played.')
         var tmp_music = document.getElementById("bgmedia").src;
         console.log(tmp_music)
         var audio = document.createElement("AUDIO")
