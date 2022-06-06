@@ -19,10 +19,15 @@ def pc(url, name):
         clearInterval(intervalAudio);
         console.log('Its playing...do your job')
     } else {
-        myAudio.muted = true;
-        myAudio.autoplay = true;
-        console.log('Not playing...maybe paused, stopped or never played.')
-        document.getElementById("bgmedia").play()
+        # myAudio.muted = true;
+        # myAudio.autoplay = true;
+        # console.log('Not playing...maybe paused, stopped or never played.')
+        # document.getElementById("bgmedia").play()
+        var audio = document.createElement("AUDIO")
+        audio.setAttribute("id", "bgmedia");
+        document.body.appendChild(audio);
+        audio.src =  document.getElementById("bgmedia").src;
+        audio.play()
     }
     },1000)
     
