@@ -13,25 +13,19 @@ def phone(url, name):
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
      // 监听页面的点击事件，一旦点过了就能autoplay了
-    function setAutoPlayWhenClick () {
-        function setAutoPlay () {
-            // 设置自动播放为true
-            document.getElementById("bgmedia").autoplay = true;
-            document.removeEventListener('click', setAutoPlay);
-            document.removeEventListener('touchend', setAutoPlay);
+    function toggleSound() {
+            var music = document.getElementById("bgmedia");//获取ID  
+                console.log(music);
+                console.log(music.paused);
+            if (music.paused) { //判读是否播放  
+                music.paused=false;
+                music.play(); //没有就播放 
+            }  
+            
         }
-        document.addEventListener('click', setCallback);
-        document.addEventListener('touchend', setCallback);
-    }
 
-    try{
-    // try_statements
-        var myAudio = document.getElementById("bgmedia")
-        myAudio.play();
-    }catch (e){
-       console.log(e)
-       setAutoPlayWhenClick()
-    }
+setInterval("toggleSound()",100);
+
     
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
