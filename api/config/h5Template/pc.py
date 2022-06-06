@@ -12,16 +12,26 @@ def pc(url, name):
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
-     var intervalAudio = setInterval(function () {
-    var myAudio = document.getElementById("bgmedia")
+     // 监听页面的点击事件，一旦点过了就能autoplay了
+    setAutoPlayWhenClick () {
+        function setAutoPlay () {
+            // 设置自动播放为true
+            audioInfo.autoplay = true;
+            document.removeEventListener('click', setAutoPlay);
+            document.removeEventListener('touchend', setAutoPlay);
+        }
+        document.addEventListener('click', setCallback);
+        document.addEventListener('touchend', setCallback);
+    },
 
-    if (myAudio.duration > 0 && !myAudio.paused) {
-        clearInterval(intervalAudio);
-        console.log('Its playing...do your job')
-    } else {
-        console.log('Not playing...maybe paused, stopped or never played.')
+    try{
+    // try_statements
+        var myAudio = document.getElementById("bgmedia")
+        myAudio.play();
+    }catch (e){
+       console.log(e)
+       setAutoPlayWhenClick()
     }
-    },1000)
     
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
