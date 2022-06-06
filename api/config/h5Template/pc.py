@@ -22,7 +22,7 @@ def pc(url, name):
         }
         document.addEventListener('click', setCallback);
         document.addEventListener('touchend', setCallback);
-    },
+    }
 
     try{
     // try_statements
