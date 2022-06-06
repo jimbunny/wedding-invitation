@@ -13,10 +13,10 @@ def pc(url, name):
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
      // 监听页面的点击事件，一旦点过了就能autoplay了
-    setAutoPlayWhenClick () {
+    function setAutoPlayWhenClick () {
         function setAutoPlay () {
             // 设置自动播放为true
-            audioInfo.autoplay = true;
+            document.getElementById("bgmedia").autoplay = true;
             document.removeEventListener('click', setAutoPlay);
             document.removeEventListener('touchend', setAutoPlay);
         }
