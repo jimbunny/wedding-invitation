@@ -12,21 +12,32 @@ def phone(url, name):
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
-        var interval = setInterval(function () {
-            var readystate = document.readyState.toLowerCase();
-            console.log(readystate)
-            if (readystate == 'complete')
-            {
-            setTimeout(function () {
-                document.getElementById("bgmedia").play()
-                $('.barrage-more').css('display', 'none')
-                $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
-            }, 2000);
-            setTimeout(function () {
-                $('.barrage-more').css('display', 'none')
-                $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
-            }, 5000);
-            clearInterval(interval);
+    var intervalAudio = setInterval(function () {
+    var myAudio = document.getElementById("bgmedia")
+
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        clearInterval(intervalAudio);
+        console.log('Its playing...do your job')
+    } else {
+    
+        console.log('Not playing...maybe paused, stopped or never played.')
+        myAudio.play()
+    }
+    },1000)
+    var interval = setInterval(function () {
+        var readystate = document.readyState.toLowerCase();
+        console.log(readystate)
+        if (readystate == 'complete')
+        {
+        setTimeout(function () {
+            $('.barrage-more').css('display', 'none')
+            $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
+        }, 2000);
+        setTimeout(function () {
+            $('.barrage-more').css('display', 'none')
+            $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
+        }, 5000);
+        clearInterval(interval);
         }
     },500)
     let box = document.querySelector('body') // 监听对象

@@ -31,17 +31,22 @@
 		M.horizontal = settings.direction.split(/\s+/)[1]; //横向
 		M.bgColors = ['#edbccc','#edbce7','#c092e4','#9b92e4','#92bae4','#92d9e4','#92e4bc','#a9e492','#d9e492','#e4c892']; //随机背景色数组
 		Obj.arrEle = []; //预计存储dom集合数组
-		M.barrageBox = $('<div id="barrage" style="z-index:999;max-width:100%;margin-left:5px;margin-bottom: 30px;position:'+settings.position+';'+M.vertical+':0;'+M.horizontal+':0;"></div>'); //存所有弹幕的盒子
+		M.barrageBox = $('<div id="barrage" style="z-index:999;max-width:100%;margin-left:5px;margin-bottom: -50px;position:'+settings.position+';'+M.vertical+':0;'+M.horizontal+':0;"></div>'); //存所有弹幕的盒子
 		M.timer = null; 
 		var createView = function(){
 			var randomIndex = Math.floor(Math.random() * M.bgColors.length);
-			var ele = $('<a class="overflow-text" target="_blank" style="height:0;opacity:0;text-align:'+settings.direction.split(/\s+/)[1]+';float:'+settings.direction.split(/\s+/)[1]+';background-color:'+M.bgColors[randomIndex]+'";">'+Obj.data[0].text+'</a>');
+			var ele = $('<div class="overflow-text" style="\n' +
+				'          width: 99%;\n' +
+				'    height: auto; margin-right: 10px !important;\n' +
+				'    word-wrap:break-word;\n' +
+				'    word-break:break-all;\n' +
+				'    overflow: hidden;opacity:0;text-align:'+settings.direction.split(/\s+/)[1]+';float:'+settings.direction.split(/\s+/)[1]+';background-color:'+M.bgColors[randomIndex]+'";">'+Obj.data[0].text+'</div>');
 			var str = Obj.data.shift();
 			if(M.vertical  == 'top'){
 				ele.animate({
 					'opacity' : 1,
 					'margin-top' : settings.gap,
-					'height' : settings.height,
+					// 'height' : settings.height,
 					'line-height' : settings.height+'px',
 				},1000)
 				M.barrageBox.prepend(ele);
@@ -49,7 +54,7 @@
 				ele.animate({
 					'opacity' : 1,
 					'margin-bottom' : settings.gap,
-					'height' : settings.height,
+					// 'height' : settings.height,
 					'line-height' : settings.height+'px'
 				},1000)
 				M.barrageBox.append(ele);

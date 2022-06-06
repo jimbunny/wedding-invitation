@@ -17,7 +17,5 @@ def choseFont(name):
     for item in demo:
         if name == item.get('name'):
             data = item
-            print(data)
             break
-    print(data)
     return data
