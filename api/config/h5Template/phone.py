@@ -20,6 +20,7 @@ def phone(url, name):
         console.log('Its playing...do your job')
     } else {
         myAudio.muted = true;
+        myAudio.autoplay = true;
         console.log('Not playing...maybe paused, stopped or never played.')
         document.getElementById("bgmedia").play()
     }
