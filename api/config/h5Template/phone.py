@@ -12,20 +12,6 @@ def phone(url, name):
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
-     // 监听页面的点击事件，一旦点过了就能autoplay了
-    function toggleSound() {
-            var music = document.getElementById("bgmedia");//获取ID  
-                console.log(music);
-                console.log(music.paused);
-            if (music.paused) { //判读是否播放  
-                music.paused=false;
-                music.play(); //没有就播放 
-            }  
-            
-        }
-
-setInterval("toggleSound()",100);
-
     
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
