@@ -24,6 +24,7 @@ def phone(url, name):
         # console.log('Not playing...maybe paused, stopped or never played.')
         # document.getElementById("bgmedia").play()
         var tmp_music = document.getElementById("bgmedia").src;
+        console.log(tmp_music)
         var audio = document.createElement("AUDIO")
         audio.setAttribute("id", "bgmedia");
         document.body.appendChild(audio);
