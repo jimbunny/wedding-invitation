@@ -13,6 +13,7 @@ def phone(url, name):
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
     var u = navigator.userAgent, app = navigator.appVersion;
+    alert(u)
     alert(u.indexOf('line'))
     if (u.indexOf('line') > -1) {
         var url = window.location.href;
