@@ -13,6 +13,8 @@ def phone(url, name):
     <style>
     body {
       overflow: scroll !important;
+      -webkit-overflow-scrolling: touch !important; /* Lets it scroll lazy */
+      -webkit-overflow-scrolling: auto !important; /* Stops scrolling immediately */
     }
     </style>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>

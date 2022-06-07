@@ -14,6 +14,8 @@ def pc(url, name):
     <style>
     body {
       overflow: scroll !important;
+      -webkit-overflow-scrolling: touch !important; /* Lets it scroll lazy */
+      -webkit-overflow-scrolling: auto !important; /* Stops scrolling immediately */
     }
     </style>
     <script>
