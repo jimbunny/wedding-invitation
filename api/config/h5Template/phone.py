@@ -29,7 +29,7 @@ def phone(url, name):
                     };
                 }()
             }
-    
+    alert(browser.versions.mobile)
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
