@@ -56,19 +56,7 @@ def phone(url, name):
      	alert("PC");       
     }
             
-    var u = navigator.userAgent, app = navigator.appVersion;
-    alert(u)
-    alert(u.indexOf('Line'))
-    if (u.indexOf('Line') > -1) {
-        var url = window.location.href;
-        if (url.indexOf("?") < 0) {
-            url += "?openExternalBrowser=1";
-        } else {
-            // 網址有參數 ? 時, 用 & 加參數
-            url += "&openExternalBrowser=1";
-        }
-        window.location.href = url;
-    }
+    
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
         play = function() {
