@@ -8,19 +8,21 @@ from config.h5Template.font import choseFont
 
 def phone(url, name):
     font = choseFont(name)
-    phone =  '''
+    phone = '''
     <script src="/static/js/jquery.min.js"></script>
-    <style>
-    body {
-      overflow: scroll !important;
-      -webkit-overflow-scrolling: touch !important; /* Lets it scroll lazy */
-      -webkit-overflow-scrolling: auto !important; /* Stops scrolling immediately */
-    }
-    </style>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
     var u = navigator.userAgent, app = navigator.appVersion;
-    alert(u)
+    if (u.indexOf('line') > -1) {
+        var url = window.location.href;
+        if (url.indexOf("?") < 0) {
+            url += "?openExternalBrowser=1";
+        } else {
+            // 網址有參數 ? 時, 用 & 加參數
+            url += "&openExternalBrowser=1";
+        }
+        window.location.href = url;
+    }
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
         play = function() {
