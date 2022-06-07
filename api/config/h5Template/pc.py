@@ -110,8 +110,8 @@ def pc(url, name):
         {#console.log(moveDistanceX, moveDistanceY)#}
         // 判断滑动距离超过40 且 时间小于500毫秒
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
-            $('.barrage-content').css('display', 'block')
             setTimeout(function () {
+                $('.barrage-content').css('display', 'block')
                 $('.barrage-more').css('display', 'none')
                 $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
             }, 2000);
