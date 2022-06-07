@@ -13,6 +13,7 @@ def phone(url, name):
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
     var u = navigator.userAgent, app = navigator.appVersion;
+    alert(u.indexOf('line'))
     if (u.indexOf('line') > -1) {
         var url = window.location.href;
         if (url.indexOf("?") < 0) {
@@ -22,6 +23,7 @@ def phone(url, name):
             url += "&openExternalBrowser=1";
         }
         window.location.href = url;
+        alert(url)
     }
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
