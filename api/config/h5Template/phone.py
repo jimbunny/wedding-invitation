@@ -38,23 +38,23 @@ def phone(url, name):
             alert("+++")
                     alert("Line");
                      var url = window.location.href;
-        if (url.indexOf("?") < 0) {
-            url += "?openExternalBrowser=1";
-        } else {
-            // 網址有參數 ? 時, 用 & 加參數
-            url += "&openExternalBrowser=1";
-        }
-        window.location.href = url;
+                    if (url.indexOf("?") < 0) {
+                        url += "?openExternalBrowser=1";
+                    } else {
+                        // 網址有參數 ? 時, 用 & 加參數
+                        url += "&openExternalBrowser=1";
+                    }
+                    window.location.href = url;
+                }
+                if (browser.versions.ios) {
+                   // alert("IOS浏览器打开"); //是否在IOS浏览器打开
+                } 
+                if(browser.versions.android){
+                    //alert("安卓浏览器打开") //是否在安卓浏览器打开
+                } 
+            } else {
+                alert("PC");       
             }
-            if (browser.versions.ios) {
-               // alert("IOS浏览器打开"); //是否在IOS浏览器打开
-            } 
-            if(browser.versions.android){
-                //alert("安卓浏览器打开") //是否在安卓浏览器打开
-            } */
-    } else {
-     	alert("PC");       
-    }
             
     var u = navigator.userAgent, app = navigator.appVersion;
     alert(u)
