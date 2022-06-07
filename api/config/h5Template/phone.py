@@ -32,24 +32,24 @@ def phone(url, name):
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
             if (ua.match(/line/i) == "line") {
-              var url = window.location.href;
+                var url = window.location.href;
                 if (url.indexOf("?") < 0) {
                     url += "?openExternalBrowser=1";
                 } else {
                     // 網址有參數 ? 時, 用 & 加參數
                     url += "&openExternalBrowser=1";
                 }
-                    window.location.href = url;
-                }
-                if (browser.versions.ios) {
-                   // alert("IOS浏览器打开"); //是否在IOS浏览器打开
-                } 
-                if(browser.versions.android){
-                    //alert("安卓浏览器打开") //是否在安卓浏览器打开
-                } 
-            } else {
-                // alert("PC");       
+                window.location.href = url;
             }
+            if (browser.versions.ios) {
+               // alert("IOS浏览器打开"); //是否在IOS浏览器打开
+            } 
+            if(browser.versions.android){
+                //alert("安卓浏览器打开") //是否在安卓浏览器打开
+            } 
+        } else {
+            // alert("PC");       
+        }
             
     
     function audioAutoPlay(id) {
@@ -58,7 +58,7 @@ def phone(url, name):
             audio.play();
             document.removeEventListener("touchstart",play,false);
         };
-        audio.play()
+        audio.play();
         document.addEventListener("WeixinJSBridgeReady", function() {
             play();
         }, false);
