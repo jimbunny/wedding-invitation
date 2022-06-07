@@ -31,10 +31,6 @@ def phone(url, name):
             }
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
-            alert(ua)
-            alert("---")
-            alert(ua.match(/line/i) )
-            alert("+++")
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
                 //在微信中打开          
                 alert("wexin");
@@ -46,7 +42,12 @@ def phone(url, name):
             if (ua.match(/QQ/i) == "qq") {
                     alert("QQ");
             }
+            
+            alert("---")
+            alert(ua.match(/line/i) )
             if (ua.match(/line/i) == "line") {
+            
+            alert("+++")
                     alert("Line");
                      var url = window.location.href;
         if (url.indexOf("?") < 0) {
