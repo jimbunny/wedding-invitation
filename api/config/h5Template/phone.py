@@ -10,6 +10,11 @@ def phone(url, name):
     font = choseFont(name)
     phone =  '''
     <script src="/static/js/jquery.min.js"></script>
+    <style>
+    body {
+      overflow: scroll !important;
+    }
+    </style>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
     function audioAutoPlay(id) {

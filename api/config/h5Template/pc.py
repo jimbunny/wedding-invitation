@@ -11,6 +11,11 @@ def pc(url, name):
     pc = '''
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+      overflow: scroll !important;
+    }
+    </style>
     <script>
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
