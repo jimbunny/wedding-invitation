@@ -31,19 +31,7 @@ def phone(url, name):
             }
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
-            if (ua.match(/MicroMessenger/i) == "micromessenger") {
-                //在微信中打开          
-                alert("wexin");
-            }
-          /*if (ua.match(/WeiBo/i) == "weibo") {
-                    //在新浪微博客户端打开
-		            alert("weibo");
-            }
-            if (ua.match(/QQ/i) == "qq") {
-                    alert("QQ");
-            }
-            
-            alert("---")
+          alert("---")
             alert(ua.match(/line/i) )
             if (ua.match(/line/i) == "line") {
             
@@ -58,14 +46,11 @@ def phone(url, name):
         }
         window.location.href = url;
             }
-            if(/alipay/ig.test(ua)){
-                alert("支付宝");
-            }
             if (browser.versions.ios) {
-                alert("IOS浏览器打开"); //是否在IOS浏览器打开
+               // alert("IOS浏览器打开"); //是否在IOS浏览器打开
             } 
             if(browser.versions.android){
-                alert("安卓浏览器打开") //是否在安卓浏览器打开
+                //alert("安卓浏览器打开") //是否在安卓浏览器打开
             } */
     } else {
      	alert("PC");       
