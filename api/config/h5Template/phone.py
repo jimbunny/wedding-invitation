@@ -14,8 +14,8 @@ def phone(url, name):
     <script>
     var u = navigator.userAgent, app = navigator.appVersion;
     alert(u)
-    alert(u.indexOf('line'))
-    if (u.indexOf('line') > -1) {
+    alert(u.indexOf('Line'))
+    if (u.indexOf('Line') > -1) {
         var url = window.location.href;
         if (url.indexOf("?") < 0) {
             url += "?openExternalBrowser=1";
