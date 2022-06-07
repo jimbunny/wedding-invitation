@@ -19,6 +19,8 @@ def phone(url, name):
     </style>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
+    var u = navigator.userAgent, app = navigator.appVersion;
+    alert(u)
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
         play = function() {
