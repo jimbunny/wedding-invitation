@@ -20,7 +20,7 @@ templateBtn = '''
 </style>
 <header class="simple-header-left">
 <div  style="color:blue;width:40px;text-align:center;margin-top:10px;border-radius: 10px;">
-  <a href="https://www.uniecard.com/"><img style="width:35px;" src="/static/img/back.png" alt="back" ></a>
+  <a href="https://www.uniecard.com/#templates"><img style="width:35px;" src="/static/img/back.png" alt="back" ></a>
   <a href="https://lin.ee/qO0UuXf"><img style="width:40px;" src="/static/img/LINE1.png" alt="line" ></a>
   </div>
 </header>

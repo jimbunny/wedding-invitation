@@ -25,10 +25,22 @@ tanmuContent = '''
     .barrage_box_top .barrage-item{
     background-color: {{ data.tanmuColor }};margin-bottom:10px; white-space:nowrap;color:{{ data.fontColor }}; font-size: 12px; transform: scale(1); opacity: 1; transition: all 0.65s ease-in 0s;padding: 6px 8px 0px 8px; height: 32px;display: inline-block;border-radius: 25px;
     }
+    .barrage-content {
+        position: fixed;
+        ox-sizing: border-box; 
+        padding: 11.7188px; 
+        right: 0px; 
+        bottom: 0px; 
+        z-index: 1000; 
+        width: 100%; 
+        pointer-events: none; 
+        background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    }
+    
 </style>
 
 <div class="maka-barrage-dom" style="top: 0px; left: 0px; background-color: transparent; z-index: 1000;">
-    <div class="barrage-content" style="position: fixed; box-sizing: border-box; padding: 11.7188px; right: 0px; bottom: 0px; z-index: 1000; width: 100%; pointer-events: none; background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);">
+    <div class="barrage-content">
         <div class="barrage-words row" style="margin-top: 11.7188px; height: 212.695px;"><div class="barrage-word" style="min-height: 32.2266px; line-height: 32.2266px; font-size: 12.8906px; padding: 4.10156px; border-radius: 22.8516px; bottom: 94.3359px; max-width: 310.547px; background-color: rgba(47, 50, 52, 0.6); transform: scale(1); opacity: 0; transition: bottom 2s ease-out 0s, opacity 0.75s linear 0.75s;">
         </div>
     </div>
