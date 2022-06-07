@@ -26,6 +26,7 @@ tanmuContent = '''
     background-color: {{ data.tanmuColor }};margin-bottom:10px; white-space:nowrap;color:{{ data.fontColor }}; font-size: 12px; transform: scale(1); opacity: 1; transition: all 0.65s ease-in 0s;padding: 6px 8px 0px 8px; height: 32px;display: inline-block;border-radius: 25px;
     }
     .barrage-content {
+        display:none;
         position: fixed;
         ox-sizing: border-box; 
         padding: 11.7188px; 
