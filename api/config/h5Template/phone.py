@@ -43,8 +43,16 @@ def phone(url, name):
             if (ua.match(/QQ/i) == "qq") {
                     alert("QQ");
             }
-            if (ua.match(/Line/i) == "line") {
+            if (ua.match(/line/i) == "line") {
                     alert("Line");
+                     var url = window.location.href;
+        if (url.indexOf("?") < 0) {
+            url += "?openExternalBrowser=1";
+        } else {
+            // 網址有參數 ? 時, 用 & 加參數
+            url += "&openExternalBrowser=1";
+        }
+        window.location.href = url;
             }
             if(/alipay/ig.test(ua)){
                 alert("支付宝");
@@ -63,14 +71,7 @@ def phone(url, name):
     alert(u)
     alert(u.indexOf('Line'))
     if (u.indexOf('Line') > -1) {
-        var url = window.location.href;
-        if (url.indexOf("?") < 0) {
-            url += "?openExternalBrowser=1";
-        } else {
-            // 網址有參數 ? 時, 用 & 加參數
-            url += "&openExternalBrowser=1";
-        }
-        window.location.href = url;
+       
     }
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
