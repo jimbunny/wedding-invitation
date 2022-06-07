@@ -13,37 +13,32 @@ def phone(url, name):
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
       var browser = {
-                versions: function () {
-                    var u = navigator.userAgent, app = navigator.appVersion;
-                    return {         //移动终端浏览器版本信息
-                        trident: u.indexOf('Trident') > -1, //IE内核
-                        presto: u.indexOf('Presto') > -1, //opera内核
-                        webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
-                        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
-                        mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
-                        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-                        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
-                        iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
-                        iPad: u.indexOf('iPad') > -1, //是否iPad
-                        webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
-                    };
-                }()
-            }
+            versions: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {         //移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            }()
+        }
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
-          alert("---")
-            alert(ua.match(/line/i) )
             if (ua.match(/line/i) == "line") {
-            
-            alert("+++")
-                    alert("Line");
-                     var url = window.location.href;
-                    if (url.indexOf("?") < 0) {
-                        url += "?openExternalBrowser=1";
-                    } else {
-                        // 網址有參數 ? 時, 用 & 加參數
-                        url += "&openExternalBrowser=1";
-                    }
+              var url = window.location.href;
+                if (url.indexOf("?") < 0) {
+                    url += "?openExternalBrowser=1";
+                } else {
+                    // 網址有參數 ? 時, 用 & 加參數
+                    url += "&openExternalBrowser=1";
+                }
                     window.location.href = url;
                 }
                 if (browser.versions.ios) {
@@ -53,22 +48,17 @@ def phone(url, name):
                     //alert("安卓浏览器打开") //是否在安卓浏览器打开
                 } 
             } else {
-                alert("PC");       
+                // alert("PC");       
             }
             
-    var u = navigator.userAgent, app = navigator.appVersion;
-    alert(u)
-    alert(u.indexOf('Line'))
-    if (u.indexOf('Line') > -1) {
-       
-    }
+    
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
         play = function() {
             audio.play();
             document.removeEventListener("touchstart",play,false);
         };
-        audio.play();
+        audio.play()
         document.addEventListener("WeixinJSBridgeReady", function() {
             play();
         }, false);
