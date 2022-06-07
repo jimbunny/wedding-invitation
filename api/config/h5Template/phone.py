@@ -29,19 +29,22 @@ def phone(url, name):
                     };
                 }()
             }
-    alert(browser.versions.mobile)
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+            alert(ua)
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
-		//在微信中打开          
-		alert("wexin");
+                //在微信中打开          
+                alert("wexin");
             }
           /*if (ua.match(/WeiBo/i) == "weibo") {
                     //在新浪微博客户端打开
-		alert("weibo");
+		            alert("weibo");
             }
             if (ua.match(/QQ/i) == "qq") {
                     alert("QQ");
+            }
+            if (ua.match(/Line/i) == "line") {
+                    alert("Line");
             }
             if(/alipay/ig.test(ua)){
                 alert("支付宝");
@@ -56,7 +59,19 @@ def phone(url, name):
      	alert("PC");       
     }
             
-    
+    var u = navigator.userAgent, app = navigator.appVersion;
+    alert(u)
+    alert(u.indexOf('Line'))
+    if (u.indexOf('Line') > -1) {
+        var url = window.location.href;
+        if (url.indexOf("?") < 0) {
+            url += "?openExternalBrowser=1";
+        } else {
+            // 網址有參數 ? 時, 用 & 加參數
+            url += "&openExternalBrowser=1";
+        }
+        window.location.href = url;
+    }
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
         play = function() {
