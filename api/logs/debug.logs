@@ -987,3 +987,153 @@
 2022-06-07 19:38:07,522 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-06-07 19:38:30,598 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-06-07 19:38:30,679 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-06-07 19:48:33,240 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-06-07 19:48:34,091 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-06-07 19:48:34,095 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-06-07 19:48:34,143 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-06-07 19:48:37,608 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /api/v1/h5/viewer/product/71RSU0ABW601736963 HTTP/1.1" 200 -
+2022-06-07 19:48:37,645 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 19:48:37,646 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 19:48:37,646 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 19:48:37,807 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 19:48:37,807 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 19:48:37,809 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:37] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 19:48:38,007 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:48:38] "GET /api/v1/h5/greetings/100021 HTTP/1.1" 200 -
+2022-06-07 19:50:09,732 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:09] "GET /api/v1/h5/viewer/product/71RSU0ABW601736963 HTTP/1.1" 200 -
+2022-06-07 19:50:10,008 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:10] "GET /api/v1/h5/greetings/100021 HTTP/1.1" 200 -
+2022-06-07 19:50:52,956 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:52] "GET /api/v1/h5/viewer/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-06-07 19:50:53,521 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:53] "GET /static/website_v2/css/foundation-icons.css HTTP/1.1" 200 -
+2022-06-07 19:50:53,543 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:53] "GET /static/website_v2/js/index_menu.js HTTP/1.1" 200 -
+2022-06-07 19:50:53,551 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:53] "GET /static/website_v2/js/anime.js HTTP/1.1" 200 -
+2022-06-07 19:50:53,574 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:53] "GET /static/website_v2/js/jquery-1.11.0.min.js HTTP/1.1" 200 -
+2022-06-07 19:50:53,586 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:50:53] "GET /static/website_v2/js/jquery-ui.min.js HTTP/1.1" 200 -
+2022-06-07 19:51:17,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:51:17] "GET /api/v1/h5/viewer/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-06-07 19:52:06,841 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:06] "GET /api/v1/h5/viewer/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-06-07 19:52:07,169 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:07] "GET /static/website_v2/css/foundation-icons.woff HTTP/1.1" 200 -
+2022-06-07 19:52:48,059 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:48] "GET /api/v1/h5/greetings/10002 HTTP/1.1" 200 -
+2022-06-07 19:52:50,677 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /api/v1/h5/viewer/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-06-07 19:52:50,796 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /static/website_v2/css/foundation-icons.css HTTP/1.1" 200 -
+2022-06-07 19:52:50,799 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /static/website_v2/js/jquery-1.11.0.min.js HTTP/1.1" 200 -
+2022-06-07 19:52:50,800 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /static/website_v2/js/jquery-ui.min.js HTTP/1.1" 200 -
+2022-06-07 19:52:50,800 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /static/website_v2/js/anime.js HTTP/1.1" 200 -
+2022-06-07 19:52:50,806 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /static/website_v2/js/index_menu.js HTTP/1.1" 200 -
+2022-06-07 19:52:50,810 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:52:50] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 19:53:15,893 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:53:15] "GET /static/website_v2/css/foundation-icons.css HTTP/1.1" 200 -
+2022-06-07 19:53:15,927 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:53:15] "GET /static/website_v2/css/foundation-icons.woff HTTP/1.1" 200 -
+2022-06-07 19:53:31,868 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:53:31] "GET /api/v1/h5/greetings/10002 HTTP/1.1" 200 -
+2022-06-07 19:55:23,780 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-06-07 19:55:25,625 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-06-07 19:55:25,637 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-06-07 19:55:29,700 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-06-07 19:55:31,702 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-06-07 19:55:31,706 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:31] "GET /api/v1/h5/makeH5/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-06-07 19:55:33,041 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/4PVLO6JNW601736963 HTTP/1.1" 200 None
+2022-06-07 19:55:33,044 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-06-07 19:55:35,196 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/4PVLO6JNW601736963 HTTP/1.1" 200 None
+2022-06-07 19:55:35,200 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:35] "GET /api/v1/h5/makeH5/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 19:55:35,292 - app.py[line:29] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-06-07 19:55:35,293 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:35] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-06-07 19:55:43,267 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /api/v1/h5/viewer/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-06-07 19:55:43,291 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 19:55:43,293 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 19:55:43,296 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 19:55:43,313 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 19:55:43,342 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 19:55:43,580 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:55:43] "GET /api/v1/h5/greetings/10002 HTTP/1.1" 200 -
+2022-06-07 19:56:32,379 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:56:32] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 19:56:32,637 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:56:32] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 19:58:35,607 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 19:58:35,637 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 19:58:35,638 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 19:58:35,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 19:58:35,750 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 19:58:35,750 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 19:58:35,750 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 19:58:35,951 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 19:58:35] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:10:23,273 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:10:23] "GET /api/v1/h5/viewer/product/71RSU0ABW601736963 HTTP/1.1" 200 -
+2022-06-07 20:10:40,088 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:10:40] "GET /api/v1/h5/viewer/product/71RSU0ABW601736963 HTTP/1.1" 200 -
+2022-06-07 20:10:40,388 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:10:40] "GET /api/v1/h5/greetings/100021 HTTP/1.1" 200 -
+2022-06-07 20:11:34,191 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:11:34,219 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:11:34,219 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:11:34,220 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:11:34,267 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:11:34,267 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:11:34,268 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:11:34,462 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:11:34] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:12:08,023 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:12:08] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:12:08,307 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:12:08] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:13:26,180 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:13:26,204 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:13:26,206 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:13:26,209 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:13:26,303 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:13:26,303 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:13:26,303 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:13:26,506 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:26] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:13:57,661 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:13:57,681 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:13:57,682 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:13:57,686 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:13:57,765 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:13:57,766 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:13:57,766 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:13:57,958 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:13:57] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:14:34,911 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:34] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:14:35,194 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:35] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:14:52,977 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:52] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:14:53,002 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:14:53,005 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:14:53,009 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:14:53,082 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:14:53,082 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:14:53,082 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:14:53,274 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:14:53] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:15:21,037 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:15:21,064 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:15:21,066 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:15:21,068 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:21,131 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:21,133 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:21,133 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:15:21,351 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:21] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:15:41,606 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:15:41,635 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:15:41,636 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:15:41,637 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:41,749 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:41,749 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:41,750 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:41] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:15:42,021 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:42] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:15:46,724 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:15:46,751 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-06-07 20:15:46,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-06-07 20:15:46,756 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:46,808 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:46,809 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-07 20:15:46,809 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:46] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-06-07 20:15:47,010 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:47] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:15:56,853 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:56] "GET /api/v1/h5/viewer/product/4PVLO6JNW601736963 HTTP/1.1" 200 -
+2022-06-07 20:15:57,157 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Jun/2022 20:15:57] "GET /api/v1/h5/greetings/100023 HTTP/1.1" 200 -
+2022-06-07 20:16:52,483 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\pc.py', reloading
+2022-06-07 20:16:52,612 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-06-07 20:16:53,769 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-06-07 20:16:53,772 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-06-07 20:16:53,825 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-06-07 20:17:05,399 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\pc.py', reloading
+2022-06-07 20:17:05,510 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-06-07 20:17:06,447 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-06-07 20:17:06,450 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-06-07 20:17:06,500 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-06-07 20:17:18,083 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\pc.py', reloading
+2022-06-07 20:17:18,174 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-06-07 20:17:19,084 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-06-07 20:17:19,087 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-06-07 20:17:19,138 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-06-07 20:17:47,497 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-06-07 20:17:47,593 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-06-07 20:17:48,516 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-06-07 20:17:48,519 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-06-07 20:17:48,568 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-06-07 20:17:59,164 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-06-07 20:17:59,256 - _internal.py[line:225] - INFO:  * Restarting with stat
