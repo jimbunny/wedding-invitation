@@ -52,7 +52,7 @@ tanmuContent = '''
     <div class="barrage-btn tanBtn" style="padding-bottom: env(safe-area-inset-bottom); margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 11.7188px; pointer-events: initial;">
       <div class="correct-icon" id="tanmuOpen" style="background: url(/static/website_v2/images/tanmuOpen.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35.7422px; height: 35.7422px;"></div>
       <div class="close-icon" id="tanmuClose" style="background: url(/static/website_v2/images/tanmuClose.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35.7422px; height: 35.7422px; display: none;">
-        <b style="position: absolute; color: rgb(255, 255, 255); top: 3.92969px; left: 20.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
+        <b style="position: absolute; color: rgb(255, 255, 255); top: 3.92969px; left: 19.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
       </div>
     </div>
     <div id="j-barrage-top" class="barrage_box barrage_box_top" style="position: fixed; box-sizing: border-box; padding: 0px; right: 0px; bottom: 0px; z-index: 1000; width: 100%; pointer-events: none;"></div>
