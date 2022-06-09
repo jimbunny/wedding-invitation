@@ -23,7 +23,7 @@ def pay(GPSUrl, boyPhone, girlPhone, payQrcode, payName, menuColor="#cd91c8", fo
         }
     </style>
     <nav class="cd-stretchy-nav">
-        <a class="cd-nav-trigger" href="#0">
+        <a class="cd-nav-trigger">
             <img style="width: 40px; height: 40px; margin-top: 10px;" src="/static/website_v2/images/add_button.png">
         </a>
         <ul>
