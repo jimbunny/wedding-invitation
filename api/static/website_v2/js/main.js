@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
             })
         });
         $(document).on("click",
-        function(b) { (!$(b.target).is(".cd-nav-trigger") && !$(b.target).is(".cd-nav-trigger span")) && a.removeClass("nav-is-visible")
+        function(b) { (!$(b.target).is(".cd-nav-trigger") && !$(b.target).is(".cd-nav-trigger img")) && a.removeClass("nav-is-visible")
         })
     }
 });

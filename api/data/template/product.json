@@ -26,17 +26,24 @@
 			"fontColor": "#fff"
 		},
 		{
-			"title": "test2",
-			"description": "test2",
-			"name": "test2",
 			"id": "100021",
+			"name": "test2",
 			"key": "71RSU0ABW601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/71RSU0ABW601736963?t=1647709914194",
 			"font": "kanit",
+
 			"isTanmu": 1,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 1,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrcodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 			"title": "จิณณพัต ＆ ประธาน",
