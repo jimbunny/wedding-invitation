@@ -53,12 +53,14 @@ def phone(url, name):
             
     
     function audioAutoPlay(id) {
-        var audio = document.getElementById(id),
+        var audio = document.getElementById("bgmedia"),
         play = function() {
-            audio.play();
+            //audio.play();
+            //document.getElementById("bgmedia").play();
             document.removeEventListener("touchstart",play,false);
         };
         // audio.play();
+       // document.getElementById("bgmedia").play();
         document.addEventListener("WeixinJSBridgeReady", function() {
             play();
         }, false);
@@ -110,6 +112,7 @@ def phone(url, name):
         {#console.log(moveDistanceX, moveDistanceY)#}
         // 判断滑动距离超过40 且 时间小于500毫秒
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
+            $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
                 $('.barrage-more').css('display', 'none')

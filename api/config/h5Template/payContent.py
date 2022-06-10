@@ -5,8 +5,16 @@
 # software: PyCharme
 
 
-def pay(GPSUrl, boyPhone, girlPhone, payQrcode, payName, menuColor="#cd91c8", fontColor="#fff"):
-    payContact = '''
+def payContent(template_type="turn"):
+    disappear = ""
+    if template_type == "turn":
+        disappear = '''
+        .cd-stretchy-nav {
+            display: none;
+        }
+    '''
+
+    payContent = '''
     <link rel="stylesheet" href="/static/website_v2/css/reset.css">
     <!-- CSS reset -->
     <link rel="stylesheet" type="text/css" href="/static/website_v2/css/default.css">
@@ -14,12 +22,12 @@ def pay(GPSUrl, boyPhone, girlPhone, payQrcode, payName, menuColor="#cd91c8", fo
     <!-- Resource style -->
     <script src="/static/website_v2/js/modernizr.js"></script>
     <!-- Modernizr -->
-    <style>
+    <style> ''' + str(disappear) + '''
         .cd-stretchy-nav .stretchy-nav-bg {
-            background-color: ''' + str(menuColor) + ''';
+            background-color: {{ data.functionMenuColor }};
         }
         .cd-stretchy-nav ul a div{
-            color: ''' + str(fontColor) + ''';
+            color: {{ data.functionFontColor }};
         }
     </style>
     <nav class="cd-stretchy-nav">
@@ -28,18 +36,18 @@ def pay(GPSUrl, boyPhone, girlPhone, payQrcode, payName, menuColor="#cd91c8", fo
         </a>
         <ul>
           <li>
-            <a href=" ''' + str(GPSUrl) + ''' " class="active">
+            <a href="{{ data.functionGPSUrl }}" class="active">
                 <img style="width: 40px; height: 40px;" src="/static/website_v2/images/GPS_button.png">
               <div>GPS นำทาง</div>
             </a>
           </li>
           <li>
-            <a href="tel:''' + str(girlPhone) + ''' ">
+            <a href="tel:{{ data.functionGirlPhone }} ">
                 <img style="width: 40px; height: 40px;" src="/static/website_v2/images/girl_phone.png">
               <div>เบอร์เจ้าสาว</div></a>
           </li>
           <li>
-            <a href="tel:''' + str(boyPhone) + '''">
+            <a href="tel:{{ data.functionBoyPhone }}">
                 <img style="width: 40px; height: 40px;" src="/static/website_v2/images/boy_phone.png">
               <div>เบอร์เจ้าบ่าว</div></a>
           </li>
@@ -58,19 +66,17 @@ def pay(GPSUrl, boyPhone, girlPhone, payQrcode, payName, menuColor="#cd91c8", fo
     <div class="modal-content">
      <div class="modal-header">
         <button type="button" class="close" style="cursor: pointer;" data-dismiss="modal" aria-hidden="true">×</button>
-        <h4 class="modal-title" id="myModalLabel">''' + str(payName) + '''</h4>
+        <h4 class="modal-title" id="myModalLabel" style="color:#000">{{ data.functionPayName }}</h4>
       </div>
       <div class="modal-body">
-        <img style="width: 200px;height: 200px;" src="''' + str(payQrcode) + '''">
+        <img style="width: 100%;" src="{{ data.functionPayQrCodeUrl }}">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        // <button type="button" class="btn btn-primary" style="float:right;">download</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color:#000">Close</button>
       </div>
     </div>
   </div>
 </div>
-
 </div>
 <script>
     $("#girlMoney").click(function() {
@@ -80,6 +86,6 @@ modalShowMoneyDiv.style.display = 'block';
 </script>
     <script src="/static/website_v2/js/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script src="/static/website_v2/js/main.js"></script>
-    <!-- Resource jQuery --></body>
+    <!-- Resource jQuery -->
 '''
-    return payContact
+    return payContent

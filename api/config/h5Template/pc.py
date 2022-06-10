@@ -55,7 +55,7 @@ def pc(url, name):
     function audioAutoPlay(id) {
         var audio = document.getElementById(id),
         play = function() {
-            audio.play();
+           // audio.play();
             document.removeEventListener("touchstart",play,false);
         };
         // audio.play();
@@ -110,6 +110,7 @@ def pc(url, name):
         {#console.log(moveDistanceX, moveDistanceY)#}
         // 判断滑动距离超过40 且 时间小于500毫秒
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
+            $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
                 $('.barrage-more').css('display', 'none')
