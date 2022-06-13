@@ -43,6 +43,7 @@ class TemplatesResource(Resource):
         #     'items': items
         # }
         load_dict = {}
-        with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+        with open(os.path.join(root, "data", "template", "template.json"), 'r', encoding="utf8") as load_f:
             load_dict = json.load(load_f)
-        return pretty_result(code.OK, data=load_dict, msg='get template info successful！')
+        result_list = sorted(load_dict, key=lambda e: e.__getitem__('pageViews'))
+        return pretty_result(code.OK, data=result_list, msg='get template info successful！')

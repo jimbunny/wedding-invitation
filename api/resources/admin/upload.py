@@ -133,7 +133,7 @@ class TemplatesResource(Resource):
         args = self.parser.parse_args()
 
         load_dict = {}
-        with open(os.path.join(root, "data", "template", "management.json"), 'r', encoding="utf8") as load_f:
+        with open(os.path.join(root, "data", "template", "template.json"), 'r', encoding="utf8") as load_f:
             load_dict = json.load(load_f)
         temp = []
         if args.color == 'all':
@@ -141,12 +141,13 @@ class TemplatesResource(Resource):
         for item in load_dict.get("data"):
             if args.color in item.get('tmpColor'):
                 temp.append(item)
-
+        origin_list = temp[(args.pageNo-1)*args.pageSize: args.pageNo*args.pageSize]
+        result_list = sorted(origin_list, key=lambda e: e.__getitem__('pageViews'))
         data = {
             'pageNo': args.pageNo,
             'pageSize': args.pageSize,
             'totalCount': len(temp),
             'totalPages': math.ceil(len(temp)/args.pageSize),
-            'items': temp[(args.pageNo-1)*args.pageSize: args.pageNo*args.pageSize]
+            'items': result_list
         }
         return pretty_result(code.OK, data=data, msg='get template info successful！')

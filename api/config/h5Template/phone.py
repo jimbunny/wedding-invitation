@@ -9,6 +9,40 @@ from config.h5Template.font import choseFont
 def phone(url, name):
     font = choseFont(name)
     phone = '''
+    <style>
+    #talkbubble {
+       width: 70.1562px;
+        height: 22.1562px;
+        padding: 2px 2px 2px 7px;
+        right: 65.5781px;
+        top: 25.5781px;
+        background: #a3a3a3;
+        opacity: 1;
+        position: absolute;
+        display: none;
+        z-index: 1000000;
+        transform-origin: center center;
+        touch-action: pan-y;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 5px;
+    }
+    #talkbubble:before {
+        content: "";
+        position: absolute;
+        left: 100%;
+        top: 5px;
+        width: 0;
+        height: 0;
+        border-top: 6px solid transparent;
+        border-left: 12px solid #a3a3a3;
+        border-bottom: 6px solid transparent;
+    }
+    </style>
+    <div id="talkbubble">เล่นเพลง</div>
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
@@ -77,6 +111,7 @@ def phone(url, name):
         if (readystate == 'complete')
         {
         setTimeout(function () {
+            $('#talkbubble').css('display', 'block')
             $('.barrage-more').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
@@ -112,6 +147,14 @@ def phone(url, name):
         {#console.log(moveDistanceX, moveDistanceY)#}
         // 判断滑动距离超过40 且 时间小于500毫秒
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
+            var myAudio = document.getElementById('bgmedia');
+            if (myAudio.duration > 0 && !myAudio.paused) {
+                $('#talkbubble').css('display', 'none')
+                //Its playing...do your job
+            } else {
+                $('#talkbubble').css('display', 'block')
+                //Not playing...maybe paused, stopped or never played.
+            }
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {

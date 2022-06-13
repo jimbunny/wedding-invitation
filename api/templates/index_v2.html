@@ -19,7 +19,7 @@
 
     <!-- Webpage Title -->
     <title>Unika</title>
-    
+
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
@@ -546,7 +546,6 @@
       </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
-    
 
     <!-- Back To Top Button -->
      <!-- customer service -->
@@ -575,7 +574,31 @@
         <img src="/static/website_v2/images/up-arrow.png" alt="alternative">
     </button> -->
     <!-- end of back to top button -->
-    	
+
+
+   <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="templateModal">
+             <iframe frameborder="0" style="width: 100%; height: 400px;"></iframe>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="/static/js/jquery.min.js"></script>
+
+
     <!-- Scripts -->
     <script src="/static/website_v2/js/jquery.min.js"></script>
     <script src="/static/website_v2/js/wow.min.js"></script>
@@ -589,6 +612,19 @@
     <script src="/static/website_v2/js/scripts.js"></script> <!-- Custom scripts -->
 
     <script>
+
+    $("#btnshow").click(function () {
+        var Mymodel = $("#exampleModalCenter");
+
+        var iframe = Mymodel.find("iframe")[0];
+        {#var url=document.getElementById("btnshow").value#}
+        console.log(url)
+        var url = "https://www.uniecard.com/viewer/template/9GKKJVKHW601736963"
+        iframe.src = url;
+        console.log(iframe)
+        Mymodel.modal("show");
+    })
+
       refresh();
       window.onresize = function () {  //监听屏幕的改变
         setTimeout(function () {
