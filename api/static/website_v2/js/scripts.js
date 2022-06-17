@@ -215,10 +215,10 @@ $('.owl-service-item').owlCarousel({
                 '</div>'+
                 '<h6 class="template-title">'+arr[i]['name']+'</h6>'+
                 // '<a class="template-button" style="font-family: \'Mitr\', sans-serif;" href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">เพิ่มเติม</a>'+
-                '<a type="button" class="template-button" style="font-family: \'Mitr\', sans-serif;" value="'+'https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" id="btnshow">เพิ่มเติม</a>'+
+                '<a type="button" class="template-button" style="font-family: \'Mitr\', sans-serif;" onclick=showModal("'+arr[i]['key'].toString()+'","'+arr[i]['name'].toString()+'")>เพิ่มเติม</a>'+
               '</div></div>' + '</div>'
             // var item = '<div class="swiper-slide"><div><img data-src="'+arr[i]['coverUrl']+'" class="swiper-lazy"> <div class="swiper-lazy-preloader"></div></div></div>'
-            html = html + item
+              html = html + item
           }
           if (html == "") {
             html = '<div class="swiper-slide"><div data-wow-delay="0.3s" style="text-align: center;">No Data</div></div>'
