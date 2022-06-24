@@ -9,6 +9,7 @@ from config.h5Template.font import choseFont
 def pc(url, name):
     font = choseFont(name)
     pc = '''
+    <style>
     #talkbubble {
        width: 70.1562px;
         height: 22.1562px;
