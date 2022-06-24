@@ -13,8 +13,8 @@ def pc(url, name):
        width: 70.1562px;
         height: 22.1562px;
         padding: 2px 2px 2px 7px;
-        right: 65.5781px;
-        top: 25.5781px;
+        right: 20%;
+        top: 3%;
         background: #a3a3a3;
         opacity: 1;
         position: absolute;

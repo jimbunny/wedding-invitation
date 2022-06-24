@@ -142,7 +142,7 @@ class TemplatesResource(Resource):
             if args.color in item.get('tmpColor'):
                 temp.append(item)
         origin_list = temp[(args.pageNo-1)*args.pageSize: args.pageNo*args.pageSize]
-        result_list = sorted(origin_list, key=lambda e: e.__getitem__('pageViews'))
+        result_list = sorted(origin_list, key=lambda e: e.__getitem__('pageViews'))[::-1]
         data = {
             'pageNo': args.pageNo,
             'pageSize': args.pageSize,
