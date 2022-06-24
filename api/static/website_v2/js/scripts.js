@@ -206,7 +206,7 @@ $('.owl-service-item').owlCarousel({
           for (let i = 0; i < arr.length; i++) {
             var item= '<div class="swiper-slide">' +
             '<div class=" wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">'+
-              '<div class="room-item shadow rounded overflow-hidden" style="background-color:#fff;">'+
+              '<div class="" style="background-color:#fff;">'+
                 '<div class="position-relative" style="min-height:200px;">'+
                   '<a href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">'+
                     '<img class="img-fluid-template swiper-lazy" data-src="' + arr[i]['coverUrl']+ '">'+
@@ -215,7 +215,7 @@ $('.owl-service-item').owlCarousel({
                 '</div>'+
                 '<h6 class="template-title">'+arr[i]['name']+'</h6>'+
                 // '<a class="template-button" style="font-family: \'Mitr\', sans-serif;" href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">เพิ่มเติม</a>'+
-                '<a class="template-button" style="font-family: \'Mitr\', sans-serif;" onclick=showModal("'+arr[i]['key'].toString()+'","'+arr[i]['name'].toString()+'")>เพิ่มเติม</a>'+
+                '<a type="button" class="template-button" style="font-family: \'Mitr\', sans-serif;" onclick=showModal("'+arr[i]['key'].toString()+'","'+arr[i]['name'].toString()+'")>เพิ่มเติม</a>'+
               '</div></div>' + '</div>'
             // var item = '<div class="swiper-slide"><div><img data-src="'+arr[i]['coverUrl']+'" class="swiper-lazy"> <div class="swiper-lazy-preloader"></div></div></div>'
               html = html + item
