@@ -694,8 +694,6 @@ Banner Style
 }
 
 .template-button {
-  display: inline-block;
-  padding: 1rem 2rem 1rem 2rem;
   border: 1px solid #cc2973;
   border-radius: 30px;
   background-color: transparent;
@@ -704,6 +702,7 @@ Banner Style
   font-size: 0.875rem;
   line-height: 0;
   text-decoration: none;
+  transition: all 0.2s; margin-bottom: 20px;
 }
 
 .template-button:hover {
