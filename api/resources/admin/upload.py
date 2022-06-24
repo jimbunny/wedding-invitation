@@ -41,7 +41,7 @@ class UploadTemplateResource(Resource):
         # 获取post过来的文件名称，从name=file参数中获取
         file = request.files['file']
         # secure_filename方法会去掉文件名中的中文
-        file_name = 'management.json'
+        file_name = 'template.json'
         dirs = os.path.join('data', 'template')
         if not os.path.exists(dirs):
             os.makedirs(dirs)
