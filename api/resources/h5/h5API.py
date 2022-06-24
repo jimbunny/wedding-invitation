@@ -325,6 +325,7 @@ class MakeH5TemplateResource(Resource):
                       encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
             for item in load_dict.get("data"):
+                print(item)
                 status, data = self.gen_h5(_type, item.key, item)
                 if not status:
                     return pretty_result(code.ERROR, data=data, msg=str(_type) + "---" + str(h5Key) + '  make h5 failed！')
