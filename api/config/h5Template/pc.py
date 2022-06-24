@@ -9,7 +9,7 @@ from config.h5Template.font import choseFont
 def pc(url, name):
     font = choseFont(name)
     pc = '''
-    
+    <script>
     !function () {
       function isMobile() {
         var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
