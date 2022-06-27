@@ -119,6 +119,7 @@ def phone(url, name):
             $('.barrage-more').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
+        
         clearInterval(interval);
         }
     },500)
@@ -137,7 +138,9 @@ def phone(url, name):
         startDistanceX = e.touches[0].screenX
         startDistanceY = e.touches[0].screenY
     })
+    var touchStatus = 0;
     box.addEventListener("touchend", (e) => {
+        touchStatus=1;
         endTime = new Date().getTime()
         endDistanceX = e.changedTouches[0].screenX
         endDistanceY = e.changedTouches[0].screenY
@@ -171,7 +174,12 @@ def phone(url, name):
             }
         }
     })
-    
+     setTimeout(function () {
+        if(touchStatus==0){
+            $('.cd-stretchy-nav').css('display', 'block')
+            $('.barrage-content').css('display', 'block')
+        }
+    }, 10000);
     !function () {
       function isMobile() {
         var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
