@@ -141,7 +141,7 @@ def phone(url, name):
     var touchStatus = 0;
     box.addEventListener("touchend", (e) => {
         touchStatus=1;
-        event.preventDefault();
+        // event.preventDefault();
         endTime = new Date().getTime()
         endDistanceX = e.changedTouches[0].screenX
         endDistanceY = e.changedTouches[0].screenY
