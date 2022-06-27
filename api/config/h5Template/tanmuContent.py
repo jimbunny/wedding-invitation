@@ -5,7 +5,6 @@ def tanmuContent(template_type="turn"):
         display:block;
         position: fixed;
         ox-sizing: border-box; 
-        padding: 11.7188px; 
         right: 0px; 
         bottom: 0px; 
         z-index: 1000; 
@@ -19,7 +18,6 @@ def tanmuContent(template_type="turn"):
             display:none;
             position: fixed;
             ox-sizing: border-box; 
-            padding: 11.7188px; 
             right: 0px; 
             bottom: 0px; 
             z-index: 1000; 
@@ -216,7 +214,7 @@ def tanmuContent(template_type="turn"):
                     Obj = $('#j-barrage-top').barrage({
                         data : result.data, //数据列表
                         row : 1,   //显示行数
-                        time : 2500, //间隔时间
+                        time : 5000, //间隔时间
                         gap : 100,    //每一个的间隙
                         position : 'fixed', //绝对定位
                         direction : 'bottom left', //方向

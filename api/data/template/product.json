@@ -1,29 +1,44 @@
 {
 	"data": [{
-			"title": "Paul ＆ Yee wedding invitation",
-			"description": "Paul ＆ Yee wedding invitation",
 			"name": "Paul ＆ Yee wedding invitation",
 			"id": "10001",
 			"key": "3KUGK945W601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/3KUGK945W601736963",
-			"font": "kanit",
-			"isTanmu": 0,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
+			"_type": "turn",
+
+			"isTanmu": 1,
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
-			"title": "test",
-			"description": "test",
 			"name": "test",
 			"id": "10002",
 			"key": "YJO1MYUAW601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/YJO1MYUAW601736963?t=1647688392229",
 			"font": "kanit",
+			"_type": "turn",
+
 			"isTanmu": 1,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 			"id": "100021",
@@ -37,7 +52,7 @@
 			"tanmuBtnColor": "rgba(47, 50, 52)",
 			"tanmuBtnFontColor": "#fff",
 
-			"isFunction": 1,
+			"isFunction": 0,
 			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 			"functionBoyPhone": "888888",
 			"functionGirlPhone": "88888",
@@ -47,17 +62,25 @@
 			"functionFontColor": "#fff"
 		},
 		{
-			"title": "จิณณพัต ＆ ประธาน",
-			"description": "จิณณพัต ＆ ประธาน",
 			"name": "จิณณพัต ＆ ประธาน",
 			"id": "10003",
 			"key": "4KVC29YZW601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/4KVC29YZW601736963?t=1650351967812",
 			"font": "kanit",
+			"_type": "turn",
+
 			"isTanmu": 1,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 			"name": "วัชรพร (แอน) ＆ ธวัชชัย (อาร์ท)",
@@ -65,10 +88,20 @@
 			"key": "0AOETZ8BW601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/0AOETZ8BW601736963?t=1651140695595",
 			"font": "kanit",
+			"_type": "turn",
+
 			"isTanmu": 1,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 			"name": "kin ＆ lookmoo",
@@ -76,10 +109,20 @@
 			"key": "MBTEDYL2W601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/MBTEDYL2W601736963?t=1654326182497",
 			"font": "Mitr",
+			"_type": "turn",
+
 			"isTanmu": 1,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 
 		{
@@ -90,10 +133,20 @@
 			"key": "U742Z1N0W601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/U742Z1N0W601736963?t=1651571645068",
 			"font": "kanit",
+			"_type": "turn",
+
 			"isTanmu": 0,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 			"title": "day2-7",
@@ -103,10 +156,20 @@
 			"key": "RIB7Z0CJW601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/RIB7Z0CJW601736963?t=1651571645068",
 			"font": "kanit",
+			"_type": "turn",
+
 			"isTanmu": 0,
-			"tanmuColor": "rgba(47, 50, 52, 0.6)",
 			"tanmuBtnColor": "rgba(47, 50, 52)",
-			"fontColor": "#fff"
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 		  "title": "day3-3",
@@ -116,10 +179,20 @@
 		  "key": "BHARZSQ5W601736963",
 		  "iframeUrl": "https://u601736963.viewer.maka.im/k/BHARZSQ5W601736963?t=1647692082855",
 		  "font": "kanit",
-		  "isTanmu": 0,
-		  "tanmuColor": "rgba(47, 50, 52, 0.6)",
-		  "tanmuBtnColor": "rgba(47, 50, 52)",
-		  "fontColor": "#fff"
+		  "_type": "turn",
+
+			"isTanmu": 0,
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
     	},
 		{
 		  "title": "day4-6",
@@ -129,10 +202,20 @@
 		  "key": "6A8Z3X99W601736963",
 		  "iframeUrl": "https://u601736963.viewer.maka.im/k/6A8Z3X99W601736963?t=1647702472235",
 		  "font": "kanit",
-		  "isTanmu": 0,
-		  "tanmuColor": "rgba(47, 50, 52, 0.6)",
-		  "tanmuBtnColor": "rgba(47, 50, 52)",
-		  "fontColor": "#fff"
+		  "_type": "turn",
+
+			"isTanmu": 0,
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 		  "title": "day5-10",
@@ -142,10 +225,20 @@
 		  "key": "KS5GB17GW601736963",
 		  "iframeUrl": "https://u601736963.viewer.maka.im/k/KS5GB17GW601736963?t=1647708320765",
 		  "font": "kanit",
-		  "isTanmu": 0,
-		  "tanmuColor": "rgba(47, 50, 52, 0.6)",
-		  "tanmuBtnColor": "rgba(47, 50, 52)",
-		  "fontColor": "#fff"
+		  "_type": "turn",
+
+			"isTanmu": 0,
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		},
 		{
 		  "title": "day6-11",
@@ -155,10 +248,20 @@
 		  "key": "0UY0PQ71W601736963",
 		  "iframeUrl": "https://u601736963.viewer.maka.im/k/0UY0PQ71W601736963?t=1647709340084",
 		  "font": "kanit",
-		  "isTanmu": 0,
-		  "tanmuColor": "rgba(47, 50, 52, 0.6)",
-		  "tanmuBtnColor": "rgba(47, 50, 52)",
-		  "fontColor": "#fff"
+		  "_type": "turn",
+
+			"isTanmu": 0,
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
 		}
 	]
 }
