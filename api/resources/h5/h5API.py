@@ -243,7 +243,7 @@ class MakeH5TemplateResource(Resource):
             pcHtml = pcHtml.replace("https://img1.maka.im/favicon.ico","https://www.uniecard.com/static/favicon.ico").replace(
                 "打开微信", "เปิด Line/Facebook").replace("点击 发现 扫一扫 扫描二维码 可在手机上预览该h5页面","สแกนคิวอาร์โค๊ด เพื่อแสดงผลบนโทรศัพท์"). \
                 replace('<img class="pcviewer-infoarea-qrcodearea-img"/>','<canvas class="pcviewer-infoarea-qrcodearea-img" id="qrcode-canvas"></canvas>'). \
-                replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/template').replace(
+                replace('src="//maka.im/viewer/601736963', 'src="https://www.uniecard.com/viewer/'+_type).replace(
                 'class="mark"', '')
 
             if data.get("isFunction") or data.get("isTanmu"):
