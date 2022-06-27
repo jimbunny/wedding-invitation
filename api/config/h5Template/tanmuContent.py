@@ -33,6 +33,7 @@ def tanmuContent(template_type="turn"):
             position: absolute;
             left: 10px;
             width: 179.883px;
+            height: 35.7422px;
             line-height: 35.7422px;
             border-radius: 35.7422px;
             box-sizing: border-box;
@@ -43,6 +44,7 @@ def tanmuContent(template_type="turn"):
             pointer-events: initial;
             padding: 0px 16.9922px;
             font-size: 14.0625px;
+            margin-bottom: 0px;
             display: block;
         }
         .data-box{display:none}
