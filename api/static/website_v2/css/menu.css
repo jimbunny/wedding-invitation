@@ -21,7 +21,7 @@
 /* -------------------------------- Stretchy Nav style - common to:- basic navigation - add-content navigation - edit-content navigation-------------------------------- */
 .cd-stretchy-nav {
 	position: fixed;
-    z-index: 999;
+    z-index: 9999999999999999999999999999999999;
     bottom: 10px;
     right: 10px;
     font-size:62.5%;
