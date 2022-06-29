@@ -448,7 +448,7 @@ $('.owl-service-item').owlCarousel({
   });
 
   $('.back-to-top2').click(function () {
-    window.location.href = "https://lin.ee/7K12Ixj";
+    window.location.href = "https://lin.ee/qO0UuXf";
   });
 
 })(jQuery);
