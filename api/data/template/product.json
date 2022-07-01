@@ -125,10 +125,52 @@
 			"functionFontColor": "#fff"
 		},
 		{
+			"name": "kin ＆ lookmoo",
+			"id": "10006",
+			"key": "MBTEDYL2W601736963",
+			"iframeUrl": "https://u601736963.viewer.maka.im/k/MBTEDYL2W601736963?t=1654326182497",
+			"font": "Mitr",
+			"_type": "turn",
+
+			"isTanmu": 1,
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
+		},
+		{
 			"name": "jim ＆ puen",
 			"id": "10007",
 			"key": "7QPUG4FQW601736963",
 			"iframeUrl": "https://u601736963.viewer.maka.im/k/7QPUG4FQW601736963?t=1656656095758",
+			"font": "Mitr",
+			"_type": "turn",
+
+			"isTanmu": 1,
+			"tanmuBtnColor": "rgba(47, 50, 52)",
+			"tanmuBtnFontColor": "#fff",
+
+			"isFunction": 0,
+			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+			"functionBoyPhone": "888888",
+			"functionGirlPhone": "88888",
+			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+			"functionPayName": "jim",
+			"functionMenuColor": "#cd91c8",
+			"functionFontColor": "#fff"
+		},
+		{
+			"name": "tiger",
+			"id": "10008",
+			"key": "QXB6S8GGW601736963",
+			"iframeUrl": "https://u601736963.viewer.maka.im/k/QXB6S8GGW601736963?t=1656665766934",
 			"font": "Mitr",
 			"_type": "turn",
 
