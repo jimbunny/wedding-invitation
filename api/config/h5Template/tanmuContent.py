@@ -32,18 +32,18 @@ def tanmuContent(template_type="turn"):
             z-index: 1999;
             position: absolute;
             left: 10px;
-            width: 179.883px;
-            height: 35.7422px;
-            line-height: 35.7422px;
-            border-radius: 35.7422px;
+            width: calc(100% - 120px);;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 35px;
             box-sizing: border-box;
-            color: rgb(255, 255, 255);
-            margin-left: 45.7031px;
+            color: {{ data.tanmuBtnFontColor }};
+            margin-left: 47px;
             background-color: {{ data.tanmuBtnColor }};
             opacity: 0.65;
             pointer-events: initial;
-            padding: 0px 16.9922px;
-            font-size: 14.0625px;
+            padding: 0px 17px;
+            font-size: 14px;
             display: block;
         }
         .data-box{display:none}
@@ -61,12 +61,12 @@ def tanmuContent(template_type="turn"):
             </div>
         </div>
         <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: 0px; margin-top: 14.0625px; width:100%; position: fixed; left: 11.7188px; bottom: 47px; pointer-events: initial;">
-            <div class="barrage-input-tip" data-toggle="modal" data-target="#myModal"  style="background:{{ data.tanmuColor }}; width: calc(100% - 150px);; height: 35.7422px; line-height: 35.7422px; border-radius: 35.7422px; box-sizing: border-box; color: rgb(255, 255, 255); margin-left: 45.7031px; background-color: rgb(47, 50, 52); opacity: 0.65; pointer-events: initial; padding: 0px 16.9922px; font-size: 14.0625px;">ฝากคำอวยพร...</div>
+            <div class="barrage-input-tip" data-toggle="modal" data-target="#myModal">ฝากคำอวยพร...</div>
         </div>
         <div class="backdrop" style="position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); z-index: 999; display: none; top: 0px; left: 0px; pointer-events: initial;"></div>
         <div class="barrage-btn tanBtn" style="padding-bottom: 0px; margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 11.7188px; pointer-events: initial;">
-          <div class="correct-icon" id="tanmuOpen" style="background: url(/static/website_v2/images/tanmuOpen.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35.7422px; height: 35.7422px;"></div>
-          <div class="close-icon" id="tanmuClose" style="background: url(/static/website_v2/images/tanmuClose.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35.7422px; height: 35.7422px; display: none;">
+          <div class="correct-icon" id="tanmuOpen" style="background: url(/static/website_v2/images/tanmuOpen.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
+          <div class="close-icon" id="tanmuClose" style="background: url(/static/website_v2/images/tanmuClose.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px; display: none;">
             <b style="position: absolute; color: rgb(255, 255, 255); top: 3.52969px; left: 19.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
           </div>
         </div>
@@ -183,13 +183,13 @@ def tanmuContent(template_type="turn"):
         }
         @keyframes colorchange{
             0%{
-                color:red;
+                color:{{ data.tanmuFontColor }};
             }
             50%{
-                color:green;
+                color:{{ data.tanmuFontColor }};
             }
             100%{
-                color:#6993f9;
+                color:#{{ data.tanmuFontColor }};
             }
         }
         /*组件主样式*/
@@ -220,6 +220,7 @@ def tanmuContent(template_type="turn"):
                         direction : 'bottom left', //方向
                         ismoseoverclose : true, //悬浮是否停止
                         height : 30, //设置单个div的高度
+                        bgColor : ['{{ data.tanmuBgColor }}']
                     })
                     Obj.start();
                 } else {

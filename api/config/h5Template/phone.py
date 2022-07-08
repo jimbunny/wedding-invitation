@@ -111,6 +111,21 @@ def phone(url, name):
         if (readystate == 'complete')
         {
         setTimeout(function () {
+            try{
+                var dom1 = document.querySelector('.stopAnimation');
+                // 不包括padding border 仅仅是width 这个ie也许有兼容性问题
+                // console.log(getComputedStyle(dom1).width);
+                var contentBg = document.getElementById("talkbubble");//第一步
+                contentBg.style.top = (parseFloat(getComputedStyle(dom1).width.substring(0,7))-22.1562/2).toString() + "px" //第二步
+                contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
+            }catch (e){
+                var dom1 = document.querySelector('.runAnimation');
+                // 不包括padding border 仅仅是width 这个ie也许有兼容性问题
+                // console.log(getComputedStyle(dom1).width);
+                var contentBg = document.getElementById("talkbubble");//第一步
+                contentBg.style.top = (parseFloat(getComputedStyle(dom1).width.substring(0,7))-22.1562/2).toString() + "px" //第二步
+                contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
+            }
             $('#talkbubble').css('display', 'block')
             $('.barrage-more').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')

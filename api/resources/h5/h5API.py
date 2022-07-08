@@ -149,6 +149,55 @@ class H5GreetingsResource(Resource):
         return pretty_result(code.OK, data=str(str(name)+":"+str(greetings)))
 
 
+
+class H5PersentResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+
+    def get(self, id):
+        persent = {'data': []}
+        path = os.path.join(root, "data", "template", "persent", str(id) + ".json")
+        if not os.path.exists(path):
+            json_str = json.dumps(persent, indent=4)
+            with open(path, 'w') as json_file:
+                json_file.write(json_str)
+        with open(path, 'r', encoding="utf8") as load_f:
+            load_dict = json.load(load_f)
+        return pretty_result(code.OK, data=load_dict.get('data'))
+
+    def post(self, id):
+        """
+        test
+        :return: json
+        """
+        # return pretty_result(code.OK)
+        # logging.error("error info: %s" % "test error")
+        name = request.form.get("name")
+        persent = request.form.get("persent")
+        path = os.path.join(root, "data", "template", "persent", str(id) + ".json")
+        persentInit = {'data': []}
+        if not os.path.exists(path):
+            json_str = json.dumps(persentInit, indent=4)
+            with open(path, 'w') as json_file:
+                json_file.write(json_str)
+
+        with open(path, 'r', encoding="utf8") as load_f:
+            load_dict = json.load(load_f)
+        load_dict.get('data').append({"name": str(name), "number": str(persent)})
+        json_str = json.dumps(load_dict, indent=4)
+        with open(path, 'w') as json_file:
+            json_file.write(json_str)
+        return pretty_result(code.OK)
+
+
 class H5ViewResource(Resource):
     """
     test list资源类
