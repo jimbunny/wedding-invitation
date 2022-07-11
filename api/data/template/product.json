@@ -13,13 +13,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 		
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "test",
@@ -35,14 +39,18 @@
 			"tanmuBgColor": "rgba(0, 0, 0, 0.2)",
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
-			"isFunction": 1,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+			"isFunction": 0,
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"id": "100021",
@@ -59,13 +67,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "จิณณพัต ＆ ประธาน",
@@ -82,13 +94,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "วัชรพร (แอน) ＆ ธวัชชัย (อาร์ท)",
@@ -105,13 +121,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "kin ＆ lookmoo",
@@ -128,13 +148,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "kin ＆ lookmoo",
@@ -151,13 +175,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "jim ＆ puen",
@@ -174,13 +202,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"name": "tiger",
@@ -197,13 +229,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"title": "day1-15",
@@ -222,13 +258,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 			"title": "day2-7",
@@ -247,13 +287,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 		  "title": "day3-3",
@@ -272,13 +316,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
     	},
 		{
 		  "title": "day4-6",
@@ -297,13 +345,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 		  "title": "day5-10",
@@ -322,13 +374,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		},
 		{
 		  "title": "day6-11",
@@ -347,13 +403,17 @@
 			"tanmuFontColor": "rgb(255, 255, 255)",
 
 			"isFunction": 0,
-			"functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
-			"functionBoyPhone": "888888",
-			"functionGirlPhone": "88888",
-			"functionPayQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
-			"functionPayName": "jim",
-			"functionMenuColor": "#cd91c8",
-			"functionFontColor": "#fff"
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0
 		}
 	]
 }

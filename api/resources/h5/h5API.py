@@ -150,7 +150,7 @@ class H5GreetingsResource(Resource):
 
 
 
-class H5PersentResource(Resource):
+class H5PresentResource(Resource):
     """
     test list资源类
     """
@@ -163,10 +163,10 @@ class H5PersentResource(Resource):
     @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
 
     def get(self, id):
-        persent = {'data': []}
-        path = os.path.join(root, "data", "template", "persent", str(id) + ".json")
+        present = {'data': []}
+        path = os.path.join(root, "data", "template", "present", str(id) + ".json")
         if not os.path.exists(path):
-            json_str = json.dumps(persent, indent=4)
+            json_str = json.dumps(present, indent=4)
             with open(path, 'w') as json_file:
                 json_file.write(json_str)
         with open(path, 'r', encoding="utf8") as load_f:
@@ -181,17 +181,17 @@ class H5PersentResource(Resource):
         # return pretty_result(code.OK)
         # logging.error("error info: %s" % "test error")
         name = request.form.get("name")
-        persent = request.form.get("persent")
-        path = os.path.join(root, "data", "template", "persent", str(id) + ".json")
-        persentInit = {'data': []}
+        present = request.form.get("present")
+        path = os.path.join(root, "data", "template", "present", str(id) + ".json")
+        presentInit = {'data': []}
         if not os.path.exists(path):
-            json_str = json.dumps(persentInit, indent=4)
+            json_str = json.dumps(presentInit, indent=4)
             with open(path, 'w') as json_file:
                 json_file.write(json_str)
 
         with open(path, 'r', encoding="utf8") as load_f:
             load_dict = json.load(load_f)
-        load_dict.get('data').append({"name": str(name), "number": str(persent)})
+        load_dict.get('data').append({"name": str(name), "number": str(present)})
         json_str = json.dumps(load_dict, indent=4)
         with open(path, 'w') as json_file:
             json_file.write(json_str)
@@ -301,10 +301,10 @@ class MakeH5TemplateResource(Resource):
                                              titleLink + phoneHtml[phoneIndex + 8:])
 
             # function
-            if data.get("isFunction"):
-                phoneIndex = phoneHtml.find('</html>')
-                payContentNew = payContent(template_type=data.get("_type"))
-                phoneHtml = phoneHtml[:phoneIndex] + payContentNew + phoneHtml[phoneIndex:]
+            # if data.get("isFunction"):
+            #     phoneIndex = phoneHtml.find('</html>')
+            #     payContentNew = payContent(template_type=data.get("_type"))
+            #     phoneHtml = phoneHtml[:phoneIndex] + payContentNew + phoneHtml[phoneIndex:]
 
             # tanmu
             if data.get("isTanmu"):

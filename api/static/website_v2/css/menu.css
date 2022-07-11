@@ -60,7 +60,7 @@
 	border-radius: 30px;
 	width: 34px;
 	height: 34px;
-	margin-top: 50px;
+	margin-top: 110px;
 	margin-left: 5px;
 }
 
@@ -161,7 +161,7 @@
 	/*padding:0 calc(1em + 60px) 0 1em;*/
 	color:rgba(255,255,255,0.7);
 	/*font-size:1.4rem;*/
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	-webkit-transition:color 0.2s;
 	-moz-transition:color 0.2s;
 	transition:color 0.2s;
