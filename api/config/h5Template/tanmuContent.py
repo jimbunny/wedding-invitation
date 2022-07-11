@@ -77,21 +77,21 @@ def tanmuContent(template_type="turn"):
         </div>
 
         {% if data.isPay %}
-        <div style="padding-bottom: 0px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
+        <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
           <div  id="girlMoney" data-toggle="modal" data-target="#moneyModalCenter" class="correct-icon"  style="animation:6s ease 0s infinite normal none running tanlianxia ; -webkit-animation:6s ease 0s infinite normal none running tanlianxia; background: url(/static/website_v2/images/moneyBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
         </div>
         {% endif %}
         {% if data.isPresent %}
-        <div style="padding-bottom: 0px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isPay }}*40px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
+        <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isPay }}*40px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
           <div class="correct-icon" id="present" data-toggle="modal" data-target="#presentModal" style="background: url(/static/website_v2/images/presentBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
         </div>
         {% endif %}
 
-        <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: 0px; margin-top: 14.0625px; width:100%; position: fixed; left: 11.7188px; bottom: 47px; pointer-events: initial;">
+        <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: 0px; margin-top: 14.0625px; width:100%; position: fixed; left: 11.7188px; bottom: 52px; pointer-events: initial;">
             <div class="barrage-input-tip" data-toggle="modal" data-target="#myModal">ฝากคำอวยพร...</div>
         </div>
         <div class="backdrop" style="position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); z-index: 999; display: none; top: 0px; left: 0px; pointer-events: initial;"></div>
-        <div class="barrage-btn tanBtn" style="padding-bottom: 0px; margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 11.7188px; pointer-events: initial;">
+        <div class="barrage-btn tanBtn" style="padding-bottom: 0px; margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 16.7188px; pointer-events: initial;">
           <div class="correct-icon" id="tanmuOpen" style="background: url(/static/website_v2/images/tanmuOpen.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
           <div class="close-icon" id="tanmuClose" style="background: url(/static/website_v2/images/tanmuClose.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px; display: none;">
             <b style="position: absolute; color: rgb(255, 255, 255); top: 3.52969px; left: 19.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
@@ -237,7 +237,7 @@ def tanmuContent(template_type="turn"):
                 <img style="width: 30px; height: 30px; margin-bottom:5px;" src="/static/website_v2/images/girl_phone.png">
               <div>เบอร์เจ้าสาว</div></a>
           </li>
-          <li>
+          <li style="margin-bottom:25px">
             <a href="tel:{{ data.functionBoyPhone }}">
                 <img style="width: 30px; height: 30px; margin-bottom:5px;" src="/static/website_v2/images/boy_phone.png">
               <div>เบอร์เจ้าบ่าว</div></a>

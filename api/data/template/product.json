@@ -414,6 +414,35 @@
 		    "payName": "jim",
 
 		    "isPresent": 0
+		},
+		{
+		  "title": "demo2",
+		  "description": "demo2",
+		  "name": "demo2",
+		  "id": "10012",
+		  "key": "BQ6K7AXMW601736963",
+		  "iframeUrl": "https://u601736963.viewer.maka.im/k/BQ6K7AXMW601736963?t=1657533000607",
+		  "font": "kanit",
+		  "_type": "turn",
+
+			"isTanmu": 1,
+			"tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      		"tanmuBtnFontColor": "rgb(255, 255, 255)",
+			"tanmuBgColor": "rgba(0, 0, 0, 0.2)",
+			"tanmuFontColor": "rgb(255, 255, 255)",
+
+			"isFunction": 1,
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+
+		    "isPay": 1,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 1
 		}
 	]
 }
