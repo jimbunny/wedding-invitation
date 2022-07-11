@@ -87,11 +87,11 @@ def tanmuContent(template_type="turn"):
         </div>
         {% endif %}
 
-        <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: env(safe-area-inset-bottom); margin-top: 14.0625px; width:100%; position: fixed; left: 11.7188px; bottom: 47px; pointer-events: initial;">
+        <div class="barrage-bottom row" id="barrageBtn" style="padding-bottom: 0px; margin-top: 14.0625px; width:100%; position: fixed; left: 11.7188px; bottom: 47px; pointer-events: initial;">
             <div class="barrage-input-tip" data-toggle="modal" data-target="#myModal">ฝากคำอวยพร...</div>
         </div>
         <div class="backdrop" style="position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); z-index: 999; display: none; top: 0px; left: 0px; pointer-events: initial;"></div>
-        <div class="barrage-btn tanBtn" style="padding-bottom: env(safe-area-inset-bottom); margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 11.7188px; pointer-events: initial;">
+        <div class="barrage-btn tanBtn" style="padding-bottom: 0px; margin-top: 14.0625px; position: fixed; left: 11.7188px; bottom: 11.7188px; pointer-events: initial;">
           <div class="correct-icon" id="tanmuOpen" style="background: url(/static/website_v2/images/tanmuOpen.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
           <div class="close-icon" id="tanmuClose" style="background: url(/static/website_v2/images/tanmuClose.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px; display: none;">
             <b style="position: absolute; color: rgb(255, 255, 255); top: 3.52969px; left: 19.9219px; font-weight: 600; font-size: 8.78906px; transform: scale(0.8);">{{ data.greetings | length }}</b>
