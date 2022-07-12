@@ -962,10 +962,11 @@
             prevEl: ".swiper-button-prev",
           },
 
-          //点击事件
-          onTap: function(swiper){
-            alert('你tap了Swiper');
-          },//在移动端，click会有 200~300 ms延迟，所以请用tap代替click作为点击事件
+          on:{
+            tap: function(swiper,event){
+              alert('你碰了Swiper');
+            },
+          },
         });
       }
       // var value = 'all'
