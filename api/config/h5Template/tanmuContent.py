@@ -42,7 +42,7 @@ def tanmuContent(template_type="turn"):
             z-index: 1000;
             position: absolute;
             left: 10px;
-            width: calc(100% - 60px - {{ data.isFunction }}*60px - {{ data.isPay }}*40px - {{ data.isPresent }}*40px);
+            width: calc(100% - 65px - {{ data.isFunction }}*60px - {{ data.isPay }}*40px - {{ data.isPresent }}*40px);
             height: 35px;
             line-height: 35px;
             border-radius: 35px;
