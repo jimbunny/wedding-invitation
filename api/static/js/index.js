@@ -32,7 +32,7 @@
 		M.horizontal = settings.direction.split(/\s+/)[1]; //横向
 		M.bgColors =  settings.bgColor//随机背景色数组
 		Obj.arrEle = []; //预计存储dom集合数组
-		M.barrageBox = $('<div id="barrage" style="z-index:999;max-width:100%;margin-left:5px;margin-bottom:-45px;position:'+settings.position+';'+M.vertical+':0;'+M.horizontal+':0;"></div>'); //存所有弹幕的盒子
+		M.barrageBox = $('<div id="barrage" style="z-index:9999999;max-width:100%;margin-left:5px;margin-bottom:-45px;position:'+settings.position+';'+M.vertical+':0;'+M.horizontal+':0;"></div>'); //存所有弹幕的盒子
 		M.timer = null; 
 		var createView = function(){
 			var randomIndex = Math.floor(Math.random() * M.bgColors.length);

@@ -208,7 +208,7 @@ $('.owl-service-item').owlCarousel({
             '<div class=" wow fadeInUp iframe-center" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">'+
               '<div class="room-item shadow rounded overflow-hidden" style="background-color:#fff;">'+
                 '<div class="position-relative" style="min-height:200px;">'+
-                  '<a href="https://www.uniecard.com/viewer/template/'+arr[i]['key']+'" target=" _blank">'+
+                  '<a onclick=showModal("'+arr[i]['key'].toString()+'","'+arr[i]['name'].toString()+'")>'+
                     '<img class="img-fluid-template swiper-lazy" data-src="' + arr[i]['coverUrl']+ '">'+
                     '<div class="swiper-lazy-preloader"></div>'+
                   '</a>'+
