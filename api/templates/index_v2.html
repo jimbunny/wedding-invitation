@@ -795,6 +795,9 @@
 .simulator-inner .simulator-footer, .simulator-inner .simulator-header{
     background-size: 100% 100%;
 }
+.swiper-button-disabled{
+    display:none;
+  }
 </style>
    <!-- Modal -->
 <div class="modal fade" id="templateModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -950,9 +953,8 @@
               spaceBetween: 30,
             }
           },
-          scrollbar: {
-            el: ".swiper-scrollbar",
-          },
+          {#scrollbar: {#}
+          {#  el: ".swiper-scrollbar",#}
           pagination: {
             el: ".swiper-pagination",
             type: "fraction",
@@ -961,10 +963,13 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
-
-          on:{
-            tap: function(swiper,event){
-              alert('你碰了Swiper');
+          on: {
+            slideChangeTransitionEnd: function(){
+              if(this.isEnd){
+                this.navigation.$nextEl.css('display','none');
+              }else{
+                this.navigation.$nextEl.css('display','block');
+              }
             },
           },
         });
