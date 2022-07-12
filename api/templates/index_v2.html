@@ -886,11 +886,11 @@
         window.open(Mymodel.find("iframe")[0].src+"_btn")
     }
       refresh();
-      window.onresize = function () {  //监听屏幕的改变
-        setTimeout(function () {
-          refresh();
-        }, 1000)
-      };
+      {#window.onresize = function () {  //监听屏幕的改变#}
+      {#  setTimeout(function () {#}
+      {#    refresh();#}
+      {#  }, 1000)#}
+      //;
 
       function refresh() {
         let devicewidth = document.documentElement.clientWidth;
@@ -909,9 +909,6 @@
           {#lazy: {#}
           {#    loadPrevNext: true,#}
           {#  },#}
-            autoplay: {
-                delay: 10000000,//1秒切换一次
-             },
             lazy: {
               loadPrevNext: true,
               loadPrevNextAmount: 10000,
@@ -968,11 +965,11 @@
           },
           on: {
             slideChangeTransitionEnd: function(){
-              if(this.isEnd){
-                this.navigation.$nextEl.css('display','none');
-              }else{
-                this.navigation.$nextEl.css('display','block');
-              }
+              //if(this.isEnd){
+              //  this.navigation.$nextEl.css('display','none');
+              //}else{
+              //  this.navigation.$nextEl.css('display','block');
+              //}
             },
           },
         });
