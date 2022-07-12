@@ -24,7 +24,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "test",
@@ -52,7 +56,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"id": "100021",
@@ -80,7 +88,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "จิณณพัต ＆ ประธาน",
@@ -108,7 +120,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "วัชรพร (แอน) ＆ ธวัชชัย (อาร์ท)",
@@ -136,7 +152,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "kin ＆ lookmoo",
@@ -164,7 +184,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "kin ＆ lookmoo",
@@ -192,7 +216,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "jim ＆ puen",
@@ -220,7 +248,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"name": "tiger",
@@ -248,7 +280,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"title": "day1-15",
@@ -278,7 +314,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 			"title": "day2-7",
@@ -308,7 +348,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 		  "title": "day3-3",
@@ -338,7 +382,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
     	},
 		{
 		  "title": "day4-6",
@@ -368,7 +416,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 		  "title": "day5-10",
@@ -398,7 +450,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 		  "title": "day6-11",
@@ -428,7 +484,11 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 0
+		    "isPresent": 1,
+			
+			"isGPS": 0,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+		
 		},
 		{
 		  "title": "demo2",
@@ -458,7 +518,10 @@
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
-		    "isPresent": 1
+		    "isPresent": 1,
+			
+			"isGPS": 1,
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
 		}
 	]
 }

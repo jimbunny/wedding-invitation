@@ -42,7 +42,7 @@ def tanmuContent(template_type="turn"):
             z-index: 1000;
             position: absolute;
             left: 10px;
-            width: calc(100% - 65px - {{ data.isFunction }}*60px - {{ data.isPay }}*40px - {{ data.isPresent }}*40px);
+            width: calc(100% - 65px - {{ data.isPay }}*40px - {{ data.isFunction }}*60px - {{ data.isPay }}*40px - {{ data.isPresent }}*40px);
             height: 35px;
             line-height: 35px;
             border-radius: 35px;
@@ -75,14 +75,19 @@ def tanmuContent(template_type="turn"):
             <div class="barrage-words row" style="margin-top: 11.7188px; height: 212.695px;"><div class="barrage-word" style="min-height: 32.2266px; line-height: 32.2266px; font-size: 12.8906px; padding: 4.10156px; border-radius: 22.8516px; bottom: 94.3359px; max-width: 310.547px; background-color: rgba(47, 50, 52, 0.6); transform: scale(1); opacity: 0; transition: bottom 2s ease-out 0s, opacity 0.75s linear 0.75s;">
             </div>
         </div>
-
-        {% if data.isPay %}
+        
+        {% if data.isGPS %}
         <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
+          <a href="{{ data.GPSUrl }}" class="correct-icon" style="background: url(/static/website_v2/images/gpsBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></a>
+        </div>
+        {% endif %}
+        {% if data.isPay %}
+        <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isGPS }}*40px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
           <div  id="girlMoney" data-toggle="modal" data-target="#moneyModalCenter" class="correct-icon"  style="animation:6s ease 0s infinite normal none running tanlianxia ; -webkit-animation:6s ease 0s infinite normal none running tanlianxia; background: url(/static/website_v2/images/moneyBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
         </div>
         {% endif %}
         {% if data.isPresent %}
-        <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isPay }}*40px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
+        <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isGPS }}*40px + {{ data.isPay }}*40px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
           <div class="correct-icon" id="present" data-toggle="modal" data-target="#presentModal" style="background: url(/static/website_v2/images/presentBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
         </div>
         {% endif %}
