@@ -514,7 +514,7 @@
 		    "functionFontColor": "#fff",
       		"functionBKColor": "#95978d",
 
-		    "isPay": 1,
+		    "isPay": 0,
 		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
 		    "payName": "jim",
 
