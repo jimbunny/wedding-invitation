@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ลงทะเบียนร่วมงาน</title>
+</head>
+<body>
+<h4 style="text-align: center;">ลงทะเบียนร่วมงาน</h4>
+<table border="1">
+    <thead>
+    <tr>
+        <th>ชื่อ</th>
+        <th>จำนวนผู้ร่วมงาน</th>
+    </tr>
+    </thead>
+
+    <tbody>
+     {% for present in data.presents %}
+    <tr>
+        <td>{{ present.name }}</td>
+        <td>{{ present.number }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

@@ -107,6 +107,70 @@ class H5ProductResource(Resource):
             abort(404)
 
 
+class H5PresentsWebResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self, id):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        try:
+            present = {'data': []}
+            path = os.path.join(root, "data", "template", "presents", str(id) + ".json")
+            if not os.path.exists(path):
+                json_str = json.dumps(present, indent=4)
+                with open(path, 'w') as json_file:
+                    json_file.write(json_str)
+            with open(path, 'r', encoding="utf8") as load_f:
+                load_dict = json.load(load_f)
+            return make_response(render_template('presents.html', data=load_dict), 200, headers)
+        except IndexError:
+            abort(404)
+
+
+class H5GreetingsWebResource(Resource):
+    """
+    test list资源类
+    """
+    # decorators = [limiter.exempt]
+    # decorators = [limiter.limit("1/day")]
+
+    def __init__(self):
+        self.parser = RequestParser()
+
+    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
+    def get(self, id):
+        """
+        Test Method
+
+        swagger_from_file: ../../docs/swagger/test_get.yml
+
+        """
+        try:
+            greeting = {'data': []}
+            path = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
+            if not os.path.exists(path):
+                json_str = json.dumps(greeting, indent=4)
+                with open(path, 'w') as json_file:
+                    json_file.write(json_str)
+            with open(path, 'r', encoding="utf8") as load_f:
+                load_dict = json.load(load_f)
+            return make_response(render_template('greetings.html', data=load_dict), 200, headers)
+        except IndexError:
+            abort(404)
+
+
 class H5GreetingsResource(Resource):
     """
     test list资源类
@@ -149,7 +213,6 @@ class H5GreetingsResource(Resource):
         return pretty_result(code.OK, data=str(str(name)+":"+str(greetings)))
 
 
-
 class H5PresentResource(Resource):
     """
     test list资源类
@@ -164,7 +227,7 @@ class H5PresentResource(Resource):
 
     def get(self, id):
         present = {'data': []}
-        path = os.path.join(root, "data", "template", "present", str(id) + ".json")
+        path = os.path.join(root, "data", "template", "presents", str(id) + ".json")
         if not os.path.exists(path):
             json_str = json.dumps(present, indent=4)
             with open(path, 'w') as json_file:
@@ -182,7 +245,7 @@ class H5PresentResource(Resource):
         # logging.error("error info: %s" % "test error")
         name = request.form.get("name")
         present = request.form.get("present")
-        path = os.path.join(root, "data", "template", "present", str(id) + ".json")
+        path = os.path.join(root, "data", "template", "presents", str(id) + ".json")
         presentInit = {'data': []}
         if not os.path.exists(path):
             json_str = json.dumps(presentInit, indent=4)

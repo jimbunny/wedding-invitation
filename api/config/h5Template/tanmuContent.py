@@ -567,7 +567,7 @@ def tanmuContent(template_type="turn"):
             //几个参数需要注意一下
             type: "POST",//方法类型
             dataType: "json",//预期服务器返回的数据类型
-            url: "/api/v1/h5/present/"+{{ data.id }},//url
+            url: "/api/v1/h5/presents/"+{{ data.id }},//url
             data: $('#presentForm').serialize(),
             success: function (result) {
                 console.log(result);//打印服务端返回的数据(调试用)
