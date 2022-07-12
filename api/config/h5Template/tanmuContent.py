@@ -7,7 +7,7 @@ def tanmuContent(template_type="turn"):
         ox-sizing: border-box; 
         right: 0px; 
         bottom: 0px; 
-        z-index: 1000; 
+        z-index: 1001; 
         width: 100%; 
         pointer-events: none; 
         background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
@@ -218,6 +218,7 @@ def tanmuContent(template_type="turn"):
         }
         .cd-stretchy-nav ul a div{
             color: {{ data.functionFontColor }};
+            background-color: {{ data.functionBKColor }};
         }
     </style>
     {% if data.isFunction %}
