@@ -78,7 +78,7 @@ def tanmuContent(template_type="turn"):
         
         {% if data.isGPS %}
         <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
-          <a href="{{ data.GPSUrl }}" class="correct-icon" style="background: url(/static/website_v2/images/gpsBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></a>
+          <div id="gpsBtn" class="correct-icon" style="background: url(/static/website_v2/images/gpsBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
         </div>
         {% endif %}
         {% if data.isPay %}
@@ -207,6 +207,9 @@ def tanmuContent(template_type="turn"):
     $("#present").click(function() {
         var modalShowPresentMoneyDiv = document.getElementById('modalShowPresent');
         modalShowPresentMoneyDiv.style.display = 'block';
+    })
+    $("#gpsBtn").click(function() {
+        window.location.href = {{ data.GPSUrl }}
     })
       </script>
   <link rel="stylesheet" href="/static/website_v2/css/reset.css">
