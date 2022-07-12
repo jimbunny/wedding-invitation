@@ -126,12 +126,7 @@ class H5PresentsWebResource(Resource):
 
         """
         try:
-            present = {'data': []}
             path = os.path.join(root, "data", "template", "presents", str(id) + ".json")
-            if not os.path.exists(path):
-                json_str = json.dumps(present, indent=4)
-                with open(path, 'w') as json_file:
-                    json_file.write(json_str)
             with open(path, 'r', encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
             return make_response(render_template('presents.html', data=load_dict), 200, headers)
@@ -158,12 +153,7 @@ class H5GreetingsWebResource(Resource):
 
         """
         try:
-            greeting = {'data': []}
             path = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
-            if not os.path.exists(path):
-                json_str = json.dumps(greeting, indent=4)
-                with open(path, 'w') as json_file:
-                    json_file.write(json_str)
             with open(path, 'r', encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
             return make_response(render_template('greetings.html', data=load_dict), 200, headers)
@@ -401,6 +391,13 @@ class MakeH5TemplateResource(Resource):
                 phoneBtnFile.close()
                 # pcBtnFile.write(pcBtnHtml)
                 # pcBtnFile.close()
+
+            present = {'data': []}
+            path = os.path.join(root, "data", "template", "presents", str(data.id) + ".json")
+            if not os.path.exists(path):
+                json_str = json.dumps(present, indent=4)
+                with open(path, 'w') as json_file:
+                    json_file.write(json_str)
 
             return True, [phoneUrl, pcUrl]
         except Exception as e:

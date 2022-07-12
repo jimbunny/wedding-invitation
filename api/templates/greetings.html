@@ -9,16 +9,16 @@
 <table border="1">
     <thead>
     <tr>
-        <th>ชื่อ</th>
-        <th>คำอวยพร</th>
+        <th style="width: 50%;">ชื่อ</th>
+        <th style="width: 50%;">คำอวยพร</th>
     </tr>
     </thead>
 
     <tbody>
      {% for greeting in data.greetings %}
     <tr>
-        <td>{{ greeting.text.split(":")[0] }}</td>
-        <td>{{ greeting.text.split(":")[1] }}</td>
+        <td style="width: 50%;">{{ greeting.text.split(":")[0] }}</td>
+        <td style="width: 50%;">{{ greeting.text.split(":")[1] }}</td>
     </tr>
     {% endfor %}
     </tbody>

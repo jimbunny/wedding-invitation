@@ -9,16 +9,16 @@
 <table border="1">
     <thead>
     <tr>
-        <th>ชื่อ</th>
-        <th>จำนวนผู้ร่วมงาน</th>
+        <th style="width: 50%;">ชื่อ</th>
+        <th style="width: 50%;">จำนวนผู้ร่วมงาน</th>
     </tr>
     </thead>
 
     <tbody>
      {% for present in data.presents %}
     <tr>
-        <td>{{ present.name }}</td>
-        <td>{{ present.number }}</td>
+        <td style="width: 50%;">{{ present.name }}</td>
+        <td style="width: 50%;">{{ present.number }}</td>
     </tr>
     {% endfor %}
     </tbody>
