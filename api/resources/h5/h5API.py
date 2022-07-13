@@ -147,6 +147,17 @@ class H5FormResource(Resource):
             presentPath = os.path.join(root, "data", "template", "presents", str(id) + ".json")
             if not isTanmu and not isPresent:
                 abort(404)
+            present = {'data': []}
+            if data["isPresent"] and not os.path.exists(presentPath):
+                json_str = json.dumps(present, indent=4)
+                with open(presentPath, 'w') as json_file:
+                    json_file.write(json_str)
+            greeting = {'data': []}
+            if data["isTanmu"] and not os.path.exists(greetingPath):
+                json_str = json.dumps(greeting, indent=4)
+                with open(greetingPath, 'w') as json_file:
+                    json_file.write(json_str)
+
             with open(greetingPath, 'r', encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
                 data["greetings"] = load_dict
@@ -389,13 +400,6 @@ class MakeH5TemplateResource(Resource):
                 phoneBtnFile.close()
                 # pcBtnFile.write(pcBtnHtml)
                 # pcBtnFile.close()
-
-            present = {'data': []}
-            path = os.path.join(root, "data", "template", "presents", str(data.id) + ".json")
-            if not os.path.exists(path):
-                json_str = json.dumps(present, indent=4)
-                with open(path, 'w') as json_file:
-                    json_file.write(json_str)
 
             return True, [phoneUrl, pcUrl]
         except Exception as e:

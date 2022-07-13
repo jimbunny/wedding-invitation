@@ -1707,3 +1707,41 @@
 2022-07-13 17:13:05,239 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:13:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
 2022-07-13 17:14:14,637 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-07-13 17:14:14,725 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:16:58,329 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:16:59,245 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:16:59,249 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:16:59,298 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:17:14,674 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-13 17:17:17,880 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/0UY0PQ71W601736963 HTTP/1.1" 200 None
+2022-07-13 17:17:17,886 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-13 17:17:20,899 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/0UY0PQ71W601736963 HTTP/1.1" 200 None
+2022-07-13 17:17:20,912 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:17:20] "GET /api/v1/h5/makeH5/template/0UY0PQ71W601736963 HTTP/1.1" 200 -
+2022-07-13 17:17:21,010 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:17:21,011 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:17:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:22:30,740 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:22:30,830 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:22:31,828 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:22:31,831 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:22:31,879 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:22:34,606 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-13 17:22:36,365 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/0UY0PQ71W601736963 HTTP/1.1" 200 None
+2022-07-13 17:22:36,368 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-13 17:22:41,940 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/0UY0PQ71W601736963 HTTP/1.1" 200 None
+2022-07-13 17:22:41,945 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:22:41] "GET /api/v1/h5/makeH5/template/0UY0PQ71W601736963 HTTP/1.1" 200 -
+2022-07-13 17:22:41,985 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:22:41,986 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:22:41] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:25:22,782 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:25:22,970 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:25:23,997 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:25:24,000 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:25:24,047 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:25:29,466 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:29] "GET /api/v1/h5/form/10011 HTTP/1.1" 200 -
+2022-07-13 17:25:29,512 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:29] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 17:25:29,522 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:29] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 17:25:29,555 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:25:29,559 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:29] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:25:36,279 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:36] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 17:25:36,362 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:36] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 17:25:36,394 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:36] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 17:25:36,424 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:25:36,425 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:36] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
