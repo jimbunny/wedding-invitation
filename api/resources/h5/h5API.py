@@ -107,7 +107,7 @@ class H5ProductResource(Resource):
             abort(404)
 
 
-class H5PresentsWebResource(Resource):
+class H5FormResource(Resource):
     """
     test list资源类
     """
@@ -125,38 +125,36 @@ class H5PresentsWebResource(Resource):
         swagger_from_file: ../../docs/swagger/test_get.yml
 
         """
+        data = {"presents": "", "greetings": "", "isTanmu": 0, "isPresent": 0}
         try:
-            path = os.path.join(root, "data", "template", "presents", str(id) + ".json")
-            with open(path, 'r', encoding="utf8") as load_f:
+            isTanmu = 0
+            isPresent = 0
+            if int(id) >= 10000:
+                with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
+                    load_dict2 = json.load(load_f)
+            else:
+                with open(os.path.join(root, "data", "template", "template.json"), 'r', encoding="utf8") as load_f:
+                    load_dict2 = json.load(load_f)
+            for item in load_dict2.get("data"):
+                for key in item:
+                    if key == 'id' and item["id"] == str(id):
+                        pretty_result(item["id"])
+                        isTanmu = item["isTanmu"]
+                        isPresent = item["isPresent"]
+                        data["isPresent"] = int(isPresent)
+                        data["isTanmu"] = int(isTanmu)
+            greetingPath = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
+            presentPath = os.path.join(root, "data", "template", "presents", str(id) + ".json")
+            if not isTanmu and not isPresent:
+                abort(404)
+            with open(greetingPath, 'r', encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
-            return make_response(render_template('presents.html', data=load_dict), 200, headers)
-        except IndexError:
-            abort(404)
-
-
-class H5GreetingsWebResource(Resource):
-    """
-    test list资源类
-    """
-    # decorators = [limiter.exempt]
-    # decorators = [limiter.limit("1/day")]
-
-    def __init__(self):
-        self.parser = RequestParser()
-
-    # @swag_from('../../docs/swagger/admin/test/test_get.yml', methods=['GET'])
-    def get(self, id):
-        """
-        Test Method
-
-        swagger_from_file: ../../docs/swagger/test_get.yml
-
-        """
-        try:
-            path = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
-            with open(path, 'r', encoding="utf8") as load_f:
+                data["greetings"] = load_dict
+            with open(presentPath, 'r', encoding="utf8") as load_f:
                 load_dict = json.load(load_f)
-            return make_response(render_template('greetings.html', data=load_dict), 200, headers)
+                data["presents"] = load_dict
+
+            return make_response(render_template('form.html', data=data), 200, headers)
         except IndexError:
             abort(404)
 

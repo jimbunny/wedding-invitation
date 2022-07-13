@@ -15,8 +15,7 @@ api = Api(api_v1_h5, catch_all_404s=True, serve_challenge_on_401=True, errors=er
 
 api.add_resource(h5API.H5Resource, '/work/<workKey>', endpoint='work')
 api.add_resource(h5API.H5ProductResource, '/product/<productKey>', endpoint='product')
-api.add_resource(h5API.H5PresentsWebResource, '/web/presents/<id>', endpoint='presents web')
-api.add_resource(h5API.H5GreetingsWebResource, '/web/greetings/<id>', endpoint='greetings web')
+api.add_resource(h5API.H5FormResource, '/form/<id>', endpoint='form')
 api.add_resource(h5API.H5GreetingsResource, '/greetings/<id>', endpoint='tanmu')
 api.add_resource(h5API.H5PresentResource, '/presents/<id>', endpoint='presents')
 api.add_resource(h5API.H5ViewResource, '/<view_type>/<_type>/<h5Key>', endpoint='h5Template')

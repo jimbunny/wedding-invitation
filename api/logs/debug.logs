@@ -1204,3 +1204,506 @@
 2022-07-11 17:58:38,181 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-07-11 17:59:03,451 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-07-11 17:59:03,558 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 14:49:14,072 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 14:49:14,960 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 14:49:14,964 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 14:49:15,033 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 14:49:35,918 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greeting.json'
+2022-07-13 14:49:35,919 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greeting.json'
+2022-07-13 14:49:35,920 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greeting.json'
+2022-07-13 14:49:35,944 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:49:35] "[35m[1mGET /api/v1/h5/web/greeting/10012 HTTP/1.1[0m" 500 -
+2022-07-13 14:49:35,994 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:49:35] "GET /api/v1/h5/web/greeting/10012?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 14:49:36,009 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:49:36] "GET /api/v1/h5/web/greeting/10012?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 14:49:36,052 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:49:36] "GET /api/v1/h5/web/greeting/10012?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 14:49:36,059 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:49:36] "GET /api/v1/h5/web/greeting/10012?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 14:49:36,105 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:49:36] "GET /api/v1/h5/web/greeting/10012?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 14:50:35,188 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\10012.json'
+2022-07-13 14:50:35,189 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\10012.json'
+2022-07-13 14:50:35,200 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\10012.json'
+2022-07-13 14:50:35,213 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:35] "[35m[1mGET /api/v1/h5/web/presents/10012 HTTP/1.1[0m" 500 -
+2022-07-13 14:50:35,231 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:35] "GET /api/v1/h5/web/presents/10012?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 14:50:35,232 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:35] "GET /api/v1/h5/web/presents/10012?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 14:50:35,249 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:35] "GET /api/v1/h5/web/presents/10012?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 14:50:35,253 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:35] "GET /api/v1/h5/web/presents/10012?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 14:50:35,308 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:35] "GET /api/v1/h5/web/presents/10012?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 14:50:58,517 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:50:58] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 14:51:05,117 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:51:05] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 14:52:13,335 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 14:52:13,336 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 14:52:13] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:34:22,485 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 15:34:22,655 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 15:34:32,619 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 15:34:33,524 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 15:34:33,527 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 15:34:33,576 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 15:35:13,424 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:35:13] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 15:35:26,676 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:35:26,677 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:35:26] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:36:40,200 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:40] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 15:36:40,246 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:40] "GET /static/website_v2/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-13 15:36:40,273 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:40] "GET /static/website_v2/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-13 15:36:40,291 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:40] "GET /static/website_v2/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-13 15:36:40,366 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:36:40,367 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:40] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:36:43,352 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:43] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 15:36:43,393 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:36:43,394 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:36:43] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:37:08,109 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:37:08,111 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:37:08] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:37:12,959 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:37:12,960 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:37:12] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:37:15,748 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:37:15,749 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:37:15] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:42:14,088 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:42:14] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 15:42:14,144 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:42:14,144 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:42:14] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:42:22,961 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:42:22] "GET /static/website_v2/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-13 15:42:23,025 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:42:23] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 15:42:23,058 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:42:23] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 15:55:29,790 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:29] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 15:55:29,816 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:29] "GET /static/website_v2/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-13 15:55:29,818 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:29] "GET /static/website_v2/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-13 15:55:29,863 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:29] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 15:55:29,867 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:29] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 15:55:29,896 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:55:29,898 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:29] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 15:55:31,759 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:31] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 15:55:31,804 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:31] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 15:55:31,819 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:31] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 15:55:31,846 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 15:55:31,847 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 15:55:31] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:04:57,962 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:04:57] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:04:58,000 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:04:57] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:04:58,045 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:04:58] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:04:58,081 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:04:58,082 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:04:58] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:05:28,074 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:05:28] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:05:28,120 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:05:28] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:05:28,127 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:05:28] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:05:28,151 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:05:28,153 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:05:28] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:07:27,955 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:07:27] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:07:27,993 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:07:27] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:07:28,005 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:07:28] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:07:28,032 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:07:28,032 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:07:28] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:09:52,843 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:09:52] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:09:52,886 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:09:52] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:09:52,900 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:09:52] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:09:52,928 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:09:52,930 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:09:52] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:11:24,721 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:11:24] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:11:24,748 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:11:24] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:11:24,762 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:11:24] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:11:24,788 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:11:24,789 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:11:24] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:12:24,035 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:12:24] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:12:24,080 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:12:24] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:12:24,084 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:12:24] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:12:24,112 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:12:24,113 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:12:24] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:13:02,611 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:13:02,893 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:13:04,662 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:13:04,666 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:13:04,719 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:13:04,964 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:13:04,965 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:13:04] "[31m[1mGET /api/v1/h5/web/presents/1 HTTP/1.1[0m" 411 -
+2022-07-13 16:13:05,046 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:13:05,047 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:13:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:13:48,922 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:13:49,141 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:13:50,230 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:13:50,234 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:13:50,281 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:14:41,746 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:14:41,841 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:14:42,740 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:14:42,744 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:14:42,791 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:15:34,277 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:15:34,368 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:15:35,296 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:15:35,300 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:15:35,349 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:20:02,914 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:20:03,009 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:20:03,891 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:20:03,894 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:20:03,945 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:20:15,031 - app.py[line:30] - ERROR: Got exception during processing: 'str object' has no attribute 'text'
+2022-07-13 16:20:15,032 - app.py[line:30] - ERROR: Got exception during processing: 'str object' has no attribute 'text'
+2022-07-13 16:20:15,032 - app.py[line:30] - ERROR: Got exception during processing: 'str object' has no attribute 'text'
+2022-07-13 16:20:15,051 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:15] "[35m[1mGET /api/v1/h5/web/presents/1 HTTP/1.1[0m" 500 -
+2022-07-13 16:20:15,075 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:15] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 16:20:15,077 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:15] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 16:20:15,099 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:15] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 16:20:15,114 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:15] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:20:15,189 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:15] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:20:44,333 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:44] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:20:44,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:44] "GET /static/website_v2/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-13 16:20:44,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:44] "GET /static/website_v2/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-13 16:20:44,374 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:44] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:20:44,388 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:44] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:20:44,416 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:20:44,417 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:20:44] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:21:19,789 - app.py[line:30] - ERROR: Got exception during processing: 'str object' has no attribute 'text'
+2022-07-13 16:21:19,790 - app.py[line:30] - ERROR: Got exception during processing: 'str object' has no attribute 'text'
+2022-07-13 16:21:19,790 - app.py[line:30] - ERROR: Got exception during processing: 'str object' has no attribute 'text'
+2022-07-13 16:21:19,810 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:19] "[35m[1mGET /api/v1/h5/web/presents/1 HTTP/1.1[0m" 500 -
+2022-07-13 16:21:19,831 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:19] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 16:21:19,832 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:19] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 16:21:19,847 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:19] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 16:21:19,858 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:19] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:21:19,914 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:19] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:21:34,970 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:34] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:21:35,031 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:35] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:21:35,038 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:35] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:21:35,071 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:21:35,072 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:21:35] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:22:18,355 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:22:18,439 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:22:19,566 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:22:19,569 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:22:19,614 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:23:18,949 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:23:18] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:23:18,998 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:23:18] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:23:19,009 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:23:19] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:23:19,034 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:23:19,035 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:23:19] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:24:30,466 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:30] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:24:30,542 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:30] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:24:30,549 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:30] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:24:30,579 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:24:30,581 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:30] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:24:42,245 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:42] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:24:42,292 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:42] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:24:42,305 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:42] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:24:42,323 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:24:42,325 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:24:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:25:06,104 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:06] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:25:06,147 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:06] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:25:06,158 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:06] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:25:06,183 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:25:06,185 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:06] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:25:37,978 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:25:38,111 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:25:39,461 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:25:39,464 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:25:39,513 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:25:39,532 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:39] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:25:39,581 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:39] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:25:39,617 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:25:39,619 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:39] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:25:39,776 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:39] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:25:42,511 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:25:42,512 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:42] "[31m[1mGET /api/v1/h5/web/presents/2 HTTP/1.1[0m" 411 -
+2022-07-13 16:25:42,619 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:25:42,620 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:25:52,116 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:52] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:25:52,209 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:52] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:25:52,228 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:52] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:25:52,247 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:25:52,248 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:25:52] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:28:01,439 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:01] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:28:01,488 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:01] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:28:01,502 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:01] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:28:01,527 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:28:01,527 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:01] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:28:15,656 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:15] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:28:15,699 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:15] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:28:15,715 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:15] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:28:15,740 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:28:15,741 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:28:15] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:29:13,647 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:29:13] "GET /api/v1/h5/web/presents/1 HTTP/1.1" 200 -
+2022-07-13 16:29:13,695 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:29:13] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:29:13,712 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:29:13] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:29:13,738 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:29:13,739 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:29:13] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:32:23,985 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:32:24,093 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:35:19,006 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:35:19,882 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:35:19,886 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:35:19,934 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:35:21,202 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents.json'
+2022-07-13 16:35:21,204 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents.json'
+2022-07-13 16:35:21,204 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents.json'
+2022-07-13 16:35:21,244 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:21] "[35m[1mGET /api/v1/h5/web/presents/1 HTTP/1.1[0m" 500 -
+2022-07-13 16:35:21,317 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:21] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 16:35:21,317 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:21] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 16:35:21,389 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:21] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 16:35:21,434 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:21] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:35:21,487 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:21] "GET /api/v1/h5/web/presents/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:35:38,599 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:38] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:35:38,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:38] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:35:38,669 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:38] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:35:38,744 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:35:38,746 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:35:38] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:38:33,363 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:38:33] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:38:33,408 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:38:33] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:38:33,419 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:38:33] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:38:33,445 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:38:33,446 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:38:33] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:39:02,861 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:02] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:39:02,900 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:02] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:39:02,903 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:02] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:39:02,940 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:39:02,941 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:02] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:39:42,275 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:42] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:39:42,342 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:42] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:39:42,345 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:42] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:39:42,375 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:39:42,377 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:39:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:40:28,791 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:28] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:40:28,852 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:28] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:40:28,855 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:28] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:40:28,866 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:40:28,867 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:28] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:40:30,377 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:30] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:40:30,407 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:30] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:40:30,413 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:30] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:40:30,441 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:40:30,442 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:40:30] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:41:04,979 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:04] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:41:05,014 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:05] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:41:05,027 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:05] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:41:05,053 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:41:05,054 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:41:16,936 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:16] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:41:16,962 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:16] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:41:16,975 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:16] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:41:17,002 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:41:17,004 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:41:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:43:27,055 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:43:27] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:43:27,085 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:43:27] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:43:27,096 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:43:27] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:43:27,125 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:43:27,127 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:43:27] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:45:17,144 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:17] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:45:17,183 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:17] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:45:17,186 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:17] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:45:17,212 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:45:17,213 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:45:20,273 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:45:20,288 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "GET /static/website_v2/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-13 16:45:20,290 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "GET /static/website_v2/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-13 16:45:20,291 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "GET /static/website_v2/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-13 16:45:20,334 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:45:20,344 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:45:20,387 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:45:20,389 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:20] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:45:31,399 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:45:31,400 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:31] "[31m[1mGET /api/v1/h5/form/2 HTTP/1.1[0m" 411 -
+2022-07-13 16:45:31,511 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:45:31,512 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:31] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:45:46,072 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\9.json'
+2022-07-13 16:45:46,072 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\9.json'
+2022-07-13 16:45:46,073 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\9.json'
+2022-07-13 16:45:46,089 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:46] "[35m[1mGET /api/v1/h5/form/9 HTTP/1.1[0m" 500 -
+2022-07-13 16:45:46,104 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:46] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 16:45:46,104 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:46] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 16:45:46,129 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:46] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 16:45:46,138 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:46] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:45:46,199 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:45:46] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:46:59,554 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:46:59] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 16:46:59,602 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:46:59] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:46:59,611 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:46:59] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:46:59,636 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:46:59,638 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:46:59] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:47:05,929 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:47:05] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 16:47:05,954 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:47:05] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:47:05,961 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:47:05] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:47:05,983 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:47:05,984 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:47:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:48:11,870 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:11] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 16:48:11,911 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:11] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:11,926 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:11] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:11,949 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:48:11,953 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:11] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:48:13,313 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:13] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 16:48:13,343 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:13] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:13,354 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:13] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:13,382 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:48:13,382 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:13] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:48:23,015 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:23] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 16:48:23,081 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:23] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:23,088 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:23] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:23,131 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:48:23,132 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:23] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:48:34,373 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:34] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 16:48:34,431 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:34] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:34,440 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:34] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 16:48:34,481 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 16:48:34,481 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:48:34] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 16:52:36,015 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:52:36,153 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:52:37,182 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:52:37,185 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:52:37,234 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:55:56,946 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 16:55:57,053 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 16:55:58,002 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 16:55:58,005 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 16:55:58,052 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 16:57:42,459 - app.py[line:30] - ERROR: Got exception during processing: local variable 'isPresent' referenced before assignment
+2022-07-13 16:57:42,460 - app.py[line:30] - ERROR: Got exception during processing: local variable 'isPresent' referenced before assignment
+2022-07-13 16:57:42,460 - app.py[line:30] - ERROR: Got exception during processing: local variable 'isPresent' referenced before assignment
+2022-07-13 16:57:42,476 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:57:42] "[35m[1mGET /api/v1/h5/form/9 HTTP/1.1[0m" 500 -
+2022-07-13 16:57:42,494 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:57:42] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 16:57:42,497 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:57:42] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 16:57:42,522 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:57:42] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 16:57:42,529 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:57:42] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 16:57:42,589 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 16:57:42] "GET /api/v1/h5/form/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:01:59,718 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:01:59,831 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:02:00,997 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:02:01,001 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:02:01,052 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:02:36,043 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:02:36,045 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:02:36] "[31m[1mGET /api/v1/h5/form/9 HTTP/1.1[0m" 411 -
+2022-07-13 17:02:36,099 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:02:36,100 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:02:36] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:02:42,754 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:02:42,756 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:02:42] "[31m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 411 -
+2022-07-13 17:02:42,810 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:02:42,810 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:02:42] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:03:47,084 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:03:47,187 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:03:48,717 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:03:48,721 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:03:48,775 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:03:50,167 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:03:50,168 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:03:50] "[31m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 411 -
+2022-07-13 17:03:50,248 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:03:50,250 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:03:50] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:04:11,872 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:04:11,951 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:04:13,150 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:04:13,154 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:04:13,203 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:04:14,303 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:04:14,520 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:04:15,600 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:04:15,603 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:04:15,663 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:04:25,525 - app.py[line:30] - ERROR: Got exception during processing: '1'
+2022-07-13 17:04:25,526 - app.py[line:30] - ERROR: Got exception during processing: '1'
+2022-07-13 17:04:25,526 - app.py[line:30] - ERROR: Got exception during processing: '1'
+2022-07-13 17:04:25,543 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:04:25] "[35m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 500 -
+2022-07-13 17:04:25,560 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:04:25] "GET /api/v1/h5/form/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:04:25,561 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:04:25] "GET /api/v1/h5/form/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:04:25,582 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:04:25] "GET /api/v1/h5/form/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:04:25,592 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:04:25] "GET /api/v1/h5/form/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:04:25,648 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:04:25] "GET /api/v1/h5/form/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:05:11,473 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:05:11,569 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:05:12,545 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:05:12,549 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:05:12,597 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:05:14,730 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:05:14,731 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:05:14] "[31m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 411 -
+2022-07-13 17:05:14,787 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:05:14,787 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:05:14] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:05:34,708 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:05:34,888 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:05:35,833 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:05:35,837 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:05:35,884 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:05:36,274 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:05:36,275 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:05:36] "[31m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 411 -
+2022-07-13 17:05:36,326 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:05:36,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:05:36] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:05:59,082 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:05:59,264 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:06:00,274 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:06:00,276 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:06:00,327 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:06:00,561 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:06:00,562 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:06:00] "[31m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 411 -
+2022-07-13 17:06:00,618 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:06:00,619 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:06:00] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:06:53,925 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:06:54,016 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:06:55,010 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:06:55,014 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:06:55,062 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:07:02,178 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:07:02,180 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:07:02] "[31m[1mGET /api/v1/h5/form/1 HTTP/1.1[0m" 411 -
+2022-07-13 17:07:02,243 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:07:02,246 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:07:02] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:07:39,294 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:07:39,374 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:07:40,520 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:07:40,524 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:07:40,572 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:08:35,376 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:08:35] "GET /api/v1/h5/form/1 HTTP/1.1" 200 -
+2022-07-13 17:08:35,426 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:08:35] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 17:08:35,429 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:08:35] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 17:08:35,457 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:08:35,458 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:08:35] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:09:00,447 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:09:00] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 17:09:00,519 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:09:00] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 17:09:00,524 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:09:00] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 17:09:00,573 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:09:00,574 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:09:00] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:10:21,360 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:10:21,485 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:10:22,462 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:10:22,466 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:10:22,515 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:10:22,961 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:10:22] "GET /api/v1/h5/form/9 HTTP/1.1" 200 -
+2022-07-13 17:10:23,004 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:10:23] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 17:10:23,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:10:23] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 17:10:23,059 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:10:23,060 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:10:23] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:11:16,088 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:11:16,173 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:11:17,117 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:11:17,120 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:11:17,168 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:11:19,230 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:11:19,231 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:19] "[31m[1mGET /api/v1/h5/form/10011 HTTP/1.1[0m" 411 -
+2022-07-13 17:11:19,303 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:11:19,305 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:19] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:11:35,777 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10011.json'
+2022-07-13 17:11:35,777 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10011.json'
+2022-07-13 17:11:35,778 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10011.json'
+2022-07-13 17:11:35,790 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:35] "[35m[1mGET /api/v1/h5/form/10011 HTTP/1.1[0m" 500 -
+2022-07-13 17:11:35,805 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:35] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:11:35,806 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:35] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:11:35,821 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:35] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:11:35,828 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:35] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:11:35,883 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:11:35] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:12:03,979 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:12:03,981 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:03] "[31m[1mGET /api/v1/h5/form/10021 HTTP/1.1[0m" 411 -
+2022-07-13 17:12:04,050 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:12:04,051 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:04] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:12:24,996 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:12:24,997 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:24] "[31m[1mGET /api/v1/h5/form/10021 HTTP/1.1[0m" 411 -
+2022-07-13 17:12:25,058 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:12:25,060 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:25] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:12:29,441 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10011.json'
+2022-07-13 17:12:29,442 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10011.json'
+2022-07-13 17:12:29,443 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10011.json'
+2022-07-13 17:12:29,454 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:29] "[35m[1mGET /api/v1/h5/form/10011 HTTP/1.1[0m" 500 -
+2022-07-13 17:12:29,485 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:29] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:12:29,490 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:29] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:12:29,511 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:29] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:12:29,518 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:29] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:12:46,290 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\10011.json'
+2022-07-13 17:12:46,290 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\10011.json'
+2022-07-13 17:12:46,291 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\presents\\10011.json'
+2022-07-13 17:12:46,304 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:46] "[35m[1mGET /api/v1/h5/form/10011 HTTP/1.1[0m" 500 -
+2022-07-13 17:12:46,326 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:46] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:12:46,326 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:46] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:12:46,348 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:46] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:12:46,356 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:46] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:12:46,408 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:12:46] "GET /api/v1/h5/form/10011?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:13:05,155 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:13:05] "GET /api/v1/h5/form/10011 HTTP/1.1" 200 -
+2022-07-13 17:13:05,201 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:13:05] "[33mGET /static/website_v2/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2022-07-13 17:13:05,208 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:13:05] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2022-07-13 17:13:05,238 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-13 17:13:05,239 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:13:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:14:14,637 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-07-13 17:14:14,725 - _internal.py[line:225] - INFO:  * Restarting with stat
