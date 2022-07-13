@@ -1745,3 +1745,131 @@
 2022-07-13 17:25:36,394 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:36] "[33mGET /static/website_v2/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
 2022-07-13 17:25:36,424 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 2022-07-13 17:25:36,425 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:25:36] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-13 17:39:27,828 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:39:28,712 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:39:28,716 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:39:28,770 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:39:28,843 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:39:28,844 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:39:28,844 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:39:28,859 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:39:28] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:39:28,894 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:39:28] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:39:28,894 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:39:28] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:39:28,909 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:39:28] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:39:28,936 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:39:28] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:39:28,979 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:39:28] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:40:40,292 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:40:40,423 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:40:41,818 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:40:41,821 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:40:41,870 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:40:42,020 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:40:42,021 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:40:42,021 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:40:42,034 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:40:42] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:40:42,056 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:40:42] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:40:42,284 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:40:42] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:40:42,295 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:40:42] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:40:42,302 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:40:42] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:40:42,353 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:40:42] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:40:55,553 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:40:55,689 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:40:56,746 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:40:56,752 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:40:56,809 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:40:56,847 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:40:56,947 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:41:05,659 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:41:06,527 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:41:06,530 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:41:06,577 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:41:07,455 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:41:07,456 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:41:07,456 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:41:07,473 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:07] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:41:07,503 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:07] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:41:07,503 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:07] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:41:07,522 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:07] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:41:07,530 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:07] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:41:07,601 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:07] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:41:36,222 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:41:36,385 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:41:37,379 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:41:37,382 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:41:37,430 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:41:37,574 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:41:37,575 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:41:37,575 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:41:37,586 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:37] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:41:37,605 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:41:37,831 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:41:37,837 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:41:37,841 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:41:37,889 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:41:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:42:00,242 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:42:01,207 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:42:01,214 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:42:01,278 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:42:01,308 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:42:01,309 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:42:01,309 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:42:01,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:42:01] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:42:01,351 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:42:01] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:42:01,352 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:42:01] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:42:01,366 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:42:01] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:42:01,374 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:42:01] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:42:01,434 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:42:01] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:43:50,405 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:43:50,545 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:43:51,591 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:43:51,594 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:43:51,643 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:44:34,708 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:44:34,789 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:44:36,005 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:44:36,009 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:44:36,059 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:44:37,532 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:44:37,533 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:44:37,533 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:44:37,554 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:44:37] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:44:37,570 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:44:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:44:37,571 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:44:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:44:37,589 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:44:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:44:37,602 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:44:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:44:37,676 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:44:37] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:45:20,308 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:45:20,395 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:45:21,556 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:45:21,559 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:45:21,609 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:45:24,669 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:45:24,669 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:45:24,670 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:45:24,683 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:45:24] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:45:24,707 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:45:24] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:45:24,708 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:45:24] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:45:24,729 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:45:24] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:45:24,732 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:45:24] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:45:24,791 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:45:24] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:47:12,783 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:47:13,010 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:47:14,240 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:47:14,244 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:47:14,291 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:47:16,095 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:47:16,096 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:47:16,096 - app.py[line:30] - ERROR: Got exception during processing: [Errno 2] No such file or directory: 'D:\\Code\\wedding-invitation\\api\\data\\template\\greetings\\10006.json'
+2022-07-13 17:47:16,110 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:47:16] "[35m[1mGET /api/v1/h5/form/10006 HTTP/1.1[0m" 500 -
+2022-07-13 17:47:16,129 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:47:16] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-13 17:47:16,131 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:47:16] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-13 17:47:16,144 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:47:16] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2022-07-13 17:47:16,152 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:47:16] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:47:16,205 - _internal.py[line:225] - INFO: 127.0.0.1 - - [13/Jul/2022 17:47:16] "GET /api/v1/h5/form/10006?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-13 17:47:44,844 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\resources\\h5\\h5API.py', reloading
+2022-07-13 17:47:44,926 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-13 17:47:45,912 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-13 17:47:45,915 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-13 17:47:45,962 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-13 17:49:16,259 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-07-13 17:49:16,366 - _internal.py[line:225] - INFO:  * Restarting with stat

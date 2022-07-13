@@ -153,6 +153,7 @@ class H5FormResource(Resource):
                 with open(presentPath, 'w') as json_file:
                     json_file.write(json_str)
             greeting = {'data': []}
+            print(data["isTanmu"])
             if data["isTanmu"] and not os.path.exists(greetingPath):
                 json_str = json.dumps(greeting, indent=4)
                 with open(greetingPath, 'w') as json_file:
