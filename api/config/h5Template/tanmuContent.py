@@ -88,7 +88,7 @@ def tanmuContent(template_type="turn"):
         {% endif %}
         {% if data.isPresent %}
         <div style="padding-bottom: 5px; margin-top: 14.0625px; position: fixed; right: calc(10px + {{ data.isGPS }}*40px + {{ data.isPay }}*40px + {{ data.isFunction }}*60px); bottom: 11.7188px; pointer-events: initial;">
-          <div class="correct-icon" id="present" data-toggle="modal" data-target="#presentModal" style="background: url(/static/website_v2/images/presentBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
+          <div class="correct-icon" id="present" data-toggle="modal" data-target="#presentModal" style="animation:6s ease 0s infinite normal none running tanlianxia ; -webkit-animation:6s ease 0s infinite normal none running tanlianxia; background: url(/static/website_v2/images/presentBtn.png) 0% 0% / contain no-repeat; border-radius: 100%; width: 35px; height: 35px;"></div>
         </div>
         {% endif %}
 
