@@ -56,6 +56,7 @@ def phone(url, name):
         -webkit-animation-duration: 1.5s;
         animation-iteration-count: infinite;
         -webkit-animation-iteration-count: infinite;
+        background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)
     }
     .maka-Arrow {
         display: none !important;
@@ -64,7 +65,7 @@ def phone(url, name):
         display: none !important;
     }
     </style>
-    <div class="maka-Arrow1" style="display: block;"><img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt=""><div style="color: #fff;">slide here</div></div>
+    <div class="maka-Arrow1" style="display: block;"><img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt=""><div style="font-size: 15px;color: #fff;">slide here</div></div>
     <div id="talkbubble">เล่นเพลง</div>
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
