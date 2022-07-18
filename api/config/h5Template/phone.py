@@ -125,7 +125,7 @@ def phone(url, name):
         document.addEventListener("touchstart", play, false);
     }
     audioAutoPlay('bgmedia');
-    
+    $('.maka-Arrow').css('display', 'none')
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
@@ -153,7 +153,7 @@ def phone(url, name):
         }, 2000);
         setTimeout(function () {
             $('.maka-Arrow').css('display', 'none')
-        }, 100);
+        }, 1);
         setTimeout(function () {
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
