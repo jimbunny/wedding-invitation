@@ -194,7 +194,7 @@ def phone(url, name):
                 $('#talkbubble').css('display', 'block')
                 //Not playing...maybe paused, stopped or never played.
             }
-            $('.maka-Arrow1').css('display', 'none')
+            $('.maka-Arrow').css('display', 'none')
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
