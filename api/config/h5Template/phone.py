@@ -59,7 +59,7 @@ def phone(url, name):
         background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)
     }
     .maka-Arrow {
-        display:none;
+        display:none !important;
     }
     .barrage-more {
         display: none !important;
