@@ -45,8 +45,8 @@ def phone(url, name):
         position: absolute;
         bottom: 20px;
         left: 50%;
-        margin-left: -33px;
-        width: 66px;
+        margin-left: -20px;
+        width: 40px;
         text-align: center;
         display: none;
         z-index: 1999;
@@ -57,6 +57,9 @@ def phone(url, name):
         animation-iteration-count: infinite;
         -webkit-animation-iteration-count: infinite;
         background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)
+    }
+    .maka-Arrow {
+        display:none;
     }
     .barrage-more {
         display: none !important;
@@ -125,7 +128,6 @@ def phone(url, name):
         document.addEventListener("touchstart", play, false);
     }
     audioAutoPlay('bgmedia');
-    $('.maka-Arrow').css('display', 'none')
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
@@ -148,12 +150,8 @@ def phone(url, name):
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
             $('#talkbubble').css('display', 'block')
-            $('.maka-Arrow').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
-        setTimeout(function () {
-            $('.maka-Arrow').css('display', 'none')
-        }, 1);
         setTimeout(function () {
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
