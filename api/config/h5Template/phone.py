@@ -58,9 +58,6 @@ def phone(url, name):
         -webkit-animation-iteration-count: infinite;
         background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)
     }
-    .maka-Arrow {
-        display: none !important;
-    }
     .barrage-more {
         display: none !important;
     }
@@ -150,6 +147,7 @@ def phone(url, name):
                 contentBg.style.top = (parseFloat(getComputedStyle(dom1).width.substring(0,7))-22.1562/2).toString() + "px" //第二步
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
+            $('.maka-Arrow').css('display', 'none')
             $('#talkbubble').css('display', 'block')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
