@@ -128,12 +128,15 @@ def phone(url, name):
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
+        setTimeout(function () {
+            $('.maka-Arrow').css('display', 'none')
+        }, 10);
         if (readystate == 'complete')
         {
         
         setTimeout(function () {
             $('.maka-Arrow').css('display', 'none')
-        }, 100);
+        }, 10);
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
