@@ -125,20 +125,23 @@ def phone(url, name):
         document.addEventListener("touchstart", play, false);
     }
     audioAutoPlay('bgmedia');
-    setTimeout(function () {
+        setTimeout(function () {
             $('.maka-Arrow').css('display', 'none')
-        }, 10);
+            console.log("test1")
+        }, 1000);
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
         setTimeout(function () {
             $('.maka-Arrow').css('display', 'none')
+            console.log("test2")
         }, 10);
         if (readystate == 'complete')
         {
         
         setTimeout(function () {
             $('.maka-Arrow').css('display', 'none')
+            console.log("test3")
         }, 10);
         setTimeout(function () {
             try{
@@ -158,10 +161,10 @@ def phone(url, name):
             }
             $('#talkbubble').css('display', 'block')
             $('.maka-Arrow').css('display', 'none')
+            console.log("test4")
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
         setTimeout(function () {
-           $('.maka-Arrow').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
         
