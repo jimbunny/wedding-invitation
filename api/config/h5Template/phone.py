@@ -45,8 +45,8 @@ def phone(url, name):
         position: absolute;
         bottom: 20px;
         left: 50%;
-        margin-left: -20px;
-        width: 40px;
+        margin-left: -33px;
+        width: 66px;
         text-align: center;
         display: none;
         z-index: 1999;
