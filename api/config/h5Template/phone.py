@@ -147,7 +147,7 @@ def phone(url, name):
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
             $('#talkbubble').css('display', 'block')
-            $('.maka-Arrow').css('display', 'none !important')
+            $('.maka-Arrow').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
         setTimeout(function () {
@@ -198,6 +198,7 @@ def phone(url, name):
                 //Not playing...maybe paused, stopped or never played.
             }
             $('.maka-Arrow1').css('display', 'none')
+            $('.maka-Arrow').css('display', 'block')
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
