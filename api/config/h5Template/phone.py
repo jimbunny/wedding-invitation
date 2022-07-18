@@ -131,6 +131,7 @@ def phone(url, name):
         console.log(readystate)
         if (readystate == 'complete')
         {
+        $('.maka-Arrow').css('display', 'none')
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
@@ -147,7 +148,6 @@ def phone(url, name):
                 contentBg.style.top = (parseFloat(getComputedStyle(dom1).width.substring(0,7))-22.1562/2).toString() + "px" //第二步
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
-            $('.maka-Arrow').css('display', 'none')
             $('#talkbubble').css('display', 'block')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
@@ -194,7 +194,7 @@ def phone(url, name):
                 $('#talkbubble').css('display', 'block')
                 //Not playing...maybe paused, stopped or never played.
             }
-            $('.maka-Arrow').css('display', 'none')
+            $('.maka-Arrow1').css('display', 'none')
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
@@ -215,6 +215,7 @@ def phone(url, name):
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             $('.maka-Arrow1').css('display', 'none')
+            $('.maka-Arrow').css('display', 'block')
         }
     }, 10000);
     !function () {
