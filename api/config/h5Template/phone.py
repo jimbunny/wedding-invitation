@@ -157,6 +157,7 @@ def phone(url, name):
             $('.maka-Arrow').css('display', 'none !important')
         }, 1);
         setTimeout(function () {
+           $('.maka-Arrow').css('display', 'none !important')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
         
