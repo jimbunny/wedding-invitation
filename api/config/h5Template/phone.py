@@ -129,10 +129,8 @@ def phone(url, name):
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
-        $('.maka-Arrow').css('display', 'none')
         if (readystate == 'complete')
         {
-        $('.maka-Arrow').css('display', 'none')
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
@@ -153,6 +151,9 @@ def phone(url, name):
             $('.maka-Arrow').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
+        setTimeout(function () {
+            $('.maka-Arrow').css('display', 'none')
+        }, 100);
         setTimeout(function () {
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
