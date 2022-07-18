@@ -62,7 +62,7 @@ def phone(url, name):
         display: none !important;
     }
     </style>
-    <div class="maka-Arrow1" style="display: block;"><img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt=""><div style="font-size: 15px;color: #fff;">slide here</div></div>
+   // <div class="maka-Arrow1" style="display: block;"><img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt=""><div style="color: #fff;">slide here</div></div>
     <div id="talkbubble">เล่นเพลง</div>
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
@@ -125,24 +125,12 @@ def phone(url, name):
         document.addEventListener("touchstart", play, false);
     }
     audioAutoPlay('bgmedia');
-        setTimeout(function () {
-            $('.maka-Arrow').css('display', 'none')
-            console.log("test1")
-        }, 1000);
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
-        setTimeout(function () {
-            $('.maka-Arrow').css('display', 'none')
-            console.log("test2")
-        }, 10);
         if (readystate == 'complete')
         {
-        
-        setTimeout(function () {
-            $('.maka-Arrow').css('display', 'none')
-            console.log("test3")
-        }, 10);
+         $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)')
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
@@ -160,7 +148,7 @@ def phone(url, name):
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
             $('#talkbubble').css('display', 'block')
-            $('.maka-Arrow').css('display', 'none !important')
+            $('.maka-Arrow').css('display', 'none')
             console.log("test4")
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
