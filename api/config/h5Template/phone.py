@@ -129,6 +129,7 @@ def phone(url, name):
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
+        $('.maka-Arrow').css('display', 'none')
         if (readystate == 'complete')
         {
         $('.maka-Arrow').css('display', 'none')
