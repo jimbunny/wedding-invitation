@@ -151,10 +151,10 @@ def phone(url, name):
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
         setTimeout(function () {
-            $('.maka-Arrow').css('display', 'none !important')
+            $('.maka-Arrow').css('display', 'none')
         }, 1);
         setTimeout(function () {
-           $('.maka-Arrow').css('display', 'none !important')
+           $('.maka-Arrow').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
         
@@ -198,7 +198,7 @@ def phone(url, name):
                 //Not playing...maybe paused, stopped or never played.
             }
             $('.maka-Arrow1').css('display', 'none')
-            $('.maka-Arrow').css('display', 'block')
+            $('.maka-Arrow').css('display', 'block !important')
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
@@ -219,7 +219,7 @@ def phone(url, name):
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             $('.maka-Arrow1').css('display', 'none')
-            $('.maka-Arrow').css('display', 'block')
+            $('.maka-Arrow').css('display', 'block !important')
         }
     }, 10000);
     !function () {
