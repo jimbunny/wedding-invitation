@@ -133,7 +133,7 @@ def phone(url, name):
         
         setTimeout(function () {
             $('.maka-Arrow').css('display', 'none')
-        }, 1000);
+        }, 100);
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
