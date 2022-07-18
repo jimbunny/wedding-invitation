@@ -129,7 +129,7 @@ def phone(url, name):
         console.log(readystate)
         if (readystate == 'complete')
         {
-         $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)')
+         // $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)')
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
@@ -199,7 +199,6 @@ def phone(url, name):
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
-                $('.maka-Arrow').style.removeProperty("background");
                 $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
             }, 2000);
             // 判断X轴移动的距离是否大于Y轴移动的距离
@@ -216,7 +215,6 @@ def phone(url, name):
         if(touchStatus==0){
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
-            $('.maka-Arrow').style.removeProperty("background");
         }
     }, 10000);
     !function () {
