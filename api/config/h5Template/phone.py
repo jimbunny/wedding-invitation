@@ -125,6 +125,9 @@ def phone(url, name):
         document.addEventListener("touchstart", play, false);
     }
     audioAutoPlay('bgmedia');
+    setTimeout(function () {
+            $('.maka-Arrow').css('display', 'none')
+        }, 10);
     var interval = setInterval(function () {
         var readystate = document.readyState.toLowerCase();
         console.log(readystate)
