@@ -58,9 +58,6 @@ def phone(url, name):
         -webkit-animation-iteration-count: infinite;
         background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)
     }
-    .maka-Arrow {
-        display:none !important;
-    }
     .barrage-more {
         display: none !important;
     }
