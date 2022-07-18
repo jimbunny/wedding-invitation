@@ -1873,3 +1873,511 @@
 2022-07-13 17:47:45,962 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-07-13 17:49:16,259 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-07-13 17:49:16,366 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 13:38:41,506 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 13:38:42,488 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-18 13:38:42,493 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-18 13:38:42,581 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-18 13:39:05,697 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:05] "GET /api/v1/h5/viewer/product/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 13:39:06,618 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:06] "GET /static/website_v2/css/foundation-icons.css HTTP/1.1" 200 -
+2022-07-18 13:39:06,638 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:06] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 13:39:06,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:06] "GET /static/website_v2/js/index_menu.js HTTP/1.1" 200 -
+2022-07-18 13:39:06,642 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:06] "GET /static/website_v2/js/anime.js HTTP/1.1" 200 -
+2022-07-18 13:39:06,667 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:06] "GET /static/website_v2/js/jquery-1.11.0.min.js HTTP/1.1" 200 -
+2022-07-18 13:39:06,693 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:06] "GET /static/website_v2/js/jquery-ui.min.js HTTP/1.1" 200 -
+2022-07-18 13:39:23,834 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 13:39:23,877 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 13:39:23,882 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 13:39:23,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 13:39:23,971 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 13:39:23,971 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 13:39:23,980 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 13:39:23,982 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:23] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 13:39:24,005 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 13:39:24,006 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 13:39:24,017 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 13:39:24,019 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 13:39:24,038 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 13:39:24,045 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 13:39:24,046 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 13:39:24,050 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 13:39:24,380 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 13:39:24,394 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 13:39:24,416 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:39:24] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 13:41:59,626 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 13:41:59,650 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 13:41:59,650 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 13:41:59,668 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,734 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,737 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 13:41:59,738 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 13:41:59,739 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,739 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 13:41:59,739 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,765 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,775 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,790 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 13:41:59,792 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 13:41:59,802 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 13:41:59,810 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 13:41:59,813 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 13:41:59,825 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:41:59] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 13:42:00,035 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:42:00] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 13:42:00,063 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 13:42:00] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 13:57:35,486 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-07-18 13:57:35,624 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 13:57:36,611 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-18 13:57:36,614 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-18 13:57:36,663 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-18 14:00:59,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:00:59] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:00:59,307 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:00:59] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:00:59,351 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:00:59] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:01:13,956 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:01:13] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:01:14,233 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:01:14] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:01:14,283 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:01:14] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:04:57,940 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:57] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:04:57,969 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:04:57,971 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:57] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:04:59,069 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,104 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,104 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,106 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:04:59,107 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:04:59,107 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:04:59,107 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,137 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,138 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:04:59,138 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,138 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:04:59,139 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:04:59,139 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:04:59,156 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:04:59,160 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:04:59,318 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:04:59,338 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:04:59] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:05:24,236 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:05:24,280 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:05:24,285 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:05:24,323 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,375 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,384 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,397 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:05:24,424 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:05:24,425 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:05:24,425 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,442 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,453 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,459 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:05:24,463 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:05:24,474 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:05:24,477 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:05:24,482 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:05:24,483 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:05:24,780 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:05:24,819 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:24] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:05:29,547 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:29] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:05:29,548 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:29] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:05:29,548 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:05:29] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:06:05,089 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:06:05,117 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:06:05,118 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:06:05,269 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,357 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,358 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:06:05,358 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:06:05,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:06:05,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,382 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,386 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,386 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:06:05,387 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:06:05,391 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:06:05,395 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:06:05,396 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:06:05,404 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:06:05,713 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:06:05,732 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:05] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:06:12,718 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:12] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:06:12,718 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:12] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:06:12,719 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:12] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:06:23,228 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:06:23,252 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:06:23,253 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:06:23,278 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,324 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,325 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:06:23,325 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:06:23,327 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,328 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:06:23,367 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,367 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,373 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:06:23,377 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:06:23,380 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:06:23,380 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:06:23,386 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:06:23,389 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:06:23,542 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:06:23,586 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:23] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:06:26,337 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:26] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:06:26,337 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:26] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:06:26,337 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:06:26] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:07:02,294 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:07:02,325 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:07:02,328 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:07:02,356 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,444 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,445 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,446 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,446 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:07:02,447 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:07:02,447 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:07:02,471 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,475 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,483 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:07:02,486 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:07:02,488 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:07:02,495 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:07:02,500 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:07:02,501 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:07:02,667 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:07:02,690 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:02] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:07:07,938 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:07] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:07:07,939 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:07] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:07:07,939 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:07:07] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:13:40,628 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:13:40,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:13:40,654 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:13:40,670 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,724 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:13:40,724 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,724 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:13:40,724 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,725 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:13:40,727 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,765 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,765 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,770 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:13:40,780 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:13:40,783 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:13:40,794 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:13:40,798 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:13:40,808 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:13:40,991 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:40] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:13:41,044 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:41] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:13:45,168 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:45] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:13:45,168 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:45] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:13:45,168 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:13:45] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:16:06,150 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:16:06,176 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:16:06,178 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:16:06,306 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,337 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:16:06,337 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,338 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:16:06,338 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:16:06,338 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,339 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,365 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,365 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,366 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:16:06,371 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:16:06,381 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:16:06,387 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:16:06,395 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:16:06,395 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:16:06,616 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:16:06,629 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:06] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:16:07,714 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:07] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:16:07,714 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:07] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:16:07,715 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:16:07] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:17:02,847 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:17:02,869 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:17:02,870 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:17:02,892 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,949 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,951 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:17:02,952 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:17:02,952 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,952 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,952 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:17:02,989 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,990 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,992 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:17:02,995 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:17:02,996 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:02] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:17:03,000 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:03] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:17:03,014 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:03] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:17:03,015 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:03] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:17:03,252 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:03] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:17:03,267 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:03] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:17:05,346 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:05] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:17:05,346 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:05] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:17:05,346 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:17:05] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:18:44,272 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:18:44,359 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:18:44,368 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:18:44,427 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,489 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:18:44,491 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,492 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,492 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:18:44,492 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:18:44,493 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,533 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,548 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:18:44,554 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,555 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:18:44,557 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:18:44,558 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:18:44,571 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:18:44,579 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:44] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:18:45,009 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:45] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:18:45,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:45] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:18:47,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:47] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:18:47,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:47] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:18:47,277 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:18:47] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:20:56,607 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:20:56,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:20:56,639 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:20:56,735 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,768 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,769 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,772 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:20:56,773 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:20:56,773 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,774 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:20:56,803 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,804 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,806 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:20:56,807 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:20:56,808 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:20:56,811 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:20:56,825 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:20:56,825 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:20:56,994 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:56] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:20:57,062 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:57] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:20:59,391 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:59] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:20:59,391 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:59] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:20:59,392 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:20:59] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:24:26,843 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:26] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:24:26,875 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:24:26,875 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:26] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:24:27,137 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,175 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,175 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:24:27,176 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,176 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:24:27,177 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:24:27,177 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,194 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,195 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,198 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:24:27,208 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:24:27,209 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:24:27,212 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:24:27,215 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:24:27,217 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:24:27,382 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:24:27,457 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:27] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:24:29,670 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:29] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:24:29,671 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:29] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:24:29,671 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:24:29] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:28:10,123 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:28:10,148 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:28:10,148 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:28:10,750 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,963 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,963 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:28:10,964 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:28:10,964 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,964 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:28:10,965 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,984 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,984 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,990 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:28:10,990 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:28:10,993 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:28:10,994 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:10] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:28:11,004 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:11] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:28:11,004 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:11] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:28:11,572 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:11] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:28:11,581 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:11] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:28:15,305 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:15] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:28:15,309 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:15] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:28:15,310 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:28:15] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:30:40,444 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:30:40,478 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:30:40,479 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:30:40,519 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,560 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:30:40,564 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:30:40,564 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,565 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,565 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,566 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:30:40,580 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,598 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:30:40,599 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,599 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:30:40,610 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:30:40,614 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:30:40,615 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:30:40,618 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:30:40,849 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:30:40,861 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:40] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:30:48,260 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:48] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:30:48,260 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:48] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:30:48,261 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:30:48] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:33:59,194 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-07-18 14:33:59,354 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 14:34:00,467 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-18 14:34:00,471 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-18 14:34:00,521 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-18 14:36:34,618 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:36:36,371 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:36:36,375 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:36:39,701 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:36:39,706 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:36:39] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:36:39,775 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-18 14:36:39,776 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:36:39] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-18 14:38:21,071 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:38:21,096 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:38:21,096 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:38:21,125 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,165 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:38:21,166 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,167 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,168 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:38:21,168 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:38:21,169 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,200 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,200 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,205 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:38:21,205 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:38:21,206 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:38:21,208 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:38:21,214 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:38:21,224 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:38:21,464 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:38:21,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:21] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:38:28,078 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:28] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:38:28,078 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:28] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:38:28,078 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:38:28] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:40:07,386 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-07-18 14:40:07,466 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 14:40:08,369 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-18 14:40:08,372 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-18 14:40:08,420 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-18 14:40:10,718 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:40:12,494 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:40:12,497 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:40:16,167 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:40:16,171 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:16] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:40:16,216 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-18 14:40:16,217 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:16] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-18 14:40:18,924 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:18] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:40:19,182 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:19] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:40:19,255 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:19] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:40:32,612 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:40:32,633 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:40:32,633 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:40:32,652 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,687 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,692 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,692 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:40:32,701 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:40:32,702 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:40:32,707 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,718 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,726 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,730 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:40:32,734 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:40:32,738 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:40:32,743 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:40:32,753 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:40:32,755 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:32] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:40:33,101 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:33] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:40:33,114 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:33] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:40:36,944 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:36] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:40:36,944 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:36] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:40:36,945 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:40:36] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:41:25,400 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-07-18 14:41:25,484 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 14:41:26,404 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-18 14:41:26,408 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-18 14:41:26,455 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-18 14:41:26,872 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:41:28,601 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:41:28,604 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:41:30,350 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:41:30,353 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:41:30] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:41:30,396 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-18 14:41:30,399 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:41:30] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-18 14:42:29,569 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:42:32,113 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:42:32,116 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:42:34,668 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:42:34,672 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:34] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:42:34,715 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-18 14:42:34,717 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:34] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-18 14:42:38,331 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:42:38,353 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:42:38,353 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:42:38,386 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,424 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:42:38,427 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:42:38,428 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,429 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:42:38,451 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,467 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,468 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-07-18 14:42:38,469 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:42:38,470 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:42:38,472 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-07-18 14:42:38,483 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-07-18 14:42:38,490 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-07-18 14:42:38,711 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:42:38,723 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:38] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:42:41,403 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:41] "GET /static/website_v2/images/presentBtn.png HTTP/1.1" 200 -
+2022-07-18 14:42:41,403 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:41] "GET /static/website_v2/images/moneyBtn.png HTTP/1.1" 200 -
+2022-07-18 14:42:41,404 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:41] "GET /static/website_v2/images/tanmuOpen.png HTTP/1.1" 200 -
+2022-07-18 14:42:58,599 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:58] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:42:58,873 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:58] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:42:58,984 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:42:58] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:43:25,521 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\config\\h5Template\\phone.py', reloading
+2022-07-18 14:43:25,628 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-07-18 14:43:26,655 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-07-18 14:43:26,658 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-07-18 14:43:26,716 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-07-18 14:43:28,498 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:43:30,275 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:43:30,278 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-07-18 14:43:32,820 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/YJO1MYUAW601736963 HTTP/1.1" 200 None
+2022-07-18 14:43:32,824 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:43:32] "GET /api/v1/h5/makeH5/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:43:32,861 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-07-18 14:43:32,862 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:43:32] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-07-18 14:43:37,088 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:43:37] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:43:37,240 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:43:37] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:43:37,304 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:43:37] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:45:13,636 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /api/v1/h5/viewer/template/YJO1MYUAW601736963 HTTP/1.1" 200 -
+2022-07-18 14:45:13,663 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-18 14:45:13,664 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-07-18 14:45:13,681 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,844 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,871 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-07-18 14:45:13,871 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,872 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,872 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-07-18 14:45:13,872 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,872 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-07-18 14:45:13,878 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,884 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-07-18 14:45:13,885 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:13] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-07-18 14:45:14,111 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:14] "[33mGET /static/website_v2/js/jquery.min.map HTTP/1.1[0m" 404 -
+2022-07-18 14:45:14,124 - _internal.py[line:225] - INFO: 127.0.0.1 - - [18/Jul/2022 14:45:14] "GET /api/v1/h5/greetings/1 HTTP/1.1" 200 -
+2022-07-18 14:49:33,793 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-07-18 14:49:33,870 - _internal.py[line:225] - INFO:  * Restarting with stat

@@ -41,7 +41,30 @@ def phone(url, name):
         border-left: 12px solid #a3a3a3;
         border-bottom: 6px solid transparent;
     }
+    .maka-Arrow1 {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -33px;
+        width: 66px;
+        text-align: center;
+        display: none;
+        z-index: 1999;
+        animation-name: arrowing;
+        -webkit-animation-name: arrowing;
+        animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+    }
+    .maka-Arrow {
+        display: none !important;
+    }
+    .barrage-more {
+        display: none !important;
+    }
     </style>
+    <div class="maka-Arrow1" style="display: block;"><img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt=""><div style="color: #fff;">slide here</div></div>
     <div id="talkbubble">เล่นเพลง</div>
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
@@ -127,11 +150,9 @@ def phone(url, name):
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
             $('#talkbubble').css('display', 'block')
-            $('.barrage-more').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
         setTimeout(function () {
-            $('.barrage-more').css('display', 'none')
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 5000);
         
@@ -174,10 +195,10 @@ def phone(url, name):
                 $('#talkbubble').css('display', 'block')
                 //Not playing...maybe paused, stopped or never played.
             }
+            $('.maka-Arrow1').css('display', 'none')
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
-                $('.barrage-more').css('display', 'none')
                 $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
             }, 2000);
             // 判断X轴移动的距离是否大于Y轴移动的距离
@@ -194,6 +215,7 @@ def phone(url, name):
         if(touchStatus==0){
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
+            $('.maka-Arrow1').css('display', 'none')
         }
     }, 10000);
     !function () {
