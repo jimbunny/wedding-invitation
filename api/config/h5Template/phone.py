@@ -160,7 +160,7 @@ def phone(url, name):
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
             $('#talkbubble').css('display', 'block')
-            $('.maka-Arrow').css('display', 'none')
+            $('.maka-Arrow').css('display', 'none !important')
             console.log("test4")
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
         }, 2000);
