@@ -41,23 +41,6 @@ def phone(url, name):
         border-left: 12px solid #a3a3a3;
         border-bottom: 6px solid transparent;
     }
-    .maka-Arrow1 {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        margin-left: -20px;
-        width: 40px;
-        text-align: center;
-        display: none;
-        z-index: 1999;
-        animation-name: arrowing;
-        -webkit-animation-name: arrowing;
-        animation-duration: 1.5s;
-        -webkit-animation-duration: 1.5s;
-        animation-iteration-count: infinite;
-        -webkit-animation-iteration-count: infinite;
-        background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)
-    }
     .barrage-more {
         display: none !important;
     }
@@ -129,7 +112,8 @@ def phone(url, name):
         console.log(readystate)
         if (readystate == 'complete')
         {
-         // $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)')
+        $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%)')
+        document.getElementsByClassName("maka-Arrow")[0].innerHTML=' <img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt=""><div style="font-size: 15px; color: #fff;">slide here</div>';
         setTimeout(function () {
             try{
                 var dom1 = document.querySelector('.stopAnimation');
@@ -184,6 +168,8 @@ def phone(url, name):
         {#console.log(moveDistanceX, moveDistanceY)#}
         // 判断滑动距离超过40 且 时间小于500毫秒
         if ((Math.abs(moveDistanceX) > 40 || Math.abs(moveDistanceY) > 40) && moveTime < 500) {
+            $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)')
+            document.getElementsByClassName("maka-Arrow")[0].innerHTML=' <img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt="">';
             var myAudio = document.getElementById('bgmedia');
             if (myAudio.duration > 0 && !myAudio.paused) {
                 $('#talkbubble').css('display', 'none')
@@ -192,8 +178,6 @@ def phone(url, name):
                 $('#talkbubble').css('display', 'block')
                 //Not playing...maybe paused, stopped or never played.
             }
-            $('.maka-Arrow1').css('display', 'none')
-            $('.maka-Arrow').css('display', 'block !important')
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
             setTimeout(function () {
@@ -213,6 +197,8 @@ def phone(url, name):
         if(touchStatus==0){
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
+            $('.maka-Arrow').css('background', 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)')
+            document.getElementsByClassName("maka-Arrow")[0].innerHTML=' <img src="https://img1.maka.im/assets/usual/slideguide-3-view.png" alt="">';
         }
     }, 10000);
     !function () {
