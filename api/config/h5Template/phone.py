@@ -14,6 +14,7 @@ def phone(url, name):
        width: 70.1562px;
         height: 22.1562px;
         padding: 2px 2px 2px 7px;
+        font-size: 15px;
         right: 20%;
         top: 3%;
         background: #a3a3a3;
