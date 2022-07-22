@@ -46,7 +46,7 @@ def phone(url, name):
         display: none !important;
     }
     </style>
-    <div id="talkbubble">เล่นเพลง</div>
+    <div id="talkbubble" style="font-size:15px">เล่นเพลง</div>
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
