@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'SanamDeklenchaya';
-    src: url(https://www.uniecard.com/static/website_v2/webfonts/SanamDeklenchaya.woff2) format('woff2'),
-        url(https://www.uniecard.com/static/website_v2/webfonts/SanamDeklenchaya.woff) format('woff');
+    src: url('https://www.uniecard.com/static/website_v2/webfonts/SanamDeklenchaya.woff2') format('woff2'),
+        url('https://www.uniecard.com/static/website_v2/webfonts/SanamDeklenchaya.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
