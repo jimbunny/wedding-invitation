@@ -12,7 +12,7 @@ def choseFont(name):
             {"url": "https://fonts.googleapis.com/css?family=Sriracha", "name": "Sriracha", "family": "cursive"},
             {"url": "https://fonts.googleapis.com/css?family=Taviraj", "name": "Taviraj", "family": "serif"},
             {"url": "https://fonts.googleapis.com/css?family=Trirong", "name": "Trirong", "family": "serif"},
-            {"url": "https://www.uniecard.com/static/website_v2/css/SanamDeklenchaya.css", "name": "SanamDeklen_chaya", "family": "SanamDeklenchaya"},
+            {"url": "https://www.uniecard.com/static/website_v2/css/SanamDeklenchaya.css", "name": "SanamDeklenchaya", "family": "serif"},
             {"url": "https://fonts.googleapis.com/css?family=Athiti|Chonburi|Itim|Kanit|Maitree|Mitr|Pattaya|Pridi|Prompt|Sriracha|Taviraj|Trirong", "name": "all", "family": "sans-serif"}
             ]
     for item in demo:
