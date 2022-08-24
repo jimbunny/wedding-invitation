@@ -69,7 +69,7 @@ def phone(url, name):
         }
         if (browser.versions.mobile) {//判断是否是移动设备打开
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
-            if (ua.match(/line/i) == "line") {
+            if (ua.match(/line/i) == "lineTest") {
                 var url = window.location.href;
                 if (url.indexOf("?") < 0) {
                     url += "?openExternalBrowser=1";
