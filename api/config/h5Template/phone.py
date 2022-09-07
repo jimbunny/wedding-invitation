@@ -131,8 +131,10 @@ def phone(url, name):
                 contentBg.style.top = (parseFloat(getComputedStyle(dom1).width.substring(0,7))-22.1562/2).toString() + "px" //第二步
                 contentBg.style.right =  (parseFloat(getComputedStyle(dom1).width.substring(0,7))/2*3+18).toString() + "px"
             }
-            $('#talkbubble').css('display', 'block')
-            $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
+            finally {
+                $('#talkbubble').css('display', 'block')
+                $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
+            }
         }, 2000);
         setTimeout(function () {
             $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
