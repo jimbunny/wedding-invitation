@@ -3135,3 +3135,36 @@
 2022-07-19 18:12:35,357 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
 2022-07-19 18:13:39,224 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
 2022-07-19 18:13:39,301 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-09-07 13:20:42,288 - _internal.py[line:225] - INFO:  * Restarting with stat
+2022-09-07 13:20:43,266 - _internal.py[line:225] - WARNING:  * Debugger is active!
+2022-09-07 13:20:43,271 - _internal.py[line:225] - INFO:  * Debugger PIN: 163-423-465
+2022-09-07 13:20:43,335 - _internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5678/ (Press CTRL+C to quit)
+2022-09-07 13:23:12,763 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-09-07 13:23:14,184 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /pcviewer/601736963/BQ6K7AXMW601736963 HTTP/1.1" 200 None
+2022-09-07 13:23:14,197 - connectionpool.py[line:1005] - DEBUG: Starting new HTTPS connection (1): maka.im:443
+2022-09-07 13:23:15,752 - connectionpool.py[line:465] - DEBUG: https://maka.im:443 "GET /viewer/601736963/BQ6K7AXMW601736963 HTTP/1.1" 200 None
+2022-09-07 13:23:15,764 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:15] "GET /api/v1/h5/makeH5/product/BQ6K7AXMW601736963 HTTP/1.1" 200 -
+2022-09-07 13:23:15,889 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-09-07 13:23:15,891 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:15] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-09-07 13:23:34,956 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:34] "GET /api/v1/h5/viewer/product/BQ6K7AXMW601736963 HTTP/1.1" 200 -
+2022-09-07 13:23:35,022 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+2022-09-07 13:23:35,024 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-09-07 13:23:35,070 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,308 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/css/reset.css HTTP/1.1" 200 -
+2022-09-07 13:23:35,309 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/js/main.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,311 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/css/default.css HTTP/1.1" 200 -
+2022-09-07 13:23:35,322 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/css/menu.css HTTP/1.1" 200 -
+2022-09-07 13:23:35,345 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/js/modernizr.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,350 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/images/boy_qrcode_money.png HTTP/1.1" 200 -
+2022-09-07 13:23:35,353 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/js/index.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,364 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/images/logo-text-new.png HTTP/1.1" 200 -
+2022-09-07 13:23:35,368 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,377 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/js/jquery-2.1.1.min.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,381 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/images/girl_phone.png HTTP/1.1" 200 -
+2022-09-07 13:23:35,387 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/images/GPS_button.png HTTP/1.1" 200 -
+2022-09-07 13:23:35,387 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+2022-09-07 13:23:35,397 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 13:23:35] "GET /static/website_v2/images/boy_phone.png HTTP/1.1" 200 -
+2022-09-07 14:13:01,152 - app.py[line:30] - ERROR: Got exception during processing: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-09-07 14:13:01,194 - _internal.py[line:225] - INFO: 127.0.0.1 - - [07/Sep/2022 14:13:01] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 411 -
+2022-09-07 14:28:25,492 - _internal.py[line:225] - INFO:  * Detected change in 'D:\\Code\\wedding-invitation\\api\\manager.py', reloading
+2022-09-07 14:28:26,211 - _internal.py[line:225] - INFO:  * Restarting with stat
