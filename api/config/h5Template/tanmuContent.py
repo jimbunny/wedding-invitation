@@ -209,7 +209,7 @@ def tanmuContent(template_type="turn"):
         modalShowPresentMoneyDiv.style.display = 'block';
     })
     $("#gpsBtn").click(function() {
-        window.open("{{ data.GPSUrl|safe }}")
+        window.open("{{ data.GPSUrl }}")
     })
       </script>
   <link rel="stylesheet" href="/static/website_v2/css/reset.css">
