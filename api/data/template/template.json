@@ -2075,8 +2075,208 @@
       "tmpColor": "green,white",
       "tmpType": "wedding",
       "tmpSource": "hunliji",
-      "pageViews": 1080,
+      "pageViews": 1082,
       "coverUrl": "https://i.ibb.co/J2MWNjQ/52.png",
+      "ThumbnailUrl": "https://i.ibb.co/VSX5FV8/logo-transparent1.png",
+      "tags": ["all", "vip"]
+    },
+    {
+      "name": "Template#53",
+      "id": "53",
+      "key": "YNYPEPR1W601736963",
+      "iframeUrl": "https://u601736963.viewer.maka.im/k/YNYPEPR1W601736963",
+      "font": "kanit",
+      "_type": "turn",
+
+      "isTanmu": 1,
+      "tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      "tanmuBtnFontColor": "rgb(255, 255, 255)",
+      "tanmuBgColor":  "rgba(0, 0, 0, 0.2)",
+      "tanmuFontColor": "rgb(255, 255, 255)",
+
+      "isFunction": 0,
+      "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+      "functionBoyPhone": "888888",
+      "functionGirlPhone": "888888",
+      "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+      "functionFontColor": "#fff",
+      "functionBKColor": "#95978d",
+
+      "isPay": 1,
+      "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+      "payName": "jim",
+
+      "isPresent": 1,
+
+      "isGPS": 1,
+      "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+
+      "tmpColor": "green,white,brown",
+      "tmpType": "wedding",
+      "tmpSource": "hunliji",
+      "pageViews": 1083,
+      "coverUrl": "https://i.ibb.co/25jKK2T/53.png",
+      "ThumbnailUrl": "https://i.ibb.co/VSX5FV8/logo-transparent1.png",
+      "tags": ["all", "vip"]
+    },
+    {
+      "name": "Template#54",
+      "id": "54",
+      "key": "YNYPEPR1W601736963",
+      "iframeUrl": "https://u601736963.viewer.maka.im/k/S8TFGKI0W601736963",
+      "font": "kanit",
+      "_type": "turn",
+
+      "isTanmu": 1,
+      "tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      "tanmuBtnFontColor": "rgb(255, 255, 255)",
+      "tanmuBgColor":  "rgba(0, 0, 0, 0.2)",
+      "tanmuFontColor": "rgb(255, 255, 255)",
+
+      "isFunction": 0,
+      "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+      "functionBoyPhone": "888888",
+      "functionGirlPhone": "888888",
+      "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+      "functionFontColor": "#fff",
+      "functionBKColor": "#95978d",
+
+      "isPay": 1,
+      "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+      "payName": "jim",
+
+      "isPresent": 1,
+
+      "isGPS": 1,
+      "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+
+      "tmpColor": "green,white,pink",
+      "tmpType": "wedding",
+      "tmpSource": "hunliji",
+      "pageViews": 1084,
+      "coverUrl": "https://i.ibb.co/3zjHzKq/54.png",
+      "ThumbnailUrl": "https://i.ibb.co/VSX5FV8/logo-transparent1.png",
+      "tags": ["all", "vip"]
+    },
+    {
+      "name": "Template#54",
+      "id": "54",
+      "key": "S8TFGKI0W601736963",
+      "iframeUrl": "https://u601736963.viewer.maka.im/k/S8TFGKI0W601736963",
+      "font": "kanit",
+      "_type": "turn",
+
+      "isTanmu": 1,
+      "tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      "tanmuBtnFontColor": "rgb(255, 255, 255)",
+      "tanmuBgColor":  "rgba(0, 0, 0, 0.2)",
+      "tanmuFontColor": "rgb(255, 255, 255)",
+
+      "isFunction": 0,
+      "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+      "functionBoyPhone": "888888",
+      "functionGirlPhone": "888888",
+      "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+      "functionFontColor": "#fff",
+      "functionBKColor": "#95978d",
+
+      "isPay": 1,
+      "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+      "payName": "jim",
+
+      "isPresent": 1,
+
+      "isGPS": 1,
+      "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+
+      "tmpColor": "green,white,pink",
+      "tmpType": "wedding",
+      "tmpSource": "hunliji",
+      "pageViews": 1084,
+      "coverUrl": "https://i.ibb.co/3zjHzKq/54.png",
+      "ThumbnailUrl": "https://i.ibb.co/VSX5FV8/logo-transparent1.png",
+      "tags": ["all", "vip"]
+    },
+    {
+      "name": "Template#55",
+      "id": "55",
+      "key": "I26T3JVYW601736963",
+      "iframeUrl": "https://u601736963.viewer.maka.im/k/I26T3JVYW601736963",
+      "font": "kanit",
+      "_type": "turn",
+
+      "isTanmu": 1,
+      "tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      "tanmuBtnFontColor": "rgb(255, 255, 255)",
+      "tanmuBgColor":  "rgba(0, 0, 0, 0.2)",
+      "tanmuFontColor": "rgb(255, 255, 255)",
+
+      "isFunction": 0,
+      "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+      "functionBoyPhone": "888888",
+      "functionGirlPhone": "888888",
+      "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+      "functionFontColor": "#fff",
+      "functionBKColor": "#95978d",
+
+      "isPay": 1,
+      "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+      "payName": "jim",
+
+      "isPresent": 1,
+
+      "isGPS": 1,
+      "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+
+      "tmpColor": "brown,white",
+      "tmpType": "wedding",
+      "tmpSource": "hunliji",
+      "pageViews": 1086,
+      "coverUrl": "https://i.ibb.co/wBg9N6Q/55.png",
+      "ThumbnailUrl": "https://i.ibb.co/VSX5FV8/logo-transparent1.png",
+      "tags": ["all", "vip"]
+    },
+    {
+      "name": "Template#56",
+      "id": "56",
+      "key": "5Y7XAYRIW601736963",
+      "iframeUrl": "https://u601736963.viewer.maka.im/k/5Y7XAYRIW601736963",
+      "font": "kanit",
+      "_type": "turn",
+
+      "isTanmu": 1,
+      "tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      "tanmuBtnFontColor": "rgb(255, 255, 255)",
+      "tanmuBgColor":  "rgba(0, 0, 0, 0.2)",
+      "tanmuFontColor": "rgb(255, 255, 255)",
+
+      "isFunction": 0,
+      "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+      "functionBoyPhone": "888888",
+      "functionGirlPhone": "888888",
+      "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+      "functionFontColor": "#fff",
+      "functionBKColor": "#95978d",
+
+      "isPay": 1,
+      "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+      "payName": "jim",
+
+      "isPresent": 1,
+
+      "isGPS": 1,
+      "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+
+      "tmpColor": "green,white",
+      "tmpType": "wedding",
+      "tmpSource": "hunliji",
+      "pageViews": 1087,
+      "coverUrl": "https://i.ibb.co/7z2zstB/56.png",
       "ThumbnailUrl": "https://i.ibb.co/VSX5FV8/logo-transparent1.png",
       "tags": ["all", "vip"]
     }
