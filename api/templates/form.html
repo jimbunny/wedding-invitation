@@ -70,6 +70,7 @@
         <tr>
             <td>{{ greeting.text.split(":")[0] }}</td>
             <td>{{ greeting.text.split(":")[1] |safe }}</td>
+            <td>{{ greeting.text.split(":") }}</td>
         </tr>
         {% endfor %}
         </tbody>
