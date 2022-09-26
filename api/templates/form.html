@@ -68,12 +68,8 @@
         <tbody>
          {% for greeting in data.greetings.data %}
         <tr>
-            <td>{{ greeting.text.split(":")[0] }}</td>
-            {% if greeting.text.split(":")[1] %}
-            <td>{{ greeting.text.split(":")[1] }}</td>
-            {% else %}
-             <td>{{ greeting.text.split(":")[2] }}</td>
-            {% endif %}
+            <td>{{ greeting.text.split(":",1)[0] }}</td>
+             <td>{{ greeting.text.split(":",1)[1] }}</td>
         </tr>
         {% endfor %}
         </tbody>
