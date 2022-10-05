@@ -125,10 +125,12 @@ class H5FormResource(Resource):
         swagger_from_file: ../../docs/swagger/test_get.yml
 
         """
-        data = {"presents": "", "greetings": "", "isTanmu": 0, "isPresent": 0}
+        data = {"presents": "", "greetings": "", "isTanmu": 0, "isPresent": 0, "isPresentTime": 0}
         try:
             isTanmu = 0
             isPresent = 0
+            isPresentTime = 0
+
             if int(id) >= 10000:
                 with open(os.path.join(root, "data", "template", "product.json"), 'r', encoding="utf8") as load_f:
                     load_dict2 = json.load(load_f)
@@ -141,8 +143,10 @@ class H5FormResource(Resource):
                         pretty_result(item["id"])
                         isTanmu = item["isTanmu"]
                         isPresent = item["isPresent"]
+                        isPresentTime = item["isPresentTime"]
                         data["isPresent"] = int(isPresent)
                         data["isTanmu"] = int(isTanmu)
+                        data["isPresentTime"] = int(isPresentTime)
             greetingPath = os.path.join(root, "data", "template", "greetings", str(id) + ".json")
             presentPath = os.path.join(root, "data", "template", "presents", str(id) + ".json")
             if not isTanmu and not isPresent:
@@ -244,6 +248,7 @@ class H5PresentResource(Resource):
         # logging.error("error info: %s" % "test error")
         name = request.form.get("name")
         present = request.form.get("present")
+        presentTime = request.form.get("presentTime")
         path = os.path.join(root, "data", "template", "presents", str(id) + ".json")
         presentInit = {'data': []}
         if not os.path.exists(path):
@@ -253,7 +258,10 @@ class H5PresentResource(Resource):
 
         with open(path, 'r', encoding="utf8") as load_f:
             load_dict = json.load(load_f)
-        load_dict.get('data').append({"name": str(name), "number": str(present)})
+        if presentTime:
+            load_dict.get('data').append({"name": str(name), "number": str(present), "presentTime": str(presentTime)})
+        else:
+            load_dict.get('data').append({"name": str(name), "number": str(present)})
         json_str = json.dumps(load_dict, indent=4)
         with open(path, 'w') as json_file:
             json_file.write(json_str)

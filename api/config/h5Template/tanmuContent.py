@@ -161,6 +161,26 @@ def tanmuContent(template_type="turn"):
                               <input type="text" class="form-control" style="width:100% !important;" name="present" placeholder="จำนวนผู้ร่วมงาน" />
                             </div>
                           </div>
+                          {% if data.isPresentTime %}
+                          <div class="form-group">
+                            <div class="col-md-24" style="padding-left:10px;padding-right: 10px;">
+                                <select class="form-control" style="width:100%" name="presentTime" id="presentTime">
+                                {% if 'allday' in data.presentTimeSelect %}
+                                  <option value="เต็มวัน">เต็มวัน</option>
+                                  {% endif %}
+                                {% if 'morning' in data.presentTimeSelect %}
+                                  <option value="งานเช้า">งานเช้า </option>
+                                {% endif %}
+                                {% if 'afternoon' in data.presentTimeSelect %}
+                                  <option value="งานบ่าย">งานบ่าย</option>
+                                {% endif %}
+                                {% if 'evening' in data.presentTimeSelect %}
+                                  <option value="งานเย็น">งานเย็น</option>
+                                {% endif %}
+                                </select>
+                            </div>
+                          </div>
+                          {% endif %}
                           <div class="form-group">
                             <div class="col-md-24 col-md-offset-2" style="padding-left:10px;padding-right: 10px;">
                               <button id="subPresentBtn" type="submit" class="btn btn-primary" style="width:100%;">ส่ง</button>

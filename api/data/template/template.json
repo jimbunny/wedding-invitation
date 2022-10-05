@@ -31,6 +31,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue",
       "tmpType": "wedding",
@@ -71,6 +73,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "black",
       "tmpType": "wedding",
@@ -111,6 +115,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "green,brown,white",
       "tmpType": "wedding",
@@ -151,6 +157,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "black",
       "tmpType": "wedding",
@@ -191,6 +199,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,green",
       "tmpType": "wedding",
@@ -231,6 +241,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,pink,green",
       "tmpType": "wedding",
@@ -271,6 +283,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,green",
       "tmpType": "wedding",
@@ -311,6 +325,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,yellow,green,white",
       "tmpType": "wedding",
@@ -351,6 +367,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "green,white",
       "tmpType": "wedding",
@@ -391,6 +409,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink",
       "tmpType": "wedding",
@@ -431,6 +451,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,brown,pink",
       "tmpType": "wedding",
@@ -471,6 +493,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,pink",
       "tmpType": "wedding",
@@ -511,6 +535,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink,red",
       "tmpType": "wedding",
@@ -551,6 +577,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,pink,white",
       "tmpType": "wedding",
@@ -591,6 +619,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,pink,brown",
       "tmpType": "wedding",
@@ -631,6 +661,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,brown",
       "tmpType": "wedding",
@@ -671,6 +703,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "red",
       "tmpType": "pink,red",
@@ -711,6 +745,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,green,pink",
       "tmpType": "wedding",
@@ -751,6 +787,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,pink,white",
       "tmpType": "wedding",
@@ -791,6 +829,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white",
       "tmpType": "wedding",
@@ -831,6 +871,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "red,pink,white",
       "tmpType": "wedding",
@@ -871,6 +913,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,pink,brown,white",
       "tmpType": "wedding",
@@ -911,6 +955,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,white",
       "tmpType": "wedding",
@@ -951,6 +997,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,yellow,white",
       "tmpType": "wedding",
@@ -991,6 +1039,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink,brown",
       "tmpType": "wedding",
@@ -1031,6 +1081,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,yellow",
       "tmpType": "wedding",
@@ -1071,6 +1123,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "yellow,brown,white",
       "tmpType": "wedding",
@@ -1111,6 +1165,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,white",
       "tmpType": "wedding",
@@ -1151,6 +1207,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,green",
       "tmpType": "wedding",
@@ -1191,6 +1249,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "red,white",
       "tmpType": "wedding",
@@ -1231,6 +1291,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,white",
       "tmpType": "wedding",
@@ -1271,6 +1333,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink,brown",
       "tmpType": "wedding",
@@ -1311,6 +1375,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "red,pink",
       "tmpType": "wedding",
@@ -1351,6 +1417,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,white",
       "tmpType": "wedding",
@@ -1391,6 +1459,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,white",
       "tmpType": "wedding",
@@ -1431,6 +1501,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "red,pink,brown,white",
       "tmpType": "wedding",
@@ -1471,6 +1543,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,white",
       "tmpType": "wedding",
@@ -1511,6 +1585,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,blue",
       "tmpType": "wedding",
@@ -1551,6 +1627,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,white,yellow",
       "tmpType": "wedding",
@@ -1591,6 +1669,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,brown,yellow",
       "tmpType": "wedding",
@@ -1631,6 +1711,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,yellow,brown",
       "tmpType": "wedding",
@@ -1671,6 +1753,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "red,brown.white",
       "tmpType": "wedding",
@@ -1711,6 +1795,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "purple,brown",
       "tmpType": "wedding",
@@ -1751,6 +1837,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink,blue",
       "tmpType": "wedding",
@@ -1791,6 +1879,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink,brown",
       "tmpType": "wedding",
@@ -1831,6 +1921,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "blue,white,purple",
       "tmpType": "wedding",
@@ -1871,6 +1963,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "black,brown",
       "tmpType": "wedding",
@@ -1911,6 +2005,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "white,green,pink",
       "tmpType": "wedding",
@@ -1951,6 +2047,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "black,white,green",
       "tmpType": "wedding",
@@ -1991,6 +2089,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "pink,white",
       "tmpType": "wedding",
@@ -2031,6 +2131,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "yellow,white",
       "tmpType": "wedding",
@@ -2071,6 +2173,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "green,white",
       "tmpType": "wedding",
@@ -2111,6 +2215,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "green,white,brown",
       "tmpType": "wedding",
@@ -2151,6 +2257,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "green,white,pink",
       "tmpType": "wedding",
@@ -2191,6 +2299,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "brown,white",
       "tmpType": "wedding",
@@ -2231,6 +2341,8 @@
       "isGPS": 1,
       "GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
 
+      "isPresentTime": 0,
+      "presentTimeSelect": ["allday","morning","afternoon,evening"],
 
       "tmpColor": "green,white",
       "tmpType": "wedding",

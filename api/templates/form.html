@@ -30,13 +30,37 @@
 
 <!-- Tab panes -->
 <div class="tab-content">
-{% if data.isPresent %}
+{% if data.isPresent and data.isPresentTime %}
   <div class="tab-pane container active" id="present">
     <table class="table table-bordered" style="margin-top:10px;">
         <thead>
         <tr>
             <th>ชื่อ</th>
             <th>จำนวนผู้ร่วมงาน</th>
+            <th>เวลา</th>
+        </tr>
+        </thead>
+
+        <tbody>
+         {% for present in data.presents.data %}
+        <tr>
+            <td>{{ present.name }}</td>
+            <td>{{ present.number }}</td>
+            <td>{{ present.presentTime }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+  </div>
+{% endif %}
+
+{% if data.isPresent and not data.isPresentTime %}
+  <div class="tab-pane container active" id="present">
+    <table class="table table-bordered" style="margin-top:10px;">
+        <thead>
+        <tr>
+            <th>ชื่อ</th>
+            <th>จำนวนผู้ร่วมงาน</th
         </tr>
         </thead>
 
@@ -51,6 +75,7 @@
     </table>
   </div>
 {% endif %}
+
 {% if data.isTanmu %}
     {% if data.isPresent %}
         <div class="tab-pane container fade" id="greeting">

@@ -27,8 +27,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 			"name": "test",
@@ -59,8 +61,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 			"name": "จิณณพัต ＆ ประธาน",
@@ -91,8 +95,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 			"name": "วัชรพร (แอน) ＆ ธวัชชัย (อาร์ท)",
@@ -123,8 +129,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 			"name": "kin ＆ lookmoo",
@@ -155,8 +163,10 @@
 		    "isPresent": 0,
 			
 			"isGPS": 1,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 			"name": "jim ＆ puen",
@@ -187,8 +197,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 			"name": "tiger",
@@ -219,8 +231,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
-		
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "unika demo",
@@ -253,7 +267,10 @@
 		    "isPresent": 1,
 
 			"isGPS": 1,
-      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6"
+      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "demo2",
@@ -286,7 +303,10 @@
 		    "isPresent": 1,
 			
 			"isGPS": 1,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "party",
@@ -319,7 +339,10 @@
 		    "isPresent": 0,
 
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "demo3",
@@ -352,7 +375,10 @@
 		    "isPresent": 0,
 
 			"isGPS": 0,
-      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en"
+      		"GPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "Chatphon Diburi ＆ Runnara Krongsombut",
@@ -385,7 +411,10 @@
 		    "isPresent": 1,
 
 			"isGPS": 1,
-      		"GPSUrl": "https://www.google.com/maps/place/65+Cafe%26restaurant/@14.5604733,100.9242198,17z/data=!3m1!4b1!4m5!3m4!1s0x311de98fb377d409:0xc31559c98ffdf7b7!8m2!3d14.5604733!4d100.9264085"
+      		"GPSUrl": "https://www.google.com/maps/place/65+Cafe%26restaurant/@14.5604733,100.9242198,17z/data=!3m1!4b1!4m5!3m4!1s0x311de98fb377d409:0xc31559c98ffdf7b7!8m2!3d14.5604733!4d100.9264085",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "นางสาวสิริพร ธรรมธีระ ＆ นายรัฐศาสตร์ วัฒนาทร",
@@ -418,7 +447,10 @@
 		    "isPresent": 1,
 
 			"isGPS": 1,
-      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6"
+      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6",
+
+			"isPresentTime": 1,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		},
 		{
 		  "title": "F-STAR TRAVEL",
@@ -451,7 +483,10 @@
 		    "isPresent": 0,
 
 			"isGPS": 0,
-      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6"
+      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		}
 	]
 }
