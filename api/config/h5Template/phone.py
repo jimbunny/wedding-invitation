@@ -50,6 +50,16 @@ def phone(url, name):
     <script src="/static/js/jquery.min.js"></script>
     <link href=' ''' + str(font.get('url')) + ''' ' rel='stylesheet' type='text/css'>
     <script>
+       // iframe
+        let params = {}
+        window.addEventListener('message', function (event) {
+          params = JSON.parse(event.data);
+           document.querySelector("div[ele-id='{{ data.presentId }}']").addEventListener("click", function () {
+            var modalShowPresentMoneyDiv = document.getElementById('modalShowPresent');
+            modalShowPresentMoneyDiv.style.display = 'block';
+            $('#presentModal').modal("show");
+        });
+        })
       var browser = {
             versions: function () {
                 var u = navigator.userAgent, app = navigator.appVersion;

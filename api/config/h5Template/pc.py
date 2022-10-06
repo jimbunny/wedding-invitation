@@ -11,13 +11,14 @@ def pc(url, name):
     pc = '''
     <script>
     {% if data.presentId %}
-    try {
-        document.querySelector("div[ele-id='{{ data.presentId }}']").addEventListener("click", function () {
-            var modalShowPresentMoneyDiv = document.getElementById('modalShowPresent');
-            modalShowPresentMoneyDiv.style.display = 'block';
-            $('#presentModal').modal("show");
-        });
-    }catch(err) {}
+    let previewIframe = document.getElementById('previewiframe')
+    let params = {
+      id: 1213
+    }
+    
+    previewIframe.addEventListener('load', function (e) {
+      previewIframe.contentWindow.postMessage(JSON.stringify(params), "''' + str(url) + '''")
+    })
     {% endif %}
             
     !function () {
