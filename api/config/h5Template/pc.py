@@ -10,6 +10,16 @@ def pc(url, name):
     font = choseFont(name)
     pc = '''
     <script>
+    {% if data.presentId %}
+    try {
+        document.querySelector("div[ele-id='{{ data.presentId }}']").addEventListener("click", function () {
+            var modalShowPresentMoneyDiv = document.getElementById('modalShowPresent');
+            modalShowPresentMoneyDiv.style.display = 'block';
+            $('#presentModal').modal("show");
+        });
+    }catch(err) {}
+    {% endif %}
+            
     !function () {
       function isMobile() {
         var mobileDeviceReg = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobi/i
