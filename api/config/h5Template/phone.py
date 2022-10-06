@@ -183,6 +183,17 @@ def phone(url, name):
             }
             $('.cd-stretchy-nav').css('display', 'block')
             $('.barrage-content').css('display', 'block')
+            
+            {% if data.presentId %}
+            try {
+                document.querySelector("div[ele-id='{{ data.presentId }}']").addEventListener("click", function () {
+                    var modalShowPresentMoneyDiv = document.getElementById('modalShowPresent');
+                    modalShowPresentMoneyDiv.style.display = 'block';
+                    $('#presentModal').modal("show");
+                });
+            }catch(err) {}
+            {% endif %}
+            
             setTimeout(function () {
                 $('div').css('font-family', ' ''' + str(font.get('name')) + ''' ', ' ''' + str(font.get('family')) + ''' !important')
             }, 2000);
