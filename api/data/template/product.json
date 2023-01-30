@@ -488,6 +488,43 @@
 
 			"isPresentTime": 0,
 			"presentTimeSelect": ["allday","morning","afternoon"]
+		},
+		{
+		  "title": "ทศทิศ  เปี่ยมศรี ＆ ปิยะธิดา  ปู่แก้ว",
+		  "description": "ทศทิศ  เปี่ยมศรี ＆ ปิยะธิดา  ปู่แก้ว",
+		  "name": "ทศทิศ  เปี่ยมศรี ＆ ปิยะธิดา  ปู่แก้ว",
+		  "id": "10018",
+		  "key": "OM1DCJIHW601736963",
+		  "iframeUrl": "https://u601736963.viewer.maka.im/k/OM1DCJIHW601736963?t=1675057947650",
+		  "font": "kanit",
+		  "_type": "turn",
+
+			"isTanmu": 1,
+			"tanmuBtnColor": "rgba(0, 0, 0, 0.2)",
+      		"tanmuBtnFontColor": "rgb(255, 255, 255)",
+			"tanmuBgColor": "rgba(0, 0, 0, 0.2)",
+			"tanmuFontColor": "rgb(255, 255, 255)",
+
+			"isFunction": 0,
+		    "functionGPSUrl": "https://www.google.co.th/maps/place/Phuket/@7.8626377,98.3643345,14z/data=!4m5!3m4!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884?hl=en",
+		    "functionBoyPhone": "888888",
+		    "functionGirlPhone": "88888",
+		    "functionMenuBgImg": "/static/website_v2/images/logo-text-new.png",
+		    "functionFontColor": "#fff",
+      		"functionBKColor": "#95978d",
+
+		    "isPay": 0,
+		    "payQrCodeUrl": "/static/website_v2/images/boy_qrcode_money.png",
+		    "payName": "jim",
+
+		    "isPresent": 0,
+			"presentId": 162,
+
+			"isGPS": 0,
+      		"GPSUrl": "https://goo.gl/maps/tg9S68yyvZxkQtPY6",
+
+			"isPresentTime": 0,
+			"presentTimeSelect": ["allday","morning","afternoon"]
 		}
 	]
 }

@@ -13,7 +13,7 @@ def pc(url, name):
     {% if data.presentId %}
     let previewIframe = document.getElementById('previewiframe')
     let params = {
-      id: 1213
+      id: test
     }
     
     previewIframe.addEventListener('load', function (e) {
