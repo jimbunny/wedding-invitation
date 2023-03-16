@@ -175,7 +175,7 @@ def tanmuContent(template_type="turn"):
                                   <option value="งานบ่าย">งานบ่าย</option>
                                 {% endif %}
                                 {% if 'evening' in data.presentTimeSelect %}
-                                  <option value="งานเย็น">งานเย็น</option>
+                                  <option value="งานกินเลี้ยงปะ">งานกินเลี้ยงปะ</option>
                                 {% endif %}
                                 </select>
                             </div>
